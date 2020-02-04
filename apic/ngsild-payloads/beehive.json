@@ -1,0 +1,93 @@
+{
+   "id": "urn:ngsi-ld:BeeHive:TESTC",
+   "type": "BeeHive",
+   "belongs": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Apiary:XYZ01"
+   },
+   "location": {
+      "type": "GeoProperty",
+      "value": {
+         "type": "Point",
+         "coordinates": [
+            24.30623,
+            60.07966
+         ]
+      }
+   },
+   "managedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Beekeeper:1230"
+   },
+   "temperature": {
+      "type": "Property",
+      "value": 22.2,
+      "unitCode": "CEL",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:01XYZ"
+      }
+   },
+   "humidity": {
+      "type": "Property",
+      "value": 60,
+      "unitCode": "P1",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:1541jdh"
+      }
+   },
+   "incoming": {
+      "type": "Property",
+      "value": 100,
+      "unitCode": "E54",
+      "timeInterval": {
+         "type": "Property",
+         "value": 1
+      },
+      "timeIntervalUnit": {
+         "type": "Property",
+         "value": "MIN"
+      },
+        "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:0021"
+      }
+   },
+   "outgoing": {
+      "type": "Property",
+      "value": 200,
+      "unitCode": "E54",
+      "timeInterval": {
+         "type": "Property",
+         "value": 1
+      },
+      "timeIntervalUnit": {
+         "type": "Property",
+         "value": "MIN"
+      },
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:002XIO52"
+      }
+   },
+   "batteryLevel": {
+	 "type": "Property",
+	 "value": 50,
+	 "unitCode": "VLT",
+	 "observedAt": "2019-10-26T21:32:52+02:00",
+	 "observedBy": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:Sensor:016352"
+	 }
+  },
+   "@context": [
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "https://gist.githubusercontent.com/bobeal/2e5905a069ad534b4919839b6b4c1245/raw/ed0b0103c8b498c034d8ad367d3494d02a9ad28b/apic.jsonld",
+      "https://gist.githubusercontent.com/bobeal/4a836c81b837673b12e9db9916b1cd35/raw/6c7b234b76f86eb66ece385bc93c3f139f8e8cad/egm.jsonld"
+   ]
+}
