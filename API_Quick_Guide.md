@@ -7,13 +7,12 @@ The API currently exposes the following endpoints:
 | Object                                        | Method | Path                                                     |
 | --------------------------------------------- | ------ | -------------------------------------------------------- | 
 | Create an entity                              | POST   | /ngsi-ld/v1/entities                                     |
-| Update values of an entity                    | PATCH  | /ngsi-ld/v1/entities/{entityId}/attrs/                   |
-| Add properties and relationships to an entity | POST   | /ngsi-ld/v1/entities/{entityId}/attrs/                   |
-| Update value of a property or relationship    | PATCH  | /ngsi-ld/v1/entities/{entityId}/attrs/{attrId}           |
-| Delete value of a property                    | DELETE | /ngsi-ld/v1/entities/{entityId}/attrs/{attrId} (Soon)    |
+| Search entities                               | GET    | /ngsi-ld/v1/entities                                     |
+| Get an entity by id                           | GET    | /ngsi-ld/v1/entities/{entityId}                          |
+| Append an attribute to an entity              | POST   | /ngsi-ld/v1/entities/{entityId}/attrs                    |
+| Update attributes of an entity                | PATCH  | /ngsi-ld/v1/entities/{entityId}/attrs                    |
+| Partial update of an entity attribute         | PATCH  | /ngsi-ld/v1/entities/{entityId}/attrs/{attrId}           |
 | Delete an entity                              | DELETE | /ngsi-ld/v1/entities/{entityId}                          |
-| Search among entities                         | GET    | /ngsi-ld/v1/entities                                     |
-| Retrieve a specific entity                    | GET    | /ngsi-ld/v1/entities/{entityId}                          |
 | Create a batch of entities                    | POST   | /ngsi-ld/v1/entityOperations/create                      |
 
 ## NGSI-LD Entity structure
@@ -22,10 +21,11 @@ An NGSI-LD entity is serialized in JSON-LD format. The structure has to comply w
 
 - an entity must have an id (represented by `uri:ngsi-ld:<EntityType>:<UUID>`) 
 - an entity must have a type
+- an attribute denotes a property or a relationship
 - an entity may have properties
-- an entity may have relationships to other entities
-- a property may have relationships to other entities
-- a relationship may have relationships to other entities
+- an entity may have relationships with other entities
+- a property may have properties and relationships with other entities
+- a relationship may have properties and relationships with other entities
 
 For instance, here is an example of a Vehicle entity :
 
