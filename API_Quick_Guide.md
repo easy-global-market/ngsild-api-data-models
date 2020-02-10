@@ -139,7 +139,18 @@ http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehi
 * Update some properties of an entity
 
 ```
-http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehicle:A1234/attrs brandName=Toyota name=NewName Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json"
+http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehicle:A1234/attrs Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" < vehicle_newBrandName.json
+```
+
+Where `vehicle_newBrandName.json` is the following:
+
+```json
+{
+  "brandName": {
+    "type": "Property",
+    "value": "Toyota"
+  }
+}
 ```
 
 * Add a relationship to an entity
