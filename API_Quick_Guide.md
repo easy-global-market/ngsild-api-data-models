@@ -37,6 +37,10 @@ For instance, here is an example of a Vehicle entity :
     "type": "Property",
     "value": "Tesla"
   },
+  "maxSpeed": {
+    "type": "Property",
+    "value": 130
+  },
   "name": "a sample name",
   "isParked": {
     "type": "Relationship",
@@ -80,14 +84,11 @@ http --form POST https://data-hub.eglobalmark.com/auth/realms/datahub/protocol/o
 
 For brevity and clarity, the `Authorization` header is not displayed in the sample HTTP requests described below.
 
-## API usage examples
+## Notes on `@context` resolution
 
-### Notes on `@context` resolution
+Multiple namespaces are allowed (`ngsild` is the mandatory core context, fiware is a frequently used namespace, others are defined in this project's sub-directories).
 
-Multiple namespaces are allowed (`ngsild` is the mandatory core context, fiware is a frequently used namespace, others are considered).
-
-Most of the HTTP requests need to specify to which contexts they are referring. This to prevent namespaces collisions 
-(e.g. a Vehicle entity definition that would exist in two different contexts).
+Most of the HTTP requests need to specify the contexts they are referring to, in order to prevent namespaces collisions (e.g. a Vehicle entity definition that would exist in two different contexts).
 
 ## API queries examples
 
@@ -105,25 +106,31 @@ http POST https://data-hub.eglobalmark.com/ngsi-ld/v1/entities < vehicle.jsonld
 http https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehicle:A1234 Content-Type:application/json
 ```
 
-* Search entities of type Vehicle
+* Search Vehicle entities
 
 ```
 http https://data-hub.eglobalmark.com/ngsi-ld/v1/entities type==Vehicle Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" Content-Type:application/json
 ```
 
-* Search entities of type Vehicle having a given relationship
+* Search Vehicle entities parked in the Downtown1 offstreet parking
 
 ```
 http https://data-hub.eglobalmark.com/ngsi-ld/v1/entities type==Vehicle q==isParked==urn:ngsi-ld:OffStreetParking:Downtown1 Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" Content-Type:application/json
 ```
 
-* Search entities of type Vehicle having a given property
+* Search Vehicle entities whose brand is Tesla
 
 ```
 http https://data-hub.eglobalmark.com/ngsi-ld/v1/entities type==Vehicle q==brandName==Tesla Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" Content-Type:application/json
 ```
 
-* Update a property of an entity
+* Search Vehicle entities whose max speed is above 110
+
+```
+http https://data-hub.eglobalmark.com/ngsi-ld/v1/entities type==Vehicle q==maxSpeed>110 Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" Content-Type:application/json
+```
+
+* Partial update of the property of an entity
 
 ```
 http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehicle:A1234/attrs/brandName value=Toyota Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json"
@@ -138,5 +145,20 @@ http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehi
 * Add a relationship to an entity
 
 ```
-http POST http://localhost:8082/ngsi-ld/v1/entities/urn:ngsi-ld:BreedingService:0214/attrs Content-Type:application/json Link:"<https://gist.githubusercontent.com/bobeal/292f6ddf453bf3c427fb7206a2b5638a/raw/ae9b947caa0761b22a7c8a4078741d52a1f8c651/aquac.jsonld>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" < src/test/resources/ngsild/aquac/fragments/BreedingService_newRelationshipWithFeeder.json
+http POST https://data-hub.eglobalmark.com/ngsi-ld/v1/entities/urn:ngsi-ld:Vehicle:A1234/attrs Content-Type:application/json Link:"<https://schema.lab.fiware.org/ld/context>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" < vehicle_addOwner.json
 ```
+
+Where `vehicle_addOwner.json` is the following:
+
+```json
+{
+  "ownedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Org:Ada"
+  }
+}
+```
+
+Other resources:
+
+- Reference specification of the NGSI-LD API: https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.02.01_60/gs_CIM009v010201p.pdf
