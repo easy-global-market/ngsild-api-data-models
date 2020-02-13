@@ -2,7 +2,7 @@
     "@context": {
         "Site": "https://ontology.eglobalmark.com/grasseUseCase#Site",
         "SmartCamera": "https://ontology.eglobalmark.com/grasseUseCase#SmartCamera",
-        "wildDeposit": "https://ontology.eglobalmark.com/grasseUseCase#wildDeposit",
+        "illegalDeposit": "https://ontology.eglobalmark.com/grasseUseCase#illegalDeposit",
         "registrationPlate": "https://ontology.eglobalmark.com/grasseUseCase#registrationPlate",
         "wasteType": "https://ontology.eglobalmark.com/grasseUseCase#wasteType",
         "personNumber": "https://ontology.eglobalmark.com/grasseUseCase#personNumber",

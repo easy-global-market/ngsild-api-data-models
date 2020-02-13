@@ -15,7 +15,7 @@
 		"type":"Property",
 		"value":"Sophia"
 	},
-	"wildDeposit":{
+	"illegalDeposit":{
 		"type":"Property",
 		"location":{
 			"type":"GeoProperty",
@@ -37,7 +37,7 @@
 		},
 		"detectedBy":{
 			"type":"Relationship",
-			"object":"urn:ngsi-ld:Sensor:WildDepositDetector01"
+			"object":"urn:ngsi-ld:Device:illegalDepositDetector01"
 			}
 	},
 	"personNumber":{
