@@ -82,6 +82,18 @@ http --form POST https://data-hub.eglobalmark.com/auth/realms/datahub/protocol/o
 
 - If a client wants to make API calls on behalf of an end user, an access token can be obtained in exchange of the authorization code contained in the redirect URL after an user authenticates on the authentication server. This process, called the Authorization Code Flow, is described exhaustively in the OpenID Connect specification: https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth.
 
+One simple way to have the access token without copy-pasting is to keep it in a variable:
+
+```
+export TOKEN=$(http --form POST https://data-hub.eglobalmark.com/auth/realms/datahub/protocol/openid-connect/token client_id=<client_id> client_secret=<client_secret> grant_type=client_credentials | jq -r .access_token)
+```
+
+Then to simply use it the HTTP requests:
+
+```
+http https://data-hub.eglobalmark.com/... Authorization:"Bearer $TOKEN" ...
+```
+
 For brevity and clarity, the `Authorization` header is not displayed in the sample HTTP requests described below.
 
 ## Notes on `@context` resolution
