@@ -14,6 +14,8 @@ The API currently exposes the following endpoints:
 | Partial update of an entity attribute         | PATCH  | /ngsi-ld/v1/entities/{entityId}/attrs/{attrId}           |
 | Delete an entity                              | DELETE | /ngsi-ld/v1/entities/{entityId}                          |
 | Create a batch of entities                    | POST   | /ngsi-ld/v1/entityOperations/create                      |
+| Get the temporal evolution of an entity       | GET    | /ngsi-ld/v1/temporal/entities/{entityId}                 |
+
 
 ## NGSI-LD Entity structure
 
@@ -179,6 +181,53 @@ Where `vehicle_addOwner.json` is the following:
     "type": "Relationship",
     "object": "urn:ngsi-ld:Org:Ada"
   }
+}
+```
+
+* Get the temporal evolution of a property
+
+```
+http https://data-hub.eglobalmark.com/ngsi-ld/v1/temporal/entities/urn:ngsi-ld:Vehicle:A1234 timerel==between time==2020-02-01T12:00:00Z endTime==2020-02-10T12:00:00Z Link:"<https://gist.githubusercontent.com/bobeal/2e5905a069ad534b4919839b6b4c1245/raw/ed0b0103c8b498c034d8ad367d3494d02a9ad28b/apic.jsonld>; rel=http://www.w3.org/ns/json-ld#context; type=application/ld+json" Content-Type:application/json
+```
+
+Sample payload returned:
+
+```json
+{
+    "id": "urn:ngsi-ld:BeeHive:Diat-BH-000001",
+    "type": "BeeHive",
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "https://gist.githubusercontent.com/bobeal/2e5905a069ad534b4919839b6b4c1245/raw/ed0b0103c8b498c034d8ad367d3494d02a9ad28b/apic.jsonld",
+        "https://gist.githubusercontent.com/bobeal/4a836c81b837673b12e9db9916b1cd35/raw/6c7b234b76f86eb66ece385bc93c3f139f8e8cad/egm.jsonld"
+    ],
+    "createdAt": "2020-01-24T13:08:32.327Z",
+    "speed": {
+        "type": "Property",
+        "createdAt": "2020-01-24T13:08:32.614Z",
+        "observedAt": "2020-02-14T16:28:24.89Z",
+        "observedBy": {
+            "object": "urn:ngsi-ld:Sensor:Diat-SS-000002",
+            "type": "Relationship"
+        },
+        "unitCode": "E54",
+        "value:s": [
+            65.0,
+            "2020-02-12T08:00:02.86Z",
+            68.0,
+            "2020-02-12T08:01:03.02Z"
+        ]
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "coordinates": [
+                43.627622,
+                7.015441
+            ],
+            "type": "Point"
+        }
+    }
 }
 ```
 
