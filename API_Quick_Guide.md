@@ -234,3 +234,4 @@ Sample payload returned:
 Other resources:
 
 - Reference specification of the NGSI-LD API: https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.02.01_60/gs_CIM009v010201p.pdf
+- NGSI-LD FAQ by FIWARE Foundation: https://fiware-datamodels.readthedocs.io/en/latest/ngsi-ld_faq/index.html
