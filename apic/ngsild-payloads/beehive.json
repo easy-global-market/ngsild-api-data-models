@@ -51,7 +51,7 @@
          "type": "Property",
          "value": "MIN"
       },
-        "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedAt": "2019-10-26T21:32:52+02:00",
       "observedBy": {
          "type": "Relationship",
          "object": "urn:ngsi-ld:Sensor:0021"
@@ -76,15 +76,45 @@
       }
    },
    "batteryLevel": {
-	 "type": "Property",
-	 "value": 50,
-	 "unitCode": "VLT",
-	 "observedAt": "2019-10-26T21:32:52+02:00",
-	 "observedBy": {
-		"type": "Relationship",
-		"object": "urn:ngsi-ld:Sensor:016352"
-	 }
-  },
+      "type": "Property",
+      "value": 50,
+      "unitCode": "VLT",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:016352"
+      }
+   },
+   "voltage": {
+      "type": "Property",
+      "value": 7.9,
+      "unitCode": "VLT",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:01635654"
+      }
+   },
+   "movementDetected": {
+      "type": "Property",
+      "value": false,
+      "unitCode": "C62",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:01635656"
+      }
+   },
+   "hornetDetected": {
+      "type": "Property",
+      "value": true,
+      "unitCode": "C62",
+      "observedAt": "2019-10-26T21:32:52+02:00",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Sensor:01635658"
+      }
+   },
    "@context": [
       "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
       "https://gist.githubusercontent.com/bobeal/2e5905a069ad534b4919839b6b4c1245/raw/ed0b0103c8b498c034d8ad367d3494d02a9ad28b/apic.jsonld",
