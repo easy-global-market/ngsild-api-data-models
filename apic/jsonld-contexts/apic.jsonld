@@ -12,7 +12,15 @@
       "humidity": "https://ontology.eglobalmark.com/apic#humidity",
       "timeInterval": "https://ontology.eglobalmark.com/apic#timeInterval",
       "timeIntervalUnit": "https://ontology.eglobalmark.com/apic#timeIntervalUnit",
-      "batteryLevel": "https://ontology.eglobalmark.com/apic#batteryLevel"
-
+      "batteryLevel": "https://ontology.eglobalmark.com/apic#batteryLevel",
+      "voltage": "https://ontology.eglobalmark.com/apic#voltage",
+      "movementDetected": {
+         "@id": "https://ontology.eglobalmark.com/apic#movementDetected",
+         "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+      },
+      "hornetDetected": {
+         "@id": "https://ontology.eglobalmark.com/apic#hornetDetected",
+         "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+      }
    }
 }
