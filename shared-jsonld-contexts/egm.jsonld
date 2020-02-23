@@ -17,7 +17,7 @@
       "width": "https://ontology.eglobalmark.com/egm#width",
       "executes": "https://ontology.eglobalmark.com/egm#executes",
       "calibrationDate": {
-         "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
+         "@type": "DateTime",
          "@id": "https://ontology.eglobalmark.com/egm#calibrationDate"
       },
       "monitoredBy": "https://ontology.eglobalmark.com/egm#monitoredBy",
