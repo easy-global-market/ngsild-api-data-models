@@ -28,7 +28,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"id\":\"urn:ngsi-ld:Beekeeper:3D7E6C75-D6A6-4986-B0FE-397C75926836\",\n   \"type\":\"Beekeeper\",\n   \"name\":{\n      \"type\":\"Property\",\n      \"value\":\"Franck from EGM\"\n   },\n   \"@context\":[\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld\",\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\n   ]\n}"
+							"raw": "{\n   \"id\":\"urn:ngsi-ld:Beekeeper:3D7E6C75-D6A6-4986-B0FE-397C75926837\",\n   \"type\":\"Beekeeper\",\n   \"name\":{\n      \"type\":\"Property\",\n      \"value\":\"Franck\"\n   },\n   \"@context\":[\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld\",\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\n   ]\n}"
 						},
 						"url": {
 							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/",
@@ -645,7 +645,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper&q=name==Benoit",
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper&q=name==Franck",
 							"host": [
 								"{{gatewayServer}}"
 							],
@@ -661,7 +661,7 @@
 								},
 								{
 									"key": "q",
-									"value": "name==Benoit"
+									"value": "name==Franck"
 								}
 							]
 						}
