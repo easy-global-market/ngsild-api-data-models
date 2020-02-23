@@ -1,0 +1,1766 @@
+{
+	"info": {
+		"_postman_id": "ee70e5e5-03c7-4f8a-bb75-df30c8dbdaf7",
+		"name": "F4W Developers Workshop - APIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Entities",
+			"item": [
+				{
+					"name": "Create entity Beekeeper",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"id\":\"urn:ngsi-ld:Beekeeper:3D7E6C75-D6A6-4986-B0FE-397C75926836\",\n   \"type\":\"Beekeeper\",\n   \"name\":{\n      \"type\":\"Property\",\n      \"value\":\"Franck from EGM\"\n   },\n   \"@context\":[\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld\",\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\n   ]\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create entity SmartDoor",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"id\":\"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899\",\n   \"type\":\"SmartDoor\",\n   \"@context\":[\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld\",\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\n   ]\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a doorNumber property to the SmartDoor",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"doorNumber\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": \"123\"\r\n\t}\r\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+								"attrs"
+							]
+						},
+						"description": "Add new attributes in existing entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Update the doorNumber property of the SmartDoor",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"doorNumber\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": 124\r\n\t}\r\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+								"attrs"
+							]
+						},
+						"description": "update the attribute of entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Patch update the doorNumber of the SmartDoor",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"value\": 456\r\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899/attrs/doorNumber",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+								"attrs",
+								"doorNumber"
+							]
+						},
+						"description": "partially update the attribute of entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Beekeeper entity",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:Beekeeper:3D7E6C75-D6A6-4986-B0FE-397C75926836",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:Beekeeper:3D7E6C75-D6A6-4986-B0FE-397C75926836"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete SmartDoor entity",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "2 - Retrieve a specific entity (BeeHive)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{oauthToken}}"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:Diat-BH-000001",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:BeeHive:Diat-BH-000001"
+							]
+						},
+						"description": "Retrieve specific entity from kafka"
+					},
+					"response": []
+				},
+				{
+					"name": "2bis - Retrieve a specific Sensor entity",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{oauthToken}}"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:Sensor:Diat-SS-000003",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:Sensor:Diat-SS-000003"
+							]
+						},
+						"description": "Retrieve specific entity from kafka"
+					},
+					"response": []
+				},
+				{
+					"name": "2bis - Retrieve a specific SmartDoor entity",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer {{oauthToken}}"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899"
+							]
+						},
+						"description": "Retrieve specific entity from kafka"
+					},
+					"response": []
+				},
+				{
+					"name": "3 - Query by type using Link header (Sensor)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Sensor",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "Sensor"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3 - Query by type using Link header (BeeHive)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=BeeHive",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "BeeHive"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3 - Query by type using Link header (Beekeeper)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "Beekeeper"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Advanced Queries",
+			"item": [
+				{
+					"name": "Query by the (equal) value of a property (BeeHive)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=humidity==7760&type=BeeHive",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "humidity==7760"
+								},
+								{
+									"key": "type",
+									"value": "BeeHive"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query by the (greater) value of a property (BeeHive)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=humidity>7000&type=BeeHive",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "humidity>7000"
+								},
+								{
+									"key": "type",
+									"value": "BeeHive"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query by the value of a relationship (BeeHive)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=managedBy==urn:ngsi-ld:Beekeeper:Diat-BK-000001&type=BeeHive",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "managedBy==urn:ngsi-ld:Beekeeper:Diat-BK-000001"
+								},
+								{
+									"key": "type",
+									"value": "BeeHive"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query the name value of a Beekeeper",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper&q=name==Benoit",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "Beekeeper"
+								},
+								{
+									"key": "q",
+									"value": "name==Benoit"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "andOp example",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=trueExample==true;numberExample<=130;stringExample==\"Mercedes\"&type=urn:ngsi-ld:Test",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "trueExample==true;numberExample<=130;stringExample==\"Mercedes\""
+								},
+								{
+									"key": "type",
+									"value": "urn:ngsi-ld:Test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AttrPath (property of property)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<http://{{broker1}}/index.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=topLevelExample.subPropertyExample>4&type=urn:ngsi-ld:Test",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "topLevelExample.subPropertyExample>4"
+								},
+								{
+									"key": "type",
+									"value": "urn:ngsi-ld:Test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AttrPath (relationship of relat...)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=isParked.providedBy==urn:ngsi-ld:Person:Bob&type=urn:ngsi-ld:Test",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "isParked.providedBy==urn:ngsi-ld:Person:Bob"
+								},
+								{
+									"key": "type",
+									"value": "urn:ngsi-ld:Test"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AttrPath (4 levels of properties)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?q=manyLevelsExample.sub1.sub2.sub3==\"D\"&type=urn:ngsi-ld:Test",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "manyLevelsExample.sub1.sub2.sub3==\"D\""
+								},
+								{
+									"key": "type",
+									"value": "urn:ngsi-ld:Test"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "3651b876-c0bc-49c2-8944-b210f45253a7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "46affacf-4218-4784-8378-4a3a89a8d889",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Geoqueries",
+			"item": [
+				{
+					"name": "Near",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=near;maxDistance==360&geometry=Point&coordinates=%5B8.684783577919006%2C49.406131991436396%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "near;maxDistance==360"
+								},
+								{
+									"key": "geometry",
+									"value": "Point"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B8.684783577919006%2C49.406131991436396%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity near NEC Labs Heidelberg, with distance up to 360 meters\r\n    NEC Labs Heidelberg coordinates: 8.684783577919006, 49.406131991436396"
+					},
+					"response": []
+				},
+				{
+					"name": "Near (parkingLotLocation property)",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<http://{{broker1}}/index.jsonld>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=parkingLotLocation&georel=near;maxDistance==360&geometry=Point&coordinates=%5B8.684783577919006%2C49.406131991436396%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "parkingLotLocation"
+								},
+								{
+									"key": "georel",
+									"value": "near;maxDistance==360"
+								},
+								{
+									"key": "geometry",
+									"value": "Point"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B8.684783577919006%2C49.406131991436396%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Testing a property other than \"location\""
+					},
+					"response": []
+				},
+				{
+					"name": "Near minDistance",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=near;minDistance==400&geometry=Point&coordinates=%5B8.684783577919006%2C49.406131991436396%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "near;minDistance==400"
+								},
+								{
+									"key": "geometry",
+									"value": "Point"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B8.684783577919006%2C49.406131991436396%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity near NEC Labs Heidelberg, with distance over 400 meters"
+					},
+					"response": []
+				},
+				{
+					"name": "Near Polygon",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=near;maxDistance==50&geometry=Polygon&coordinates=%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "near;maxDistance==50"
+								},
+								{
+									"key": "geometry",
+									"value": "Polygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity near NEC building (polygon), with distance up to 360 meters"
+					},
+					"response": []
+				},
+				{
+					"name": "Within",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=within&geometry=Polygon&coordinates=%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "within"
+								},
+								{
+									"key": "geometry",
+									"value": "Polygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity within NEC Labs building (polygon) in Heidelberg"
+					},
+					"response": []
+				},
+				{
+					"name": "Within MultiPolygon",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=within&geometry=MultiPolygon&coordinates=%5B%5B%5B%5B8.686752319335938%2C49.359122687528746%5D%2C%5B8.742027282714844%2C49.3642654834877%5D%2C%5B8.767433166503904%2C49.398462568451485%5D%2C%5B8.768119812011719%2C49.42750021620163%5D%2C%5B8.74305725097656%2C49.44781634951542%5D%2C%5B8.669242858886719%2C49.43754770762113%5D%2C%5B8.63525390625%2C49.41968407776289%5D%2C%5B8.637657165527344%2C49.3995797187007%5D%2C%5B8.663749694824219%2C49.36851347448498%5D%2C%5B8.686752319335938%2C49.359122687528746%5D%5D%5D%2C%5B%5B%5B8.364715576171875%2C48.96939999849952%5D%2C%5B8.47320556640625%2C48.982019588328214%5D%2C%5B8.485565185546875%2C49.017157315497165%5D%2C%5B8.411407470703125%2C49.05677012268616%5D%2C%5B8.33587646484375%2C49.031565622700356%5D%2C%5B8.320770263671875%2C48.98562459864604%5D%2C%5B8.364715576171875%2C48.96939999849952%5D%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "within"
+								},
+								{
+									"key": "geometry",
+									"value": "MultiPolygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B%5B8.686752319335938%2C49.359122687528746%5D%2C%5B8.742027282714844%2C49.3642654834877%5D%2C%5B8.767433166503904%2C49.398462568451485%5D%2C%5B8.768119812011719%2C49.42750021620163%5D%2C%5B8.74305725097656%2C49.44781634951542%5D%2C%5B8.669242858886719%2C49.43754770762113%5D%2C%5B8.63525390625%2C49.41968407776289%5D%2C%5B8.637657165527344%2C49.3995797187007%5D%2C%5B8.663749694824219%2C49.36851347448498%5D%2C%5B8.686752319335938%2C49.359122687528746%5D%5D%5D%2C%5B%5B%5B8.364715576171875%2C48.96939999849952%5D%2C%5B8.47320556640625%2C48.982019588328214%5D%2C%5B8.485565185546875%2C49.017157315497165%5D%2C%5B8.411407470703125%2C49.05677012268616%5D%2C%5B8.33587646484375%2C49.031565622700356%5D%2C%5B8.320770263671875%2C48.98562459864604%5D%2C%5B8.364715576171875%2C48.96939999849952%5D%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity within Heidelberg or Karlsruhe ( MultiPolygon )"
+					},
+					"response": []
+				},
+				{
+					"name": "Contains",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=contains&geometry=Point&coordinates=%5B8.684783577919006%2C49.406131991436396%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "contains"
+								},
+								{
+									"key": "geometry",
+									"value": "Point"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B8.684783577919006%2C49.406131991436396%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity that contains NEC Labs Heidelberg (point)"
+					},
+					"response": []
+				},
+				{
+					"name": "Overlaps",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=overlaps&geometry=Polygon&coordinates=%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "overlaps"
+								},
+								{
+									"key": "geometry",
+									"value": "Polygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity that overlaps with NEC Labs building (polygon) in Heidelberg"
+					},
+					"response": []
+				},
+				{
+					"name": "Intersects",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=overlaps&geometry=Polygon&coordinates=%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "overlaps"
+								},
+								{
+									"key": "geometry",
+									"value": "Polygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "Get every entity that intersects with NEC Labs building (polygon) in Heidelberg\r\n   Intersects(g1, g2 ) == Not (Disjoint(g1, g2 ))"
+					},
+					"response": []
+				},
+				{
+					"name": "Equals",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=equals&geometry=Point&coordinates=%5B8.684783577919006%2C49.406131991436396%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "equals"
+								},
+								{
+									"key": "geometry",
+									"value": "Point"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B8.684783577919006%2C49.406131991436396%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "get every entity equal to NEC Labs Heidelberg point"
+					},
+					"response": []
+				},
+				{
+					"name": "Disjoint",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?geoproperty=location&georel=disjoint&geometry=Polygon&coordinates=%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D&type=http://example.org/vehicle/Vehicle",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "geoproperty",
+									"value": "location"
+								},
+								{
+									"key": "georel",
+									"value": "disjoint"
+								},
+								{
+									"key": "geometry",
+									"value": "Polygon"
+								},
+								{
+									"key": "coordinates",
+									"value": "%5B%5B%5B8.684628009796143%2C49.406062179606515%5D%2C%5B8.685507774353027%2C49.4062262372493%5D%2C%5B8.68545413017273%2C49.40634491690448%5D%2C%5B8.684579730033875%2C49.40617736907259%5D%2C%5B8.684628009796143%2C49.406062179606515%5D%5D%5D"
+								},
+								{
+									"key": "type",
+									"value": "http://example.org/vehicle/Vehicle"
+								}
+							]
+						},
+						"description": "get entities that do not share any space together with NEC Labs Heidelberg building"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Subscription",
+			"item": [
+				{
+					"name": "Create subscription with link header",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/ld+json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"type\": \"Subscription\",\r\n\t\"entities\": [{\r\n\t\t\"idPattern\": \".*\",\r\n\t\t\"type\": \"BeeHive\"\r\n\t}],\r\n\t\"notification\": {\r\n\t\t\"attributes\": [\"incoming\", \"outgoing\", \"temperature\"],\r\n\t\t\"format\": \"keyValues\",\r\n\t\t\"endpoint\": {\r\n\t\t\t\"uri\": \"http://my.endpoint.org/notify\",\r\n\t\t\t\"accept\": \"application/json\"\r\n\t\t}\r\n\t},\r\n\t\"@context\":[\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n   ]\r\n}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/subscriptions/",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"subscriptions",
+								""
+							]
+						},
+						"description": "create subscription with context in payload"
+					},
+					"response": []
+				},
+				{
+					"name": "Query all subscriptions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/ld+json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/subscriptions/",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"subscriptions",
+								""
+							]
+						},
+						"description": "for retreiving specific subscription"
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve specific subscription",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/ld+json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscription:71",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"subscriptions",
+								"urn:ngsi-ld:Subscription:71"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update subscription",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/ld+json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{link}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\t{\r\n\t \"id\": \"urn:ngsi-ld:Subscription:7\",\r\n\t \"type\": \"Subscription\",\r\n\t \"entities\": [{\r\n\t  \"type\": \"Vehicle\"\r\n\t }],\r\n\t \"watchedAttributes\": [\"http://example.org/vehicle/brandName2\"],\r\n\t        \"q\":\"http://example.org/vehicle/brandName2!=Mercedes\",\r\n\t \"notification\": {\r\n\t  \"attributes\": [\"http://example.org/vehicle/brandName2\"],\r\n\t  \"format\": \"keyValues\",\r\n\t  \"endpoint\": {\r\n\t   \"uri\": \"http://my.endpoint.org/notify\",\r\n\t\r\n\t   \"accept\": \"application/json\"\r\n\t  }\r\n\t }\r\n\t}"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscription:7",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"subscriptions",
+								"urn:ngsi-ld:Subscription:7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete subscription",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscription:7",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"subscriptions",
+								"urn:ngsi-ld:Subscription:7"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Entities Operations",
+			"item": [
+				{
+					"name": "1 - Create a batch of entities",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1temperature\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"temperature\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygen\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"dissolvedOxygen\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygenMG\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"dissolvedOxygenMG\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygenPPM\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"dissolvedOxygenPPM\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1pH\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"pH\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1redoxPotential\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"redoxPotential\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1pHmV\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"pHmV\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1conductivity\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"conductivity\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1salinity\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"salinity\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1totalDissolvedSolids\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"totalDissolvedSolids\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidity\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"turbidity\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidityFNU\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"turbidityFNU\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidityMG\",\r\n    \"type\": \"Sensor\",\r\n    \"deviceParameter\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"turbidityMG\"\r\n    },\r\n    \"monitoredBy\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:FishContainment:BOR2-TANK1\",\r\n    \"type\": \"FishContainment\",\r\n    \"temperature\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 28.98,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1temperature\"\r\n      }\r\n    },\r\n    \"dissolvedOxygen\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 128.69,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygen\"\r\n      }\r\n    },\r\n    \"dissolvedOxygenMG\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 9.86,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygenMG\"\r\n      }\r\n    },\r\n    \"dissolvedOxygenPPM\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 9.86,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1dissolvedOxygenPPM\"\r\n      }\r\n    },\r\n    \"pH\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 6.99,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1pH\"\r\n      }\r\n    },\r\n    \"redoxPotential\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 320.89,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1redoxPotential\"\r\n      }\r\n    },\r\n    \"pHmV\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 0,\r\n      \"unitCode\": \"2Z\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1pHmV\"\r\n      }\r\n    },\r\n    \"conductivity\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 48537,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1conductivity\"\r\n      }\r\n    },\r\n    \"salinity\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 31.66,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1salinity\"\r\n      }\r\n    },\r\n    \"totalDissolvedSolids\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 31651,\r\n      \"unitCode\": \"N/A\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1totalDissolvedSolids\"\r\n      }\r\n    },\r\n    \"turbidity\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 7,\r\n      \"unitCode\": \"NTU\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidity\"\r\n      }\r\n    },\r\n    \"turbidityFNU\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 7,\r\n      \"unitCode\": \"FNU\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidityFNU\"\r\n      }\r\n    },\r\n    \"turbidityMG\": {\r\n      \"type\": \"Property\",\r\n      \"value\": 165,\r\n      \"unitCode\": \"M1\",\r\n      \"observedAt\": \"2020-01-16T13:44:38.000Z\",\r\n      \"observedBy\": {\r\n        \"type\": \"Relationship\",\r\n        \"object\": \"urn:ngsi-ld:Sensor:BOR2-AQUABOX1turbidityMG\"\r\n      }\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  },\r\n  {\r\n    \"id\": \"urn:ngsi-ld:Device:BOR2-AQUABOX1\",\r\n    \"type\": \"Device\",\r\n    \"brandName\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"BIOCEANOR\"\r\n    },\r\n    \"monitors\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:FishContainment:BOR2-TANK1\"\r\n    },\r\n    \"calibrationDate\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"2020-01-13T10:00:00+02:00\"\r\n    },\r\n    \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld\",\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld\",\r\n      \"http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld\"\r\n    ]\r\n  }\r\n]\r\n"
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entityOperations/create",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entityOperations",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Temporal Queries",
+			"item": [
+				{
+					"name": "Query the temporal evolution of a beehive",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/temporal/entities/urn:ngsi-ld:BeeHive:Diat-BH-000001?timerel=after&time=2020-02-22T18:00:00Z",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"temporal",
+								"entities",
+								"urn:ngsi-ld:BeeHive:Diat-BH-000001"
+							],
+							"query": [
+								{
+									"key": "timerel",
+									"value": "after"
+								},
+								{
+									"key": "time",
+									"value": "2020-02-22T18:00:00Z"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessToken",
+				"value": "{{oauthToken}}",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "03e992f3-b600-4b13-bd7a-df997928d925",
+				"type": "text/javascript",
+				"exec": [
+					"// Refresh the OAuth token if necessary",
+					"var tokenDate = new Date(2010,1,1);",
+					"var tokenTimestamp = pm.environment.get(\"oauthTimestamp\");",
+					"if(tokenTimestamp){",
+					"  tokenDate = Date.parse(tokenTimestamp);",
+					"}",
+					"var expiresInTime = pm.environment.get(\"expiresInTime\");",
+					"if(!expiresInTime){",
+					"    expiresInTime = 300000; // Set default expiration time to 5 minutes",
+					"}if((new Date() - tokenDate) >= expiresInTime) ",
+					"{",
+					"   pm.sendRequest({",
+					"      url:  pm.environment.get(\"authUrl\"), ",
+					"      method: 'POST',",
+					"      body: {",
+					"        mode: 'urlencoded',",
+					"        urlencoded: [",
+					"            { key: 'client_id', value: pm.environment.get(\"clientId\") },",
+					"            { key: 'client_secret', value: pm.environment.get(\"clientSecret\") },",
+					"            { key: 'grant_type', value: 'client_credentials' }",
+					"        ]",
+					"      },",
+					"      header: {",
+					"        'Accept': 'application/json',",
+					"        'Content-Type': 'application/x-www-form-urlencoded'",
+					"      }",
+					"  }, function (err, res) {",
+					"        pm.environment.set(\"oauthToken\", res.json().access_token);",
+					"        pm.environment.set(\"oauthTimestamp\", new Date());",
+					"        ",
+					"        // Set the ExpiresInTime variable to the time given in the response if it exists",
+					"        if(res.json().expires_in){",
+					"            expiresInTime = res.json().expires_in * 1000;",
+					"        }",
+					"        pm.environment.set(\"expiresInTime\");",
+					"  });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9ea0c601-5f0c-4423-abe5-b181d5d7d97c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
