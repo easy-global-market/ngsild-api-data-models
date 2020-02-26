@@ -9,6 +9,7 @@
       "manages": "https://ontology.eglobalmark.com/egm#manages",
       "calibrationCertif": "https://ontology.eglobalmark.com/egm#calibrationCertif",
       "length": "https://ontology.eglobalmark.com/egm#length",
+      "connectsTo": "https://ontology.eglobalmark.com/egm#connectsTo",
       "detects": "https://ontology.eglobalmark.com/egm#detects",
       "observes": "https://ontology.eglobalmark.com/egm#observes",
       "depth": "https://ontology.eglobalmark.com/egm#depth",
@@ -25,6 +26,8 @@
       "monitoredBy": "https://ontology.eglobalmark.com/egm#monitoredBy",
       "SmartCamera": "https://ontology.eglobalmark.com/egm#SmartCamera",
       "Sensor": "https://ontology.eglobalmark.com/egm#Sensor",
-      "monitors": "https://ontology.eglobalmark.com/egm#monitors"
+      "Device": "https://ontology.eglobalmark.com/egm#Device",
+      "monitors": "https://ontology.eglobalmark.com/egm#monitors",
+      "voltage": "https://ontology.eglobalmark.com/egm#voltage"
    }
 }
