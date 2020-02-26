@@ -3,6 +3,7 @@
       "createdBy": "https://ontology.eglobalmark.com/egm#createdBy",
       "executedBy": "https://ontology.eglobalmark.com/egm#executedBy",
       "deviceParameter": "https://ontology.eglobalmark.com/egm#deviceParameter",
+      "vendorId": "https://ontology.eglobalmark.com/egm#vendorId",
       "observedBy": "https://ontology.eglobalmark.com/egm#observedBy",
       "brandName": "https://ontology.eglobalmark.com/egm#brandName",
       "manages": "https://ontology.eglobalmark.com/egm#manages",
