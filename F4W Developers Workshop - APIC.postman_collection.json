@@ -130,6 +130,88 @@
 					"response": []
 				},
 				{
+					"name": "Add a temporal property to a beehive",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"temperature\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": 17.7,\r\n        \"observedBy\": {\r\n            \"type\": \"Relationship\",\r\n            \"object\": \"urn:ngsi-ld:Sensor:0021\"\r\n        },\r\n        \"observedAt\": \"2020-01-30T15:46:41.97Z\",\r\n        \"unitCode\": \"CEL\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf",
+								"attrs"
+							]
+						},
+						"description": "Add new attributes in existing entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Add two temporal properties to a beehive",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Link",
+								"type": "text",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"incoming\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": 6789,\r\n        \"observedBy\": {\r\n            \"type\": \"Relationship\",\r\n            \"object\": \"urn:ngsi-ld:Sensor:0021\"\r\n        },\r\n        \"observedAt\": \"2020-01-30T15:46:41.97Z\",\r\n        \"unitCode\": \"E54\"\r\n\t},\r\n\t\"outgoing\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": 1234,\r\n\t    \"observedBy\": {\r\n\t        \"type\": \"Relationship\",\r\n\t        \"object\": \"urn:ngsi-ld:Sensor:0021\"\r\n\t    },\r\n\t    \"observedAt\": \"2020-01-30T15:46:41.97Z\",\r\n\t    \"unitCode\": \"E54\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf",
+								"attrs"
+							]
+						},
+						"description": "Add new attributes in existing entity"
+					},
+					"response": []
+				},
+				{
 					"name": "Update the doorNumber property of the SmartDoor",
 					"request": {
 						"method": "PATCH",
@@ -163,6 +245,47 @@
 								"v1",
 								"entities",
 								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+								"attrs"
+							]
+						},
+						"description": "update the attribute of entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Update the observing sensor of a temporal property",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Link",
+								"type": "text",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"temperature\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": 17.7,\r\n        \"observedBy\": {\r\n            \"type\": \"Relationship\",\r\n            \"object\": \"urn:ngsi-ld:Sensor:0021\"\r\n        },\r\n        \"observedAt\": \"2020-01-30T15:46:41.97Z\",\r\n        \"unitCode\": \"CEL\"\r\n    }\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf",
 								"attrs"
 							]
 						},
@@ -291,7 +414,7 @@
 			"name": "Queries",
 			"item": [
 				{
-					"name": "2 - Retrieve a specific entity (BeeHive)",
+					"name": "2 - Retrieve a specific BeeHive",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -312,7 +435,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:Diat-BH-000001",
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf",
 							"host": [
 								"{{gatewayServer}}"
 							],
@@ -320,7 +443,7 @@
 								"ngsi-ld",
 								"v1",
 								"entities",
-								"urn:ngsi-ld:BeeHive:Diat-BH-000001"
+								"urn:ngsi-ld:BeeHive:534010b0-5727-11ea-8e4f-fffd63756bcf"
 							]
 						},
 						"description": "Retrieve specific entity from kafka"
