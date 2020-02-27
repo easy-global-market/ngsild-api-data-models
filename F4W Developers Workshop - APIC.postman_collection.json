@@ -89,7 +89,7 @@
 					"response": []
 				},
 				{
-					"name": "Add a doorNumber property to the SmartDoor",
+					"name": "Add a vendorId property to a SmartDoor",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -107,13 +107,13 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"doorNumber\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": \"123\"\r\n\t}\r\n}",
+							"raw": "{\r\n\t\"vendorId\": {\r\n\t\t\"type\": \"Property\",\r\n\t\t\"value\": \"939a6677-529c-403f-b098-7baf448138fe\"\r\n\t}\r\n}",
 							"options": {
 								"raw": {}
 							}
 						},
 						"url": {
-							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899/attrs",
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:SmartDoor:Diat-SD-000001/attrs",
 							"host": [
 								"{{gatewayServer}}"
 							],
@@ -121,7 +121,48 @@
 								"ngsi-ld",
 								"v1",
 								"entities",
-								"urn:ngsi-ld:SmartDoor:4F82E808-FB76-4485-B129-BA7FAF8B4899",
+								"urn:ngsi-ld:SmartDoor:Diat-SD-000001",
+								"attrs"
+							]
+						},
+						"description": "Add new attributes in existing entity"
+					},
+					"response": []
+				},
+				{
+					"name": "Add a manages relationship between a Beekeeper and an Apiary",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\"",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"manages\": {\r\n\t\t\"type\": \"Relationship\",\r\n\t\t\"object\": \"urn:ngsi-ld:Apiary:Diat-AP-000001\"\r\n\t}\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities/urn:ngsi-ld:Beekeeper:Diat-BK-000001/attrs",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities",
+								"urn:ngsi-ld:Beekeeper:Diat-BK-000001",
 								"attrs"
 							]
 						},
@@ -525,7 +566,7 @@
 					"response": []
 				},
 				{
-					"name": "3 - Query by type using Link header (Sensor)",
+					"name": "3 - Retrieve all Sensors",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -563,7 +604,7 @@
 					"response": []
 				},
 				{
-					"name": "3 - Query by type using Link header (BeeHive)",
+					"name": "3 - Retrieve all BeeHives",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -601,7 +642,7 @@
 					"response": []
 				},
 				{
-					"name": "3 - Query by type using Link header (Beekeeper)",
+					"name": "3 - Retrieve all Beekeepers",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -789,7 +830,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper&q=name==Franck",
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Beekeeper&q=name==Maen Juganaikloo",
 							"host": [
 								"{{gatewayServer}}"
 							],
@@ -805,7 +846,91 @@
 								},
 								{
 									"key": "q",
-									"value": "name==Franck"
+									"value": "name==Maen Juganaikloo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search a SmartDoor by vendorId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=SmartDoor&q=vendorId==939a6677-529c-403f-b098-7baf448138fe",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "SmartDoor"
+								},
+								{
+									"key": "q",
+									"value": "vendorId==939a6677-529c-403f-b098-7baf448138fe"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all Sensors connected to a SmartDoor",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/ld+json"
+							},
+							{
+								"key": "Link",
+								"value": "<{{apicLink}}>; rel=\"http://www.w3.org/ns/json-ld#context\"; type=\"application/ld+json\""
+							}
+						],
+						"url": {
+							"raw": "{{gatewayServer}}/ngsi-ld/v1/entities?type=Sensor&q=isContainedIn==urn:ngsi-ld:SmartDoor:Diat-SD-000001",
+							"host": [
+								"{{gatewayServer}}"
+							],
+							"path": [
+								"ngsi-ld",
+								"v1",
+								"entities"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "Sensor"
+								},
+								{
+									"key": "q",
+									"value": "isContainedIn==urn:ngsi-ld:SmartDoor:Diat-SD-000001"
 								}
 							]
 						}
