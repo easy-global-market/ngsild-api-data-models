@@ -15,7 +15,10 @@ The API currently exposes the following endpoints:
 | Delete an entity                              | DELETE | /ngsi-ld/v1/entities/{entityId}                          |
 | Create a batch of entities                    | POST   | /ngsi-ld/v1/entityOperations/create                      |
 | Get the temporal evolution of an entity       | GET    | /ngsi-ld/v1/temporal/entities/{entityId}                 |
-
+| Create a subscription                         | POST   | /ngsi-ld/v1/subscriptions
+| Query subscriptions                           | GET    | /ngsi-ld/v1/subscriptions
+| Get a subscription by id                      | GET    | /ngsi-ld/v1/subscriptions/{subscriptionId}                          |
+| Delete a subscription                         | DELETE | /ngsi-ld/v1/subscriptions/{subscriptionId}                          |
 
 ## NGSI-LD Entity structure
 
@@ -60,6 +63,42 @@ For instance, here is an example of a Vehicle entity :
   "@context": [
       "https://schema.lab.fiware.org/ld/context",
       "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ]
+}
+```
+
+## NGSI-LD Subscription structure
+
+An NGSI-LD Subscription is serialized in JSON-LD format. The structure has to comply with some requirements amongst them:
+
+- a subscription must have an id (represented by `uri:ngsi-ld:Subscription:<UUID>`) 
+- a subscription must have a type that shall be equal to "Subscription"
+- a subscription must have a notification containing the parameters that allow to convey the details of a notification (details in the following example)
+- a subscription may have other attributes: name, description, entities, q (query), geoQ (geo query) ...
+
+For instance, here is an example of a Subscription to the previous Vehicule entity that sends a notification when the maxSpeed exceeds 180:
+
+```json
+{
+  "id":"urn:ngsi-ld:Subscription:S1234",
+  "type":"Subscription",
+  "entities": [
+    { "id": "urn:ngsi-ld:Vehicle:A1234",
+      "type": "Vehicle"
+    }
+  ],
+  "q": "maxSpeed>180",
+  "notification": {
+    "attributes": ["maxSpeed"],
+    "format": "normalized",
+    "endpoint": {
+      "uri": "http://my-domain-name",
+      "accept": "application/json"
+    },
+  },
+  "@context": [
+        "https://schema.lab.fiware.org/ld/context",
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
   ]
 }
 ```
@@ -229,6 +268,30 @@ Sample payload returned:
         }
     }
 }
+```
+
+* Create a subscription (with the above Subscription example)
+
+```
+http POST https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions < subscription_S1234.jsonld
+```
+
+* Query subscriptions
+
+```
+http https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions Content-Type:application/json
+```
+
+* Get a subscription by URI
+
+```
+http https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscriptions:S1234 Content-Type:application/json
+```
+
+* Delete a subscription
+
+```
+http DELETE https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscriptions:S1234 Content-Type:application/json
 ```
 
 Other resources:
