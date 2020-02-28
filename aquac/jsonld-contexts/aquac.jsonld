@@ -57,6 +57,12 @@
 		"humidity": "https://ontology.eglobalmark.com/aquac#humidity",
 		"totalDissolvedSolids": "https://ontology.eglobalmark.com/aquac#totalDissolvedSolids",
 		"chlorophyllFluorescence": "https://ontology.eglobalmark.com/aquac#chlorophyllFluorescence",
-		"chlorophyllConcentration": "https://ontology.eglobalmark.com/aquac#chlorophyllConcentration"
+		"chlorophyllConcentration": "https://ontology.eglobalmark.com/aquac#chlorophyllConcentration",
+		"conductivity": "https://ontology.eglobalmark.com/aquac#conductivity",
+		"dissolvedOxygenMG": "https://ontology.eglobalmark.com/aquac#dissolvedOxygenMG",
+		"dissolvedOxygenPPM": "https://ontology.eglobalmark.com/aquac#/dissolvedOxygenPPM",
+		"pHmV": "https://ontology.eglobalmark.com/aquac#pHmV",
+		"turbidityFNU": "https://ontology.eglobalmark.com/aquac#turbidityFNU",
+		"turbidityMG": "https://ontology.eglobalmark.com/aquac#turbidityMG"
 	}
 }
