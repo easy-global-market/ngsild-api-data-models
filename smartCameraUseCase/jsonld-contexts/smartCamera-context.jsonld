@@ -1,15 +1,13 @@
 {
     "@context": {
-        "Site": "https://ontology.eglobalmark.com/grasseUseCase#Site",
-        "SmartCamera": "https://ontology.eglobalmark.com/grasseUseCase#SmartCamera",
-        "IllegalDeposit": "https://ontology.eglobalmark.com/grasseUseCase#IllegalDeposit",
-        "registrationPlate": "https://ontology.eglobalmark.com/grasseUseCase#registrationPlate",
-        "detectedIn":"https://ontology.eglobalmark.com/grasseUseCase#detectedIn",
-        "wasteType": "https://ontology.eglobalmark.com/grasseUseCase#wasteType",
-        "personNumber": "https://ontology.eglobalmark.com/grasseUseCase#personNumber",
-        "vehicleNumber": "https://ontology.eglobalmark.com/grasseUseCase#vehicleNumber",
-        "numberOfPictures": "https://ontology.eglobalmark.com/grasseUseCase#numberOfPictures",
-        "batterieLevel": "https://ontology.eglobalmark.com/grasseUseCase#batterieLevel"
+        "Site": "https://ontology.eglobalmark.com/waste#Site",
+        "IllegalDeposit": "https://ontology.eglobalmark.com/waste#IllegalDeposit",
+        "registrationPlate": "https://ontology.eglobalmark.com/waste#registrationPlate",
+        "detectedIn":"https://ontology.eglobalmark.com/waste#detectedIn",
+        "wasteType": "https://ontology.eglobalmark.com/waste#wasteType",
+        "personNumber": "https://ontology.eglobalmark.com/waste#personNumber",
+        "vehicleNumber": "https://ontology.eglobalmark.com/waste#vehicleNumber",
+        "numberOfPictures": "https://ontology.eglobalmark.com/waste#numberOfPictures"
     },
-    "generatedAt": "2020-02-13T12:11:30+00:00"
+    "generatedAt": "2020-03-10T12:11:30+00:00"
 }

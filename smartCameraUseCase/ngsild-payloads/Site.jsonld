@@ -27,7 +27,7 @@
 	},
 	"vehicleNumber":{
 		"type":"Property",
-		"value":150,
+		"value":24,
 		"unitCode": "C62",
 		"observedAt": "2020-03-10T13:44:38.000Z",
 		"observedBy":{
