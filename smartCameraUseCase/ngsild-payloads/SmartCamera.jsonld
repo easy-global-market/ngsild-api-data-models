@@ -1,6 +1,10 @@
 {
    "id":"urn:ngsi-ld:Device:SmartCameraX01",
    "type":"Device",
+   "monitors":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:Site:01"
+   ,}
    "location":{
       "type":"GeoProperty",
       "value":{
@@ -41,7 +45,7 @@
    },
    "name":{
       "type":"Property",
-      "value":"Camera Grasse"
+      "value":"Grasse Camera"
    },
    "numberOfPictures":{
       "type":"Property",

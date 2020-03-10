@@ -15,38 +15,24 @@
 		"type":"Property",
 		"value":"Sophia"
 	},
-	"illegalDeposit":{
-		"type":"Property",
-		"location":{
-			"type":"GeoProperty",
-			"value":{
-				"type":"Point",
-				"coordinates":[
-					-8.5,
-					39.2
-				]
-			}
-		},
-		"registrationPlate":{
-			"type":"Property",
-			"value":"bp169"
-		},
-		"wasteType":{
-			"type":"Property",
-			"value":"ORD"
-		},
-		"detectedBy":{
-			"type":"Relationship",
-			"object":"urn:ngsi-ld:Device:illegalDepositDetector01"
-			}
-	},
 	"personNumber":{
 		"type":"Property",
 		"value":150,
 		"unitCode": "IE",
-		"detectedBy":{
+		"observedAt": "2020-03-10T13:44:38.000Z",
+		"observedBy":{
 			"type":"Relationship",
 			"object":"urn:ngsi-ld:Sensor:PersonCounter01"
+		}
+	},
+	"vehicleNumber":{
+		"type":"Property",
+		"value":150,
+		"unitCode": "C62",
+		"observedAt": "2020-03-10T13:44:38.000Z",
+		"observedBy":{
+			"type":"Relationship",
+			"object":"urn:ngsi-ld:Sensor:VehicleCounter01"
 		}
 	},
 	"@context":[
