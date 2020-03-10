@@ -10,13 +10,13 @@
       "type":"Relationship",
       "object":"urn:ngsi-ld:Site:01"
    },
-   registrationPlate":{
-		"type":"Property",
-		"value":"bp169"
+   "registrationPlate":{
+	"type":"Property",
+	"value":"bp169"
 	},
-	"wasteType":{
-		"type":"Property",
-		"value":"ORD"
+  "wasteType":{
+	"type":"Property",
+	"value":"ORD"
 	},
    "@context":[
       "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
