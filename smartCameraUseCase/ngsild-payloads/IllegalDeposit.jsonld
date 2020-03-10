@@ -1,0 +1,25 @@
+{
+   "id":"urn:ngsi-ld:IllegalDeposit:01",
+   "type":"IllegalDeposit",
+   "observedAt": "2020-31-10T13:44:38.000Z",
+   "observedBy":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:Sensor:IllegalDepositeDetector01"
+   },
+   "detectedIn":{
+      "type":"Relationship",
+      "object":"urn:ngsi-ld:Site:01"
+   },
+   registrationPlate":{
+		"type":"Property",
+		"value":"bp169"
+	},
+	"wasteType":{
+		"type":"Property",
+		"value":"ORD"
+	},
+   "@context":[
+      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+      "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+   ]
+}

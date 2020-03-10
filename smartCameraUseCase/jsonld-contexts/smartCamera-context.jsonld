@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "Site": "https://ontology.eglobalmark.com/waste#Site",
+        "IllegalDeposit": "https://ontology.eglobalmark.com/waste#IllegalDeposit",
+        "registrationPlate": "https://ontology.eglobalmark.com/waste#registrationPlate",
+        "detectedIn":"https://ontology.eglobalmark.com/waste#detectedIn",
+        "wasteType": "https://ontology.eglobalmark.com/waste#wasteType",
+        "personNumber": "https://ontology.eglobalmark.com/waste#personNumber",
+        "vehicleNumber": "https://ontology.eglobalmark.com/waste#vehicleNumber",
+        "numberOfPictures": "https://ontology.eglobalmark.com/waste#numberOfPictures"
+    },
+    "generatedAt": "2020-03-10T12:11:30+00:00"
+}
