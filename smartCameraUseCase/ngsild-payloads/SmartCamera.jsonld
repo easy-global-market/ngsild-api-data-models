@@ -4,7 +4,7 @@
    "monitors":{
       "type":"Relationship",
       "object":"urn:ngsi-ld:Site:01"
-   ,}
+   },
    "location":{
       "type":"GeoProperty",
       "value":{
