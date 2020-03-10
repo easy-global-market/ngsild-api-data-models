@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td>VehicleCounter</td>
-    <td>This entity contains a harmonized description of the PersonCounter Sensor of the smartCamera.</td>
+    <td>This entity contains a harmonized description of the VehicleCounter Sensor of the smartCamera.</td>
   </tr>
   <tr>
     <td>illegalDepositDetector</td>
