@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <th>SmartCamera Use Case entities</th>
+    <th>SmartCamera data model entities</th>
     <th>Description</th>
   </tr>
   <tr>
@@ -28,7 +28,7 @@
     <td>This entity contains a harmonized description of the VehicleCounter Sensor of the smartCamera.</td>
   </tr>
   <tr>
-    <td>illegalDepositDetector</td>
+    <td>IllegalDepositDetector</td>
     <td>This entity contains a harmonized description of the WildDepositDetector Sensor of the smartCamera.</td>
   </tr>
 </table>
