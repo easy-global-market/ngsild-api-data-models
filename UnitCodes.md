@@ -1,3 +1,5 @@
+# Use of unit codes in NGSI-LD 
+
 When exchanging measurement values, it is required to use homogeneous units. For that purpose, it is required for any data platform aiming at interoperability to specify the units together with the measure. The NGSI-LD specification [1] recommends the use of UN/CEFACT -Common codes [2]  which provides an extensive list of unit code which are represented through a 3 characters code. 
 
 As an example, UN/CEFACT common code for *centimetre* is *CMT*.
@@ -8,7 +10,7 @@ Finally, despite the extensive list of unit provided in [2], some other speciali
 
 These aspects are described hereafter.
 
-# UN/CEFACT common codes
+## UN/CEFACT common codes
 
 The list of UN/CEFACT codes is too long to be included in this document but an illustrative example is provided below. 
 
@@ -71,7 +73,7 @@ a NGSI-LD payload describing a 7.58°C temperature measurement of & 20m depth se
 
 Being useful for logistic related applications, the counting of  elements is done by prefixing an 'X' to the code element code provide in [UNECE recommendation 21](https://www.unece.org/#jfmulticontent_c66412-10) [https://www.unece.org/#jfmulticontent_c66412-10]. A *number of pipes* would then have unit *XPI*.
 
-# Mapping from senML measurements
+## Mapping from senML measurements
 
 The [8428 IETF RTF specification](https://tools.ietf.org/html/rfc8428) for sensor measurement list (senML) [3] is designed so that processors with very limited capabilities could easily encode a sensor measurement into the media type, while at the same time, a server parsing the data could collect a large number of sensor measurements in a relatively efficient manner. It provides a limited list of units. It is limited in the sense that only main units are provided and not their multiple (i.e. it describes meter but not centimetre) and some properties (i.e. concentration of a chemical specie in a liquid) are inexistent. On the opposite, some dimensions existing in senML do not have counterpart in CEFACT, such as the relative power unit decibel watt (dBW). 
 
@@ -167,7 +169,7 @@ would turn to be expressed in NGSI-LD as :
  ``}`
 ```
 
-# Defining new unit codes
+## Defining new unit codes
 
 Some units, despite being widely used by professional, appears to be inexistent in the UN/CEFACT list. Measurements done in such unit system can not always be simply converted to the base system as  being dependant of a measurement method. 
 
@@ -186,7 +188,7 @@ This table will be updated upon new needs identified for units and possible evol
 
 
 
-# References
+## References
 
 
 
