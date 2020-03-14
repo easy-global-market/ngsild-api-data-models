@@ -163,18 +163,14 @@ This table will be updated upon new needs identified for units and possible evol
 | DBM  | Power level                  | decibel relative to 1 mW   | dBm    |
 | DBW  | Power level                  | decibel relative to 1 W    | dBW    |
 
-
-
 ## References
 
+[1] « NGSI-LD API », GS CIM 009, https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/ (current 1.2.2 version: https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.02.02_60/gs_cim009v010202p.pdf)
 
+[2] « UN/CEFACT Common Codes for Units of Measurement used in the International Trade », https://www.unece.org/cefact/codesfortrade/codes_index.html
 
-[1]  « NGSI-LD API », GS CIM 009, https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/
+[3] « Sensor Measurement Lists (SenML) », https://www.iana.org/assignments/senml/senml.xhtml
 
-[2]  « UN/CEFACT Common Codes for Units of Measurement used in the International Trade”, https://www.unece.org/cefact/codesfortrade/codes_index.html
+[4] « UN/CE Rec 21 – Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names) », [Rec 21 – Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names)](https://www.unece.org/#jfmulticontent_c66412-10
 
-[3]  « Sensor Measurement Lists (SenML)”, https://www.iana.org/assignments/senml/senml.xhtml
-
-[4]  « UN/CE Rec 21 – Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names) », [Rec 21 – Codes for Passengers, Types of Cargo, Packages and Packaging Materials (with Complementary Codes for Package Names)](https://www.unece.org/#jfmulticontent_c66412-10
-
-[5] "Turbidity -- Units of Measurement", https://or.water.usgs.gov/grapher/fnu.html
+[5] « Turbidity -- Units of Measurement », https://or.water.usgs.gov/grapher/fnu.html
