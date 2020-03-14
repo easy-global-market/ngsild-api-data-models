@@ -29,44 +29,27 @@ The list of UN/CEFACT codes is too long to be included in this document but an i
 
 a NGSI-LD payload describing a 7.58°C temperature measurement of & 20m depth seaweedconatinment would thus be described are:
 
-```
-`{`
-
- `"id": "urn:ngsi-ld:SeaWeedContainment:01",`
-
- `"type": "SeaWeedContainment",`
-
- `"depth": {`
-
-  `"type": "Property",`
-
-  `"value": 20,`
-
-  `"unitCode": "MTR"`
-
- `},`
-
- `"createdAt": "2018-10-26T21:32:52+02:00",`
-
- `"temperature": {`
-
-  `"type": "Property",`
-
-  `"value": 7.58,`
-
-  `"unitCode": "CEL",`
-
-  `"observedAt": "2020-01-16T13:44:38.000Z",`
-
-  `"observedBy": {`
-
-   `"type": "Relationship",`
-
-   `"object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"`
-
-  `}`
-
- `}`
+```json
+{
+  "id": "urn:ngsi-ld:SeaWeedContainment:01",
+  "type": "SeaWeedContainment",
+  "depth": {
+    "type": "Property",
+    "value": 20,
+    "unitCode": "MTR"
+  },
+  "createdAt": "2018-10-26T21:32:52+02:00",
+  "temperature": {
+    "type": "Property",
+    "value": 7.58,
+    "unitCode": "CEL",
+    "observedAt": "2020-01-16T13:44:38.000Z",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Sensor:AQUABOXSXJ10Temperature"
+    }
+  }
+}
 ```
 
 
@@ -143,30 +126,24 @@ Some senML units are  specific to an application (i.e. percentage of remaining b
 
 A senML battery level of a device expressed as:
 
-```
+```json
   [
      {"n":"urn:dev:ow:1234","u":"%EL","v":71}
-   ]
+  ]
 ```
 
 would turn to be expressed in NGSI-LD as :
 
-```
-`{`
-
- `"id": "urn:ngsi-ld:dev:ow:1234",`
-
- `"type": "battery",`
-
- `"energy level": {`
-
-  `"type": "Property",`
-
-  `"value": 71,`
-
-  `"unitCode": "P1"`
-
- ``}`
+```json
+{
+  "id": "urn:ngsi-ld:dev:ow:1234",
+  "type": "battery",
+  "energy level": {
+    "type": "Property",
+    "value": 71,
+    "unitCode": "P1"
+  }
+}
 ```
 
 ## Defining new unit codes
