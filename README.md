@@ -6,6 +6,7 @@ This repository contains:
 - A [quick guide](API_Quick_Guide.md) to get started using the EGM's context broker API
 - A [Postman collection](F4W%20Developers%20Workshop%20-%20APIC.postman_collection.json) that you can use to quickly interact with the API. 
 - Work in progress in [aquaculture](aquac) and [apiculture](apic) data models
+- A discussion on the use of [unit code](UnitCode.md) in NGSI-LD payloads and transformation from senML units.
 
 ## Notes on the use of the Postman collection
 
