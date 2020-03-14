@@ -1,12 +1,12 @@
 # Use of unit codes in NGSI-LD 
 
-When exchanging measurement values, it is required to use homogeneous units. For that purpose, it is required for any data platform aiming at interoperability to specify the units together with the measure. The NGSI-LD specification [1] recommends the use of UN/CEFACT -Common codes [2]  which provides an extensive list of unit code which are represented through a 3 characters code. 
+When exchanging measurement values, it is required to use homogeneous units. For that purpose, it is required for any data platform aiming at interoperability to specify the units together with the measure. The NGSI-LD specification [1] recommends the use of UN/CEFACT - Common codes [2]  which provides an extensive list of unit codes which are represented through a 3 characters code.
 
 As an example, UN/CEFACT common code for *centimetre* is *CMT*.
 
-A NGSI-LD data platform may consume data coming from other units model (i.e. senML  [3]) and a mapping has to be produced. This mapping is not always complete and some agreement have to be made.
+A NGSI-LD data platform may consume data coming from other units model (i.e. senML [3]) and a mapping has to be produced. This mapping is not always complete and some agreements have to be made.
 
-Finally, despite the extensive list of unit provided in [2], some other specialised units may be needed and a definition needs to be produced. 
+Finally, despite the extensive list of unit codes provided in [2], some other specialised units may be needed and a definition needs to be produced. 
 
 These aspects are described hereafter.
 
@@ -27,7 +27,7 @@ The list of UN/CEFACT codes is too long to be included in this document but an i
 | Gram per litre                      | GL              |
 | Micro gram per litre                | H29             |
 
-a NGSI-LD payload describing a 7.58°C temperature measurement of & 20m depth seaweedconatinment would thus be described are:
+a NGSI-LD payload describing a 7.58°C temperature measurement & 20m depth seaweed containment would thus be described as:
 
 ```json
 {
@@ -52,9 +52,7 @@ a NGSI-LD payload describing a 7.58°C temperature measurement of & 20m depth se
 }
 ```
 
-
-
-Being useful for logistic related applications, the counting of  elements is done by prefixing an 'X' to the code element code provide in [UNECE recommendation 21](https://www.unece.org/#jfmulticontent_c66412-10) [https://www.unece.org/#jfmulticontent_c66412-10]. A *number of pipes* would then have unit *XPI*.
+Being useful for logistic related applications, the counting of elements is done by prefixing an 'X' to the code element provided in [UNECE recommendation 21](https://www.unece.org/#jfmulticontent_c66412-10) [https://www.unece.org/#jfmulticontent_c66412-10]. A *number of pipes* would then have unit *XPI*.
 
 ## Mapping from senML measurements
 
@@ -62,7 +60,7 @@ The [8428 IETF RTF specification](https://tools.ietf.org/html/rfc8428) for senso
 
 The table below describes the mapping produced by the EGM senML to NGSI-LD payloads converter.
 
-| **senML symbol** | **Described property**                            | **corresponding CEFACT code** |
+| **senML symbol** | **Described property**                            | **Corresponding CEFACT code** |
 | ---------------- | ------------------------------------------------- | ----------------------------- |
 | m                | meter                                             | MTR                           |
 | kg               | kilogram                                          | KGM                           |
@@ -122,7 +120,7 @@ The table below describes the mapping produced by the EGM senML to NGSI-LD paylo
 | beats            | 1 (cumulative number of heart beats)              |                               |
 | S/m              | siemens per meter (conductivity)                  | D10                           |
 
-Some senML units are  specific to an application (i.e. percentage of remaining battery) whereas in NGSI-LD they should be rather described with the base *percentage* unit. The measured quantity (*battery leve*l) being described in the measurement type property.
+Some senML units are specific to an application (i.e. percentage of remaining battery) whereas in NGSI-LD they should be rather described with the base *percentage* unit. The measured quantity (*battery level*) being described in the measurement type property.
 
 A senML battery level of a device expressed as:
 
@@ -132,7 +130,7 @@ A senML battery level of a device expressed as:
   ]
 ```
 
-would turn to be expressed in NGSI-LD as :
+would turn to be expressed in NGSI-LD as:
 
 ```json
 {
@@ -148,7 +146,7 @@ would turn to be expressed in NGSI-LD as :
 
 ## Defining new unit codes
 
-Some units, despite being widely used by professional, appears to be inexistent in the UN/CEFACT list. Measurements done in such unit system can not always be simply converted to the base system as  being dependant of a measurement method. 
+Some units, despite being widely used by professional, appear to be inexistent in the UN/CEFACT list. Measurements done in such unit system can not always be simply converted to the base system as being dependant of a measurement method. 
 
 As an example, this is the case for the *Nephelometric Turbidity Unit (NTU)* which provides a measure of water clarity and is measured by light scattered at 90° from the incidence of a single beam emitting in the 400-680nm wavelengths region. There is no simple conversion to a standard unit such as mg/l as the conversion factor would depend on size and type of suspended particles. 
 
@@ -156,12 +154,12 @@ For these reasons, we suggest some additional unit codes to be used.
 
 This table will be updated upon new needs identified for units and possible evolution of UN/CEFACT specifications to whom we made the below suggestions:
 
-| Code | Name                         | Description                | Symbol |
-| ---- | ---------------------------- | -------------------------- | ------ |
-| NTU  | Nephelometric Turbidity Unit | Turbidity level of a fluid | NTU    |
-| NFU  | Formazin Nephelometric Unit  | Turbidity level of a fluid | NFU    |
-| DBM  | Power level                  | decibel relative to 1 mW   | dBm    |
-| DBW  | Power level                  | decibel relative to 1 W    | dBW    |
+| **Code** | **Name**                         | **Description**                | **Symbol** |
+| -------- | -------------------------------- | ------------------------------ | ---------- |
+| NTU      | Nephelometric Turbidity Unit     | Turbidity level of a fluid     | NTU        |
+| NFU      | Formazin Nephelometric Unit      | Turbidity level of a fluid     | NFU        |
+| DBM      | Power level                      | decibel relative to 1 mW       | dBm        |
+| DBW      | Power level                      | decibel relative to 1 W        | dBW        |
 
 ## References
 
