@@ -15,10 +15,11 @@ The API currently exposes the following endpoints:
 | Delete an entity                              | DELETE | /ngsi-ld/v1/entities/{entityId}                          |
 | Create a batch of entities                    | POST   | /ngsi-ld/v1/entityOperations/create                      |
 | Get the temporal evolution of an entity       | GET    | /ngsi-ld/v1/temporal/entities/{entityId}                 |
-| Create a subscription                         | POST   | /ngsi-ld/v1/subscriptions
-| Query subscriptions                           | GET    | /ngsi-ld/v1/subscriptions
-| Get a subscription by id                      | GET    | /ngsi-ld/v1/subscriptions/{subscriptionId}                          |
-| Delete a subscription                         | DELETE | /ngsi-ld/v1/subscriptions/{subscriptionId}                          |
+| Create a subscription                         | POST   | /ngsi-ld/v1/subscriptions                                |
+| Query subscriptions                           | GET    | /ngsi-ld/v1/subscriptions                                |
+| Get a subscription by id                      | GET    | /ngsi-ld/v1/subscriptions/{subscriptionId}               |
+| Update a subscription                         | PATCH  | /ngsi-ld/v1/subscriptions/{subscriptionId}               |
+| Delete a subscription                         | DELETE | /ngsi-ld/v1/subscriptions/{subscriptionId}               |
 
 ## NGSI-LD Entity structure
 
@@ -286,6 +287,26 @@ http https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions Content-Type:appl
 
 ```
 http https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscriptions:S1234 Content-Type:application/json
+```
+
+* Update a subscription
+
+```
+http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscriptions:S1234 Content-Type:application/json < subscription__S1234_newQuery.json
+```
+
+Where `subscription__S1234_newQuery.json` is the following:
+
+```json
+{
+  "id":"urn:ngsi-ld:Subscription:S1234",
+  "type":"Subscription",
+  "q": "maxSpeed>200",
+  "@context": [
+        "https://schema.lab.fiware.org/ld/context",
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ]
+}
 ```
 
 * Delete a subscription
