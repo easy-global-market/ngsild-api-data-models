@@ -157,7 +157,7 @@ This table will be updated upon new needs identified for units and possible evol
 | **Proposed Code** | **Name**                            | **Description**                                              | **Symbol** |
 | ----------------- | ----------------------------------- | ------------------------------------------------------------ | ---------- |
 | NTU               | Nephelometric Turbidity Unit        | Turbidity level of a fluid                                   | NTU        |
-| NFU               | Formazin Nephelometric Unit         | Turbidity level of a fluid                                   | NFU        |
+| FNU               | Formazin Nephelometric Unit         | Turbidity level of a fluid                                   | FNU        |
 | DBM               | Power level                         | decibel relative to 1 mW                                     | dBm        |
 | DBW               | Power level                         | decibel relative to 1 W                                      | dBW        |
 | RRC               | Pipe wall reaction rate coefficient | Wall reaction rate coefficient for zero-order reactions that  apply  to  a  water  quality  decay analysis in water network pipes | mg/m²/day  |
