@@ -79,7 +79,7 @@ An NGSI-LD Subscription is serialized in JSON-LD format. The structure has to co
 
 For instance, here is an example of a Subscription to the previous Vehicule entity that sends a notification when the maxSpeed exceeds 180:
 
-Note: The endpoint info field contains optional information that is needed in order to correctly contact the notification endpoint, the key/value are included in the HTTP POST header. For instance this could be Authorization Headers in case of HTTP binding of the API. 
+Note: The `endpoint.info` field contains optional information that may be needed when contacting the notification endpoint, the key/value pairs are added in the header of the HTTP POST request. For instance this could be Authorization headers in case of HTTP binding of the API. 
 ```json
 {
   "id":"urn:ngsi-ld:Subscription:S1234",
