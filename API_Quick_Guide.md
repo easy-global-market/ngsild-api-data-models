@@ -79,6 +79,7 @@ An NGSI-LD Subscription is serialized in JSON-LD format. The structure has to co
 
 For instance, here is an example of a Subscription to the previous Vehicule entity that sends a notification when the maxSpeed exceeds 180:
 
+Note: The `endpoint.info` field contains optional information that may be needed when contacting the notification endpoint, the key/value pairs are added in the header of the HTTP POST request. For instance this could be Authorization headers in case of HTTP binding of the API. 
 ```json
 {
   "id":"urn:ngsi-ld:Subscription:S1234",
@@ -94,7 +95,13 @@ For instance, here is an example of a Subscription to the previous Vehicule enti
     "format": "normalized",
     "endpoint": {
       "uri": "http://my-domain-name",
-      "accept": "application/json"
+      "accept": "application/json",
+      "info": [
+          {
+            "key": "Authorization-token",
+            "value": "Authorization-token-value"
+          }
+      ]
     },
   },
   "@context": [
@@ -308,6 +315,38 @@ Where `subscription__S1234_newQuery.json` is the following:
   ]
 }
 ```
+
+* Update a subscription Endpoint
+
+```
+http PATCH https://data-hub.eglobalmark.com/ngsi-ld/v1/subscriptions/urn:ngsi-ld:Subscriptions:S1234 Content-Type:application/json < subscription__S1234_newEndpoint.json
+```
+
+Where `subscription__S1234_newEndpoint.json` is the following:
+
+```json
+{
+  "id":"urn:ngsi-ld:Subscription:S1234",
+  "type":"Subscription",
+  "notification": {
+    "endpoint": {
+      "uri": "http://my-domain-name",
+      "accept": "application/json",
+      "info": [
+          {
+            "key": "Authorization-token",
+            "value": "New-Authorization-token-value"
+          }
+      ]
+    }
+  },
+  "@context": [
+        "https://schema.lab.fiware.org/ld/context",
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ]
+}
+```
+
 
 * Delete a subscription
 
