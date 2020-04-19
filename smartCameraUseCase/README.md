@@ -11,6 +11,18 @@
     <td>Site</td>
     <td>This entity contains a harmonized description of a site.</td>
   </tr>
+   <tr>
+    <td>Parking</td>
+    <td>This entity contains a harmonized description of a Parking.</td>
+  </tr>
+  <tr>
+    <td>Vehicle</td>
+    <td>This entity contains a harmonized description of a Vehicle.</td>
+  </tr>
+   <tr>
+    <td>Stationnary</td>
+    <td>This entity contains a harmonized description of a Stationnary.</td>
+  </tr>
   <tr>
     <td>SmartCamera</td>
     <td>This entity contains a harmonized description of the Smartcamera device, deployed in the Site.</td>
