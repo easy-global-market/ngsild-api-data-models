@@ -1,0 +1,56 @@
+{
+    "id": "urn:ngsi-ld:Parking:01",
+    "type": "Parking",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                -7.5,
+                37.8
+            ]
+        }
+    },
+    "name": {
+        "type": "Property",
+        "value": "Sophia Parking"
+    },
+    "entryEvent": {
+        "type": "Property",
+        "observedAt": "2020-03-10T13:44:38.000Z",
+        "candidateRegistrationPlate": {
+            "type": "Property",
+            "value": "AA123AA",
+            "reliability": {
+                "type": "Property",
+                "value": "80",
+                "unitCode": "P1"
+            }
+        },
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Sensor:entryEventDetector01"
+        }
+    },
+    "exitEvent": {
+        "type": "Property",
+        "observedAt": "2020-03-14T13:44:38.000Z",
+        "candidateRegistrationPlate": {
+            "type": "Property",
+            "value": "AA123AA",
+            "reliability": {
+                "type": "Property",
+                "value": "70",
+                "unitCode": "P1"
+            }
+        },
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Sensor:exitEventDetector01"
+        }
+    },
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+    ]
+}

@@ -25,6 +25,7 @@
       "SmartCamera": "https://ontology.eglobalmark.com/egm#SmartCamera",
       "Sensor": "https://ontology.eglobalmark.com/egm#Sensor",
       "Device": "https://ontology.eglobalmark.com/egm#Device",
-      "monitors": "https://ontology.eglobalmark.com/egm#monitors"
+      "monitors": "https://ontology.eglobalmark.com/egm#monitors",
+      "reliability": "https://ontology.eglobalmark.com/egm#reliability"
    }
 }

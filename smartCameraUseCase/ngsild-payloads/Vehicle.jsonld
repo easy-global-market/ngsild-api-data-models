@@ -1,0 +1,33 @@
+{
+    "id": "urn:ngsi-ld:Vehicle:01",
+    "type": "Vehicle",
+    "registrationPlate": {
+        "type": "Property",
+        "value": "AA123AA"
+    },
+    "dateFirstCirculation": {
+        "type": "Property",
+        "value": "2010-03-01T00:00:00.000Z"
+    },
+    "mark": {
+        "type": "Property",
+        "value": "Renault"
+    },
+    "model": {
+        "type": "Property",
+        "value": "2.2"
+    },
+    "fuel": {
+        "type": "Property",
+        "value": "Gasoit"
+    },
+    "horses": {
+        "type": "Property",
+        "value": "120"
+    },
+    
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+    ]
+}
