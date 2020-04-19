@@ -1,0 +1,12 @@
+{
+    "id": "urn:ngsi-ld:Sensor:exitEventDetector01",
+    "type": "Sensor",
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:SmartCameraX01"
+    },
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+    ]
+}

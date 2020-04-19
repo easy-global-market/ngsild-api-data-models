@@ -2,12 +2,28 @@
     "@context": {
         "Site": "https://ontology.eglobalmark.com/waste#Site",
         "IllegalDeposit": "https://ontology.eglobalmark.com/waste#IllegalDeposit",
+        "Parking": "https://ontology.eglobalmark.com/waste#Parking",
+        "Stationnary": "https://ontology.eglobalmark.com/waste#Stationnary",
+        "Vehicle": "https://ontology.eglobalmark.com/waste#Vehicle",
         "registrationPlate": "https://ontology.eglobalmark.com/waste#registrationPlate",
         "detectedIn":"https://ontology.eglobalmark.com/waste#detectedIn",
         "wasteType": "https://ontology.eglobalmark.com/waste#wasteType",
         "personNumber": "https://ontology.eglobalmark.com/waste#personNumber",
         "vehicleNumber": "https://ontology.eglobalmark.com/waste#vehicleNumber",
-        "numberOfPictures": "https://ontology.eglobalmark.com/waste#numberOfPictures"
+        "numberOfPictures": "https://ontology.eglobalmark.com/waste#numberOfPictures",
+        "dateFirstCirculation": {
+         "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
+         "@id": "https://ontology.eglobalmark.com/waste#calibrationDate"
+        },
+        "mark": "https://ontology.eglobalmark.com/waste#mark",
+        "model": "https://ontology.eglobalmark.com/waste#model",
+        "fuel": "https://ontology.eglobalmark.com/waste#fuel",
+        "horses": "https://ontology.eglobalmark.com/waste#horses",
+        "registrationPlate": "https://ontology.eglobalmark.com/waste#registrationPlate",
+        "candidateRegistrationPlate": "https://ontology.eglobalmark.com/waste#candidateRegistrationPlate",
+        "entryEvent": "https://ontology.eglobalmark.com/waste#entryEvent",
+        "exitEvent": "https://ontology.eglobalmark.com/waste#exitEvent"
+
     },
-    "generatedAt": "2020-03-10T12:11:30+00:00"
+    "generatedAt": "2020-04-19T12:11:30+00:00"
 }
