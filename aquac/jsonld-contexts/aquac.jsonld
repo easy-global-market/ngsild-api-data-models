@@ -63,6 +63,15 @@
 		"dissolvedOxygenPPM": "https://ontology.eglobalmark.com/aquac#/dissolvedOxygenPPM",
 		"pHmV": "https://ontology.eglobalmark.com/aquac#pHmV",
 		"turbidityFNU": "https://ontology.eglobalmark.com/aquac#turbidityFNU",
-		"turbidityMG": "https://ontology.eglobalmark.com/aquac#turbidityMG"
+		"turbidityMG": "https://ontology.eglobalmark.com/aquac#turbidityMG",
+		"carbonDioxidePPM": "https://ontology.eglobalmark.com/aquac#carbonDioxidePPM",
+		"carbonDioxideMG": "https://ontology.eglobalmark.com/aquac#carbonDioxideMG",
+		"totalGasPressure": "https://ontology.eglobalmark.com/aquac#totalGasPressure",
+		"residualGasVol": "https://ontology.eglobalmark.com/aquac#residualGasVol",
+		"gasOxygenVol": "https://ontology.eglobalmark.com/aquac#gasOxygenVol",
+		"barometricPressureForRoom": "https://ontology.eglobalmark.com/aquac#barometricPressureForRoom",
+		"uvIntensity": "https://ontology.eglobalmark.com/aquac#uvIntensity",
+		"totalGasPressure": "https://ontology.eglobalmark.com/aquac#totalGasPressure",
+		"residualGas": "https://ontology.eglobalmark.com/aquac#residualGas"
 	}
 }
