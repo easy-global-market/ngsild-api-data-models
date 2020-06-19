@@ -1,0 +1,35 @@
+{
+    "id": "urn:ngsi-ld:DeviceModel:smartMeterModel01",
+    "type": "DeviceModel",
+    "brandName": {
+        "type": "Property",
+        "value": "HRLc G3"
+    },
+    "category": {
+        "type": "Property",
+        "value": "meter"
+    },
+    "manufacturerName": {
+        "type": "Property",
+        "value": "DIEHL Metering"
+    },
+    "function": {
+        "type": "Property",
+        "value": "metering"
+    },
+    "supportedProtocol": {
+        "type": "Property",
+        "value": "sigfox"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": [
+            "waterConsumption",
+            "minFlow",
+            "maxFlow"
+        ]
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

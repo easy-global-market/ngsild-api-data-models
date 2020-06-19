@@ -1,0 +1,128 @@
+{
+    "id": "urn:ngsi-ld:Consumer:01",
+    "type": "Consumer",
+    "waterConsumption": {
+        "type": "Property",
+        "value": "1500",
+        "unitCode": "LTR",
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "minFlow": {
+        "type": "Property",
+        "value": "1",
+        "unitCode": "MQS",
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "maxFlow": {
+        "type": "Property",
+        "value": "2",
+        "unitCode": "MQS",
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "persistenceFlowDuration": {
+        "type": "Property",
+        "value": 3,
+        "unitCode": "HUR",
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "acquisitionStageFailure": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmFlowPersistence": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmInProgressAlarms": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmMetrology": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmStopsLeaks": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmSystem": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmTamper": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "macroAlarmWaterQuality": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "moduleTampered": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-12T15:11:36.158Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

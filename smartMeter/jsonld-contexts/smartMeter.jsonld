@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "Consumer": "https://uri.fiware.org/ns/data-models#Consumer",
+        "minFlow": "https://uri.fiware.org/ns/data-models#minFlow",
+        "maxFlow": "https://uri.fiware.org/ns/data-models#minFlow",
+        "persistenceFlowDuration": "https://uri.fiware.org/ns/data-models#persistenceFlowDuration",
+        "acquisitionStageFailure": {
+            "@id": "https://uri.fiware.org/ns/data-models#acquisitionStageFailure",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmFlowPersistence": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmFlowPersistence",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmInProgressAlarms": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmInProgressAlarms",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmMetrology": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmInProgressAlarms",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmStopsLeaks": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmStopsLeaks",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmSystem": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmSystem",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmTamper": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmTamper",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "macroAlarmWaterQuality": {
+            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmWaterQuality",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        },
+        "moduleTampered": {
+            "@id": "https://uri.fiware.org/ns/data-models#moduleTampered",
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+        }
+    }
+}
