@@ -30,7 +30,7 @@
             "persistenceFlowDuration"
         ]
     },
-    "alarme": {
+    "alarm": {
         "type": "Property",
         "value": [
             "acquisitionStageFailure",
