@@ -9,32 +9,32 @@
             "@id": "https://uri.fiware.org/ns/data-models#acquisitionStageFailure",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmFlowPersistence": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmFlowPersistence",
+        "alarmFlowPersistence": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmFlowPersistence",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmInProgressAlarms": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmInProgressAlarms",
+        "alarmInProgressAlarms": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmInProgressAlarms",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmMetrology": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmInProgressAlarms",
+        "alarmMetrology": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmInProgressAlarms",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmStopsLeaks": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmStopsLeaks",
+        "alarmStopsLeaks": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmStopsLeaks",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmSystem": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmSystem",
+        "alarmSystem": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmSystem",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmTamper": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmTamper",
+        "alarmTamper": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmTamper",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "macroAlarmWaterQuality": {
-            "@id": "https://uri.fiware.org/ns/data-models#macroAlarmWaterQuality",
+        "alarmWaterQuality": {
+            "@id": "https://uri.fiware.org/ns/data-models#alarmWaterQuality",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "moduleTampered": {

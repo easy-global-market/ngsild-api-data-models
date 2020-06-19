@@ -50,7 +50,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmFlowPersistence": {
+    "alarmFlowPersistence": {
         "type": "Property",
         "value": 0,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -59,7 +59,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmInProgressAlarms": {
+    "alarmInProgressAlarms": {
         "type": "Property",
         "value": 1,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -68,7 +68,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmMetrology": {
+    "alarmMetrology": {
         "type": "Property",
         "value": 1,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -77,7 +77,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmStopsLeaks": {
+    "alarmStopsLeaks": {
         "type": "Property",
         "value": 1,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -86,7 +86,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmSystem": {
+    "alarmSystem": {
         "type": "Property",
         "value": 1,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -95,7 +95,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmTamper": {
+    "alarmTamper": {
         "type": "Property",
         "value": 0,
         "observedAt": "2020-06-12T15:11:36.158Z",
@@ -104,7 +104,7 @@
             "object": "urn:ngsi-ld:Device:smartMeter01"
         }
     },
-    "macroAlarmWaterQuality": {
+    "alarmWaterQuality": {
         "type": "Property",
         "value": 0,
         "observedAt": "2020-06-12T15:11:36.158Z",

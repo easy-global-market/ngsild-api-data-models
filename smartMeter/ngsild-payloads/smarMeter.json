@@ -30,13 +30,13 @@
         "type": "Property",
         "value": [
             "acquisitionStageFailure",
-            "macroAlarmFlowPersistence",
-            "macroAlarmInProgressAlarms",
-            "macroAlarmMetrology",
-            "macroAlarmStopsLeaks",
-            "macroAlarmSystem",
-            "macroAlarmTamper",
-            "macroAlarmWaterQuality",
+            "alarmFlowPersistence",
+            "alarmInProgressAlarms",
+            "alarmMetrology",
+            "alarmStopsLeaks",
+            "alarmSystem",
+            "alarmTamper",
+            "alarmWaterQuality",
             "moduleTampered"
         ]
     },
