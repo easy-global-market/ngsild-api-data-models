@@ -26,7 +26,22 @@
         "value": [
             "waterConsumption",
             "minFlow",
-            "maxFlow"
+            "maxFlow",
+            "persistenceFlowDuration"
+        ]
+    },
+    "alarme": {
+        "type": "Property",
+        "value": [
+            "acquisitionStageFailure",
+            "macroAlarmFlowPersistence",
+            "macroAlarmInProgressAlarms",
+            "macroAlarmMetrology",
+            "macroAlarmStopsLeaks",
+            "macroAlarmSystem",
+            "macroAlarmTamper",
+            "macroAlarmWaterQuality",
+            "moduleTampered"
         ]
     },
     "@context": [

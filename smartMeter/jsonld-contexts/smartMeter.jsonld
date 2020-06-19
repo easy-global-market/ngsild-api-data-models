@@ -2,8 +2,9 @@
     "@context": {
         "Consumer": "https://uri.fiware.org/ns/data-models#Consumer",
         "minFlow": "https://uri.fiware.org/ns/data-models#minFlow",
-        "maxFlow": "https://uri.fiware.org/ns/data-models#minFlow",
+        "maxFlow": "https://uri.fiware.org/ns/data-models#maxFlow",
         "persistenceFlowDuration": "https://uri.fiware.org/ns/data-models#persistenceFlowDuration",
+        "alarme": "https://uri.fiware.org/ns/data-models#alarme",
         "acquisitionStageFailure": {
             "@id": "https://uri.fiware.org/ns/data-models#acquisitionStageFailure",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
