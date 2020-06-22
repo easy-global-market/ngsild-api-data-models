@@ -43,10 +43,6 @@
          ]
       }
    },
-   "name":{
-      "type":"Property",
-      "value":"Grasse Camera"
-   },
    "numberOfPictures":{
       "type":"Property",
       "value":10,

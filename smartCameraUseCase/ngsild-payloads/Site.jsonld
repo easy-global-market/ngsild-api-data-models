@@ -1,42 +1,38 @@
 {
-	"id":"urn:ngsi-ld:Site:01",
-	"type":"Site",
-	"location":{
-		"type":"GeoProperty",
-		"value":{
-			"type":"Point",
-			"coordinates":[
-				-8.5,
-				41.2
-			]
-		}
-	},
-	"name":{
-		"type":"Property",
-		"value":"Sophia"
-	},
-	"personNumber":{
-		"type":"Property",
-		"value":150,
-		"unitCode": "IE",
-		"observedAt": "2020-03-10T13:44:38.000Z",
-		"observedBy":{
-			"type":"Relationship",
-			"object":"urn:ngsi-ld:Sensor:PersonCounter01"
-		}
-	},
-	"vehicleNumber":{
-		"type":"Property",
-		"value":24,
-		"unitCode": "C62",
-		"observedAt": "2020-03-10T13:44:38.000Z",
-		"observedBy":{
-			"type":"Relationship",
-			"object":"urn:ngsi-ld:Sensor:VehicleCounter01"
-		}
-	},
-	"@context":[
-      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-      "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
-   ]
+    "id": "urn:ngsi-ld:Site:01",
+    "type": "Site",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                -8.5,
+                41.2
+            ]
+        }
+    },
+    "personNumber": {
+        "type": "Property",
+        "value": 150,
+        "unitCode": "IE",
+        "observedAt": "2020-03-10T13:44:38.000Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:SmartCameraX01"
+        }
+    },
+    "vehicleNumber": {
+        "type": "Property",
+        "value": 24,
+        "unitCode": "C62",
+        "observedAt": "2020-03-10T13:44:38.000Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:SmartCameraX01"
+        }
+    },
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+    ]
 }
