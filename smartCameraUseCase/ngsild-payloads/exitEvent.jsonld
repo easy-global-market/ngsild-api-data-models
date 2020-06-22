@@ -28,6 +28,6 @@
     },
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/feature/fed4iot/smartCameraUseCase/jsonld-contexts/smartCamera-context.jsonld"
     ]
 }
