@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:Vehicle:01",
     "type": "Vehicle",
-    "registrationPlate": {
+    "vehicleIdentifier": {
         "type": "Property",
         "value": "AA123AA"
     },
@@ -9,7 +9,7 @@
         "type": "Property",
         "value": "2010-03-01T00:00:00.000Z"
     },
-    "mark": {
+    "brand": {
         "type": "Property",
         "value": "Renault"
     },
@@ -17,17 +17,12 @@
         "type": "Property",
         "value": "2.2"
     },
-    "fuel": {
+    "fuelType": {
         "type": "Property",
-        "value": "Gasoit"
+        "value": "Gasoil"
     },
-    "horses": {
-        "type": "Property",
-        "value": "120"
-    },
-    
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
-        "http://models.eglobalmark.com/grasse/waste-management-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/feature/fed4iot/smartCameraUseCase/jsonld-contexts/smartCamera-context.jsonld"
     ]
 }

@@ -1,25 +1,30 @@
 {
-    "id": "urn:ngsi-ld:IllegalDeposit:01",
-    "type": "IllegalDeposit",
+    "id": "urn:ngsi-ld:Event:entryEvent01",
+    "type": "Event",
     "observedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Device:SmartCameraX01"
     },
-    "refSite": {
+    "refExit": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:Site:01"
+        "object": "urn:ngsi-ld:Event:exitEvent01"
     },
     "refVehicle": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Vehicle:01"
     },
+    "refSite": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Site:01"
+    },
     "vehicleIdentifier": {
         "type": "Property",
-        "value": "12AC54BE"
-    },
-    "wasteType": {
-        "type": "Property",
-        "value": "Wood"
+        "value": "12AC54BE",
+        "reliability": {
+            "type": "Property",
+            "value": "80",
+            "unitCode": "P1"
+        }
     },
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
