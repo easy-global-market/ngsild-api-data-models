@@ -1,44 +1,47 @@
 {
     "@context": {
-        "Consumer": "https://uri.fiware.org/ns/data-models#Consumer",
-        "minFlow": "https://uri.fiware.org/ns/data-models#minFlow",
-        "maxFlow": "https://uri.fiware.org/ns/data-models#maxFlow",
-        "persistenceFlowDuration": "https://uri.fiware.org/ns/data-models#persistenceFlowDuration",
-        "alarme": "https://uri.fiware.org/ns/data-models#alarme",
+        "Consumer": "https://ontology.eglobalmark.com/smartMeter#Consumer",
+        "minFlow": "https://ontology.eglobalmark.com/smartMeter#minFlow",
+        "maxFlow": "https://ontology.eglobalmark.com/smartMeter#maxFlow",
+        "persistenceFlowDuration": "https://ontology.eglobalmark.com/smartMeter#persistenceFlowDuration",
+        "installedAt": {
+            "@id": "https://ontology.eglobalmark.com/smartMeter#installedAt",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
         "acquisitionStageFailure": {
-            "@id": "https://uri.fiware.org/ns/data-models#acquisitionStageFailure",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#acquisitionStageFailure",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmFlowPersistence": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmFlowPersistence",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmFlowPersistence",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
-        "alarmInProgressAlarms": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmInProgressAlarms",
+        "alarmInProgress": {
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmInProgress",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmMetrology": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmInProgressAlarms",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmMetrology",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmStopsLeaks": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmStopsLeaks",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmStopsLeaks",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmSystem": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmSystem",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmSystem",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmTamper": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmTamper",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmTamper",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmWaterQuality": {
-            "@id": "https://uri.fiware.org/ns/data-models#alarmWaterQuality",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmWaterQuality",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "moduleTampered": {
-            "@id": "https://uri.fiware.org/ns/data-models#moduleTampered",
+            "@id": "https://ontology.eglobalmark.com/smartMeter#moduleTampered",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         }
     }

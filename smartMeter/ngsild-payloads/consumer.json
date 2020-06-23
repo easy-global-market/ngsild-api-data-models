@@ -3,7 +3,7 @@
     "type": "Consumer",
     "waterConsumption": {
         "type": "Property",
-        "value": "1500",
+        "value": 1500,
         "unitCode": "LTR",
         "observedAt": "2020-06-12T15:11:36.158Z",
         "observedBy": {
@@ -13,7 +13,7 @@
     },
     "minFlow": {
         "type": "Property",
-        "value": "1",
+        "value": 1,
         "unitCode": "MQS",
         "observedAt": "2020-06-12T15:11:36.158Z",
         "observedBy": {
@@ -23,7 +23,7 @@
     },
     "maxFlow": {
         "type": "Property",
-        "value": "2",
+        "value": 2,
         "unitCode": "MQS",
         "observedAt": "2020-06-12T15:11:36.158Z",
         "observedBy": {

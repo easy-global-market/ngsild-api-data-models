@@ -27,12 +27,7 @@
             "waterConsumption",
             "minFlow",
             "maxFlow",
-            "persistenceFlowDuration"
-        ]
-    },
-    "alarm": {
-        "type": "Property",
-        "value": [
+            "persistenceFlowDuration",
             "acquisitionStageFailure",
             "alarmFlowPersistence",
             "alarmInProgressAlarms",

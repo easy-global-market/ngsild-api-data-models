@@ -9,7 +9,7 @@
         "type": "Property",
         "value": "X214356"
     },
-    "dateInstalled": {
+    "installedAt": {
         "type": "Property",
         "value": "2020-03-11T11:00:00Z"
     },
@@ -23,12 +23,7 @@
             "waterConsumption",
             "minFlow",
             "maxFlow",
-            "persistenceFlowDuration"
-        ]
-    },
-    "alarm": {
-        "type": "Property",
-        "value": [
+            "persistenceFlowDuration",
             "acquisitionStageFailure",
             "alarmFlowPersistence",
             "alarmInProgressAlarms",
