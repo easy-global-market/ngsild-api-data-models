@@ -1,47 +1,47 @@
 {
     "@context": {
-        "Consumer": "https://ontology.eglobalmark.com/smartMeter#Consumer",
-        "minFlow": "https://ontology.eglobalmark.com/smartMeter#minFlow",
-        "maxFlow": "https://ontology.eglobalmark.com/smartMeter#maxFlow",
-        "persistenceFlowDuration": "https://ontology.eglobalmark.com/smartMeter#persistenceFlowDuration",
+        "Consumer": "https://ontology.eglobalmark.com/WaterSmartMeter##Consumer",
+        "minFlow": "https://ontology.eglobalmark.com/WaterSmartMeter#minFlow",
+        "maxFlow": "https://ontology.eglobalmark.com/WaterSmartMeter#maxFlow",
+        "persistenceFlowDuration": "https://ontology.eglobalmark.com/WaterSmartMeter#persistenceFlowDuration",
         "installedAt": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#installedAt",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#installedAt",
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
         },
         "acquisitionStageFailure": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#acquisitionStageFailure",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#acquisitionStageFailure",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmFlowPersistence": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmFlowPersistence",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmFlowPersistence",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmInProgress": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmInProgress",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmInProgress",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmMetrology": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmMetrology",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmMetrology",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmStopsLeaks": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmStopsLeaks",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmStopsLeaks",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmSystem": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmSystem",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmSystem",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmTamper": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmTamper",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmTamper",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "alarmWaterQuality": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#alarmWaterQuality",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#alarmWaterQuality",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         },
         "moduleTampered": {
-            "@id": "https://ontology.eglobalmark.com/smartMeter#moduleTampered",
+            "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#moduleTampered",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
         }
     }

@@ -14,7 +14,7 @@
     "minFlow": {
         "type": "Property",
         "value": 1,
-        "unitCode": "MQS",
+        "unitCode": "E32",
         "observedAt": "2020-06-12T15:11:36.158Z",
         "observedBy": {
             "type": "Relationship",
@@ -24,7 +24,7 @@
     "maxFlow": {
         "type": "Property",
         "value": 2,
-        "unitCode": "MQS",
+        "unitCode": "E32",
         "observedAt": "2020-06-12T15:11:36.158Z",
         "observedBy": {
             "type": "Relationship",
@@ -120,6 +120,16 @@
         "observedBy": {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:smartMeter01"
+        }
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
         }
     },
     "@context": [
