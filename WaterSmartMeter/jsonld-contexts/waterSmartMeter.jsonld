@@ -1,6 +1,6 @@
 {
     "@context": {
-        "Consumer": "https://ontology.eglobalmark.com/WaterSmartMeter##Consumer",
+        "Consumer": "https://ontology.eglobalmark.com/WaterSmartMeter#Consumer",
         "minFlow": "https://ontology.eglobalmark.com/WaterSmartMeter#minFlow",
         "maxFlow": "https://ontology.eglobalmark.com/WaterSmartMeter#maxFlow",
         "persistenceFlowDuration": "https://ontology.eglobalmark.com/WaterSmartMeter#persistenceFlowDuration",
