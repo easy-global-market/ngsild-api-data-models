@@ -8,12 +8,12 @@
             "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#installedAt",
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
         },
-        "hasBeginning": {
-            "@id": "https://www.w3.org/TR/owl-time/#time:hasBeginning",
+        "startTime": {
+            "@id": "https://raw.githubusercontent.com/smart-data-models/data-models/master/terms.jsonld#startTime",
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
         },
-        "hasEnd": {
-            "@id": "https://www.w3.org/TR/owl-time/#time:hasEnd",
+        "endTime": {
+            "@id": "https://raw.githubusercontent.com/smart-data-models/data-models/master/terms.jsonld#endTime",
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
         },
         "acquisitionStageFailure": {

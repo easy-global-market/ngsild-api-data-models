@@ -15,11 +15,11 @@
         "type": "Property",
         "value": 1,
         "unitCode": "E32",
-        "hasBeginning": {
+        "startTime": {
             "type": "Property",
             "value": "2020-06-11T15:11:36.158Z"
         },
-        "hasEnd": {
+        "endTime": {
             "type": "Property",
             "value": "2020-06-12T15:11:36.158Z"
         },
@@ -32,11 +32,11 @@
         "type": "Property",
         "value": 2,
         "unitCode": "E32",
-        "hasBeginning": {
+        "startTime": {
             "type": "Property",
             "value": "2020-06-11T15:11:36.158Z"
         },
-        "hasEnd": {
+        "endTime": {
             "type": "Property",
             "value": "2020-06-12T15:11:36.158Z"
         },
