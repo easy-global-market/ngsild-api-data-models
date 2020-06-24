@@ -2,24 +2,7 @@
 
 
 
-<table>
-  <tr>
-    <th>Water Smart Meter data model entities</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>[Consumer] (ngsild-payloads/Consumer.json)</td>
-    <td>This entity contains a harmonized description of a site.</td>
-  </tr>
-   <tr>
-    <td>[Device](ngsild-payloads/waterSmartMeter.json)</td>
-    <td>This entity contains a harmonized description of a Water Smart Meter Device.</td>
-  </tr>
-  <tr>
-    <td>[DeviceModel] (ngsild-payloads/waterSmartMeterModel.json)</td>
-    <td>This entity contains a harmonized description of a DeviceModel.</td>
-  </tr>
 
-</table>
-
-
+-   [Consumer](ngsild-payloads/Consumer.json): This entity contains a harmonized description of a consumer.
+-   [Water Smart Meter Device](ngsild-payloads/waterSmartMeter.json): This entity contains a harmonized description of a Water Smart Meter Device. It follows the Fiware  [Device](https://github.com/smart-data-models/dataModel.Device/tree/master/Device) data model.
+-   [Water Smart Meter DeviceModel](ngsild-payloads/waterSmartMeterModel.json): This entity contains a harmonized description of a Water Smart Meter DeviceModel. It follows the Fiware  [DeviceModel](https://github.com/smart-data-models/dataModel.Device/tree/master/DeviceModel) data model.
