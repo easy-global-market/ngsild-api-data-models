@@ -30,7 +30,7 @@
             "persistenceFlowDuration",
             "acquisitionStageFailure",
             "alarmFlowPersistence",
-            "alarmInProgressAlarms",
+            "alarmInProgress",
             "alarmMetrology",
             "alarmStopsLeaks",
             "alarmSystem",
