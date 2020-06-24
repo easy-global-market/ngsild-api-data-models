@@ -8,6 +8,14 @@
             "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#installedAt",
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
         },
+        "hasBeginning": {
+            "@id": "https://www.w3.org/TR/owl-time/#time:hasBeginning",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
+        "hasEnd": {
+            "@id": "https://www.w3.org/TR/owl-time/#time:hasEnd",
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime"
+        },
         "acquisitionStageFailure": {
             "@id": "https://ontology.eglobalmark.com/WaterSmartMeter#acquisitionStageFailure",
             "@type": "http://www.w3.org/2001/XMLSchema#boolean"
