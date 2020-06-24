@@ -1,0 +1,59 @@
+{
+    "id": "urn:ngsi-ld:Device:smartMeter01",
+    "type": "Device",
+    "name": {
+        "type": "Property",
+        "value": "smartMeter0121215"
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "X214356"
+    },
+    "installedAt": {
+        "type": "Property",
+        "value": "2020-03-11T11:00:00Z"
+    },
+    "dateLastCalibration": {
+        "type": "Property",
+        "value": "2020-06-11T11:00:00Z"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": [
+            "waterConsumption",
+            "minFlow",
+            "maxFlow",
+            "persistenceFlowDuration",
+            "acquisitionStageFailure",
+            "alarmFlowPersistence",
+            "alarmInProgress",
+            "alarmMetrology",
+            "alarmStopsLeaks",
+            "alarmSystem",
+            "alarmTamper",
+            "alarmWaterQuality",
+            "moduleTampered"
+        ]
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "refDeviceModel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DeviceModel:smartMeterModel01"
+    },
+    "controlledAsset": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Consumer:01"
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}
