@@ -126,7 +126,7 @@
         {
             "type": "Property",
             "value": 7,
-            "unitCode": "2Z",
+            "unitCode": "NTU",
             "observedAt": "2020-06-26T21:32:52+02:00",
             "depth": {
                 "type": "Property",
