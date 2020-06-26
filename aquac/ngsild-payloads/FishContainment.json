@@ -1,62 +1,148 @@
 {
-   "id": "urn:ngsi-ld:FishContainment:0012",
-   "type": "FishContainment",
-   "depth": {
-      "type": "Property",
-      "value": 100,
-      "unitCode": "m"
-   },
-   "fishNumber": {
-      "type": "Property",
-      "value": "100",
-      "observedAt": "2019-10-26T21:32:52+02:00",
-      "observedBy": {
-         "type": "Relationship",
-         "object": "urn:ngsi-ld:Sensor:013YFZ"
-      }
-   },
-   "temperature": {
-      "type": "Property",
-      "value": 22.2,
-      "unitCode": "CEL",
-      "observedAt": "2019-10-26T21:32:52+02:00",
-      "observedBy": {
-         "type": "Relationship",
-         "object": "urn:ngsi-ld:Sensor:013YFX"
-      }
-   },
-   "createdAt": "2018-10-26T21:32:52+02:00",
-   "operationSpace": {
-      "type": "GeoProperty",
-      "value": {
-         "type": "Polygon",
-         "coordinates": [
-            [
-               100.0,
-               0.0
-            ],
-            [
-               101.0,
-               0.0
-            ],
-            [
-               101.0,
-               1.0
-            ],
-            [
-               100.0,
-               1.0
-            ],
-            [
-               100.0,
-               0.0
-            ]
-         ]
-      }
-   },
-   "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld",
-      "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
-   ]
+    "id": "urn:ngsi-ld:FishContainment:0012",
+    "type": "FishContainment",
+    "createdAt": "2019-10-26T21:32:52+02:00",
+    "temperature": [
+        {
+            "type": "Property",
+            "value": 15.2,
+            "unitCode": "CEL",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-BIOC-AQUALABO1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:TemperatureDepth10"
+        },
+        {
+            "type": "Property",
+            "value": 16.1,
+            "unitCode": "CEL",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 8,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:TemperatureDepth8"
+        }
+    ],
+    "dissolvedOxygen": [
+        {
+            "type": "Property",
+            "value": 80,
+            "unitCode": "P1",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-BIOC-AQUALABO1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:dissolvedOxygenDepth10"
+        },
+        {
+            "type": "Property",
+            "value": 21,
+            "unitCode": "P1",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 8,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:dissolvedOxygenDepth8"
+        }
+    ],
+    "pH": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "C62",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-BIOC-AQUALABO1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:pHDepth10"
+        },
+        {
+            "type": "Property",
+            "value": 7.2,
+            "unitCode": "C62",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 8,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:pHDepth8"
+        }
+    ],
+    "redoxPotential": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "2Z",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-BIOC-AQUALABO1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:redoxDepth10"
+        }
+    ],
+    "turbidity": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "2Z",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:HCMR-BIOC-AQUALABO1"
+            },
+            "datasetId": "urn:ngsi-ld:Property:turbDepth10"
+        }
+    ],
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld",
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
 }
