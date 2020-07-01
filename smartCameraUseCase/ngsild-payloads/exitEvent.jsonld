@@ -1,6 +1,6 @@
 {
-    "id": "urn:ngsi-ld:Event:exitEvent01",
-    "type": "Event",
+    "id": "urn:ngsi-ld:ExitEvent:exitEvent01",
+    "type": "ExitEvent",
     "observedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Device:SmartCameraX01"

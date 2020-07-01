@@ -1,6 +1,7 @@
 {
     "@context": {
-        "Event": "https://ontology.eglobalmark.com/waste#Event",
+        "EntryEvent": "https://ontology.eglobalmark.com/waste#EntryEvent",
+        "ExitEvent": "https://ontology.eglobalmark.com/waste#ExitEvent",
         "IllegalDeposit": "https://ontology.eglobalmark.com/waste#IllegalDeposit",
         "Site": "https://ontology.eglobalmark.com/waste#Site",
         "SmartCamera": "https://ontology.eglobalmark.com/egm#SmartCamera",
