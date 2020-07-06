@@ -1,6 +1,6 @@
 {
     "id": "urn:ngsi-ld:EntryEvent:entryEvent01",
-    "type": "EntreyEvent",
+    "type": "EntryEvent",
     "observedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Device:SmartCameraX01"
