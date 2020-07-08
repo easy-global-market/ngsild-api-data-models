@@ -1,8 +1,8 @@
 {
     "@context": {
-        "Gateway": "https://ontology.eglobalmark.com/aquac#Gateway",
+        "Gateway": "https://ontology.eglobalmark.com/ifishienciHCMR#Gateway",
         
-        "dissolvedOxygen": "https://ontology.eglobalmark.com/aquac#dissolvedOxygen",
-        "redoxPotential": "https://ontology.eglobalmark.com/aquac#redoxPotential"
+        "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
+        "redoxPotential": "https://ontology.eglobalmark.com/ifishienciHCMR#redoxPotential"
     }
 }
