@@ -1,23 +1,12 @@
 {
-    "id": "urn:ngsi-ld:Device:aquabox:01",
-    "type": "Device",
-    "controlledAssest":{
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
-    },
-    "refDeviceModel":{
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:DeviceModel:aquabox:01"
-    },
+    "id": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01",
+    "type": "DeviceModel",
     "controlledProperty": {
         "type": "Property",
         "value": [
             "temperature",
             "dissolvedOxygen",
-            "pH",
-            "turbidity",
-            "salinity",
-            "conductivity"
+            "pH"
         ]
     },
     "@context": [

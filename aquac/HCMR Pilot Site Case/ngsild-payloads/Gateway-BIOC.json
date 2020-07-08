@@ -1,0 +1,9 @@
+{
+    "id": "urn:ngsi-ld:Gateway:aquabox:01",
+    "type": "Gateway",
+     "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld"
+    ]
+}

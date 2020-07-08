@@ -1,21 +1,13 @@
 {
-    "id": "urn:ngsi-ld:Device:OxyGuardPacific:01",
-    "type": "Device",
-    "controlledAssest":{
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
-    },
-    "refDeviceModel":{
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01"
-    },
+    "id": "urn:ngsi-ld:DeviceModel:aquabox:01",
+    "type": "DeviceModel",
     "brandName": {
         "type": "Property",
-        "value": "pacific"
+        "value": "aqualabo"
     },
     "manufacturerName": {
         "type": "Property",
-        "value": "Oxyguard"
+        "value": "Bioceanor"
     },
     "supportedProtocol ": {
         "type": "Property",
@@ -34,7 +26,10 @@
         "value": [
             "temperature",
             "dissolvedOxygen",
-            "pH"
+            "pH",
+            "turbidity",
+            "salinity",
+            "conductivity"
         ]
     },
     "@context": [
