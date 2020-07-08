@@ -7,10 +7,7 @@
     },
     "dateInstalled": {
         "type": "Property",
-        "value": {
-            "@type": "DateTime",
-            "@value": "2020-06-30T11:00:00Z"
-        }
+        "value": "2020-06-30T11:00:00Z"
     },
     "location": {
         "type": "GeoProperty",
