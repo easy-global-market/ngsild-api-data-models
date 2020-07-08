@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:FishContainment:HCMR:Cage01",
     "type": "FishContainment",
-    "createdAt": "2020-10-26T21:32:52+02:00",
+    "createdAt": "2020-06-26T21:32:52+02:00",
     "temperature": [
         {
             "type": "Property",
