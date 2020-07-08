@@ -9,6 +9,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:DeviceModel:camera:01"
     },
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Gateway:camera:01"
+    },
     "controlledProperty": {
         "type": "Property",
         "value": "video"

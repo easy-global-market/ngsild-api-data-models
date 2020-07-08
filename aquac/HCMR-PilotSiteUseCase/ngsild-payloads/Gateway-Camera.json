@@ -1,0 +1,26 @@
+{
+    "id": "urn:ngsi-ld:Gateway:camera:01",
+    "type": "Gateway",
+    "serialNumber": {
+        "type": "Property",
+        "value": "YPOIK45-CAM"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"
+    ]
+}
