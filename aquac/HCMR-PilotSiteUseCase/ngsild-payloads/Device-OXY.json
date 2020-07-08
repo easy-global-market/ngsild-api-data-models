@@ -9,6 +9,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01"
     },
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Gateway:OxyGuardPacific:01"
+    },
     "controlledProperty": {
         "type": "Property",
         "value": [

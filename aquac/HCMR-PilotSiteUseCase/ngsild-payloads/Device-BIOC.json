@@ -9,6 +9,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:DeviceModel:aquabox:01"
     },
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Gateway:aquabox:01"
+    },
     "controlledProperty": {
         "type": "Property",
         "value": [
