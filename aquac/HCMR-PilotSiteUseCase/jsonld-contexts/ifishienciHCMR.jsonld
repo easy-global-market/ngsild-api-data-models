@@ -1,5 +1,6 @@
 {
     "@context": {
+        "FishContainment": "https://ontology.eglobalmark.com/ifishienciHCMR#FishContainment",
         "Gateway": "https://ontology.eglobalmark.com/ifishienciHCMR#Gateway",
         
         "connectsTo": "https://ontology.eglobalmark.com/ifishienciHCMR#connectsTo",
