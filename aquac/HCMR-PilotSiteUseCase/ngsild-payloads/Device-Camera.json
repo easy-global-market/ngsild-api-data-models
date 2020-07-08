@@ -1,16 +1,27 @@
 {
     "id": "urn:ngsi-ld:Device:camera:01",
     "type": "Device",
-    "controlledProperty": {
-        "type": "Property",
-        "value":  "video"
-    },
-    "controlledAssest":{
+    "controlledAssest": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
     },
+    "refDeviceModel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DeviceModel:camera:01"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": "video"
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "XXXIUZ-CAM"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-29T11:00:00Z"
+    },
     "@context": [
-        "https://schema.lab.fiware.org/ld/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"
+        "https://schema.lab.fiware.org/ld/context.jsonld"
     ]
 }
