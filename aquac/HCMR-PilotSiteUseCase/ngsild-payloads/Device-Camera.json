@@ -25,6 +25,16 @@
         "type": "Property",
         "value": "2020-06-29T11:00:00Z"
     },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
     "@context": [
         "https://schema.lab.fiware.org/ld/context.jsonld"
     ]
