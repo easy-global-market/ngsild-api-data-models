@@ -9,6 +9,26 @@
             "pH"
         ]
     },
+    "brandName": {
+        "type": "Property",
+        "value": "pacific"
+    },
+    "manufacturerName": {
+        "type": "Property",
+        "value": "Oxyguard"
+    },
+    "supportedProtocol ": {
+        "type": "Property",
+        "value": "XXX"
+    },
+    "function": {
+        "type": "Property",
+        "value": "sensing"
+    },
+    "category": {
+        "type": "Property",
+        "value": "sensor"
+    },
     "@context": [
         "https://schema.lab.fiware.org/ld/context.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"

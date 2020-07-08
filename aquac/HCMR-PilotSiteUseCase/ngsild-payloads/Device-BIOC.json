@@ -1,11 +1,11 @@
 {
     "id": "urn:ngsi-ld:Device:aquabox:01",
     "type": "Device",
-    "controlledAssest":{
+    "controlledAssest": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
     },
-    "refDeviceModel":{
+    "refDeviceModel": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:DeviceModel:aquabox:01"
     },
@@ -19,6 +19,18 @@
             "salinity",
             "conductivity"
         ]
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "TTG58-BIOC"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "dateLastCalibration": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
     },
     "@context": [
         "https://schema.lab.fiware.org/ld/context.jsonld",

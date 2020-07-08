@@ -1,33 +1,13 @@
 {
     "id": "urn:ngsi-ld:Device:OxyGuardPacific:01",
     "type": "Device",
-    "controlledAssest":{
+    "controlledAssest": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
     },
-    "refDeviceModel":{
+    "refDeviceModel": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01"
-    },
-    "brandName": {
-        "type": "Property",
-        "value": "pacific"
-    },
-    "manufacturerName": {
-        "type": "Property",
-        "value": "Oxyguard"
-    },
-    "supportedProtocol ": {
-        "type": "Property",
-        "value": "XXX"
-    },
-    "function": {
-        "type": "Property",
-        "value": "sensing"
-    },
-    "category": {
-        "type": "Property",
-        "value": "sensor"
     },
     "controlledProperty": {
         "type": "Property",
@@ -36,6 +16,18 @@
             "dissolvedOxygen",
             "pH"
         ]
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "ZZBEG58-OXYC"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "dateLastCalibration": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
     },
     "@context": [
         "https://schema.lab.fiware.org/ld/context.jsonld",

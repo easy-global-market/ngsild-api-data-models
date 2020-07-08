@@ -2,6 +2,16 @@
     "id": "urn:ngsi-ld:FishContainment:HCMR:Cage01",
     "type": "FishContainment",
     "createdAt": "2020-06-26T21:32:52+02:00",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
     "temperature": [
         {
             "type": "Property",
