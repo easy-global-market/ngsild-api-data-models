@@ -12,6 +12,15 @@
             ]
         }
     },
+    "video": {
+        "type": "Property",
+        "value": "rtsp://147.27.58.26:554/media/video1",
+        "depth": {
+            "type": "Property",
+            "value": 10,
+            "unitCode": "MTR"
+        }
+    },
     "temperature": [
         {
             "type": "Property",
