@@ -1,6 +1,10 @@
 {
     "id": "urn:ngsi-ld:Device:aquabox:01",
     "type": "Device",
+    "controlledAssest":{
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld",
