@@ -12,15 +12,36 @@
             ]
         }
     },
-    "video": {
-        "type": "Property",
-        "value": "rtsp://147.27.58.26:554/media/video1",
-        "depth": {
+    "videoStream": [
+        {
             "type": "Property",
-            "value": 10,
-            "unitCode": "MTR"
+            "value": "rtsp://147.27.58.26:55411/cam/realmonitor?channel=1&subtype=0",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:camera:01"
+            },
+            "depth": {
+                "type": "Property",
+                "value": 1,
+                "unitCode": "MTR"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:camera:01"
+        },
+        {
+            "type": "Property",
+            "value": "rtsp://147.27.58.26:554/media/video1",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:camera:02"
+            },
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:camera:02"
         }
-    },
+    ],
     "temperature": [
         {
             "type": "Property",

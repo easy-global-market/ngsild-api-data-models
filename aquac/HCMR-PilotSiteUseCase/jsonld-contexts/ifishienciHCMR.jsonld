@@ -6,6 +6,7 @@
         "connectsTo": "https://ontology.eglobalmark.com/ifishienciHCMR#connectsTo",
         "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
         "observedBy": "https://ontology.eglobalmark.com/ifishienciHCMR#observedBy",
-        "redoxPotential": "https://ontology.eglobalmark.com/ifishienciHCMR#redoxPotential"
+        "redoxPotential": "https://ontology.eglobalmark.com/ifishienciHCMR#redoxPotential",
+        "videoStream": "https://ontology.eglobalmark.com/ifishienciHCMR#videoStream"
     }
 }
