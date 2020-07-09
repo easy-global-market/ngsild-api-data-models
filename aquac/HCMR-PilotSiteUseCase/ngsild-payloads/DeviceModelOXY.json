@@ -1,0 +1,35 @@
+{
+    "id": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01",
+    "type": "DeviceModel",
+    "controlledProperty": {
+        "type": "Property",
+        "value": [
+            "temperature",
+            "dissolvedOxygen",
+            "pH"
+        ]
+    },
+    "brandName": {
+        "type": "Property",
+        "value": "pacific"
+    },
+    "manufacturerName": {
+        "type": "Property",
+        "value": "Oxyguard"
+    },
+    "supportedProtocol ": {
+        "type": "Property",
+        "value": "XXX"
+    },
+    "function": {
+        "type": "Property",
+        "value": "sensing"
+    },
+    "category": {
+        "type": "Property",
+        "value": "sensor"
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

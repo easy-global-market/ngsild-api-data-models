@@ -1,7 +1,47 @@
 {
     "id": "urn:ngsi-ld:FishContainment:HCMR:Cage01",
     "type": "FishContainment",
-    "createdAt": "2019-10-26T21:32:52+02:00",
+    "createdAt": "2020-06-26T21:32:52+02:00",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "videoStream": [
+        {
+            "type": "Property",
+            "value": "rtsp://147.27.58.26:55411/cam/realmonitor?channel=1&subtype=0",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:camera:01"
+            },
+            "depth": {
+                "type": "Property",
+                "value": 1,
+                "unitCode": "MTR"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:camera:01"
+        },
+        {
+            "type": "Property",
+            "value": "rtsp://147.27.58.26:554/media/video1",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:camera:02"
+            },
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:camera:02"
+        }
+    ],
     "temperature": [
         {
             "type": "Property",
@@ -33,7 +73,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific1MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific01"
         },
         {
             "type": "Property",
@@ -49,7 +89,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific4MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific02"
         },
         {
             "type": "Property",
@@ -65,7 +105,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific8MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific03"
         }
     ],
     "dissolvedOxygen": [
@@ -99,7 +139,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific1MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific01"
         },
         {
             "type": "Property",
@@ -113,9 +153,9 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific4MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific02"
         },
         {
             "type": "Property",
@@ -129,9 +169,9 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific8MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific03"
         }
     ],
     "pH": [
@@ -163,9 +203,9 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:HCMR-OXY-PACIFICDevice1"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:pH:OxyGuardPacific1MTR"
+            "datasetId": "urn:ngsi-ld:Dataset:pH:OxyGuardPacific01"
         }
     ],
     "redoxPotential": [
@@ -183,7 +223,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:aquabox:01"
             },
-            "datasetId": "urn:ngsi-ld:Property:redoxDepth10"
+            "datasetId": "urn:ngsi-ld:Dataset:redoxPotential:aquabox01"
         }
     ],
     "turbidity": [
@@ -241,8 +281,7 @@
         }
     ],
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/jsonld-contexts/aquac.jsonld",
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://schema.lab.fiware.org/ld/context.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"
     ]
 }

@@ -1,0 +1,38 @@
+{
+    "id": "urn:ngsi-ld:DeviceModel:aquabox:01",
+    "type": "DeviceModel",
+    "brandName": {
+        "type": "Property",
+        "value": "aqualabo"
+    },
+    "manufacturerName": {
+        "type": "Property",
+        "value": "Bioceanor"
+    },
+    "supportedProtocol ": {
+        "type": "Property",
+        "value": "XXX"
+    },
+    "function": {
+        "type": "Property",
+        "value": "sensing"
+    },
+    "category": {
+        "type": "Property",
+        "value": "sensor"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": [
+            "temperature",
+            "dissolvedOxygen",
+            "pH",
+            "turbidity",
+            "salinity",
+            "conductivity"
+        ]
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

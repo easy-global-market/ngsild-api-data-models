@@ -1,0 +1,41 @@
+{
+    "id": "urn:ngsi-ld:Device:camera:01",
+    "type": "Device",
+    "controlledAssest": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
+    },
+    "refDeviceModel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DeviceModel:camera:01"
+    },
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Gateway:camera:01"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": "video"
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "XXXIUZ-CAM"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-29T11:00:00Z"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

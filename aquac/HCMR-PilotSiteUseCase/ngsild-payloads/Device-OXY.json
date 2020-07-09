@@ -1,0 +1,49 @@
+{
+    "id": "urn:ngsi-ld:Device:OxyGuardPacific:01",
+    "type": "Device",
+    "controlledAssest": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
+    },
+    "refDeviceModel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DeviceModel:OxyGuardPacific:01"
+    },
+    "connectsTo": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Gateway:OxyGuardPacific:01"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": [
+            "temperature",
+            "dissolvedOxygen",
+            "pH"
+        ]
+    },
+    "serialNumber": {
+        "type": "Property",
+        "value": "ZZBEG58-OXYC"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "dateLastCalibration": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}

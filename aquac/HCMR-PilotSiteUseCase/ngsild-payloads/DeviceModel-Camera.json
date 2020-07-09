@@ -1,0 +1,31 @@
+{
+    "id": "urn:ngsi-ld:DeviceModel:camera:01",
+    "type": "DeviceModel",
+    "brandName": {
+        "type": "Property",
+        "value": "XX"
+    },
+    "manufacturerName": {
+        "type": "Property",
+        "value": "XX"
+    },
+    "supportedProtocol ": {
+        "type": "Property",
+        "value": "XXX"
+    },
+    "function": {
+        "type": "Property",
+        "value": "eventNotification"
+    },
+    "category": {
+        "type": "Property",
+        "value": "sensor"
+    },
+    "controlledProperty": {
+        "type": "Property",
+        "value": "video"
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context.jsonld"
+    ]
+}
