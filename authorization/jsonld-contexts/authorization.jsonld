@@ -1,0 +1,11 @@
+{
+	"@context": {
+		"name": "https://ontology.eglobalmark.com/authentication#name",
+		"username": "https://ontology.eglobalmark.com/authentication#username",
+		"roles": "https://ontology.eglobalmark.com/authentication#roles",
+		"isMemberOf": "https://ontology.eglobalmark.com/authentication#isMemberOf",
+		"rCanRead": "https://ontology.eglobalmark.com/authentication#rCanRead",
+		"rCanWrite": "https://ontology.eglobalmark.com/authentication#rCanWrite",
+		"rCanAdmin": "https://ontology.eglobalmark.com/authentication#rCanAdmin",
+	}
+}
