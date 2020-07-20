@@ -7,5 +7,7 @@
 		"rCanRead": "https://ontology.eglobalmark.com/authorization#rCanRead",
 		"rCanWrite": "https://ontology.eglobalmark.com/authorization#rCanWrite",
 		"rCanAdmin": "https://ontology.eglobalmark.com/authorization#rCanAdmin",
+		"Group": "https://ontology.eglobalmark.com/authorization#Group",
+		"User": "https://ontology.eglobalmark.com/authorization#User"
 	}
 }
