@@ -299,7 +299,6 @@
         }
     ],
     "@context": [
-        "https://schema.lab.fiware.org/ld/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
 }
