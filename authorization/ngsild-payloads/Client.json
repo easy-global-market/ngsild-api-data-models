@@ -1,0 +1,39 @@
+{
+    "id":"urn:ngsi-ld:Client:3078809b-1988-497a-93cd-7155939dca20",
+    "type":"Client",
+    "clientId": {
+       "type": "Property",
+       "value": "5cc18988-0242-4ff5-ade9-9007e5930d5c"
+    },
+    "serviceAccountId": {
+        "type": "Property",
+        "value": "19696bea-a440-45c4-83d0-cfd352cf4ceb" 
+    },
+    "roles": {
+       "type": "Property",
+       "value": ["admin"]
+    },
+    "rCanRead": [
+       {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Beehive:Beehive01"
+       }
+    ],
+    "rCanWrite": [
+       {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Beehive:Beehive02"
+       }
+    ],
+    "rCanAdmin": [
+       {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Beehive:Beehive03"
+       }
+    ],
+    "@context": [
+       "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
+       "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+ }
+ 
