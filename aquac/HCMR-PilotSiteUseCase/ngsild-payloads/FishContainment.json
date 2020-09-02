@@ -178,7 +178,7 @@
         {
             "type": "Property",
             "value": 7,
-            "unitCode": "C62",
+            "unitCode": "Q30",
             "observedAt": "2020-06-26T21:32:52+02:00",
             "depth": {
                 "type": "Property",
@@ -248,7 +248,7 @@
         {
             "type": "Property",
             "value": 7,
-            "unitCode": "H61",
+            "unitCode": "NTU",
             "observedAt": "2020-06-26T21:32:52+02:00",
             "depth": {
                 "type": "Property",
@@ -266,7 +266,7 @@
         {
             "type": "Property",
             "value": 7,
-            "unitCode": "PPM",
+            "unitCode": "GL",
             "observedAt": "2020-06-26T21:32:52+02:00",
             "depth": {
                 "type": "Property",
@@ -280,8 +280,25 @@
             "datasetId": "urn:ngsi-ld:Dataset:salinity:aquabox01"
         }
     ],
+    "totalDissolvedSolids": [
+        {
+            "type": "Property",
+            "value": 35404,
+            "unitCode": "G42",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:totalDissolvedSolids:aquabox01"
+        }
+    ],
     "@context": [
-        "https://schema.lab.fiware.org/ld/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
 }
