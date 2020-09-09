@@ -73,7 +73,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific01"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:OxyGuardPacific01"
         },
         {
             "type": "Property",
@@ -89,7 +89,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific02"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:OxyGuardPacific02"
         },
         {
             "type": "Property",
@@ -105,7 +105,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:temperature:OxyGuardPacific03"
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:OxyGuardPacific03"
         }
     ],
     "dissolvedOxygen": [
@@ -139,7 +139,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific01"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:OxyGuardPacific01"
         },
         {
             "type": "Property",
@@ -155,7 +155,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific02"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:OxyGuardPacific02"
         },
         {
             "type": "Property",
@@ -171,7 +171,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:OxyGuardPacific03"
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:OxyGuardPacific03"
         }
     ],
     "pH": [
@@ -194,7 +194,7 @@
         {
             "type": "Property",
             "value": 7.2,
-            "unitCode": "C62",
+            "unitCode": "Q30",
             "observedAt": "2020-06-26T21:32:52+02:00",
             "depth": {
                 "type": "Property",
@@ -205,7 +205,7 @@
                 "type": "Relationship",
                 "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
             },
-            "datasetId": "urn:ngsi-ld:Dataset:pH:OxyGuardPacific01"
+            "datasetId": "urn:ngsi-ld:Dataset:pH:Q30:OxyGuardPacific01"
         }
     ],
     "redoxPotential": [
