@@ -87,7 +87,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:02"
             },
             "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:OxyGuardPacific02"
         },
@@ -103,7 +103,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:03"
             },
             "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:OxyGuardPacific03"
         }
@@ -185,7 +185,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:02"
             },
             "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:OxyGuardPacific02"
         },
@@ -201,7 +201,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:OxyGuardPacific:01"
+                "object": "urn:ngsi-ld:Device:OxyGuardPacific:03"
             },
             "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:OxyGuardPacific03"
         }
