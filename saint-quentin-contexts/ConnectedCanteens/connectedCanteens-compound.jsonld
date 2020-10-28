@@ -1,0 +1,7 @@
+{
+    "@context": [
+        "https://gist.githubusercontent.com/AHABID/6f89f73058762262f23888459dab406c/raw/18dbc92d2677a0235b2c70dafadce7607b66855d/connectedCanteens.jsonld",
+        "https://fiware.github.io/data-models/context.jsonld",
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}
