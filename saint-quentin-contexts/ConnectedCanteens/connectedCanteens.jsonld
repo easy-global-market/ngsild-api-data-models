@@ -7,7 +7,7 @@
         "Restaurant": "https://schema.org/Restaurant",
         "Trash": "https://www.saint-quentin.fr/ontology#Trash",
 
-        "audience": "https://www.saint-quentin.fr/ontologyaudience#audience",
+        "audience": "https://www.saint-quentin.fr/ontology#audience",
         "checkedOn": "https://www.saint-quentin.fr/ontology#checkedOn",
         "counted": "https://www.saint-quentin.fr/ontology#counted",
         "countedByCategory": "https://www.saint-quentin.fr/ontology#countedByCategory",
