@@ -154,13 +154,15 @@ For these reasons, we suggest some additional unit codes to be used.
 
 This table will be updated upon new needs identified for units and possible evolution of UN/CEFACT specifications to whom we made the below suggestions:
 
-| **Proposed Code** | **Name**                            | **Description**                                              | **Symbol** |
-| ----------------- | ----------------------------------- | ------------------------------------------------------------ | ---------- |
-| NTU               | Nephelometric Turbidity Unit        | Turbidity level of a fluid                                   | NTU        |
-| FNU               | Formazin Nephelometric Unit         | Turbidity level of a fluid                                   | FNU        |
-| DBM               | Power level                         | decibel relative to 1 mW                                     | dBm        |
-| DBW               | Power level                         | decibel relative to 1 W                                      | dBW        |
-| RRC               | Pipe wall reaction rate coefficient | Wall reaction rate coefficient for zero-order reactions that  apply  to  a  water  quality  decay analysis in water network pipes | mg/m²/day  |
+| **Proposed Code** | **Name**                                  | **Description**                                              | **Symbol** | Status                                              |
+| ----------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | --------------------------------------------------- |
+| NTU               | Nephelometric Turbidity Unit              | Turbidity level of a fluid                                   | NTU        | Included upon our request in UN-CEFACT Rev. 15 2020 |
+| FNU               | Formazin Nephelometric Unit               | Turbidity level of a fluid                                   | FNU        | Included upon our request in UN-CEFACT Rev. 15 2020 |
+| DBM               | Power level                               | decibel relative to 1 mW                                     | dBm        | Included upon our request in UN-CEFACT Rev. 15 2020 |
+| DBW               | Power level                               | decibel relative to 1 W                                      | dBW        | Included upon our request in UN-CEFACT Rev. 15 2020 |
+| RRC               | Pipe wall reaction rate coefficient       | Wall reaction rate coefficient for zero-order reactions that  apply  to  a  water  quality  decay analysis in water network pipes | mg/m²/day  |                                                     |
+| PFD               | Photosynthetic photon flux density (PPFD) | Flux density of photosynthetic photons (having wavelength between 400nm and 700nm). Said differently: number of photosynthetically active photons that fall on a given surface each second | μmol/s/m²  |                                                     |
+| PPF               | Photosynthetic photon flux (PPF)          | Flux of photosynthetic photons (having wavelength between 400nm and 700nm) | μmol/s     |                                                     |
 
 ## References
 
