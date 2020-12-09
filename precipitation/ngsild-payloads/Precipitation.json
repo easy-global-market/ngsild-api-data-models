@@ -15,5 +15,5 @@
         "unitCode":"MM",
         "observedAt": "2003-04-01T00:00:00Z"
     },
-    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
 }
