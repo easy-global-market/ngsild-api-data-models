@@ -1,0 +1,19 @@
+{
+    "id": "urn:ngsi-ld:Precipitation:xx",
+    "type": "Precipitation",
+    "precipitation": {
+        "type": "Property",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Satellite:01"
+        },
+        "resolution": {
+            "type": "Property",
+            "value": "4km X 4 km"
+        },
+        "value": 0,
+        "unitCode":"MM",
+        "observedAt": "2003-04-01T00:00:00Z"
+    },
+    "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+}

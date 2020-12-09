@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "Precipitation": "https://ontology.eglobalmark.com/F4W#Precipitation",
+        "Satellite": "https://ontology.eglobalmark.com/F4W#Satellite",
+
+        "resolution": "https://ontology.eglobalmark.com/F4W#resolution"
+    }
+}
