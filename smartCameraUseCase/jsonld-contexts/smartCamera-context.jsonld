@@ -11,6 +11,14 @@
             "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
             "@id": "https://ontology.eglobalmark.com/waste#calibrationDate"
         },
+        "entryDateTime": {
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
+            "@id": "https://ontology.eglobalmark.com/waste#entryDateTime"
+        },
+        "exitDateTime": {
+            "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
+            "@id": "https://ontology.eglobalmark.com/waste#exitDateTime"
+        },
         "fuelType": "https://ontology.eglobalmark.com/waste#fuel",
         "monitors": "https://ontology.eglobalmark.com/egm#monitors",
         "model": "https://ontology.eglobalmark.com/waste#model",
@@ -25,5 +33,5 @@
         "vehicleNumber": "https://ontology.eglobalmark.com/waste#vehicleNumber",
         "wasteType": "https://ontology.eglobalmark.com/waste#wasteType"
     },
-    "generatedAt": "2020-06-22T18:11:30+00:00"
+    "generatedAt": "2020-06-22T18:11:30+00:00" 
 }
