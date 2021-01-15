@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "FishContainment": "https://uri.fiware.org/ns/data-models#FishContainment",
+        "DataBuoy": "https://uri.fiware.org/ns/data-models#DataBuoy",
+        "Farm": "https://uri.fiware.org/ns/data-models#Farm",
+        "Gateway": "https://uri.fiware.org/ns/data-models#Gateway",
+        "Organization":"https://uri.fiware.org/ns/data-models#Organization",
+        
+        "deployedIn": "https://uri.fiware.org/ns/data-models#deployedIn",
+        "connectsTo": "https://uri.fiware.org/ns/data-models#connectsTo",  
+        "chlorophyll": "https://uri.fiware.org/ns/data-models#chlorophyll",
+        "dissolvedOxygenSaturation": "https://uri.fiware.org/ns/data-models#dissolvedOxygenSaturation",
+        "dissolvedOxygenSolubility": "https://uri.fiware.org/ns/data-models#dissolvedOxygenSolubility",
+        "dissolvedOxygen": "https://uri.fiware.org/ns/data-models#dissolvedOxygen",
+        "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
+        "redoxPotential": "https://uri.fiware.org/ns/data-models#redoxPotential",
+        "totalDissolvedSolids": "https://uri.fiware.org/ns/data-models#totalDissolvedSolids",
+        "videoStream": "https://uri.fiware.org/ns/data-models#videoStream"
+    }
+}
