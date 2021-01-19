@@ -1,0 +1,181 @@
+{
+    "id": "urn:ngsi-ld:WeatherForecast:Pegomas",
+    "type": "WeatherForecast",
+    "refCity":"urn:ngsi-ld:City:Pegomas",
+    "temperature": [
+     {
+        "type": "Property",
+        "value":10.0,
+        "unitCode":"CEL",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:temperature:CEL:MIN:APIX"
+    },
+    {
+        "type": "Property",
+        "value":20.0,
+        "unitCode":"CEL",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:temperature:CEL:MAX:APIX"
+    },
+    {
+        "type": "Property",
+        "value":15.0,
+        "unitCode":"CEL",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:temperature:CEL:AVG:APIX"
+    }
+    ],
+    "windDirection":[
+        {
+        "type": "Property",
+        "value":220,
+        "unitCode":"DEG",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:direction:DEG:01"
+    }
+],
+    "windSpeed":[    
+        {
+        "type": "Property",
+        "value":50,
+        "unitCode":"KMH",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:Gust:KMH:APIX"
+    },
+    {
+        "type": "Property",
+        "value":20,
+        "unitCode":"KMH",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:wind:KMH:AVG:APIX"
+    }
+],
+    "windProb":[    
+        {
+        "type": "Property",
+        "value":40,
+        "unitCode":"P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:prob70:P1:APIX"
+    },
+    {
+        "type": "Property",
+        "value":10,
+        "unitCode":"P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:prob100:P1:APIX"
+    }
+],
+    "sunHours":
+    { 
+        "type": "Property",
+        "value":7,
+        "unitCode":"H",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:sunHours:P1:APIX"
+    },
+    "evapotranspiration":
+    {
+        "type": "Property",
+        "value":2,
+        "unitCode":"MM",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:evapotranspiration:MM:APIX"
+    },
+    "precipitation":
+    {
+        "type": "Property",
+        "value":5,
+        "unitCode":"MM",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "precipitationProbability":{
+            "type":"property",
+            "value":80,
+            "unitCode":"P1",
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:precipitation:MM:APIX"
+    },
+    "fog":    
+    {
+        "type": "Property",
+        "value":30,
+        "unitCode":"P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:fog:P1:APIX"
+    },
+    "frost":
+    {
+        "type": "Property",
+        "value":10,
+        "unitCode":"P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:frost:P1:APIX"
+    },
+    "weatherType":
+    {
+        "type": "Property",
+        "value":"Cloudy",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId":"urn:ngsi-ld:Dataset:weatherType:APIX"
+    },
+    "@context": [
+        "https://schema.lab.fiware.org/ld/context",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}
