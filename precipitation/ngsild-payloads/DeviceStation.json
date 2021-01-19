@@ -1,0 +1,16 @@
+{
+    "id": "urn:ngsi-ld:Device:StationY553403001",
+    "type": "Device",
+    "location":{
+      "type":"GeoProperty",
+      "Value":{
+        "type":"Point",
+        "coodinates":[
+            43.589577424,
+            6.92766681
+        ]  
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+    ]
+}
