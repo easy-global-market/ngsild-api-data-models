@@ -16,8 +16,12 @@
         "marineCurrent": "https://uri.fiware.org/ns/data-models#marineCurrent",
         "managedBy": "https://uri.fiware.org/ns/data-models#managedBy",
         "photosyntheticPhotonFluxDensity": "https://uri.fiware.org/ns/data-models#photosyntheticPhotonFluxDensity",        
+        "photosyntheticPhotonFluxDensity": "https://uri.fiware.org/ns/data-models#photosyntheticPhotonFluxDensity",
+        "protocol": "https://uri.fiware.org/ns/data-models#protocol",
+        "provisioning": "https://uri.fiware.org/ns/data-models#provisioning",
         "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "redoxPotential": "https://uri.fiware.org/ns/data-models#redoxPotential",
+        "stateOfCharge": "https://uri.fiware.org/ns/data-models#stateOfCharge",
         "totalDissolvedSolids": "https://uri.fiware.org/ns/data-models#totalDissolvedSolids",
         "videoStream": "https://uri.fiware.org/ns/data-models#videoStream"
     }
