@@ -14,7 +14,7 @@
         "dissolvedOxygen": "https://uri.fiware.org/ns/data-models#dissolvedOxygen",
         "isContainedIn": "https://uri.fiware.org/ns/data-models#isContainedIn",
         "marineCurrent": "https://uri.fiware.org/ns/data-models#marineCurrent",
-        "managedBy": "https://uri.fiware.org/ns/data-models#managedBy",
+        "managedBy": "https://uri.fiware.org/ns/data-models#managedBy",      
         "photosyntheticPhotonFluxDensity": "https://uri.fiware.org/ns/data-models#photosyntheticPhotonFluxDensity",
         "protocol": "https://uri.fiware.org/ns/data-models#protocol",
         "provisioning": "https://uri.fiware.org/ns/data-models#provisioning",

@@ -1,0 +1,27 @@
+{
+   "id": "urn:ngsi-ld:River:Siagne",
+   "type": "River",
+   "flow": {
+      "type": "Property",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Device:StationY553403001"
+      },
+      "value": 0.0,
+      "unitCode": "MQS",
+      "observedAt": "2020-12-01T00:00:00Z",
+      "datasetId": "urn:ngsi-ld:Dataset:flow:MQS:Y553403001"
+   },
+   "waterLevel": {
+      "type": "Property",
+      "observedBy": {
+         "type": "Relationship",
+         "object": "urn:ngsi-ld:Device:StationY553403001"
+      },
+      "value": 0.0,
+      "unitCode": "MM",
+      "observedAt": "2020-12-01T00:00:00Z",
+      "datasetId": "urn:ngsi-ld:Dataset:waterLevel:MM:Y553403001"
+   },
+   "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+}
