@@ -1,7 +1,10 @@
 {
     "id": "urn:ngsi-ld:Device:APIMeteoConcept",
     "type": "Device",
-    "source":"https://api.meteo-concept.com/",
+    "source":{
+        "type":"Property",
+        "value":"https://api.meteo-concept.com/"
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
     ]
