@@ -5,7 +5,10 @@
         "type":"Property",
         "value":"https://api.meteo-concept.com/"
     },
-    "licence":"Open source",
+    "licence":{
+        "type":"Property",
+        "value":"Open source"
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
     ]
