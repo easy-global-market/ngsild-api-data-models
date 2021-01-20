@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:Device:Station",
+    "id": "urn:ngsi-ld:Device:StationY553403001",
     "type": "Device",
     "stationCode":{
         "type":"Property",
