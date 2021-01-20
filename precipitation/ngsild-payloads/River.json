@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:River:Siagne",
     "type": "River",
-    "Flow": {
+    "flow": {
        "type": "Property",
        "observedBy": {
           "type": "Relationship",
