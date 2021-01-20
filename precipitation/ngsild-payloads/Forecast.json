@@ -1,9 +1,21 @@
 {
     "id": "urn:ngsi-ld:WeatherForecast:Pegomas",
     "type": "WeatherForecast",
-    "date":"2020-06-26T00:00:00Z",
-    "observationspace":"Siagne's Watershed",
-    "model":"CEPMMT",
+    "date":{
+        "type" : "Property",
+        "value": {
+                "@type": "Date",
+                "@value": "2020-06-30"
+            }
+    },
+    "observationSpace":    {            
+        "type": "Polygon",
+        "coordinates":    [ [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0]] ]      
+      },
+    "model":{
+        "type":"Property",
+        "value":"CEPMMT"
+    },
     "refCity":{
         "type":"Relationship" ,
         "object":"urn:ngsi-ld:City:Pegomas"
