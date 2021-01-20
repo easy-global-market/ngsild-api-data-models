@@ -65,7 +65,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:direction:DEG:01"
     }
 ],
     "windSpeed":[    
@@ -78,7 +77,7 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:Gust:KMH:APIX"
+        "datasetId":"urn:ngsi-ld:Dataset:gust:KMH:APIX"
     },
     {
         "type": "Property",
@@ -126,7 +125,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:sunHours:P1:APIX"
     },
     "evapotranspiration":
     {
@@ -138,7 +136,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:evapotranspiration:MM:APIX"
     },
     "precipitation":
     {
@@ -155,7 +152,6 @@
             "value":80,
             "unitCode":"P1",
         },
-        "datasetId":"urn:ngsi-ld:Dataset:precipitation:MM:APIX"
     },
     "fog":    
     {
@@ -167,7 +163,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:fog:P1:APIX"
     },
     "frost":
     {
@@ -179,7 +174,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:frost:P1:APIX"
     },
     "weatherType":
     {
@@ -190,7 +184,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Device:StationY553403001"
         },
-        "datasetId":"urn:ngsi-ld:Dataset:weatherType:APIX"
     },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
