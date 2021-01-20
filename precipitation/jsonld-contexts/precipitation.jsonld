@@ -2,7 +2,15 @@
     "@context": {
         "Precipitation": "https://ontology.eglobalmark.com/F4W#Precipitation",
         "Satellite": "https://ontology.eglobalmark.com/F4W#Satellite",
+        "River":"https://uri.fiware.org/ns/data-models#River",
 
+        "windProb":"https://uri.fiware.org/ns/data-models#windProb",
+        "sunHours":"https://uri.fiware.org/ns/data-models#sunHours",
+        "evapotranspiration":"https://uri.fiware.org/ns/data-models#evapotranspiration",
+        "fog":"https://uri.fiware.org/ns/data-models#fog",
+        "frost":"https://uri.fiware.org/ns/data-models#frost",
+        "stationCode":"https://uri.fiware.org/ns/data-models#stationCode",
+        "name":"https://uri.fiware.org/ns/data-models#name",
         "resolution": "https://ontology.eglobalmark.com/F4W#resolution"
     }
 }
