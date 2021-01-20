@@ -1,6 +1,6 @@
 {
     "id": "urn:ngsi-ld:City:Pegomas",
-    "type": "refCity",
+    "type": "City",
     "name":"pegomas",
     "location": {
         "type": "GeoProperty",
