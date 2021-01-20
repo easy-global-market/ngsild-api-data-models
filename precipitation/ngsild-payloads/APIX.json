@@ -1,6 +1,6 @@
 {
-    "id": "urn:ngsi-ld:dataSource:APIMeteoConcept",
-    "type": "dataSource",
+    "id": "urn:ngsi-ld:DataSource:APIMeteoConcept",
+    "type": "DataSource",
     "source":{
         "type":"Property",
         "value":"https://api.meteo-concept.com/"
