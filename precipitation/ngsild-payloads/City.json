@@ -1,0 +1,18 @@
+{
+    "id": "urn:ngsi-ld:City:Pegomas",
+    "type": "City",
+    "name":"pegomas",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                43.6124,
+                6.9121
+            ]
+        }
+    },
+        "@context": [
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+        ]
+    }
