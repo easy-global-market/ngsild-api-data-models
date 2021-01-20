@@ -1,7 +1,10 @@
 {
     "id": "urn:ngsi-ld:WeatherForecast:Pegomas",
     "type": "WeatherForecast",
-    "refCity":"urn:ngsi-ld:City:Pegomas",
+    "refCity":{
+        "type":"Relationship" ,
+        "object":"urn:ngsi-ld:City:Pegomas"
+    },
     "temperature": [
      {
         "type": "Property",
@@ -175,7 +178,6 @@
         "datasetId":"urn:ngsi-ld:Dataset:weatherType:APIX"
     },
     "@context": [
-        "https://schema.lab.fiware.org/ld/context",
-        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
     ]
 }
