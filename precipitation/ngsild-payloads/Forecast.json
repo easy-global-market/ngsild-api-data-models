@@ -2,6 +2,8 @@
     "id": "urn:ngsi-ld:WeatherForecast:Pegomas",
     "type": "WeatherForecast",
     "date":"2020-06-26T00:00:00Z",
+    "observationspace":"Siagne's Watershed",
+    "model":"CEPMMT",
     "refCity":{
         "type":"Relationship" ,
         "object":"urn:ngsi-ld:City:Pegomas"
