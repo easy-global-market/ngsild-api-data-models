@@ -9,7 +9,7 @@
         "windProb":"https://uri.fiware.org/ns/data-models#windProb",
         "sunHours":"https://uri.fiware.org/ns/data-models#sunHours",
         "evapotranspiration":"https://uri.fiware.org/ns/data-models#evapotranspiration",
-        "fog":"https://uri.fiware.org/ns/data-models#fog",
+        "licence":"https://uri.fiware.org/ns/data-models#licence"
         "frost":"https://uri.fiware.org/ns/data-models#frost",
         "stationCode":"https://uri.fiware.org/ns/data-models#stationCode",
         "resolution": "https://ontology.eglobalmark.com/F4W#resolution"
