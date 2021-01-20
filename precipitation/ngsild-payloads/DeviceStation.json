@@ -3,7 +3,7 @@
     "type": "Device",
     "stationCode":{
         "type":"Property",
-        "Value":"Y553403001"
+        "value":"Y553403001"
     },
     "location":{
       "type":"GeoProperty",
