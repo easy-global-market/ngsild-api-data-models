@@ -4,6 +4,8 @@
         "Satellite": "https://ontology.eglobalmark.com/F4W#Satellite",
         "River":"https://uri.fiware.org/ns/data-models#River",
 
+        "observationspace":"https://uri.fiware.org/ns/data-models#observationspace",
+        "model":"https://uri.fiware.org/ns/data-models#model",
         "windProb":"https://uri.fiware.org/ns/data-models#windProb",
         "sunHours":"https://uri.fiware.org/ns/data-models#sunHours",
         "evapotranspiration":"https://uri.fiware.org/ns/data-models#evapotranspiration",
