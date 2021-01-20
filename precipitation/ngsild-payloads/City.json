@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:City:Pegomas",
     "type": "City",
-    "propName":{
+    "name":{
         "type": "Property",
         "value": "Pegomas"
     },
