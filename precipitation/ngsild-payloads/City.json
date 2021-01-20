@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:City:Pegomas",
     "type": "City",
-    "name":{
+    "name": {
         "type": "Property",
         "value": "Pegomas"
     },
@@ -15,7 +15,7 @@
             ]
         }
     },
-        "@context": [
-            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
-        ]
-    }
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+    ]
+}

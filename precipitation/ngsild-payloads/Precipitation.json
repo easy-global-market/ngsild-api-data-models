@@ -12,7 +12,7 @@
             "value": "4km X 4 km"
         },
         "value": 0,
-        "unitCode":"MM",
+        "unitCode": "MM",
         "observedAt": "2003-04-01T00:00:00Z"
     },
     "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
