@@ -178,7 +178,7 @@
             "precipitationProbability": {
                 "type": "property",
                 "value": 80,
-                "unitCode": "P1",
+                "unitCode": "P1"
             },
             "datasetId": "urn:ngsi-ld:Dataset:precipitation:MM:APIX"
         }
