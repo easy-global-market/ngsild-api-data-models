@@ -176,7 +176,7 @@
                 "object": "urn:ngsi-ld:Device:StationY553403001"
             },
             "precipitationProbability": {
-                "type": "property",
+                "type": "Property",
                 "value": 80,
                 "unitCode": "P1"
             },
