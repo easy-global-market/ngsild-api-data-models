@@ -4,6 +4,7 @@
         "Satellite": "https://ontology.eglobalmark.com/F4W#Satellite",
         "River": "https://uri.fiware.org/ns/data-models#River",
         "DataSource": "https://uri.fiware.org/ns/data-models#DataSource",
+        "precipitationProbability":"https://uri.fiware.org/ns/data-models#precipitationProbability",
         "waterLevel": "https://uri.fiware.org/ns/data-models#waterLevel",
         "model": "https://uri.fiware.org/ns/data-models#model",
         "windProb": "https://uri.fiware.org/ns/data-models#windProb",
