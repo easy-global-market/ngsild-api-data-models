@@ -1,0 +1,25 @@
+{
+    "id": "urn:ngsi-ld:Gateway:aquabox:01",
+    "type": "Gateway",
+    "serialNumber": {
+        "type": "Property",
+        "value": "XDFFR-BIOC"
+    },
+    "dateInstalled": {
+        "type": "Property",
+        "value": "2020-06-30T11:00:00Z"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/aquacultureCompouned.jsonld"
+    ]
+}
