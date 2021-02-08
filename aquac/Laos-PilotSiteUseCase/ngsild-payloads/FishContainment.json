@@ -1,0 +1,225 @@
+{
+    "id": "urn:ngsi-ld:FishContainment:Laos:A1",
+    "type": "FishContainment",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                24.30623,
+                60.07966
+            ]
+        }
+    },
+    "temperature": [
+        {
+            "type": "Property",
+            "value": 15.2,
+            "unitCode": "CEL",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:aquabox01"
+        }
+    ],
+    "dissolvedOxygen": [
+        {
+            "type": "Property",
+            "value": 80,
+            "unitCode": "P1",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:aquabox01"
+        },
+        {
+            "type": "Property",
+            "value": 5.4,
+            "unitCode": "M1",
+            "observedAt": "2020-08-31T11:31:29.000Z",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:M1:aquabox01"
+        }
+    ],
+    "pH": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "Q30",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:pH:Q30:aquabox01"
+        },
+        {
+            "type": "Property",
+            "value": 592.47,
+            "unitCode": "2Z",
+            "observedAt": "2020-06-28T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:pH:2Z:aquabox01"
+        }
+    ],
+    "redoxPotential": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "2Z",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:redoxPotential:2Z:aquabox01"
+        }
+    ],
+    "turbidity": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "NTU",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:turbidity:NTU:aquabox01"
+        },
+        {
+            "type": "Property",
+            "value": 0,
+            "unitCode": "FNU",
+            "observedAt": "2020-08-31T11:31:29.000Z",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:turbidity:FNU:aquabox01"
+        },
+        {
+            "type": "Property",
+            "value": 2,
+            "unitCode": "M1",
+            "observedAt": "2020-08-31T11:31:29.000Z",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:turbidity:M1:aquabox01"
+        }
+    ],
+    "conductivity": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "NTU",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:conductivity:NTU:aquabox01"
+        }
+    ],
+    "salinity": [
+        {
+            "type": "Property",
+            "value": 7,
+            "unitCode": "GL",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:salinity:GL:aquabox01"
+        }
+    ],
+    "totalDissolvedSolids": [
+        {
+            "type": "Property",
+            "value": 35404,
+            "unitCode": "G42",
+            "observedAt": "2020-06-26T21:32:52+02:00",
+            "depth": {
+                "type": "Property",
+                "value": 10,
+                "unitCode": "MTR"
+            },
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:aquabox:01"
+            },
+            "datasetId": "urn:ngsi-ld:Dataset:totalDissolvedSolids:G42:aquabox01"
+        }
+    ],
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/aquacultureCompouned.jsonld"
+    ]
+}
