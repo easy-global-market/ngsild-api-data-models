@@ -24,7 +24,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:aquabox01"
         }
@@ -42,7 +42,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:P1:aquabox01"
         },
@@ -58,7 +58,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:dissolvedOxygen:M1:aquabox01"
         }
@@ -76,7 +76,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:pH:Q30:aquabox01"
         },
@@ -92,7 +92,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:pH:2Z:aquabox01"
         }
@@ -110,7 +110,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:redoxPotential:2Z:aquabox01"
         }
@@ -128,7 +128,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:turbidity:NTU:aquabox01"
         },
@@ -144,7 +144,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:turbidity:FNU:aquabox01"
         },
@@ -160,7 +160,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:turbidity:M1:aquabox01"
         }
@@ -178,7 +178,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:conductivity:NTU:aquabox01"
         }
@@ -196,7 +196,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:salinity:GL:aquabox01"
         }
@@ -214,7 +214,7 @@
             },
             "observedBy": {
                 "type": "Relationship",
-                "object": "urn:ngsi-ld:Device:aquabox:01"
+                "object": "urn:ngsi-ld:Device:aquabox:laos:01"
             },
             "datasetId": "urn:ngsi-ld:Dataset:totalDissolvedSolids:G42:aquabox01"
         }
