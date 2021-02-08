@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:DeviceModel:aquabox:01",
+    "id": "urn:ngsi-ld:DeviceModel:aquabox:laos:01",
     "type": "DeviceModel",
     "brandName": {
         "type": "Property",
