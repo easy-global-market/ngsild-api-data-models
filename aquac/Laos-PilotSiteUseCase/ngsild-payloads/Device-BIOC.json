@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:Device:aquabox:01",
+    "id": "urn:ngsi-ld:Device:aquabox:laos:01",
     "type": "Device",
     "controlledAssest": {
         "type": "Relationship",
@@ -7,7 +7,7 @@
     },
     "refDeviceModel": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:DeviceModel:aquabox:01"
+        "object": "urn:ngsi-ld:DeviceModel:aquabox:laos:01"
     },
     "connectsTo": {
         "type": "Relationship",
