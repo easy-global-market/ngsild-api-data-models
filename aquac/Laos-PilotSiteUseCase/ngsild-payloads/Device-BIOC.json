@@ -3,7 +3,7 @@
     "type": "Device",
     "controlledAssest": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:FishContainment:HCMR:Cage01"
+        "object": "urn:ngsi-ld:FishContainment:Laos:A1"
     },
     "refDeviceModel": {
         "type": "Relationship",
