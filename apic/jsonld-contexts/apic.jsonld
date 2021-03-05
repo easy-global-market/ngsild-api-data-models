@@ -21,6 +21,17 @@
       "hornetDetected": {
          "@id": "https://ontology.eglobalmark.com/apic#hornetDetected",
          "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-      }
+      },
+      "errorCode": "https://ontology.eglobalmark.com/apic#errorCode",
+      "rainTypeDetected":"https://ontology.eglobalmark.com/apic#rainTypeDetected,
+      "panelTension": "https://ontology.eglobalmark.com/apic#panelTension",
+      "panelCurrent": "https://ontology.eglobalmark.com/apic#panelCurrent",
+      "incomingSum": "https://ontology.eglobalmark.com/apic#incomingSum",
+      "outgoingSum": "https://ontology.eglobalmark.com/apic#outgoingSum",
+      "luminosity": "https://ontology.eglobalmark.com/apic#luminosity",
+      "usbCount": "https://ontology.eglobalmark.com/apic#usbCount",
+      "resetCount": "https://ontology.eglobalmark.com/apic#resetCount",
+      "mouvementCount": "https://ontology.eglobalmark.com/apic#mouvementCount",
+      "hornetCount": "https://ontology.eglobalmark.com/apic#hornetCount"
    }
 }
