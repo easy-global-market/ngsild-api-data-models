@@ -23,7 +23,7 @@
          "@type": "http://www.w3.org/2001/XMLSchema#boolean"
       },
       "errorCode": "https://ontology.eglobalmark.com/apic#errorCode",
-      "rainTypeDetected":"https://ontology.eglobalmark.com/apic#rainTypeDetected,
+      "rainTypeDetected":"https://ontology.eglobalmark.com/apic#rainTypeDetected",
       "panelTension": "https://ontology.eglobalmark.com/apic#panelTension",
       "panelCurrent": "https://ontology.eglobalmark.com/apic#panelCurrent",
       "incomingSum": "https://ontology.eglobalmark.com/apic#incomingSum",
