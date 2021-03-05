@@ -15,6 +15,7 @@
       "depth": "https://ontology.eglobalmark.com/egm#depth",
       "managedBy": "https://ontology.eglobalmark.com/egm#managedBy",
       "belongs": "https://ontology.eglobalmark.com/egm#belongs",
+      "belongsTo": "https://ontology.eglobalmark.com/egm#belongsTo",
       "detectedBy": "https://ontology.eglobalmark.com/egm#detectedBy",
       "heigth": "https://ontology.eglobalmark.com/egm#heigth",
       "width": "https://ontology.eglobalmark.com/egm#width",
