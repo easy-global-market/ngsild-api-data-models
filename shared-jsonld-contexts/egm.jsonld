@@ -30,6 +30,7 @@
       "Device": "https://ontology.eglobalmark.com/egm#Device",
       "monitors": "https://ontology.eglobalmark.com/egm#monitors",
       "voltage": "https://ontology.eglobalmark.com/egm#voltage",
-      "raised": "https://ontology.eglobalmark.com/egm#raised"
+      "raised": "https://ontology.eglobalmark.com/egm#raised",
+      "specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
    }
 }
