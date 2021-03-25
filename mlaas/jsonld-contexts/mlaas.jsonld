@@ -4,7 +4,7 @@
        "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
        "WaterConsumption": "https://uri.fiware.org/ns/data-models#WaterConsumption",
        "algorithm": "https://uri.fiware.org/ns/data-models#algorithm",
-       "bentoPredictUrl": "ttps://uri.fiware.org/ns/data-models#bentoPredictUrl",
+       "bentoPredictUrl": "https://uri.fiware.org/ns/data-models#bentoPredictUrl",
        "computedBy": "https://uri.fiware.org/ns/data-models#computedBy",
        "description": "https://uri.fiware.org/ns/data-models#description",
        "dma": "https://uri.fiware.org/ns/data-models#dma",
