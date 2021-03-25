@@ -1,16 +1,19 @@
 {
     "@context":{
        "MLModel": "https://uri.fiware.org/ns/data-models#MLModel",
-       "name": "https://uri.fiware.org/ns/data-models#name",
-       "description": "https://uri.fiware.org/ns/data-models#description",
-       "algorithm": "https://uri.fiware.org/ns/data-models#algorithm",
-       "mlFramework": "https://uri.fiware.org/ns/data-models#mlFramework",
-       "version": "https://uri.fiware.org/ns/data-models#version",
-       "inputAttributes": "https://uri.fiware.org/ns/data-models#inputAttributes",
-       "outputAttributes": "https://uri.fiware.org/ns/data-models#outputAttributes",
-       "bentoPredictUrl": "ttps://uri.fiware.org/ns/data-models#bentoPredictUrl",
        "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
+       "WaterConsumption": "https://uri.fiware.org/ns/data-models#WaterConsumption",
+       "algorithm": "https://uri.fiware.org/ns/data-models#algorithm",
+       "bentoPredictUrl": "ttps://uri.fiware.org/ns/data-models#bentoPredictUrl",
+       "description": "https://uri.fiware.org/ns/data-models#description",
+       "dma": "https://uri.fiware.org/ns/data-models#dma",
+       "inputAttributes": "https://uri.fiware.org/ns/data-models#inputAttributes",
+       "litres": "https://uri.fiware.org/ns/data-models#litres",
+       "mlFramework": "https://uri.fiware.org/ns/data-models#mlFramework",
+       "name": "https://uri.fiware.org/ns/data-models#name",
+       "outputAttributes": "https://uri.fiware.org/ns/data-models#outputAttributes",
        "refMLModel": "https://uri.fiware.org/ns/data-models#refMLModel",
-       "refSubscriptionQuery": "https://uri.fiware.org/ns/data-models#refSubscriptionQuery"
+       "refSubscriptionQuery": "https://uri.fiware.org/ns/data-models#refSubscriptionQuery",
+       "version": "https://uri.fiware.org/ns/data-models#version"
     }
 }
