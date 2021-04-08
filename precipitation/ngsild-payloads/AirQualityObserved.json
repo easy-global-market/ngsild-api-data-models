@@ -1,0 +1,90 @@
+{
+  "id": "urn:ngsi-ld:AirQualityObserved:Pegomas",
+  "type": "AirQualityObserved",
+  "dateObserved": {
+    "type": "Property",
+    "value": "2016-03-15T11:00:00/2016-03-15T12:00:00"
+  },
+  "refCity": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:City:Pegomas"
+},
+
+  "carbonMonoxide":[ 
+    {
+    "type": "Property",
+    "value": 500,
+    "unitCode": "GP",
+    "datasetId":"urn-ld:Dataset:carbonMonoxide:GP:APIX"
+  }
+],
+"temperature":[ 
+    {
+    "type": "Property",
+    "value": 12,
+    "unitCode": "CEL",
+    "datasetId":"urn-ld:Dataset:temperature:CEL:APIX"
+  }
+],
+  "nitrogenDioxide":[
+    {
+    "type": "Property",
+    "value": 45,
+    "unitCode": "GQ",
+    "datasetId":"urn-ld:Dataset:nitrogenDioxide:GP:APIX"
+  }
+],
+  "windDirection":[
+    {
+    "type": "Property",
+    "value": 186,
+    "unitCode":"DEG",
+    "datasetId":"urn-ld:Dataset:windDirection:DEG:APIX"
+}
+],
+  "windSpeed":[
+    {
+    "type": "Property",
+    "value": 0.64,
+    "unitCode":"KMH",
+    "datasetId":"urn-ld:Dataset:windSpeed:KMH:APIX"
+  }
+],
+  "sulphurDioxide":[
+    {
+    "type": "Property",
+    "value": 11,
+    "unitCode": "GQ",
+    "datasetId":"urn-ld:Dataset:sulphurDioxide:GP:APIX"
+  }
+],
+  "particulateMatter": [
+    {
+        "type": "Property",
+        "value": 50,
+        "unitCode": "GQ",
+        "datasetId": "urn:ngsi-ld:Dataset:pm2_5:GQ:APIX"
+    },
+    {
+        "type": "Property",
+        "value": 20,
+        "unitCode": "GQ",
+        "datasetId": "urn:ngsi-ld:Dataset:pm10:GQ:APIX"
+    }
+],
+  "airQualityIndexUS": [
+    {
+        "type": "Property",
+        "value": 1,
+        "datasetId": "urn:ngsi-ld:Dataset:indexValue:APIX"
+    },
+    {
+        "type": "Property",
+        "value": "Good",
+        "datasetId": "urn:ngsi-ld:Dataset:indexDescription:APIX"
+    }
+],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+]
+}
