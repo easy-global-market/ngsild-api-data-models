@@ -1,0 +1,130 @@
+{
+  "id": "urn:ngsi-ld:WeatherObserved:Pegomas",
+  "type": "WeatherObserved",
+  "dateObserved": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2016-11-30T07:00:00.00Z"
+    }
+  },
+  "refCity": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:City:Pegomas"
+},
+  "cloud": [
+    {
+        "type": "Property",
+        "value": 20,
+        "unitCode": "P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:cloud:P1:APIX"
+    }
+],
+"feelLikesTemperature": [
+    {
+        "type": "Property",
+        "value": 10,
+        "unitCode": "CEL",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:feelLikesTemperature:CEL:APIX"
+    }
+],
+"humidity": [
+    {
+        "type": "Property",
+        "value": 20,
+        "unitCode": "P1",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:humidity:P1:APIX"
+    }
+],
+"precipitation": [
+    {
+        "type": "Property",
+        "value": 2,
+        "unitCode": "MM",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:precipitation:MM:APIX"
+    }
+],
+"atmosphericPressure": [
+    {
+        "type": "Property",
+        "value": 1000,
+        "unitCode": "MBR",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:atmosphericPressure:MBR:APIX"
+    }
+],
+"temperature": [
+    {
+        "type": "Property",
+        "value": 12,
+        "unitCode": "CEL",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:APIX"
+    }
+],
+"uVIndexMax": [
+    {
+        "type": "Property",
+        "value": 2,
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:uVIndexMax:APIX"
+    }
+],
+"visibility": [
+    {
+        "type": "Property",
+        "value": 10,
+        "unitCode": "KM",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:visibility:KM:APIX"
+    }
+],
+"windDirection": [
+    {
+        "type": "Property",
+        "value": 180,
+        "unitCode": "DEG",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:windDirection:DEG:APIX"
+    }
+],
+"windSpeed": [
+    {
+        "type": "Property",
+        "value": 50,
+        "unitCode": "KMH",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:gust:KMH:APIX"
+    },
+    {
+        "type": "Property",
+        "value": 20,
+        "unitCode": "KMH",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:StationY553403001"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:wind:KMH:AVG:APIX"
+    }
+],
+"weatherType": [
+    {
+        "type": "Property",
+        "value": "Sunny",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:weatherType:APIX"
+    }
+],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+  ]
+}
