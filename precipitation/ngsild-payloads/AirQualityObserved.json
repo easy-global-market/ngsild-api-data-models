@@ -1,0 +1,102 @@
+{
+  "id": "urn:ngsi-ld:AirQualityObserved:Pegomas",
+  "type": "AirQualityObserved",
+  "dateObserved": {
+    "type": "Property",
+    "value": {
+      "@type": "DateTime",
+      "@value": "2016-11-30T07:00:00.00Z"
+    }
+  },
+  "refCity": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:City:Pegomas"
+},
+  "carbonMonoxide":[ 
+    {
+    "type": "Property",
+    "value": 500,
+    "unitCode": "GP",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:carbonMonoxide:GP:APIX"
+  }
+],
+"temperature":[ 
+    {
+    "type": "Property",
+    "value": 12,
+    "unitCode": "CEL",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:temperature:CEL:APIX"
+  }
+],
+  "nitrogenDioxide":[
+    {
+    "type": "Property",
+    "value": 45,
+    "unitCode": "GQ",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:nitrogenDioxide:GP:APIX"
+  }
+],
+  "windDirection":[
+    {
+    "type": "Property",
+    "value": 186,
+    "unitCode":"DEG",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:windDirection:DEG:APIX"
+}
+],
+  "windSpeed":[
+    {
+    "type": "Property",
+    "value": 0.64,
+    "unitCode":"KMH",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:windSpeed:KMH:APIX"
+  }
+],
+  "sulphurDioxide":[
+    {
+    "type": "Property",
+    "value": 11,
+    "unitCode": "GQ",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:sulphurDioxide:GP:APIX"
+  }
+],
+  "particulateMatter": [
+    {
+        "type": "Property",
+        "value": 50,
+        "unitCode": "GQ",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:pm2_5:GQ:APIX"
+    },
+    {
+        "type": "Property",
+        "value": 20,
+        "unitCode": "GQ",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:pm10:GQ:APIX"
+    }
+],
+  "airQualityIndexUS": [
+    {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:indexValue:APIX"
+    },
+    {
+        "type": "Property",
+        "value": "Good",
+        "observedAt": "2020-06-26T00:00:00Z",
+        "datasetId": "urn:ngsi-ld:Dataset:indexDescription:APIX"
+    }
+],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+]
+}

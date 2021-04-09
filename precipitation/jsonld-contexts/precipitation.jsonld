@@ -12,6 +12,14 @@
         "licence": "https://uri.fiware.org/ns/data-models#licence",
         "frost": "https://uri.fiware.org/ns/data-models#frost",
         "stationCode": "https://uri.fiware.org/ns/data-models#stationCode",
-        "resolution": "https://ontology.eglobalmark.com/F4W#resolution"
+        "resolution": "https://ontology.eglobalmark.com/F4W#resolution",
+        "cloud":"https://uri.fiware.org/ns/data-models#cloud",
+        "feelLikesTemperature":"https://uri.fiware.org/ns/data-models#feelLikesTemperature",
+        "visibility":"https://uri.fiware.org/ns/data-models#visibility",
+        "carbonMonoxide":"https://uri.fiware.org/ns/data-models#carbonMonoxide",
+        "nitrogenDioxide":"https://uri.fiware.org/ns/data-models#nitrogenDioxide",
+        "sulphurDioxide":"https://uri.fiware.org/ns/data-models#sulphurDioxide",
+        "particulateMatter":"https://uri.fiware.org/ns/data-models#particulateMatter",
+        "airQualityIndexUS":"https://uri.fiware.org/ns/data-models#airQualityIndexUS"
     }
 }
