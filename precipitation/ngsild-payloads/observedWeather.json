@@ -98,10 +98,6 @@
         "value": 50,
         "unitCode": "KMH",
         "observedAt": "2020-06-26T00:00:00Z",
-        "observedBy": {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Device:StationY553403001"
-        },
         "datasetId": "urn:ngsi-ld:Dataset:gust:KMH:APIX"
     },
     {
@@ -109,10 +105,6 @@
         "value": 20,
         "unitCode": "KMH",
         "observedAt": "2020-06-26T00:00:00Z",
-        "observedBy": {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Device:StationY553403001"
-        },
         "datasetId": "urn:ngsi-ld:Dataset:wind:KMH:AVG:APIX"
     }
 ],
