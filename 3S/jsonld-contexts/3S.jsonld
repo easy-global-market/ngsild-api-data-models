@@ -1,0 +1,19 @@
+{
+	"@context": {
+		"Client": "https://ontology.eglobalmark.com/3S#fishNumber",
+		"ServiceDataPoint": "https://ontology.eglobalmark.com/3S#ServiceDataPoint",
+
+		"country":"https://ontology.eglobalmark.com/3S#country",
+
+		"timeZone":"https://ontology.eglobalmark.com/3S#timeZone",
+		"hydroSector":"https://ontology.eglobalmark.com/3S#hydroSector",
+		"refClient":"https://ontology.eglobalmark.com/3S#refClient",
+		"refServicePoint":"https://ontology.eglobalmark.com/3S#refServicePoint",
+		"refTransmitter":"https://ontology.eglobalmark.com/3S#refTransmitter",
+		"refWatertMeter":"https://ontology.eglobalmark.com/3S#refWatertMeter",
+		"sensorType":"https://ontology.eglobalmark.com/3S#",
+		"meterDiameter":"https://ontology.eglobalmark.com/3S#",
+		"meterPulseWeight":"https://ontology.eglobalmark.com/3S#",
+		"dateRemoved":"https://ontology.eglobalmark.com/3S#"	
+	}
+}
