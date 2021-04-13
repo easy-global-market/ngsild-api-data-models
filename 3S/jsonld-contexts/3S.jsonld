@@ -14,7 +14,6 @@
 		"pulseWeight": "https://ontology.eglobalmark.com/3S#pulseWeight",
 		"dateRemoved": "https://ontology.eglobalmark.com/3S#dateRemoved",
 		"duration": "https://ontology.eglobalmark.com/3S#duration",
-
 		"index_15m_l": "https://ontology.eglobalmark.com/3S#index_15m_l",
 		"index_1h_ l": "https://ontology.eglobalmark.com/3S#index_1h_ l",
 		"index_24h_ l": "https://ontology.eglobalmark.com/3S#index_24h_ l",
@@ -46,7 +45,25 @@
 		"flowRange_l": "https://ontology.eglobalmark.com/3S#flowRange_l",
 		"histoFlowMin_5_lph": "https://ontology.eglobalmark.com/3S#histoFlowMin_5_lph",
 		"histoFlowMin_15_lph": "https://ontology.eglobalmark.com/3S#histoFlowMin_15_lph",
-		"HistoFlowMeasure": "https://ontology.eglobalmark.com/3S#HistoFlowMeasure",
-		"HistoQminMeasure": "https://ontology.eglobalmark.com/3S#HistoQminMeasure"
+		"histoFlowMeasure": "https://ontology.eglobalmark.com/3S#HistoFlowMeasure",
+		"histoQminMeasure": "https://ontology.eglobalmark.com/3S#HistoQminMeasure",
+		"night_flow_3h_lph": "https://ontology.eglobalmark.com/3S#night_flow_3h_lph",
+
+		"meterAccess":"https://ontology.eglobalmark.com/3S#meterAccess",
+		"lowBatterie":"https://ontology.eglobalmark.com/3S#lowBatterie",
+		"damage":"https://ontology.eglobalmark.com/3S#damage",
+		"fraud":"https://ontology.eglobalmark.com/3S#fraud",
+		"freeze":"https://ontology.eglobalmark.com/3S#freeze",
+		"backflow":"https://ontology.eglobalmark.com/3S#backflow",
+		"highbackflow":"https://ontology.eglobalmark.com/3S#highbackflow",
+		"detectionError":"https://ontology.eglobalmark.com/3S#detectionError",
+		"fraud_PermanentUnclippingAlert":"https://ontology.eglobalmark.com/3S#fraud_PermanentUnclippingAlert",
+		"fraud_FuzzyUnclippingAlert":"https://ontology.eglobalmark.com/3S#fraud_FuzzyUnclippingAlert",
+		"backFlow_MinorBackflowAlert":"https://ontology.eglobalmark.com/3S#backFlow_MinorBackflowAlert",
+		"backFlow_SignificantBackflowAlert":"https://ontology.eglobalmark.com/3S#backFlow_SignificantBackflowAlert",
+		"backFlow_PossibleTransmitterDefect":"https://ontology.eglobalmark.com/3S#backFlow_PossibleTransmitterDefect",
+		"backFlow_InvertedMeterMountingAlert":"https://ontology.eglobalmark.com/3S#backFlow_InvertedMeterMountingAlert",
+		"leak_SignificantLeakAlert":"https://ontology.eglobalmark.com/3S#leak_SignificantLeakAlert",
+		"leak_ModerateLeakAlert":"https://ontology.eglobalmark.com/3S#leak_ModerateLeakAlert"
 	}
 }
