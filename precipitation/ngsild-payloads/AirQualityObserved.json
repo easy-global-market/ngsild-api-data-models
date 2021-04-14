@@ -39,6 +39,15 @@
     "datasetId":"urn-ld:Dataset:nitrogenDioxide:GP:APIX"
   }
 ],
+  "ozon":[
+    {
+    "type": "Property",
+    "value": 45,
+    "unitCode": "GQ",
+    "observedAt": "2020-06-26T00:00:00Z",
+    "datasetId":"urn-ld:Dataset:ozon:GP:APIX"
+  }
+],
   "windDirection":[
     {
     "type": "Property",
