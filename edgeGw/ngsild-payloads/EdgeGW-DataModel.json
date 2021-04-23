@@ -3,7 +3,7 @@
    "type": "DeviceModel",
    "refDevice": {
       "type": "Relationship",
-      "object": "Network"
+      "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
    },
    "category": {
       "type": "Property",
