@@ -3,7 +3,7 @@
    "type": "Device",
    "serialNumber": {
       "type": "Property",
-      "value": "M21DROMPYA01"
+      "value": "02_21_001"
    },
    "controlledAsset": {
       "type": "Relationship",
