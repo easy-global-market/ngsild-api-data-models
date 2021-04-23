@@ -1,0 +1,7 @@
+{
+   "@context":{
+      "uptime": "https://ontology.eglobalmark.com/edgeGw#uptime",
+      "cpu_temp": "https://ontology.eglobalmark.com/edgeGw#cpu_temp",
+      "disk_usage": "https://ontology.eglobalmark.com/edgeGw#disk_usage"
+   }
+}

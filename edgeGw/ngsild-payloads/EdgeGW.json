@@ -1,0 +1,109 @@
+{
+   "id": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001",
+   "type": "Device",
+   "serialNumber": {
+      "type": "Property",
+      "value": "M21DROMPYA01"
+   },
+   "controlledAsset": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+   },
+   "refDeviceModel": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:DeviceModel:EdgeGW"
+   },
+   "voltage":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "VLT",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "power":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "WTT",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "current":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "AMP",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "uptime":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "HUR",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "cpu_temp":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "CEL",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "disk_usage":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "P1",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "temperature":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "CEL",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "humidity":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "P1",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "batteryLevel":{
+      "type":"Property",
+      "value":10,
+      "unitCode": "VLT",
+      "observedAt":"2019-10-26T21:32:52+02:00",
+      "observedBy":{
+         "type":"Relationship",
+         "object": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001"
+      }
+   },
+   "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-compound"
+   ]
+}

@@ -1,0 +1,23 @@
+{
+   "id": "urn:ngsi-ld:Device:EdgeGW:edgegw_02_21_001",
+   "type": "DeviceModel",
+   "refDevice": {
+      "type": "Relationship",
+      "object": "Network"
+   },
+   "category": {
+      "type": "Property",
+      "value": "Network"
+   },
+   "brandName": {
+      "type": "Property",
+      "value": "EdgeGateway"
+   },
+   "manufacturerName": {
+      "type": "Property",
+      "value": "EGM"
+   },
+   "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-compound"
+   ]
+}
