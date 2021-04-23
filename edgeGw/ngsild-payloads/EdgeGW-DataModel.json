@@ -18,6 +18,6 @@
       "value": "EGM"
    },
    "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-compound"
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-compound.jsonld"
    ]
 }
