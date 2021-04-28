@@ -2,6 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/feature/mlaas-models/mlaas/jsonld-contexts/mlaas.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/feature/mlaas-models/shared-jsonld-contexts/egm.jsonld",
+        "https://fiware.github.io/data-models/context.jsonld",
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]
 }
