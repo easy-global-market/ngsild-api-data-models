@@ -1,0 +1,31 @@
+{
+   "id": "urn:ngsi-ld:Groundwater:Pegomas",
+   "type": "Groundwater",
+   "waterLevel": [
+      {
+         "type": "Property",
+         "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:Station09995X0028/F"
+         },
+         "value": 0.0,
+         "unitCode": "MTR",
+         "observedAt": "2020-12-01T00:00:00Z",
+         "datasetId": "urn:ngsi-ld:Dataset:waterLevel:MM:09995X0028/F"
+      }
+   ],
+   "depth": [
+      {
+         "type": "Property",
+         "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Device:Station09995X0028/F"
+         },
+         "value": 0.0,
+         "unitCode": "MTR",
+         "observedAt": "2020-12-01T00:00:00Z",
+         "datasetId": "urn:ngsi-ld:Dataset:depth:MM:09995X0028/F"
+      }
+   ],
+   "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+}
