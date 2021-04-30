@@ -9,7 +9,7 @@
             "object": "urn:ngsi-ld:Device:Station09995X0028/F"
          },
          "value": 0.0,
-         "unitCode": "MQS",
+         "unitCode": "MTR",
          "observedAt": "2020-12-01T00:00:00Z",
          "datasetId": "urn:ngsi-ld:Dataset:waterLevel:MM:09995X0028/F"
       }
@@ -22,7 +22,7 @@
             "object": "urn:ngsi-ld:Device:Station09995X0028/F"
          },
          "value": 0.0,
-         "unitCode": "MM",
+         "unitCode": "MTR",
          "observedAt": "2020-12-01T00:00:00Z",
          "datasetId": "urn:ngsi-ld:Dataset:depth:MM:09995X0028/F"
       }
