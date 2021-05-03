@@ -21,6 +21,7 @@
         "ozon":"https://uri.fiware.org/ns/data-models#ozon",
         "sulphurDioxide":"https://uri.fiware.org/ns/data-models#sulphurDioxide",
         "particulateMatter":"https://uri.fiware.org/ns/data-models#particulateMatter",
-        "airQualityIndexUS":"https://uri.fiware.org/ns/data-models#airQualityIndexUS"
+        "airQualityIndexUS":"https://uri.fiware.org/ns/data-models#airQualityIndexUS",
+        "Groundwater":"https://uri.fiware.org/ns/data-models#Groundwater"
     }
 }
