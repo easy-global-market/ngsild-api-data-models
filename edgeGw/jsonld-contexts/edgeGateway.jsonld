@@ -2,6 +2,10 @@
    "@context":{
       "uptime": "https://ontology.eglobalmark.com/edgeGw#uptime",
       "cpu_temp": "https://ontology.eglobalmark.com/edgeGw#cpu_temp",
-      "disk_usage": "https://ontology.eglobalmark.com/edgeGw#disk_usage"
+      "cpu_power": "https://ontology.eglobalmark.com/edgeGw#cpu_power",
+      "disk_usage": "https://ontology.eglobalmark.com/edgeGw#disk_usage",
+      "gpu_power": "https://ontology.eglobalmark.com/edgeGw#gpu_power",
+      "gpu_temp": "https://ontology.eglobalmark.com/edgeGw#gpu_temp",
+      "ram_usage": "https://ontology.eglobalmark.com/edgeGw#ram_usage"
    }
 }
