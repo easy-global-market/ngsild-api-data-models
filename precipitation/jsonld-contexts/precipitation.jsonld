@@ -22,6 +22,16 @@
         "sulphurDioxide":"https://uri.fiware.org/ns/data-models#sulphurDioxide",
         "particulateMatter":"https://uri.fiware.org/ns/data-models#particulateMatter",
         "airQualityIndexUS":"https://uri.fiware.org/ns/data-models#airQualityIndexUS",
-        "Groundwater":"https://uri.fiware.org/ns/data-models#Groundwater"
+        "Groundwater":"https://uri.fiware.org/ns/data-models#Groundwater",
+        "currentDirection":"https://uri.fiware.org/ns/data-models#currentDirection",
+        "currentSpeed":"https://uri.fiware.org/ns/data-models#currentSpeed",
+        "seaLevel":"https://uri.fiware.org/ns/data-models#seaLevel",
+        "chlorophyll":"https://uri.fiware.org/ns/data-models#chlorophyll",
+        "iron":"https://uri.fiware.org/ns/data-models#iron",
+        "nitrate":"https://uri.fiware.org/ns/data-models#nitrate",
+        "oxygen":"https://uri.fiware.org/ns/data-models#oxygen",
+        "phosphate":"https://uri.fiware.org/ns/data-models#phosphate",
+        "phytoplankton":"https://uri.fiware.org/ns/data-models#phytoplankton",
+        "silicate":"https://uri.fiware.org/ns/data-models#silicate"
     }
 }
