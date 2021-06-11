@@ -6,6 +6,8 @@
       "disk_usage": "https://ontology.eglobalmark.com/edgeGw#disk_usage",
       "gpu_power": "https://ontology.eglobalmark.com/edgeGw#gpu_power",
       "gpu_temp": "https://ontology.eglobalmark.com/edgeGw#gpu_temp",
-      "ram_usage": "https://ontology.eglobalmark.com/edgeGw#ram_usage"
+      "ram_usage": "https://ontology.eglobalmark.com/edgeGw#ram_usage",
+      "lte_status": "https://ontology.eglobalmark.com/edgeGw#lte_status",
+      "vpn_status": "https://ontology.eglobalmark.com/edgeGw#vpn_status"
    }
 }
