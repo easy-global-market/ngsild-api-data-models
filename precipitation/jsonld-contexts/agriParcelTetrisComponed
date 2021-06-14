@@ -1,0 +1,8 @@
+{
+    "@context": [
+        "https://fiware.github.io/data-models/context.jsonld",
+        "waterStress":"https://uri.fiware.org/ns/data-models#waterStress",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitation.jsonld",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}
