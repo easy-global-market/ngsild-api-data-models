@@ -1,0 +1,5 @@
+{
+    "@context": [
+        "waterStress":"https://uri.fiware.org/ns/data-models#waterStress"
+    ]
+}
