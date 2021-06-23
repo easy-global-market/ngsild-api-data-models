@@ -1,0 +1,42 @@
+{
+   "id": "urn:ngsi-ld:Mapping:XYZ01",
+   "type": "Mapping",
+   "hasBridge": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:MqttBridge:01"
+   },
+   "deviceId": {
+      "type": "Property",
+      "value": "urn:dev:smartcam:01"
+   },
+   "context": {
+      "type": "Property",
+      "value": "NGSI-LD Context"
+   },
+   "attributes": [
+      {
+         "type": "Property",
+         "value": "temperature",
+         "objectId": {
+            "type": "Property",
+            "value": "temp"
+         },
+         "entityType": {
+            "type": "Property",
+            "value": "Room"
+         },
+         "attributeDatasetId": {
+            "type": "Property",
+            "value": "urn:ngsi-ld:Dataset:temperature:cel:01"
+         },
+         "hasTargetEntity": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Room:01"
+         },
+         "datasetId": "urn:ngsi-ld:Dataset:attribute:01"
+      }
+   ],
+   "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mqtt-bridge-mapping/jsonld-contexts/mapping-compound.jsonld"
+   ]
+}
