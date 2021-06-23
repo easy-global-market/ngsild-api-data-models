@@ -1,0 +1,21 @@
+{
+	"@context": {
+		"Mapping": "https://ontology.eglobalmark.com/Mapping",
+		"MqttBridge": "https://ontology.eglobalmark.com/MqttBridge",
+
+		"attributes": "https://ontology.eglobalmark.com/attributes",
+		"attributeDatasetId": "https://ontology.eglobalmark.com/attributeDatasetId",
+		"deviceId": "https://ontology.eglobalmark.com/deviceId",
+		"context": "https://ontology.eglobalmark.com/context",
+		"certificate": "https://ontology.eglobalmark.com/certificate",
+		"objectId": "https://ontology.eglobalmark.com/objectId",
+		"entityType": "https://ontology.eglobalmark.com/entityType",		
+		"hasTargetEntity": "https://ontology.eglobalmark.com/hasTargetEntity",
+		"hasBridge": "https://ontology.eglobalmark.com/hasBridge",
+		"topics": "https://ontology.eglobalmark.com/topics",
+		"url": "https://ontology.eglobalmark.com/url",
+		"port": "https://ontology.eglobalmark.com/port",
+		"qoS": "https://ontology.eglobalmark.com/qoS"
+		
+	}
+}

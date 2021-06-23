@@ -1,0 +1,30 @@
+{
+   "id": "urn:ngsi-ld:MqttBridge:XYZ01",
+   "type": "MqttBridge",
+   "topics": {
+      "type": "Property",
+      "value": [
+         "device/#",
+         "entities/#"
+      ]
+   },
+   "url": {
+      "type": "Property",
+      "value": "localhost"
+   },
+   "port": {
+      "type": "Property",
+      "value": "8383"
+   },
+   "qoS": {
+      "type": "Property",
+      "value": "01"
+   },
+   "certificate": {
+      "type": "Property",
+      "value": "xyz"
+   },
+   "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mqtt-bridge-mapping/jsonld-contexts/mapping-compound.jsonld"
+   ]
+}
