@@ -15,7 +15,6 @@
 		"topics": "https://ontology.eglobalmark.com/topics",
 		"url": "https://ontology.eglobalmark.com/url",
 		"port": "https://ontology.eglobalmark.com/port",
-		"qoS": "https://ontology.eglobalmark.com/qoS"
-		
+		"qoS": "https://ontology.eglobalmark.com/qoS"		
 	}
 }
