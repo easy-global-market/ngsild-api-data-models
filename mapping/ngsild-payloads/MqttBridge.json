@@ -25,6 +25,6 @@
       "value": "xyz"
    },
    "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mqtt-bridge-mapping/jsonld-contexts/mapping-compound.jsonld"
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld"
    ]
 }
