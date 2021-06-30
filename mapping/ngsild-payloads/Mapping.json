@@ -16,10 +16,10 @@
    "attributes": [
       {
          "type": "Property",
-         "value": "temperature",
-         "objectId": {
+         "value": "temp(senML Property Name)",
+         "attribute": {
             "type": "Property",
-            "value": "temp"
+            "value": "temperature(NGSI-LD Property Name)"
          },
          "entityType": {
             "type": "Property",
