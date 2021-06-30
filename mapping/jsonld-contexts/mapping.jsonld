@@ -9,7 +9,6 @@
 		"deviceId": "https://ontology.eglobalmark.com/deviceId",
 		"context": "https://ontology.eglobalmark.com/context",
 		"certificate": "https://ontology.eglobalmark.com/certificate",
-		"objectId": "https://ontology.eglobalmark.com/objectId",
 		"entityType": "https://ontology.eglobalmark.com/entityType",		
 		"hasTargetEntity": "https://ontology.eglobalmark.com/hasTargetEntity",
 		"hasBridge": "https://ontology.eglobalmark.com/hasBridge",
