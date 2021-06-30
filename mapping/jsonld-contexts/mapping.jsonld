@@ -4,6 +4,7 @@
 		"MqttBridge": "https://ontology.eglobalmark.com/MqttBridge",
 
 		"attributes": "https://ontology.eglobalmark.com/attributes",
+		"attribute": "https://ontology.eglobalmark.com/attribute",
 		"attributeDatasetId": "https://ontology.eglobalmark.com/attributeDatasetId",
 		"deviceId": "https://ontology.eglobalmark.com/deviceId",
 		"context": "https://ontology.eglobalmark.com/context",
