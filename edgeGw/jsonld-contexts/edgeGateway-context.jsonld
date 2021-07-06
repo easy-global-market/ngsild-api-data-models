@@ -1,5 +1,6 @@
 {
    "@context":{
+      "alpr_calls": "https://ontology.eglobalmark.com/edgeGw#alpr_calls",
       "uptime": "https://ontology.eglobalmark.com/edgeGw#uptime",
       "cpu_temp": "https://ontology.eglobalmark.com/edgeGw#cpu_temp",
       "cpu_power": "https://ontology.eglobalmark.com/edgeGw#cpu_power",
