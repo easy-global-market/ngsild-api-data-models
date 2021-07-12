@@ -1,0 +1,274 @@
+[
+    [
+        {
+            "bt": 1625833671,
+            "bn": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a:"
+        },
+        {
+            "n": "batteryLevel",
+            "u": "C62",
+            "vs": "High"
+        },
+        {
+            "n": "HW_Fault_mode",
+            "u": "C62",
+            "vs": "non activated"
+        },
+        {
+            "n": "Frame_Index",
+            "u": "count",
+            "v": 4
+        },
+        {
+            "n": "Product_hours_meter_per_month",
+            "u": "count",
+            "v": 10.0
+        },
+        {
+            "n": "CO2_autocalibration_value_ppm",
+            "u": "59",
+            "v": 100
+        },
+        {
+            "n": "Product_date",
+            "u": "C62",
+            "vs": "21-7-84 15:33"
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -80.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 7.8
+        }
+    ],
+    [
+        {
+            "bt": 1625833649,
+            "bn": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a:"
+        },
+        {
+            "n": "CO2_concentration",
+            "u": "52",
+            "v": 320.0
+        },
+        {
+            "n": "CO2_threshold_1",
+            "u": "C62",
+            "vs": "reached"
+        },
+        {
+            "n": "CO2_threshold_2",
+            "u": "C62",
+            "vs": "not_reached"
+        },
+        {
+            "n": "Frame_Index",
+            "u": "count",
+            "v": 4
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -97.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 7.0
+        }
+    ],
+    [
+        {
+            "bt": 1625833636,
+            "bn": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a:"
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "v": 25.0
+        },
+        {
+            "n": "Temperature_threshold_1",
+            "u": "C62",
+            "vs": "not_reached"
+        },
+        {
+            "n": "Temperature_threshold_2",
+            "u": "C62",
+            "vs": "reached"
+        },
+        {
+            "n": "Frame_Index",
+            "u": "count",
+            "v": 4
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -97.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 7.0
+        }
+    ],
+    [
+        {
+            "bt": 1625832674,
+            "bn": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a:"
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "v": 240
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "t": -600,
+            "v": 240
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "t": -1200,
+            "v": 240.0
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "v": 47
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "t": -600,
+            "v": 45.5
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "t": -1200,
+            "v": 45.5
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "v": 25.2
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "t": -600,
+            "v": 25
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "t": -1200,
+            "v": 25.0
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "t": -1200,
+            "v": 25.0
+        },
+        {
+            "n": "Frame_Index",
+            "u": "count",
+            "v": 5
+        },
+        {
+            "n": "Time_between_measurements_in_minutes",
+            "u": "min",
+            "v": 10
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -92.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 7.5
+        }
+    ],
+    [
+        {
+            "bt": 1625831474,
+            "bn": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a:"
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "v": 240.0
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "v": 45.5
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "v": 25.0
+        },
+        {
+            "n": "iaq_global",
+            "u": "C62",
+            "vs": "Excellent"
+        },
+        {
+            "n": "iaq_src",
+            "u": "C62",
+            "vs": "All"
+        },
+        {
+            "n": "iaq_co2",
+            "u": "C62",
+            "vs": "Excellent"
+        },
+        {
+            "n": "iaq_dry",
+            "u": "C62",
+            "vs": "Excellent"
+        },
+        {
+            "n": "iaq_mloud",
+            "u": "C62",
+            "vs": "Excellent"
+        },
+        {
+            "n": "iaq_dm",
+            "u": "C62",
+            "vs": "Excellent"
+        },
+        {
+            "n": "iaq_hci",
+            "u": "C62",
+            "vs": "Good"
+        },
+        {
+            "n": "Frame_Index",
+            "u": "count",
+            "v": 2
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -92.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 8.5
+        }
+    ]
+]

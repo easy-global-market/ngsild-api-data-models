@@ -1,0 +1,12 @@
+{
+   "@context": {
+      "Room": "https://uri.fiware.org/ns/data-models#Room",
+
+      "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
+      "co2Concentration": "https://uri.fiware.org/ns/data-models#co2Concentration",
+      "co2Alarm": "https://uri.fiware.org/ns/data-models#co2Alarm",
+      "temperatureAlarm": "https://uri.fiware.org/ns/data-models#temperatureAlarm",
+      "voc": "https://uri.fiware.org/ns/data-models#voc",
+      "loraSNR": "https://uri.fiware.org/ns/data-models#loraSNR" 
+   }
+}
