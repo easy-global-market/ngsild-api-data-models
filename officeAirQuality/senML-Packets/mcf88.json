@@ -1,0 +1,109 @@
+[
+    [
+        {
+            "bt": 1625663837,
+            "bn": "urn:dev:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6:"
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "v": 495.0
+        },
+        {
+            "n": "co2",
+            "u": "59",
+            "t": 906.0,
+            "v": 487.0
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "v": 54.5
+        },
+        {
+            "n": "humidity",
+            "u": "%RH",
+            "t": 906.0,
+            "v": 54.5
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "v": 27.76
+        },
+        {
+            "n": "temperature",
+            "u": "Cel",
+            "t": 906.0,
+            "v": 27.88
+        },
+        {
+            "n": "illuminance",
+            "u": "lx",
+            "v": 91.0
+        },
+        {
+            "n": "illuminance",
+            "u": "lx",
+            "t": 906.0,
+            "v": 91.0
+        },
+        {
+            "n": "atmosphericpressure",
+            "u": "Pa",
+            "v": 99616.0
+        },
+        {
+            "n": "atmosphericpressure",
+            "u": "Pa",
+            "t": 906.0,
+            "v": 99622.0
+        },
+        {
+            "n": "voc",
+            "u": "52",
+            "v": 25.0
+        },
+        {
+            "n": "voc",
+            "u": "52",
+            "t": 906.0,
+            "v": 25.0
+        },
+        {
+            "n": "batteryLevel",
+            "u": "%",
+            "v": 100
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -67.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 8.0
+        }
+    ],
+    [
+        {
+            "bt": 1625848860,
+            "bn": "urn:dev:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6:"
+        },
+        {
+            "n": "timesyncid",
+            "vs": -1101759704
+        },
+        {
+            "n": "rssi",
+            "u": "dB",
+            "v": -84.0
+        },
+        {
+            "n": "lorasnr",
+            "u": "dB",
+            "v": 10.2
+        }
+    ]
+]

@@ -1,0 +1,249 @@
+[
+    {
+        "deviceId": "urn:dev:qai:elsys:ers02:lora:a81758fffe0623e2",
+        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "attributes": [
+            {
+                "objectId": "co2",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2:elsys"
+            },
+            {
+                "objectId": "humidity",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "humidity",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:humidity:elsys"
+            },
+            {
+                "objectId": "temperature",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "temperature",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:temperature:elsys"
+            },
+            {
+                "objectId": "motion",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "motion",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:motion:elsys"
+            },
+            {
+                "objectId": "illuminance",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "illuminance",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:illuminance:elsys"
+            },
+            {
+                "objectId": "batteryVoltage",
+                "entityId": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2",
+                "entityType": "Device",
+                "attributeName": "batteryVoltage",
+                "type": "Integer"
+            },
+            {
+                "objectId": "rssi",
+                "entityId": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2",
+                "entityType": "Device",
+                "attributeName": "rssi",
+                "type": "Integer"
+            },
+            {
+                "objectId": "lorasnr",
+                "entityId": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2",
+                "entityType": "Device",
+                "attributeName": "loraSNR",
+                "type": "Integer"
+            }
+        ]
+    },
+    {
+        "deviceId": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a",
+        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "attributes": [
+            {
+                "objectId": "co2",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2:nexelec"
+            },
+            {
+                "objectId": "CO2_concentration",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2Concentration",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2Concentration:nexelec"
+            },
+            {
+                "objectId": "CO2_threshold_1",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2Alarme",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2Alarm:01:nexelec"
+            },
+            {
+                "objectId": "CO2_threshold_2",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2Alarme",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2Alarm:02:nexelec"
+            },
+            {
+                "objectId": "humidity",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "humidity",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:humidity:nexelec"
+            },
+            {
+                "objectId": "temperature",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "temperature",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:humidity:nexelec"
+            },
+            {
+                "objectId": "Temperature_threshold_1",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "temperatureAlarm",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:temperatureAlarm:01:nexelec"
+            },
+            {
+                "objectId": "Temperature_threshold_2",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "temperatureAlarm",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:temperatureAlarm:02:nexelec"
+            },
+            {
+                "objectId": "batteryLevel",
+                "entityId": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a",
+                "entityType": "Device",
+                "attributeName": "batteryLevel",
+                "type": "Integer"
+            },
+            {
+                "objectId": "HW_Fault_mode",
+                "entityId": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a",
+                "entityType": "Device",
+                "attributeName": "status",
+                "type": "Integer"
+            },
+            {
+                "objectId": "Frame_Index",
+                "entityId": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a",
+                "entityType": "Device",
+                "attributeName": "frameIndex",
+                "type": "Integer"
+            },
+            {
+                "objectId": "rssi",
+                "entityId": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a",
+                "entityType": "Device",
+                "attributeName": "rssi",
+                "type": "Integer"
+            },
+            {
+                "objectId": "lorasnr",
+                "entityId": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a",
+                "entityType": "Device",
+                "attributeName": "loraSNR",
+                "type": "Integer"
+            }
+        ]
+    },
+    {
+        "deviceId": "urn:dev:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6",
+        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "attributes": [
+            {
+                "objectId": "co2",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "co2",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:co2:mcf88"
+            },
+            {
+                "objectId": "humidity",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "humidity",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:humidity:mcf88"
+            },
+            {
+                "objectId": "temperature",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "temperature",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:temperature:mcf88"
+            },
+            {
+                "objectId": "illuminance",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "illuminance",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:illuminance:mcf88"
+            },
+            {
+                "objectId": "atmosphericpressure",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "atmosphericPressure",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:atmosphericPressure:mcf88"
+            },
+            {
+                "objectId": "voc",
+                "entityId": "urn:ngsi-ld:Room:openSpaceEGM",
+                "entityType": "Room",
+                "attributeName": "voc",
+                "type": "Integer",
+                "datasetId": "urn:ngsi-ld:Dataset:voc:mcf88"
+            },
+            {
+                "objectId": "rssi",
+                "entityId": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6",
+                "entityType": "Device",
+                "attributeName": "rssi",
+                "type": "Integer"
+            },
+            {
+                "objectId": "lorasnr",
+                "entityId": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6",
+                "entityType": "Device",
+                "attributeName": "loraSNR",
+                "type": "Integer"
+            },
+            {
+                "objectId": "batteryLevel",
+                "entityId": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6",
+                "entityType": "Device",
+                "attributeName": "batteryLevel",
+                "type": "Integer"
+            }
+        ]
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "bt": 1625835592,
+        "bn": "urn:dev:qai:elsys:ers02:lora:a81758fffe0623e2:"
+    },
+    {
+        "n": "co2",
+        "u": "59",
+        "v": 430
+    },
+    {
+        "n": "humidity",
+        "u": "%RH",
+        "v": 49.0
+    },
+    {
+        "n": "temperature",
+        "u": "Cel",
+        "v": 25.5
+    },
+    {
+        "n": "light",
+        "u": "lx",
+        "v": 117.0
+    },
+    {
+        "n": "motion",
+        "u": "count",
+        "v": 0
+    },
+    {
+        "n": "batteryVoltage",
+        "u": "V",
+        "v": 3.627
+    },
+    {
+        "n": "rssi",
+        "u": "dB",
+        "v": -74.0
+    },
+    {
+        "n": "lorasnr",
+        "u": "dB",
+        "v": 9.8
+    }
+]
