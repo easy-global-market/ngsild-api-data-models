@@ -228,7 +228,7 @@
             }
         ],
         "@context": [
-            "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
         ]
     },
     {
@@ -251,7 +251,7 @@
             "observedAt": "2020-06-26T00:00:00Z"
         },
         "@context": [
-            "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
         ]
     },
     {
@@ -284,7 +284,7 @@
             "observedAt": "2020-06-26T00:00:00Z"
         },
         "@context": [
-            "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
         ]
     },
     {
@@ -307,7 +307,7 @@
             "observedAt": "2020-06-26T00:00:00Z"
         },
         "@context": [
-            "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
         ]
     }
 ]
