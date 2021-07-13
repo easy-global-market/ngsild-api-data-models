@@ -1,7 +1,7 @@
 [
     {
         "deviceId": "urn:dev:qai:elsys:ers02:lora:a81758fffe0623e2",
-        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld",
         "attributes": [
             {
                 "objectId": "co2",
@@ -68,7 +68,7 @@
     },
     {
         "deviceId": "urn:dev:qai:nexelec:carbon:lora:70b3d540f352242a",
-        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld",
         "attributes": [
             {
                 "objectId": "co2",
@@ -173,7 +173,7 @@
     },
     {
         "deviceId": "urn:dev:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6",
-        "context": "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld",
         "attributes": [
             {
                 "objectId": "co2",
