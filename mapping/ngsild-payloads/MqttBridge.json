@@ -16,7 +16,7 @@
       "type": "Property",
       "value": "8383"
    },
-   "qoS": {
+   "qos": {
       "type": "Property",
       "value": "01"
    },
