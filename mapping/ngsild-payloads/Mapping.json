@@ -21,6 +21,10 @@
             "type": "Property",
             "value": "temperature(NGSI-LD Property Name)"
          },
+         "attributeValueType": {
+            "type": "Property",
+            "value": "float"
+         },
          "entityType": {
             "type": "Property",
             "value": "Room"
