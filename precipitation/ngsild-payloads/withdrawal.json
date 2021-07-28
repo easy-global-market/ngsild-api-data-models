@@ -1,0 +1,53 @@
+{
+    "id": "urn:ngsi-ld:WaterWithdrawal:City",
+    "type": "Withdrawal",
+    "withdrawal": [
+        {
+           "type": "Property",
+           "observedBy": {
+              "type": "Relationship",
+              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+           },
+           "value": 0.0,
+           "observedAt": "2020-12-01T00:00:00Z",
+           "datasetId": "urn:ngsi-ld:Dataset:withdrawal:LTR:OPR0000144308"
+        }
+     ],
+     "withdrawalObtentionMode": [
+        {
+           "type": "Property",
+           "observedBy": {
+              "type": "Relationship",
+              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+           },
+           "value": "Volume Forfaitaire",
+           "observedAt": "2020-12-01T00:00:00Z",
+           "datasetId": "urn:ngsi-ld:Dataset:withdrawal:LTR:OPR0000144308"
+        }
+     ],
+     "waterUse": [
+        {
+           "type": "Property",
+           "observedBy": {
+              "type": "Relationship",
+              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+           },
+           "value": "IRR",
+           "observedAt": "2020-12-01T00:00:00Z",
+           "datasetId": "urn:ngsi-ld:Dataset:withdrawal:LTR:OPR0000144308"
+        }
+     ],
+     "withdrawalQualification": [
+        {
+           "type": "Property",
+           "observedBy": {
+              "type": "Relationship",
+              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+           },
+           "value": "Correcte",
+           "observedAt": "2020-12-01T00:00:00Z",
+           "datasetId": "urn:ngsi-ld:Dataset:withdrawal:LTR:OPR0000144308"
+        }
+     ],
+    "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+ }
