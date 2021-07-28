@@ -40,9 +40,9 @@
          "subAttribute1": {
             "type": "Property",
             "value": {
-               "objectId": "realibilitySenML",
+               "objectId": "reliabilitySenML",
                "attributeValueType": "integer",
-               "attribute": "realibilityNgsiLd"
+               "attribute": "reliabilityNgsiLd"
             }
          },
          "datasetId": "urn:ngsi-ld:Dataset:attribute:01"
