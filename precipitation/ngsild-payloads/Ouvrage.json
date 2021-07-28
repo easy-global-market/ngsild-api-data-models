@@ -1,0 +1,32 @@
+{
+    "id": "urn:ngsi-ld:Device:OuvrageOPR0000144308",
+    "type": "Device",
+    "stationCode": {
+        "type": "Property",
+        "value": "OPR0000144308"
+    },
+    "commune": {
+        "type": "Property",
+        "value": "Mons"
+    },
+    "name": {
+        "type": "Property",
+        "value": "SOURCE DE LA SIAGNE"
+    },
+    "departement": {
+        "type": "Property",
+        "value": "83"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coodinates": [
+                43.589577424,
+                6.92766681
+            ]
+        },  
+        "@context": [
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+        ]
+    }
