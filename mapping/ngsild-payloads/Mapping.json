@@ -37,6 +37,14 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Room:01"
          },
+         "subAttribute1": {
+            "type": "Property",
+            "value": {
+               "objectId": "realibilitySenML",
+               "attributeValueType": "integer",
+               "attribute": "realibilityNgsiLd"
+            }
+         },
          "datasetId": "urn:ngsi-ld:Dataset:attribute:01"
       }
    ],
