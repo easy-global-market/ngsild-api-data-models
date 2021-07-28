@@ -2,7 +2,6 @@
     "@context":{
        "MLModel": "https://uri.fiware.org/ns/data-models#MLModel",
        "MLProcessing": "https://uri.fiware.org/ns/data-models#MLProcessing",
-       "SubscriptionQuery": "https://uri.fiware.org/ns/data-models#SubscriptionQuery",
        "WaterConsumption": "https://uri.fiware.org/ns/data-models#WaterConsumption",
        "acceptableDataTypes": "https://uri.fiware.org/ns/data-models#acceptableDataTypes",
        "algorithm": "https://uri.fiware.org/ns/data-models#algorithm",
@@ -20,7 +19,7 @@
        "outputAttributes": "https://uri.fiware.org/ns/data-models#outputAttributes",
        "outputDataTypes": "ttps://uri.fiware.org/ns/data-models#outputDataTypes",
        "refMLModel": "https://uri.fiware.org/ns/data-models#refMLModel",
-       "refSubscriptionQuery": "https://uri.fiware.org/ns/data-models#refSubscriptionQuery",
+       "subscriptionData": "https://uri.fiware.org/ns/data-models#subscriptionData",
        "version": "https://uri.fiware.org/ns/data-models#version"
     }
 }
