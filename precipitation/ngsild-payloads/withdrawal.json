@@ -1,48 +1,47 @@
 {
     "id": "urn:ngsi-ld:WaterWithdrawal:City",
-    "type": "Withdrawal",
+    "type": "WaterWithdrawal",
     "withdrawal": [
         {
            "type": "Property",
            "observedBy": {
               "type": "Relationship",
-              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+              "object": "urn:ngsi-ld:Structure:OPR0000144308"
            },
            "value": 0.0,
            "observedAt": "2020-12-01T00:00:00Z",
-        }
-     ],
-     "withdrawalObtentionMode": [
+           "datasetId": "urn:ngsi-ld:Dataset:Volume:LTR:APIX"
+        },
         {
-           "type": "Property",
-           "observedBy": {
-              "type": "Relationship",
-              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
-           },
-           "value": "Volume Forfaitaire",
-           "observedAt": "2020-12-01T00:00:00Z",
-        }
+         "type": "Property",
+         "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Structure:OPR0000144308"
+         },
+         "value": "Correcte",
+         "observedAt": "2020-12-01T00:00:00Z",
+         "datasetId": "urn:ngsi-ld:Dataset:WithdrawalQualification:APIX"
+      },
+      {
+         "type": "Property",
+         "observedBy": {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Structure:OPR0000144308"
+         },
+         "value": "Volume Forfaitaire",
+         "observedAt": "2020-12-01T00:00:00Z",
+         "datasetId": "urn:ngsi-ld:Dataset:WithdrawalType:APIX"
+      }
      ],
      "waterUse": [
         {
            "type": "Property",
            "observedBy": {
               "type": "Relationship",
-              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
+              "object": "urn:ngsi-ld:Structure:OPR0000144308"
            },
            "value": "IRR",
-           "observedAt": "2020-12-01T00:00:00Z",
-        }
-     ],
-     "withdrawalQualification": [
-        {
-           "type": "Property",
-           "observedBy": {
-              "type": "Relationship",
-              "object": "urn:ngsi-ld:Device:OuvrageOPR0000144308"
-           },
-           "value": "Correcte",
-           "observedAt": "2020-12-01T00:00:00Z",
+           "observedAt": "2020-12-01T00:00:00Z"
         }
      ],
     "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
