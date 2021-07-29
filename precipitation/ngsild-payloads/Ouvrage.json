@@ -3,12 +3,12 @@
     "type": "Structure",
     "stationCode": {
         "type": "Property",
-        "refCity": {
+        "value": "OPR0000144308"
+    },    
+    "refCity": {
             "type": "Relationship",
             "object": "urn:ngsi-ld:City:Mons"
-         },
-        "value": "OPR0000144308"
-    },
+     }
     "town": {
         "type": "Property",
         "value": "Mons"
