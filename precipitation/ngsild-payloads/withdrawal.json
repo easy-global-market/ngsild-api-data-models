@@ -1,20 +1,27 @@
 {
-    "id": "urn:ngsi-ld:WaterWithdrawal:City",
+    "id": "urn:ngsi-ld:WaterWithdrawal:OPR0000144308",
     "type": "WaterWithdrawal",
+    "refCity": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:City:Mons"
+  },
     "withdrawal": {
       "type": "Property",
       "value": 0.0,
+      "observedAt": "2020-01-01T00:00:00Z",
       "observedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Structure:OPR0000144308"
       },
       "qualification": {
         "type": "Property",
-        "value": "Correcte"
+        "value": "Correcte",
+        "observedAt": "2020-01-01T00:00:00Z"
       },
       "withdrawalType": {
         "type": "Property",
-        "value": "Volume Forfaitaire"
+        "value": "Volume Forfaitaire",
+        "observedAt": "2020-01-01T00:00:00Z"
       }
     },
      "waterUse": [
@@ -25,7 +32,7 @@
               "object": "urn:ngsi-ld:Structure:OPR0000144308"
            },
            "value": "IRR",
-           "observedAt": "2020-12-01T00:00:00Z"
+           "observedAt": "2020-01-01T00:00:00Z"
         }
      ],
     "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
