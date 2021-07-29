@@ -1,10 +1,6 @@
 {
     "id": "urn:ngsi-ld:WaterWithdrawal:OPR0000144308",
     "type": "WaterWithdrawal",
-    "refCity": {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:City:Mons"
-  },
     "withdrawal": {
       "type": "Property",
       "value": 0.0,
