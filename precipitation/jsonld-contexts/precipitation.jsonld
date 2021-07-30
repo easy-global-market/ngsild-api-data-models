@@ -32,6 +32,13 @@
         "oxygen":"https://uri.fiware.org/ns/data-models#oxygen",
         "phosphate":"https://uri.fiware.org/ns/data-models#phosphate",
         "phytoplankton":"https://uri.fiware.org/ns/data-models#phytoplankton",
-        "silicate":"https://uri.fiware.org/ns/data-models#silicate"
+        "silicate":"https://uri.fiware.org/ns/data-models#silicate",
+        "district":"https://uri.fiware.org/ns/data-models#district",
+        "name":"https://uri.fiware.org/ns/data-models#name",
+        "state":"https://uri.fiware.org/ns/data-models#state",
+        "withdrawal":"https://uri.fiware.org/ns/data-models#withdrawal",
+        "qualification":"https://uri.fiware.org/ns/data-models#qualification",
+        "withdrawalType":"https://uri.fiware.org/ns/data-models#withdrawalType",
+        "waterUse":"https://uri.fiware.org/ns/data-models#waterUse"
     }
 }
