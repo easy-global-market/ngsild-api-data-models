@@ -1,0 +1,31 @@
+{
+    "id": "urn:ngsi-ld:WaterWithdrawal:OPR0000144308",
+    "type": "WaterWithdrawal",
+    "takenFrom": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Structure:OPR0000144308"
+    },
+    "withdrawal": {
+      "type": "Property",
+      "value": 0.0,
+      "observedAt": "2020-01-01T00:00:00Z",
+      "qualification": {
+        "type": "Property",
+        "value": "Correcte",
+        "observedAt": "2020-01-01T00:00:00Z"
+      },
+      "withdrawalType": {
+        "type": "Property",
+        "value": "Volume Forfaitaire",
+        "observedAt": "2020-01-01T00:00:00Z"
+      }
+    },
+     "waterUse": [
+        {
+           "type": "Property",
+           "value": "IRR",
+           "observedAt": "2020-01-01T00:00:00Z"
+        }
+     ],
+    "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+ }

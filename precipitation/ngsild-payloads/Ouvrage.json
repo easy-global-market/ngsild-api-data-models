@@ -1,0 +1,37 @@
+{
+    "id": "urn:ngsi-ld:Structure:OPR0000144308",
+    "type": "Structure",
+    "stationCode": {
+        "type": "Property",
+        "value": "OPR0000144308"
+    },
+    "refCity": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:City:Mons"
+     },
+    "district": {
+        "type": "Property",
+        "value": "Mons"
+    },
+    "name": {
+        "type": "Property",
+        "value": "SOURCE DE LA SIAGNE"
+    },
+    "state": {
+        "type": "Property",
+        "value": "83"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coodinates": [
+                43.589577424,
+                6.92766681
+            ]
+        } 
+    },
+        "@context": [
+            "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+        ]
+    }
