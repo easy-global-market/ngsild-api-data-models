@@ -5,7 +5,7 @@
       "type": "Property",
       "value": 0.0,
       "observedAt": "2020-01-01T00:00:00Z",
-      "observedBy": {
+      "relationship": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Structure:OPR0000144308"
       },
