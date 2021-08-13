@@ -19,11 +19,10 @@
         "unitCode": "P1",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:cloud:P1:APIX",
-        "timeInterval": {
-        "type": "Property",
-        "value": 15,
-        "unitCode": "MIN"
-    }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "feelLikesTemperature": [
@@ -33,11 +32,10 @@
         "unitCode": "CEL",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:feelLikesTemperature:CEL:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "humidity": [
@@ -47,11 +45,10 @@
         "unitCode": "P1",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:humidity:P1:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "precipitation": [
@@ -61,6 +58,10 @@
         "unitCode": "MM",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:precipitation:MM:APIX",
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+        },
         "timeInterval": {
             "type": "Property",
             "value": 15,
@@ -75,11 +76,10 @@
         "unitCode": "MBR",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:atmosphericPressure:MBR:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "temperature": [
@@ -89,11 +89,10 @@
         "unitCode": "CEL",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:temperature:CEL:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "uVIndexMax": [
@@ -102,11 +101,10 @@
         "value": 2,
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:uVIndexMax:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "visibility": [
@@ -116,11 +114,10 @@
         "unitCode": "KM",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:visibility:KM:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "windDirection": [
@@ -130,11 +127,10 @@
         "unitCode": "DEG",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:windDirection:DEG:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "windSpeed": [
@@ -144,11 +140,10 @@
         "unitCode": "KMH",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:gust:KMH:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     },
     {
         "type": "Property",
@@ -156,11 +151,10 @@
         "unitCode": "KMH",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:wind:KMH:AVG:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
 "weatherType": [
@@ -169,11 +163,10 @@
         "value": "Sunny",
         "observedAt": "2020-06-26T00:00:00Z",
         "datasetId": "urn:ngsi-ld:Dataset:weatherType:APIX",
-        "timeInterval": {
-            "type": "Property",
-            "value": 15,
-            "unitCode": "MIN"
-        }
+        "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:DataSource:APIX"
+            }
     }
 ],
   "@context": [
