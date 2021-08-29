@@ -2,6 +2,6 @@
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/data-models/master/context.jsonld",
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
     ]
 }

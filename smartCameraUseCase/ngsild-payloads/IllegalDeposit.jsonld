@@ -22,7 +22,7 @@
         "value": "Wood"
     },
     "@context": [
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/smartCameraUseCase/jsonld-contexts/smartCamera-context.jsonld"
     ]
 }
