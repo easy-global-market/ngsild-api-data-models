@@ -11,6 +11,7 @@
 		"rCanAdmin": "https://ontology.eglobalmark.com/authorization#rCanAdmin",
 		"Group": "https://ontology.eglobalmark.com/authorization#Group",
 		"User": "https://ontology.eglobalmark.com/authorization#User",
-		"Client": "https://ontology.eglobalmark.com/authorization#Client"
+		"Client": "https://ontology.eglobalmark.com/authorization#Client",
+		"specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
 	}
 }

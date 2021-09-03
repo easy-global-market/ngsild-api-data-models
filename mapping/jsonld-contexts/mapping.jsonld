@@ -19,7 +19,6 @@
 		"qoS": "https://ontology.eglobalmark.com/qoS",
 		"subAttribute1": "https://ontology.eglobalmark.com/subAttribute1",
 		"subAttribute2": "https://ontology.eglobalmark.com/subAttribute2",
-		"subAttribute3": "https://ontology.eglobalmark.com/subAttribute3",
-		"specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
+		"subAttribute3": "https://ontology.eglobalmark.com/subAttribute3"
 	}
 }
