@@ -1,7 +1,7 @@
 {
 	"@context": {
 		"Mapping": "https://ontology.eglobalmark.com/Mapping",
-		"MqttBridge": "https://ontology.eglobalmark.com/MqttBridge",
+		"Bridge": "https://ontology.eglobalmark.com/Bridge",
 
 		"attributes": "https://ontology.eglobalmark.com/attributes",
 		"attribute": "https://ontology.eglobalmark.com/attribute",
@@ -19,6 +19,7 @@
 		"qoS": "https://ontology.eglobalmark.com/qoS",
 		"subAttribute1": "https://ontology.eglobalmark.com/subAttribute1",
 		"subAttribute2": "https://ontology.eglobalmark.com/subAttribute2",
-		"subAttribute3": "https://ontology.eglobalmark.com/subAttribute3"
+		"subAttribute3": "https://ontology.eglobalmark.com/subAttribute3",
+		"specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
 	}
 }
