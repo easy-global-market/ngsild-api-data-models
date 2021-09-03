@@ -12,6 +12,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "co2 measure from the elsys Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:co2:elsys"
             },
             {
@@ -23,6 +27,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "co2 measure from the nexelec Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:co2:nexelec"
             },
             {
@@ -33,6 +41,10 @@
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "co2 measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:co2:mcf88"
             }
@@ -47,6 +59,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "co2Concentration measure from the nexelec Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:co2Concentration:nexelec"
             }
         ],
@@ -59,6 +75,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "alarm activated if value of co2>.. from nexelec device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:co2Alarm:01:nexelec"
             },
             {
@@ -68,6 +88,10 @@
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "alarm activated if value of co2>.. from nexelec device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:co2Alarm:02:nexelec"
             }
@@ -82,6 +106,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "humidity measure from the elsys Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:humidity:elsys"
             },
             {
@@ -93,6 +121,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "humidity measure from the nexelec Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:humidity:nexelec"
             },
             {
@@ -103,6 +135,10 @@
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "humidity measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:humidity:mcf88"
             }
@@ -117,6 +153,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "temperature measure from the elsys Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:temperature:elsys"
             },
             {
@@ -128,6 +168,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "temperature measure from the nexelec Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:temperature:nexelec"
             },
             {
@@ -138,6 +182,10 @@
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "temperature measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:temperature:mcf88"
             }
@@ -151,6 +199,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "alarm is activated if value of co2>.. from nexelec device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:temperatureAlarm:01:nexelec"
             },
             {
@@ -161,6 +213,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:nexelec:carbon:lora:70b3d540f352242a"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "alarm is activated if value of co2>.. from nexelec device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:temperatureAlarm:02:nexelec"
             }
         ],
@@ -168,11 +224,15 @@
             {
                 "type": "Property",
                 "value": 10,
-                "unitCode": "LX",
+                "unitCode": "LUX",
                 "observedAt": "2020-06-26T00:00:00Z",
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "illuminance measure from the elsys Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:illuminance:elsys"
             },
@@ -184,6 +244,10 @@
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "illuminance measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:illuminance:mcf88"
             }
@@ -198,6 +262,10 @@
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:elsys:ers02:lora:a81758fffe0623e2"
                 },
+                "description": {
+                    "type": "Property",
+                    "value": "illuminance measure from the elsys Device"
+                },
                 "datasetId": "urn:ngsi-ld:Dataset:motion:elsys"
             }
         ],
@@ -205,11 +273,15 @@
             {
                 "type": "Property",
                 "value": 10,
-                "unitCode": "Pa",
+                "unitCode": "PAL",
                 "observedAt": "2020-06-26T00:00:00Z",
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "Atmospheric Pressure measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:atmosphericPressure:mcf88"
             }
@@ -218,11 +290,15 @@
             {
                 "type": "Property",
                 "value": 10,
-                "unitCode": "52",
+                "unitCode": "61",
                 "observedAt": "2020-06-26T00:00:00Z",
                 "observedBy": {
                     "type": "Relationship",
                     "object": "urn:ngsi-ld:Device:qai:mcf88:lw12voc:lora:70b3d58ff1013ea6"
+                },
+                "description": {
+                    "type": "Property",
+                    "value": "voc measure from the mcf88 Device"
                 },
                 "datasetId": "urn:ngsi-ld:Dataset:voc:mcf88"
             }
@@ -237,18 +313,32 @@
         "loraSNR": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "unitCode": "2N",
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "voc measure of the elsys Device"
+            }
         },
         "rssi": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "unitCode": "DBM",
+            "description": {
+                "type": "Property",
+                "value": "rssi measure of the elsys Device"
+            }
         },
         "batteryVoltage": {
             "type": "Property",
             "value": 10,
             "unitCode": "VLT",
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "Battery Voltage measure of the elsys Device"
+            }
         },
         "@context": [
             "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
@@ -261,27 +351,49 @@
             "type": "Property",
             "value": 10,
             "unitCode": "P1",
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "Battery Level measure of the nexelec Device"
+            }
         },
         "status": {
             "type": "Property",
             "value": "off",
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "status of the nexelec Device"
+            }
         },
         "frameIndex": {
             "type": "Property",
             "value": "off",
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "frameIndex of the nexelec Device"
+            }
         },
         "loraSNR": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "unitCode": "2N",
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "loraSNR of the nexelec Device"
+            }
         },
         "rssi": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "unitCode": "DBM",
+            "description": {
+                "type": "Property",
+                "value": "rssi of the nexelec Device"
+            }
         },
         "@context": [
             "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
@@ -294,17 +406,31 @@
             "type": "Property",
             "value": 10,
             "unitCode": "P1",
-            "observedAt": "2020-06-26T00:00:00Z"
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "Battery Level of the mcf88 Device"
+            }
         },
         "loraSNR": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "unitCode": "2N",
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "loraSNR of the mcf88 Device"
+            }
         },
         "rssi": {
             "type": "Property",
             "value": 10,
-            "observedAt": "2020-06-26T00:00:00Z"
+            "unitCode": "DBM",
+            "observedAt": "2020-06-26T00:00:00Z",
+            "description": {
+                "type": "Property",
+                "value": "rssi of the mcf88 Device"
+            }
         },
         "@context": [
             "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld"
