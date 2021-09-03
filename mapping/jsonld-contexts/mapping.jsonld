@@ -1,7 +1,7 @@
 {
 	"@context": {
 		"Mapping": "https://ontology.eglobalmark.com/Mapping",
-		"MqttBridge": "https://ontology.eglobalmark.com/MqttBridge",
+		"Bridge": "https://ontology.eglobalmark.com/Bridge",
 
 		"attributes": "https://ontology.eglobalmark.com/attributes",
 		"attribute": "https://ontology.eglobalmark.com/attribute",
