@@ -5,6 +5,7 @@
         "Farm": "https://uri.fiware.org/ns/data-models#Farm",
         "Gateway": "https://uri.fiware.org/ns/data-models#Gateway",
         "Organization":"https://uri.fiware.org/ns/data-models#Organization",
+        "Sump":"https://uri.fiware.org/ns/data-models#Sump",
         
         "ammonia": "https://uri.fiware.org/ns/data-models#ammonia",
         "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
