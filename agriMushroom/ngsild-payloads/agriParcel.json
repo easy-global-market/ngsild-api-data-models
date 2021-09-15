@@ -1,0 +1,25 @@
+{
+    "id": "urn:ngsi-ld:AgriParcel:Pilze:locationName",
+    "type": "AgriParcel",
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    "cropStatus": {
+        "type": "Property",
+        "value": "seeded"
+    },
+    "lastPlantedAt": {
+        "type": "Property",
+        "value": "2020-01-25T00:00:00+01:00"
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
+    ]
+}
