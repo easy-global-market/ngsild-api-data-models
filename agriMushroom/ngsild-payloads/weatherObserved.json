@@ -1,0 +1,63 @@
+{
+    "id": "urn:ngsi-ld:WeatherObserved:hungary:kecskemét",
+    "type": "WeatherObserved",
+    "atmosphericPressure": {
+        "type": "Property",
+        "value": 1031,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "MBR"
+    },
+    "cloud": {
+        "type": "Property",
+        "value": 20,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "P1"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                0.0,
+                0.0
+            ]
+        }
+    },
+    "dataProvider": {
+        "type": "Property",
+        "value": "OpenWeatherMap.Org"
+    },
+    "precipitation": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "MM"
+    },
+    "relativeHumidity": {
+        "type": "Property",
+        "value": 97,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "P1"
+    },
+    "temperature": {
+        "type": "Property",
+        "value": -2.63,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "CEL"
+    },
+    "windDirection": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "DEG"
+    },
+    "windSpeed": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "2020-01-01T00:00:00Z",
+        "unitCode": "MTS"
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
+    ]
+}

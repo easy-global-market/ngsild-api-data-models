@@ -1,0 +1,13 @@
+{
+    "id": "urn:ngsi-ld:AgriCropRecord:Pilze:b2b733c7-798e-4d31-8a15-f96117220a74",
+    "type": "AgriCropRecord",
+    "harvestWeight": {
+        "type": "Property",
+        "value": 78.2,
+        "observedAt": "2020-03-02T23:00:00Z",
+        "unitCode": "KGM"
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
+    ]
+}
