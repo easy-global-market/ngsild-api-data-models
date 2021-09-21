@@ -11,11 +11,11 @@
             ]
         }
     },
-    "cropStatus": {
+    "https://uri.fiware.org/ns/data-models#cropStatus": {
         "type": "Property",
         "value": "seeded"
     },
-    "lastPlantedAt": {
+    "https://uri.fiware.org/ns/data-models#lastPlantedAt": {
         "type": "Property",
         "value": "2020-01-25T00:00:00+01:00"
     },
