@@ -1,0 +1,27 @@
+{
+    "id": "urn:ngsi-ld:AgriParcelRecord:Pilze:locationName",
+    "type": "AgriParcelRecord",
+    "relativeHumidity": {
+        "type": "Property",
+        "value": "0.3",
+        "observedAt": "2021-10-12T10:49:26.450113+02:00",
+        "unitCode": "P1"
+    },
+    "temperature": {
+        "type": "Property",
+        "value": "17.2",
+        "observedAt": "2021-10-12T10:49:26.450113+02:00",
+        "unitCode": "CEL"
+    },
+    "co2": {
+        "type": "Property",
+        "value": "444",
+        "observedAt": "2021-10-12T10:49:26.450113+02:00",
+        "unitCode": "59"
+    },
+    "hasAgriParcel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:AgriParcel:Pilze:locationName"
+    },
+    "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
+}
