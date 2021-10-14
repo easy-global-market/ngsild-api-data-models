@@ -7,14 +7,22 @@
             "value": 0.3,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "P1",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317e:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:01:relativeHumidity",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317d"
+            }
         },
         {
             "type": "Property",
             "value": 0.35,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "P1",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317d:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:02:relativeHumidity",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317e"
+            }
         }
     ],
     "temperature": [
@@ -23,14 +31,22 @@
             "value": 17.2,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "CEL",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317e:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:01:temperature",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317d"
+            }
         },
         {
             "type": "Property",
             "value": 15.9,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "CEL",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317d:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:02:temperature",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317e"
+            }
         }
     ],
     "co2": [
@@ -39,14 +55,22 @@
             "value": 444,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "59",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317e:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:01:co2",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317d"
+            }
         },
         {
             "type": "Property",
             "value": 555,
             "observedAt": "2021-10-12T10:49:26.450113+02:00",
             "unitCode": "59",
-            "datasetid": "urn:dev:qai:elsys:ers02:lora:a81758fffe06317d:"
+            "datasetid": "urn:ngsi-ld:Dataset:elsys:02:co2",
+            "observedBy": {
+                "type": "Relationship",
+                "object": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317e"
+            }
         }
     ],
     "hasAgriParcel": {
