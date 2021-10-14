@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:Device:elsys:ers02:lora:a81758fffe06317e",
     "type": "Device",
-    "controlledAssest": {
+    "controlledAsset": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:AgriParcel:Pilze:locationName"
     },
