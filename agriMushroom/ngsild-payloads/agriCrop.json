@@ -1,10 +1,6 @@
 {
     "id": "urn:ngsi-ld:AgriCrop:Pilze:a45f3811-2c1c-49c8-ba10-e15171526734",
     "type": "AgriCrop",
-    "hasAgriCropRecord": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:AgriCropRecord:Pilze:b2b733c7-798e-4d31-8a15-f96117220a74"
-    },
     "seededAt": {
         "type": "Property",
         "value": "2020-01-25T00:00:00+01:00"
@@ -20,6 +16,12 @@
     "hasAgriParcel": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:AgriParcel:Pilze:locationCode"
+    },
+    "harvestWeight": {
+        "type": "Property",
+        "value": 78.2,
+        "observedAt": "2020-03-02T23:00:00Z",
+        "unitCode": "KGM"
     },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
