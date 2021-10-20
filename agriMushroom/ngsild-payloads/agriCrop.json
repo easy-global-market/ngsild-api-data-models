@@ -3,7 +3,7 @@
     "type": "AgriCrop",
     "seededAt": {
         "type": "Property",
-        "value": "2020-01-25T00:00:00+01:00"
+        "value": "2020-01-25T00:00:00.000Z"
     },
     "spawn": {
         "type": "Property",
@@ -20,7 +20,7 @@
     "harvestWeight": {
         "type": "Property",
         "value": 78.2,
-        "observedAt": "2020-03-02T23:00:00Z",
+        "observedAt": "2020-03-02T23:00:00.000Z",
         "unitCode": "KGM"
     },
     "@context": [

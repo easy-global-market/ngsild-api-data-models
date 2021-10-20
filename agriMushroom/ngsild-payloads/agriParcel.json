@@ -14,11 +14,13 @@
     "hasAgriCrop": [
         {
             "type": "Relationship",
-            "object": " urn:ngsi-ld:AgriCrop:Pilze:a45f3811-2c1c-49c8-ba10-e15171526734"
+            "object": " urn:ngsi-ld:AgriCrop:Pilze:a45f3811-2c1c-49c8-ba10-e15171526734",
+            "datasetid": "urn:ngsi-ld:Dataset:relationship:AgriCrop:Pilze:a45f3811-2c1c-49c8-ba10-e15171526734"
         },
         {
             "type": "Relationship",
-            "object": " urn:ngsi-ld:AgriCrop:Pilze:a25f3731-2c1c-49c8-ba10-e45571528712"
+            "object": " urn:ngsi-ld:AgriCrop:Pilze:a25f3731-2c1c-49c8-ba10-e45571528712",
+            "datasetid": "urn:ngsi-ld:Dataset:relationship:AgriCrop:Pilze:a25f3731-2c1c-49c8-ba10-e45571528712"
         }
     ],
     "cropStatus": {
@@ -27,13 +29,13 @@
     },
     "lastPlantedAt": {
         "type": "Property",
-        "value": "2020-01-25T00:00:00+01:00"
+        "value": "2020-01-25T00:00:00.000Z"
     },
     "relativeHumidity": [
         {
             "type": "Property",
             "value": 0.3,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "P1",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:01:relativeHumidity",
             "observedBy": {
@@ -44,7 +46,7 @@
         {
             "type": "Property",
             "value": 0.35,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "P1",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:02:relativeHumidity",
             "observedBy": {
@@ -57,7 +59,7 @@
         {
             "type": "Property",
             "value": 17.2,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "CEL",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:01:temperature",
             "observedBy": {
@@ -68,7 +70,7 @@
         {
             "type": "Property",
             "value": 15.9,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "CEL",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:02:temperature",
             "observedBy": {
@@ -81,7 +83,7 @@
         {
             "type": "Property",
             "value": 444,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "59",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:01:co2",
             "observedBy": {
@@ -92,7 +94,7 @@
         {
             "type": "Property",
             "value": 555,
-            "observedAt": "2021-10-12T10:49:26.450113+02:00",
+            "observedAt": "2021-10-12T10:49:26.450113Z",
             "unitCode": "59",
             "datasetid": "urn:ngsi-ld:Dataset:elsys:02:co2",
             "observedBy": {
