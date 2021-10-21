@@ -1,6 +1,6 @@
 {
-    "id": "urn:ngsi-ld:AgriParcel:Pilze:locationName",
-    "type": "AgriParcel",
+    "id": "urn:ngsi-ld:OffGroundParcel:Pilze:locationName",
+    "type": "OffGroundParcel",
     "location": {
         "type": "GeoProperty",
         "value": {

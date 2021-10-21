@@ -13,9 +13,9 @@
         "type": "Property",
         "value": "http://aims.fao.org/aos/agrovoc/c_34562"
     },
-    "hasAgriParcel": {
+    "hasOffGroundParcel": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:AgriParcel:Pilze:locationCode"
+        "object": "urn:ngsi-ld:OffGroundParcel:Pilze:locationName"
     },
     "harvestWeight": {
         "type": "Property",
