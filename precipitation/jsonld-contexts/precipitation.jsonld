@@ -43,6 +43,7 @@
         "withdrawalType":"https://uri.fiware.org/ns/data-models#withdrawalType",
         "waterUse":"https://uri.fiware.org/ns/data-models#waterUse",
         "takenFrom":"https://uri.fiware.org/ns/data-models#takenFrom",
-	"timeInterval":"https://uri.fiware.org/ns/data-models#timeInterval"
+	"timeInterval":"https://uri.fiware.org/ns/data-models#timeInterval",
+	"category": "https://uri.fiware.org/ns/data-models#category"
     }
 }
