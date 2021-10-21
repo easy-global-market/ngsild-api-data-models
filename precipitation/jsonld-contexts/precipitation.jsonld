@@ -44,6 +44,7 @@
         "waterUse":"https://uri.fiware.org/ns/data-models#waterUse",
         "takenFrom":"https://uri.fiware.org/ns/data-models#takenFrom",
 	"timeInterval":"https://uri.fiware.org/ns/data-models#timeInterval",
-	"category": "https://uri.fiware.org/ns/data-models#category"
+	"category": "https://uri.fiware.org/ns/data-models#category",
+	"dateObserved": "https://uri.fiware.org/ns/data-models#dateObserved"
     }
 }
