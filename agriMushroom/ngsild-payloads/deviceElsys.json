@@ -19,7 +19,7 @@
     },
     "dateInstalled": {
         "type": "Property",
-        "value": "2021-11-30T11:00:00Z"
+        "value": "2021-11-30T11:00:00.000Z"
     },
     "location": {
         "type": "GeoProperty",
