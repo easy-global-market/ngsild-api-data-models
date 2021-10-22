@@ -1,5 +1,6 @@
 {
     "@context": {
+        "OffGroundParcel": "https://uri.fiware.org/ns/data-models#OffGroundParcel",
         "seededAt": "https://uri.fiware.org/ns/data-models#seededAt",
         "spawn": "https://uri.fiware.org/ns/data-models#spawn",
         "harvestWeight": "https://uri.fiware.org/ns/data-models#harvestWeight",
