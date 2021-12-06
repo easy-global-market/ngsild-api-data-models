@@ -260,5 +260,71 @@
 			},
 			"response": []
 		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"// Refresh the OAuth token if necessary",
+					"var tokenDate = new Date(2010,1,1);",
+					"var tokenTimestamp = pm.environment.get(\"oauthTimestamp\");",
+					"if(tokenTimestamp){",
+					"  tokenDate = Date.parse(tokenTimestamp);",
+					"}",
+					"var expiresInTime = pm.environment.get(\"expiresInTime\");",
+					"if(!expiresInTime){",
+					"    expiresInTime = 300000; // Set default expiration time to 5 minutes",
+					"}if((new Date() - tokenDate) >= expiresInTime) ",
+					"{",
+					"   pm.sendRequest({",
+					"      url:  pm.environment.get(\"authUrl\"), ",
+					"      method: 'POST',",
+					"      body: {",
+					"        mode: 'urlencoded',",
+					"        urlencoded: [",
+					"            { key: 'client_id', value: pm.environment.get(\"clientId\") },",
+					"            { key: 'client_secret', value: pm.environment.get(\"clientSecret\") },",
+					"            { key: 'grant_type', value: 'client_credentials' }",
+					"        ]",
+					"      },",
+					"      header: {",
+					"        'Accept': 'application/json',",
+					"        'Content-Type': 'application/x-www-form-urlencoded'",
+					"      }",
+					"  }, function (err, res) {",
+					"        pm.environment.set(\"oauthToken\", res.json().access_token);",
+					"        pm.environment.set(\"oauthTimestamp\", new Date());",
+					"        ",
+					"        // Set the ExpiresInTime variable to the time given in the response if it exists",
+					"        if(res.json().expires_in){",
+					"            expiresInTime = res.json().expires_in * 1000;",
+					"            pm.environment.set(\"expiresInTime\", expiresInTime);",
+					"        }",
+					"  });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
 	]
 }
