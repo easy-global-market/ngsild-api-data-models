@@ -5,6 +5,7 @@
         
         "connectsTo": "https://ontology.eglobalmark.com/ifishienciHCMR#connectsTo",
         "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
+        "fishDensity": "https://uri.fiware.org/ns/data-models#fishDensity",
         "observedBy": "https://ontology.eglobalmark.com/ifishienciHCMR#observedBy",
         "redoxPotential": "https://ontology.eglobalmark.com/ifishienciHCMR#redoxPotential",
         "totalDissolvedSolids": "https://ontology.eglobalmark.com/ifishienciHCMR#totalDissolvedSolids",
