@@ -7,7 +7,7 @@
         "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
         "fishDensity": "https://uri.fiware.org/ns/data-models#fishDensity",
         "fishDirection": "https://uri.fiware.org/ns/data-models#fishDirection",
-        "fishSpeed": "https://uri.fiware.org/ns/data-models#fishDirection",     
+        "fishSpeed": "https://uri.fiware.org/ns/data-models#fishSpeed",     
         "observedBy": "https://ontology.eglobalmark.com/ifishienciHCMR#observedBy",
         "redoxPotential": "https://ontology.eglobalmark.com/ifishienciHCMR#redoxPotential",
         "totalDissolvedSolids": "https://ontology.eglobalmark.com/ifishienciHCMR#totalDissolvedSolids",
