@@ -1,0 +1,248 @@
+{
+  "id": "urn:ngsi-ld:WeatherObserved:Italy:Calabria:Lappano",
+  "type": "WeatherObserved",
+  "precipitationIntensity": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+    },
+    "value": 12,
+    "observedAt": "2022-01-05T23:00:00Z",
+    "unitCode": "E92"
+  },
+  "relativeHumidity80": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+    },
+    "value": 180,
+    "observedAt": "2022-01-05T23:00:00Z",
+    "unitCode": "SEC"
+  },
+  "relativeHumidity90": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+    },
+    "value": 144,
+    "observedAt": "2022-01-05T23:00:00Z",
+    "unitCode": "SEC"
+  },
+  "windAverage1mn": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+    },
+    "value": 0,
+    "observedAt": "2022-01-05T22:00:00Z",
+    "unitCode": "KMH"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "atmosphericPressure": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 1010,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "MBR"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 998,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "MBR"
+    }
+  ],
+  "cloud": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+    },
+    "value": 100,
+    "observedAt": "2022-01-06T08:45:00Z",
+    "unitCode": "P1"
+  },
+  "dewPoint": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+    },
+    "value": 8.8,
+    "observedAt": "2022-01-05T23:00:00Z",
+    "unitCode": "CEL"
+  },
+  "precipitation": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 0.2,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "MM"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 1.2,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "MM"
+    }
+  ],
+  "relativeHumidity": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 92,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "P1"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 89.5,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "P1"
+    }
+  ],
+  "temperature": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 9.1,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "CEL"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 10.5,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "CEL"
+    }
+  ],
+  "uVIndexMax": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+    },
+    "value": 2,
+    "observedAt": "2022-01-06T08:45:00Z"
+  },
+  "visibility": {
+    "type": "Property",
+    "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+    "observedBy": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+    },
+    "value": 10,
+    "observedAt": "2022-01-06T08:45:00Z",
+    "unitCode": "KM"
+  },
+  "windDirection": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 0,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "DEG"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 204,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "DEG"
+    }
+  ],
+  "windSpeed": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 0,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "KMH"
+    },
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
+      },
+      "value": 6.8,
+      "observedAt": "2022-01-06T08:45:00Z",
+      "unitCode": "KMH"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather-compound.jsonld"
+  ]
+}
