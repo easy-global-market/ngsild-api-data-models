@@ -12,49 +12,74 @@
     "observedAt": "2022-01-05T23:00:00Z",
     "unitCode": "E92"
   },
-  "relativeHumidity80": {
-    "type": "Property",
-    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
-    "observedBy": {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+  "relativeHumidityOverThreshold": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation:80",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 180,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "SEC",
+      "threshold": {
+        "type": "Property",
+        "value": 80,
+        "unitCode": "P1"
+      },
+      "timeWindow": {
+        "type": "Property",
+        "value": 3600,
+        "unitCode": "SEC"
+      }
     },
-    "value": 180,
-    "observedAt": "2022-01-05T23:00:00Z",
-    "unitCode": "SEC"
-  },
-  "relativeHumidity90": {
-    "type": "Property",
-    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
-    "observedBy": {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
-    },
-    "value": 144,
-    "observedAt": "2022-01-05T23:00:00Z",
-    "unitCode": "SEC"
-  },
-  "windAverage1mn": {
-    "type": "Property",
-    "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
-    "observedBy": {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
-    },
-    "value": 0,
-    "observedAt": "2022-01-05T22:00:00Z",
-    "unitCode": "KMH"
-  },
-  "location": {
-    "type": "GeoProperty",
-    "value": {
-      "type": "Point",
-      "coordinates": [
-        0.0,
-        0.0
-      ]
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation:90",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 144,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "SEC",
+      "threshold": {
+        "type": "Property",
+        "value": 90,
+        "unitCode": "P1"
+      },
+      "timeWindow": {
+        "type": "Property",
+        "value": 3600,
+        "unitCode": "SEC"
+      }
     }
-  },
+  ],
+  "windMaxAverage": [
+    {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherStation",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherStation:dc94e9f5-6e3a-443d-88b4-778d2519b3c6"
+      },
+      "value": 15,
+      "observedAt": "2022-01-05T23:00:00Z",
+      "unitCode": "KMH",
+      "timeWindow": {
+        "type": "Property",
+        "value": 3600,
+        "unitCode": "SEC"
+      },
+      "averagedOn": {
+        "type": "Property",
+        "value": 60,
+        "unitCode": "SEC",
+        "observedAt": "2022-01-05T23:12:00Z"
+      }
+    }
+  ],
   "atmosphericPressure": [
     {
       "type": "Property",
@@ -238,7 +263,7 @@
         "object": "urn:ngsi-ld:Device:WeatherApi:ea7dabee-918a-4482-bcbc-223bc0d5d4c0"
       },
       "value": 6.8,
-      "observedAt": "2022-01-06T08:45:00Z",
+      "observedAt": "2022-01-05T23:00:00Z",
       "unitCode": "KMH"
     }
   ],
