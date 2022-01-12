@@ -4,7 +4,7 @@
         "cloud": "https://uri.fiware.org/ns/data-models#cloud",
         "visibility": "https://uri.fiware.org/ns/data-models#visibility",
         "precipitationIntensity": "https://uri.fiware.org/ns/data-models#precipitationIntensity",
-        "relativeHumidity90": "https://uri.fiware.org/ns/data-models#relativeHumidity90",
-        "relativeHumidity80": "https://uri.fiware.org/ns/data-models#relativeHumidity80"
+        "relativeHumidityOverThreshold": "https://uri.fiware.org/ns/data-models#relativeHumidityOverThreshold",
+        "windMaxAverage": "https://uri.fiware.org/ns/data-models#windMaxAverage"
     }
 }
