@@ -1,0 +1,119 @@
+{
+    "id": "urn:ngsi-ld:WeatherObserved:Hungary:Bacs-Kiskun:Kecskemet",
+    "type": "WeatherObserved",
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "atmosphericPressure": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 1011,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "MBR"
+    },
+    "cloud": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 0,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "P1"
+    },
+    "dataProvider": {
+      "type": "Property",
+      "value": "http://api.weatherapi.com/"
+    },
+    "precipitation": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 0,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "MM"
+    },
+    "relativeHumidity": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 65,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "P1"
+    },
+    "temperature": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 4,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "CEL"
+    },
+    "uVIndexMax": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 2,
+      "observedAt": "2022-01-06T08:30:00Z"
+    },
+    "visibility": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 10,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "KM"
+    },
+    "windDirection": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 290,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "DEG"
+    },
+    "windSpeed": {
+      "type": "Property",
+      "datasetId": "urn:ngsi-ld:Dataset:WeatherApi",
+      "observedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Device:WeatherApi:d3ca8f9e-c341-48a5-9b5a-f9811ea4c9c6"
+      },
+      "value": 25.9,
+      "observedAt": "2022-01-06T08:30:00Z",
+      "unitCode": "KMH"
+    },
+    "@context": [
+      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather-compound.jsonld"
+    ]
+  }
