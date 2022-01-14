@@ -32,6 +32,6 @@
         }
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agriMushroom/jsonld-contexts/agri-mushroom-compound.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agrifood/jsonld-contexts/agrifood-compound.jsonld"
     ]
 }
