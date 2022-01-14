@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "OffGroundParcel": "https://smartdatamodels.org/dataModel.Agrifood#OffGroundParcel",
+        "seededAt": "https://smartdatamodels.org/dataModel.Agrifood#seededAt",
+        "spawn": "https://smartdatamodels.org/dataModel.Agrifood#spawn",
+        "harvestWeight": "https://smartdatamodels.org/dataModel.Agrifood#harvestWeight",
+        "AgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#AgriCropRecord",
+        "hasAgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#hasAgriCropRecord"
+    }
+}
