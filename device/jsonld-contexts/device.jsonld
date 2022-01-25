@@ -1,6 +1,6 @@
 {
     "@context": {
-        "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
-        "loraSNR": "https://uri.fiware.org/ns/data-models#loraSnr"
+        "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
+        "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR"
     }
 } 
