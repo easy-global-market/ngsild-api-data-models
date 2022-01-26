@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "WaterTreatmentTank": "https://smartdatamodels.org/dataModel.WasteWater/WaterTreatmentTank",
+        "WaterBeingTreated": "https://smartdatamodels.org/dataModel.WasteWater/WaterBeingTreated",
+        "hasWaterBeingTreated": "https://smartdatamodels.org/dataModel.WasteWater/hasWaterBeingTreated",
+        "hasWaterTreatmentTank": "https://smartdatamodels.org/dataModel.WasteWater/hasWaterTreatmentTank",
+        "waterIn": "https://smartdatamodels.org/dataModel.WasteWater/waterIn",
+        "waterOut": "https://smartdatamodels.org/dataModel.WasteWater/waterOut",
+        "tankCapacity": "https://smartdatamodels.org/dataModel.WasteWater/tankCapacity",
+        "treatmentCycle": "https://smartdatamodels.org/dataModel.WasteWater/treatmentCycle",
+        "ecoli": "https://smartdatamodels.org/dataModel.WaterQuality/ecoli"
+    }
+}
