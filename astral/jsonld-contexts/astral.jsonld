@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "WaterSample": "https://uri.fiware.org/ns/data-models#WaterSample",
+            
+        "focusDistance": "https://uri.fiware.org/ns/data-models#focusDistance",
+        "ledPower": "https://uri.fiware.org/ns/data-models#ledPower",
+        "pumpVoltage": "https://uri.fiware.org/ns/data-models#pumpVoltage"
+    }
+}
