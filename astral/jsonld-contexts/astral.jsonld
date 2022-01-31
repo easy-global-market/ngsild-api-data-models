@@ -3,6 +3,7 @@
         "WaterSample": "https://uri.fiware.org/ns/data-models#WaterSample",
             
         "focusDistance": "https://uri.fiware.org/ns/data-models#focusDistance",
+        "disolvedOxygen": "https://uri.fiware.org/ns/data-models#disolvedOxygen",
         "ledPower": "https://uri.fiware.org/ns/data-models#ledPower",
         "pumpVoltage": "https://uri.fiware.org/ns/data-models#pumpVoltage"
     }
