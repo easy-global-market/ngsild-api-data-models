@@ -3,7 +3,7 @@
 		"Mapping": "https://ontology.eglobalmark.com/Mapping",
 		"Bridge": "https://ontology.eglobalmark.com/Bridge",
 
-		"attributes": "https://ontology.eglobalmark.com/attributes",
+		"attributesToMap": "https://ontology.eglobalmark.com/attributesToMap",
 		"attribute": "https://ontology.eglobalmark.com/attribute",
 		"attributeValueType": "https://ontology.eglobalmark.com/attributeValueType",
 		"attributeDatasetId": "https://ontology.eglobalmark.com/attributeDatasetId",
