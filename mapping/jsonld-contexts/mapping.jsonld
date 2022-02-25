@@ -16,7 +16,7 @@
 		"topics": "https://ontology.eglobalmark.com/topics",
 		"url": "https://ontology.eglobalmark.com/url",
 		"port": "https://ontology.eglobalmark.com/port",
-		"qoS": "https://ontology.eglobalmark.com/qoS",
+		"qos": "https://ontology.eglobalmark.com/qos",
 		"subAttribute1": "https://ontology.eglobalmark.com/subAttribute1",
 		"subAttribute2": "https://ontology.eglobalmark.com/subAttribute2",
 		"subAttribute3": "https://ontology.eglobalmark.com/subAttribute3"
