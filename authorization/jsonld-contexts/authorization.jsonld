@@ -12,6 +12,6 @@
 		"Group": "https://ontology.eglobalmark.com/authorization#Group",
 		"User": "https://ontology.eglobalmark.com/authorization#User",
 		"Client": "https://ontology.eglobalmark.com/authorization#Client",
-		"specificAccessPolicy": "https://ontology.eglobalmark.com/egm#specificAccessPolicy"
+		"specificAccessPolicy": "https://ontology.eglobalmark.com/authorization#specificAccessPolicy"
 	}
 }
