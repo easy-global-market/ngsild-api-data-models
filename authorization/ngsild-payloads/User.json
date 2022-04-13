@@ -5,6 +5,14 @@
       "type": "Property",
       "value": "username"
    },
+   "givenName": {
+      "type": "Property",
+      "value": "John"
+   },
+   "familyName": {
+      "type": "Property",
+      "value": "Doe"
+   },
    "roles": {
       "type": "Property",
       "value": ["admin"]
