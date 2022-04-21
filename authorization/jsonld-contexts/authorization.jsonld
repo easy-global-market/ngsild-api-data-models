@@ -15,6 +15,7 @@
 		"specificAccessPolicy": "https://ontology.eglobalmark.com/authorization#specificAccessPolicy",
 		"right": "https://ontology.eglobalmark.com/authorization#right",
 		"givenName": "https://ontology.eglobalmark.com/authorization#givenName",
-		"familyName": "https://ontology.eglobalmark.com/authorization#familyName"
+		"familyName": "https://ontology.eglobalmark.com/authorization#familyName",
+		"profile": "https://ontology.eglobalmark.com/authorization#profile"
 	}
 }
