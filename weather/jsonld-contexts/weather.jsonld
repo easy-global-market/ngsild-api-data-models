@@ -1,5 +1,7 @@
 {
     "@context": {
+        "WeatherForcasted": "https://uri.fiware.org/ns/data-models#WeatherForcasted",
+        "evapotranspiration": "https://uri.fiware.org/ns/data-models#evapotranspiration",       
         "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "cloud": "https://uri.fiware.org/ns/data-models#cloud",
         "visibility": "https://uri.fiware.org/ns/data-models#visibility",
