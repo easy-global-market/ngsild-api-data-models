@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "Device": "https://uri.fiware.org/ns/data-models#Device",
+        "volumetricMoisture": "https://uri.fiware.org/ns/data-models#volumetricMoisture",
+        "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
+        "temperature": "https://uri.fiware.org/ns/data-models#temperature",
+        "humidity": "https://uri.fiware.org/ns/data-models#humidity",
+        "lorasnr": "https://uri.fiware.org/ns/data-models#lorasnr",
+        "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
+        "waterConsumption": "https://uri.fiware.org/ns/data-models#waterConsumption",
+        "pulseCountingPeriod": "https://uri.fiware.org/ns/data-models#pulseCountingPeriod",
+        "redundancyDataSending": "https://uri.fiware.org/ns/data-models#redundancyDataSending",
+        "pulses": "https://uri.fiware.org/ns/data-models#pulses",
+        "dataInterval": "https://uri.fiware.org/ns/data-models#dataInterval",
+        "measurementPeriod": "https://uri.fiware.org/ns/data-models#measurementPeriod",
+        "dataFactor": "https://uri.fiware.org/ns/data-models#dataFactor",
+        "controlledData": "https://uri.fiware.org/ns/data-models#controlledData",
+        "sensorCounterId": "https://uri.fiware.org/ns/data-models#sensorCounterId",
+        "sendDataNumber": "https://uri.fiware.org/ns/data-models#sendDataNumber",
+        "redondanceNumber": "https://uri.fiware.org/ns/data-models#redondanceNumber",
+        "sensorId": "https://uri.fiware.org/ns/data-models#sensorId",
+        "sensorChannel": "https://uri.fiware.org/ns/data-models#sensorChannel"
+    }
+}
