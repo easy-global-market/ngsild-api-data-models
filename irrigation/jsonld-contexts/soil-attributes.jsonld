@@ -2,6 +2,7 @@
     "@context": {
         "SoilArea": "https://uri.fiware.org/ns/data-models#SoilArea",
         "IrrigationArea": "https://uri.fiware.org/ns/data-models#IrrigationArea",
-        "soilAreaType": "https://uri.fiware.org/ns/data-models#soilAreaType"
+        "soilAreaType": "https://uri.fiware.org/ns/data-models#soilAreaType",
+        "hasSoilArea": "https://uri.fiware.org/ns/data-models#hasSoilArea"
     }
 }
