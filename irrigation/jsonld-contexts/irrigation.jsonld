@@ -1,8 +1,8 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/irrigation/master/jsonld-contexts/soil-attributes.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/irrigation/master/jsonld-contexts/observed-attributes.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/soil-attributes.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/observed-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather-compound.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
