@@ -1,6 +1,6 @@
 {
 	"@context": {
-		"name": "https://ontology.eglobalmark.com/authorization#name",
+        "name": "https://schema.org/name",
 		"clientId": "https://ontology.eglobalmark.com/authorization#clientId",
 		"serviceAccountId": "https://ontology.eglobalmark.com/authorization#serviceAccountId",
 		"username": "https://ontology.eglobalmark.com/authorization#username",

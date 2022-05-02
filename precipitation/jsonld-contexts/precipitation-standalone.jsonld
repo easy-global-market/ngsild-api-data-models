@@ -17,7 +17,7 @@
         "iron": "https://uri.fiware.org/ns/data-models#iron",
         "licence": "https://uri.fiware.org/ns/data-models#licence",
         "model": "https://uri.fiware.org/ns/data-models#model",
-        "name": "https://uri.fiware.org/ns/data-models#name",
+        "name": "https://schema.org/name",
         "nitrate": "https://uri.fiware.org/ns/data-models#nitrate",
         "nitrogenDioxide": "https://uri.fiware.org/ns/data-models#nitrogenDioxide",
         "oxygen": "https://uri.fiware.org/ns/data-models#oxygen",
