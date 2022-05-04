@@ -34,7 +34,7 @@
         "phytoplankton":"https://uri.fiware.org/ns/data-models#phytoplankton",
         "silicate":"https://uri.fiware.org/ns/data-models#silicate",
         "district":"https://uri.fiware.org/ns/data-models#district",
-        "name":"https://uri.fiware.org/ns/data-models#name",
+        "name": "https://schema.org/name",
         "state":"https://uri.fiware.org/ns/data-models#state",
 	"irradiance":"https://uri.fiware.org/ns/data-models#irradiance",
 	"illuminance":"https://uri.fiware.org/ns/data-models#illuminance",

@@ -3,6 +3,6 @@
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agrifood/jsonld-contexts/agrifood.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Agrifood/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
-        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
     ]
 }
