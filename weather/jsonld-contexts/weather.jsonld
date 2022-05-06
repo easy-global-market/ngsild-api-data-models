@@ -1,12 +1,17 @@
 {
     "@context": {
+        "WeatherInformation": "https://uri.fiware.org/ns/data-models#WeatherInformation",
         "WeatherForcasted": "https://uri.fiware.org/ns/data-models#WeatherForcasted",
         "evapotranspiration": "https://uri.fiware.org/ns/data-models#evapotranspiration",       
         "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "cloud": "https://uri.fiware.org/ns/data-models#cloud",
+        "cloudCoverage": "https://uri.fiware.org/ns/data-models#cloudCoverage",
+        "growingDegreeDays": "https://uri.fiware.org/ns/data-models#growingDegreeDays",
         "visibility": "https://uri.fiware.org/ns/data-models#visibility",
         "precipitationIntensity": "https://uri.fiware.org/ns/data-models#precipitationIntensity",
         "relativeHumidityOverThreshold": "https://uri.fiware.org/ns/data-models#relativeHumidityOverThreshold",
+        "sensibleWeatherId": "https://uri.fiware.org/ns/data-models#sensibleWeatherId",
+        "vapourPressureDeficit": "https://uri.fiware.org/ns/data-models#vapourPressureDeficit",
         "windMaxAverage": "https://uri.fiware.org/ns/data-models#windMaxAverage"
     }
 }
