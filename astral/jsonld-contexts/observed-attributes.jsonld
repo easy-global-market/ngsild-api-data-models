@@ -8,7 +8,7 @@
         "redoxPotential": "https://uri.fiware.org/ns/data-models#redoxPotential",
         "conductivity": "https://uri.fiware.org/ns/data-models#conductivity",
         "salinity": "https://uri.fiware.org/ns/data-models#salinity",
-        "temperature": "https://uri.fiware.org/ns/data-models#ttemperature",
+        "temperature": "https://uri.fiware.org/ns/data-models#temperature",
         "totalDissolvedSolids": "https://uri.fiware.org/ns/data-models#totalDissolvedSolids",
         "turbidity": "https://uri.fiware.org/ns/data-models#turbidity",
         "redoxPotential": "https://uri.fiware.org/ns/data-models#redoxPotential"
