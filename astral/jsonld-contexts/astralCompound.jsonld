@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/astral/jsonld-contexts/observed-attributes.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/astral/jsonld-contexts/observed-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/astral/jsonld-contexts/astral.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
