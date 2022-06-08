@@ -1,6 +1,8 @@
 {
     "@context": {
         "Device": "https://uri.fiware.org/ns/data-models#Device",
+        "k": "https://uri.fiware.org/ns/data-models#k",
+        "controlledAsset": "https://uri.fiware.org/ns/data-models#controlledAsset",
         "volumetricMoisture": "https://uri.fiware.org/ns/data-models#volumetricMoisture",
         "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "kind": "https://uri.fiware.org/ns/data-models#kind",

@@ -1,6 +1,7 @@
 {
     "@context": {
         "SoilArea": "https://uri.fiware.org/ns/data-models#SoilArea",
+        "ReferenceSoilArea": "https://uri.fiware.org/ns/data-models#ReferenceSoilArea",
         "City": "https://uri.fiware.org/ns/data-models#City",
         "IrrigationArea": "https://uri.fiware.org/ns/data-models#IrrigationArea",
         "soilAreaType": "https://uri.fiware.org/ns/data-models#soilAreaType",
