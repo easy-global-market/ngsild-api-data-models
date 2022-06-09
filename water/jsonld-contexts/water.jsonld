@@ -4,8 +4,9 @@
         "WaterBeingTreated": "https://smartdatamodels.org/dataModel.WasteWater/WaterBeingTreated",
         "hasWaterBeingTreated": "https://smartdatamodels.org/dataModel.WasteWater/hasWaterBeingTreated",
         "hasWaterTreatmentTank": "https://smartdatamodels.org/dataModel.WasteWater/hasWaterTreatmentTank",
-        "waterIn": "https://smartdatamodels.org/dataModel.WasteWater/waterIn",
-        "waterOut": "https://smartdatamodels.org/dataModel.WasteWater/waterOut",
+        "waterInGrey": "https://smartdatamodels.org/dataModel.WasteWater/waterInGrey",
+        "waterInFresh": "https://smartdatamodels.org/dataModel.WasteWater/waterInFresh",
+        "waterLevel":"https://smartdatamodels.org/dataModel.WasteWater/waterLevel",
         "tankCapacity": "https://smartdatamodels.org/dataModel.WasteWater/tankCapacity",
         "treatmentCycle": "https://smartdatamodels.org/dataModel.WasteWater/treatmentCycle",
         "ecoli": "https://smartdatamodels.org/dataModel.WaterQuality/ecoli"
