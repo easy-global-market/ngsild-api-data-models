@@ -22,7 +22,7 @@ The list of UN/CEFACT codes is too long to be included in this document but an i
 | temperature                         | CEL             |
 | percent                             | P1              |
 | milli siemens per cm (conductivity) | H61             |
-| pH                                  | C62             |
+| pH                                  | Q30             |
 | Volt                                | VLT             |
 | Gram per litre                      | GL              |
 | Micro gram per litre                | H29             |
