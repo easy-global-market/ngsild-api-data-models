@@ -19,6 +19,7 @@
         "pulseCountingPeriod": "https://uri.fiware.org/ns/data-models#pulseCountingPeriod",
         "redundancyDataSending": "https://uri.fiware.org/ns/data-models#redundancyDataSending",
         "pulses": "https://uri.fiware.org/ns/data-models#pulses",
+        "dailyPulses": "https://uri.fiware.org/ns/data-models#dailyPulses",
         "dataInterval": "https://uri.fiware.org/ns/data-models#dataInterval",
         "measurementPeriod": "https://uri.fiware.org/ns/data-models#measurementPeriod",
         "dataFactor": "https://uri.fiware.org/ns/data-models#dataFactor",
