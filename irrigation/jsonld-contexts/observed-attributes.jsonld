@@ -16,6 +16,7 @@
         "lorasnr": "https://uri.fiware.org/ns/data-models#lorasnr",
         "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
         "waterConsumption": "https://uri.fiware.org/ns/data-models#waterConsumption",
+        "dailyWaterConsumption": "https://uri.fiware.org/ns/data-models#dailyWaterConsumption",
         "pulseCountingPeriod": "https://uri.fiware.org/ns/data-models#pulseCountingPeriod",
         "redundancyDataSending": "https://uri.fiware.org/ns/data-models#redundancyDataSending",
         "pulses": "https://uri.fiware.org/ns/data-models#pulses",
