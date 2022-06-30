@@ -378,6 +378,10 @@
             "datasetId": "urn:ngsi-ld:Dataset:totalDissolvedSolids:G42:aquabox01"
         }
     ],
+    "refFeedingOperation": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Feeder:HCMR:cage01"
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
