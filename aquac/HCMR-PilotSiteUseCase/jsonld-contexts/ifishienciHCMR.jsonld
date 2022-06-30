@@ -2,6 +2,7 @@
     "@context": {
         "FishContainment": "https://ontology.eglobalmark.com/ifishienciHCMR#FishContainment",
         "Gateway": "https://ontology.eglobalmark.com/ifishienciHCMR#Gateway",
+        "Feeder": "https://ontology.eglobalmark.com/ifishienciHCMR#Feeder",
         
         "connectsTo": "https://ontology.eglobalmark.com/ifishienciHCMR#connectsTo",
         "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
@@ -21,6 +22,7 @@
         "endsAt": "https://ontology.eglobalmark.com/ifishienciHCMR#endsAt",
         "timeInterval": "https://ontology.eglobalmark.com/ifishienciHCMR#timeInterval",
         "duration": "https://ontology.eglobalmark.com/ifishienciHCMR#duration",
-        "programModificationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#programModificationStatus"
+        "programModificationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#programModificationStatus",
+        "feederStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#feederStatus"
     }
 }
