@@ -14,6 +14,13 @@
         "videoStream": "https://ontology.eglobalmark.com/ifishienciHCMR#videoStream",
         "feedingOperation": "https://ontology.eglobalmark.com/ifishienciHCMR#feedingOperation",
         "currents": "https://ontology.eglobalmark.com/ifishienciHCMR#currents",
-        "refFeeder": "https://ontology.eglobalmark.com/ifishienciHCMR#refFeeder"
+        "refFeeder": "https://ontology.eglobalmark.com/ifishienciHCMR#refFeeder",
+        "refFeed": "https://ontology.eglobalmark.com/ifishienciHCMR#refFeed",
+        "refFeedingOperation": "https://ontology.eglobalmark.com/ifishienciHCMR#refFeedingOperation",
+        "startsAt": "https://ontology.eglobalmark.com/ifishienciHCMR#startsAt",
+        "endsAt": "https://ontology.eglobalmark.com/ifishienciHCMR#endsAt",
+        "timeInterval": "https://ontology.eglobalmark.com/ifishienciHCMR#timeInterval",
+        "duration": "https://ontology.eglobalmark.com/ifishienciHCMR#duration",
+        "programModificationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#programModificationStatus"
     }
 }
