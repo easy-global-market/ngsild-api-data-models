@@ -1,0 +1,17 @@
+{
+    "id": "urn:ngsi-ld:Feeder:HCMR:cage01",
+    "type": "Feeder",
+    "feederStatus": {
+        "type": "Property",
+        "value": 0.0,
+        "observedAt": "2020-06-30T08:00:00.948Z"
+    },
+    "programModificationStatus": {
+        "type": "Property",
+        "value": "startsAt:11:00:00,endsAt:11:59:00,timeInterval:1,duration:1",
+        "observedAt": "2022-05-16T08:58:46.860Z"
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
+    ]
+}
