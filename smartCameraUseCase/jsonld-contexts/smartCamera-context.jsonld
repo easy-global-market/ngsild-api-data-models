@@ -7,18 +7,9 @@
         "SmartCamera": "https://ontology.eglobalmark.com/egm#SmartCamera",
         "Vehicle": "https://ontology.eglobalmark.com/waste#Vehicle",
         "brand": "https://ontology.eglobalmark.com/waste#mark",
-        "dateFirstCirculation": {
-            "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
-            "@id": "https://ontology.eglobalmark.com/waste#calibrationDate"
-        },
-        "entryDateTime": {
-            "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
-            "@id": "https://ontology.eglobalmark.com/waste#entryDateTime"
-        },
-        "exitDateTime": {
-            "@type": "https://uri.etsi.org/ngsi-ld/DateTime",
-            "@id": "https://ontology.eglobalmark.com/waste#exitDateTime"
-        },
+        "dateFirstCirculation": "https://ontology.eglobalmark.com/waste#calibrationDate"},
+        "entryDateTime": "https://ontology.eglobalmark.com/waste#entryDateTime",
+        "exitDateTime": "https://ontology.eglobalmark.com/waste#exitDateTime",
         "fuelType": "https://ontology.eglobalmark.com/waste#fuel",
         "monitors": "https://ontology.eglobalmark.com/egm#monitors",
         "model": "https://ontology.eglobalmark.com/waste#model",
