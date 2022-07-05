@@ -5,6 +5,13 @@
         "spawn": "https://smartdatamodels.org/dataModel.Agrifood#spawn",
         "harvestWeight": "https://smartdatamodels.org/dataModel.Agrifood#harvestWeight",
         "AgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#AgriCropRecord",
-        "hasAgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#hasAgriCropRecord"
+        "hasAgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#hasAgriCropRecord",
+        "ecoli0157": "https://smartdatamodels.org/dataModel.Agrifood#ecoli0157",
+        "salmonella": "https://smartdatamodels.org/dataModel.Agrifood#salmonella",
+        "imidacloprid": "https://smartdatamodels.org/dataModel.Agrifood#imidacloprid",
+        "acrylamide": "https://smartdatamodels.org/dataModel.Agrifood#acrylamide",
+        "ochratoxinA": "https://smartdatamodels.org/dataModel.Agrifood#ochratoxinA",
+        "deoxynivalenol": "https://smartdatamodels.org/dataModel.Agrifood#deoxynivalenol",
+        "aflatoxinB2": "https://smartdatamodels.org/dataModel.Agrifood#aflatoxinB2"
     }
 }
