@@ -7,6 +7,7 @@
         "connectsTo": "https://ontology.eglobalmark.com/ifishienciHCMR#connectsTo",
         "dissolvedOxygen": "https://ontology.eglobalmark.com/ifishienciHCMR#dissolvedOxygen",
         "fishDensity": "https://uri.fiware.org/ns/data-models#fishDensity",
+        "normalizedFishDensity": "https://uri.fiware.org/ns/data-models#normalizedFishDensity",
         "fishDirection": "https://uri.fiware.org/ns/data-models#fishDirection",
         "fishSpeed": "https://uri.fiware.org/ns/data-models#fishSpeed",     
         "observedBy": "https://ontology.eglobalmark.com/ifishienciHCMR#observedBy",
