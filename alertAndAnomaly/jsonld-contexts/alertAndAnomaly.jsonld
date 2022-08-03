@@ -1,20 +1,20 @@
 {
   "@context": {
-    "Alert": "https://uri.fiware.org/ns/data-models#Alert"
-    "Anomaly": "https://uri.fiware.org/ns/data-models#Anomaly"
-    "weeklyWaterConsumptionThreshold": "https://uri.fiware.org/ns/data-models#weeklyWaterConsumptionThreshold"
-    "hasActiveAnomaly": "https://uri.fiware.org/ns/data-models#hasActiveAnomaly"
-    "hasActiveAlert": "https://uri.fiware.org/ns/data-models#hasActiveAlert"
-    "hasAnomaly": "https://uri.fiware.org/ns/data-models#hasAnomaly"
-    "hasAlert": "https://uri.fiware.org/ns/data-models#hasAlert"
-    "refManagedZone": "https://uri.fiware.org/ns/data-models#refManagedZone"
-    "refDevice": "https://uri.fiware.org/ns/data-models#refDevice"
-    "description": "https://uri.fiware.org/ns/data-models#description"
-    "category": "https://uri.fiware.org/ns/data-models#category"
-    "severity": "https://uri.fiware.org/ns/data-models#severity"
-    "thresholdValue": "https://uri.fiware.org/ns/data-models#thresholdValue"
-    "acknowledgedBy": "https://uri.fiware.org/ns/data-models#acknowledgedBy"
-    "validFrom": "https://uri.fiware.org/ns/data-models#validFrom"
+    "Alert": "https://uri.fiware.org/ns/data-models#Alert",
+    "Anomaly": "https://uri.fiware.org/ns/data-models#Anomaly",
+    "weeklyWaterConsumptionThreshold": "https://uri.fiware.org/ns/data-models#weeklyWaterConsumptionThreshold",
+    "hasActiveAnomaly": "https://uri.fiware.org/ns/data-models#hasActiveAnomaly",
+    "hasActiveAlert": "https://uri.fiware.org/ns/data-models#hasActiveAlert",
+    "hasAnomaly": "https://uri.fiware.org/ns/data-models#hasAnomaly",
+    "hasAlert": "https://uri.fiware.org/ns/data-models#hasAlert",
+    "refManagedZone": "https://uri.fiware.org/ns/data-models#refManagedZone",
+    "refDevice": "https://uri.fiware.org/ns/data-models#refDevice",
+    "description": "https://uri.fiware.org/ns/data-models#description",
+    "category": "https://uri.fiware.org/ns/data-models#category",
+    "severity": "https://uri.fiware.org/ns/data-models#severity",
+    "thresholdValue": "https://uri.fiware.org/ns/data-models#thresholdValue",
+    "acknowledgedBy": "https://uri.fiware.org/ns/data-models#acknowledgedBy",
+    "validFrom": "https://uri.fiware.org/ns/data-models#validFrom",
     "validTo": "https://uri.fiware.org/ns/data-models#validTo"
   }
 }
