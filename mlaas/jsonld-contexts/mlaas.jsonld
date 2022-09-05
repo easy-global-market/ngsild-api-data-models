@@ -20,6 +20,7 @@
        "outputDataTypes": "ttps://uri.fiware.org/ns/data-models#outputDataTypes",
        "refMLModel": "https://uri.fiware.org/ns/data-models#refMLModel",
        "subscriptionData": "https://uri.fiware.org/ns/data-models#subscriptionData",
-       "version": "https://uri.fiware.org/ns/data-models#version"
+       "version": "https://uri.fiware.org/ns/data-models#version",
+       "River": "https://uri.fiware.org/ns/data-models#River"
     }
 }
