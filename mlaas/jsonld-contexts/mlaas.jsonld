@@ -21,6 +21,9 @@
        "refMLModel": "https://uri.fiware.org/ns/data-models#refMLModel",
        "subscriptionData": "https://uri.fiware.org/ns/data-models#subscriptionData",
        "version": "https://uri.fiware.org/ns/data-models#version",
+       "precipitation": "https://uri.fiware.org/ns/data-models#precipitation",
+       "temperature": "https://uri.fiware.org/ns/data-models#temperature",
+       "rainfall": "https://uri.fiware.org/ns/data-models#rainfall",
        "River": "https://uri.fiware.org/ns/data-models#River"
     }
 }
