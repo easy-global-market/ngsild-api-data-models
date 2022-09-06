@@ -30,6 +30,7 @@
         "sourceParameterCode": "https://uri.fiware.org/ns/data-models#sourceParameterCode",
         "redondanceNumber": "https://uri.fiware.org/ns/data-models#redondanceNumber",
         "sensorId": "https://uri.fiware.org/ns/data-models#sensorId",
-        "sensorChannel": "https://uri.fiware.org/ns/data-models#sensorChannel"
+        "sensorChannel": "https://uri.fiware.org/ns/data-models#sensorChannel",
+        "waterTension": "https://uri.fiware.org/ns/data-models#waterTension"
     }
 }
