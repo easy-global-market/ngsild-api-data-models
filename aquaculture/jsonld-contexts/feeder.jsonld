@@ -1,0 +1,12 @@
+{
+    "@context": {
+      "vpnStatus": "https://uri.fiware.org/ns/data-models#vpnStatus",
+      "cpuTemperature": "https://uri.fiware.org/ns/data-models#cpuTemperature",
+      "gpuTemperature": "https://uri.fiware.org/ns/data-models#gpuTemperature",
+      "diskUsage": "https://uri.fiware.org/ns/data-models#diskUsage",
+      "ramUsage":"https://uri.fiware.org/ns/data-models#ramUsage",
+      "uptime":"https://uri.fiware.org/ns/data-models#uptime",
+      "lastBoot": "https://uri.fiware.org/ns/data-models#lastBoot",
+      "feederStatus": "https://uri.fiware.org/ns/data-models#feederStatus"
+    }
+}
