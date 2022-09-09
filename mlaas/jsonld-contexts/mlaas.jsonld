@@ -14,7 +14,7 @@
        "inputAttributes": "https://uri.fiware.org/ns/data-models#inputAttributes",
        "litres": "https://uri.fiware.org/ns/data-models#litres",
        "mlFramework": "https://uri.fiware.org/ns/data-models#mlFramework",
-       "name": "https://schema.org/name",
+       "name": "https://uri.fiware.org/ns/data-models#name",
        "objective": "https://uri.fiware.org/ns/data-models#objective",
        "outputAttributes": "https://uri.fiware.org/ns/data-models#outputAttributes",
        "outputDataTypes": "ttps://uri.fiware.org/ns/data-models#outputDataTypes",
