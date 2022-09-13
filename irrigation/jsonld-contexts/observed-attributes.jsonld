@@ -31,6 +31,9 @@
         "redondanceNumber": "https://uri.fiware.org/ns/data-models#redondanceNumber",
         "sensorId": "https://uri.fiware.org/ns/data-models#sensorId",
         "sensorChannel": "https://uri.fiware.org/ns/data-models#sensorChannel",
-        "waterTension": "https://uri.fiware.org/ns/data-models#waterTension"
+        "waterTension": "https://uri.fiware.org/ns/data-models#waterTension",
+        "illuminance": "https://uri.fiware.org/ns/data-models#illuminance",
+        "relativeHumidity": "https://uri.fiware.org/ns/data-models#relativeHumidity",
+        "ambientTemperature": "https://uri.fiware.org/ns/data-models#ambientTemperature"
     }
 }
