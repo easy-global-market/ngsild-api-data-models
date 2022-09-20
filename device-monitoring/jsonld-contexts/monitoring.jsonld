@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "Device": "https://uri.fiware.org/ns/data-models#Device",
+        "Raspberry": "https://uri.fiware.org/ns/data-models#Raspberry",
+        "cpuTemperature": "https://uri.fiware.org/ns/data-models#cpuTemperature",
+        "gpuTemperature": "https://uri.fiware.org/ns/data-models#gpuTemperature",
+        "diskUsage": "https://uri.fiware.org/ns/data-models#diskUsage",
+        "ramUsage": "https://uri.fiware.org/ns/data-models#ramUsage",
+        "ipAddress": "https://uri.fiware.org/ns/data-models#ipAddress",
+        "lastBoot": "https://uri.fiware.org/ns/data-models#lastBoot",
+        "vpnStatus": "https://uri.fiware.org/ns/data-models#vpnStatus",
+        "category": "https://uri.fiware.org/ns/data-models#category"
+ 
+    }
+} 
