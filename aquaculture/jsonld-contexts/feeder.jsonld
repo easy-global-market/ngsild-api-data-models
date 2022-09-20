@@ -7,6 +7,7 @@
       "ramUsage":"https://uri.fiware.org/ns/data-models#ramUsage",
       "uptime":"https://uri.fiware.org/ns/data-models#uptime",
       "lastBoot": "https://uri.fiware.org/ns/data-models#lastBoot",
+      "hostName": "https://uri.fiware.org/ns/data-models#hostName",
       "feederStatus": "https://uri.fiware.org/ns/data-models#feederStatus"
     }
 }
