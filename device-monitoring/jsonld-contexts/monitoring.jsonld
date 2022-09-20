@@ -9,7 +9,8 @@
         "ipAddress": "https://uri.fiware.org/ns/data-models#ipAddress",
         "lastBoot": "https://uri.fiware.org/ns/data-models#lastBoot",
         "vpnStatus": "https://uri.fiware.org/ns/data-models#vpnStatus",
-        "category": "https://uri.fiware.org/ns/data-models#category"
+        "category": "https://uri.fiware.org/ns/data-models#category",
+        "hostName": "https://uri.fiware.org/ns/data-models#hostName",
  
     }
 } 
