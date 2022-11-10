@@ -25,6 +25,7 @@
         "duration": "https://ontology.eglobalmark.com/ifishienciHCMR#duration",
         "programModificationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#programModificationStatus",
         "feederStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#feederStatus",
+        "feedingIndex": "https://ontology.eglobalmark.com/ifishienciHCMR#feedingIndex",
         "hostName": "https://uri.fiware.org/ns/data-models#hostName"
     }
 }
