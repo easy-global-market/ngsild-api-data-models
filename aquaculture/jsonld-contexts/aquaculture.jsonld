@@ -24,6 +24,7 @@
         "managedBy": "https://uri.fiware.org/ns/data-models#managedBy",
         "nitrate": "https://uri.fiware.org/ns/data-models#nitrate",
         "ozone": "https://uri.fiware.org/ns/data-models#ozone",
+        "humidity": "https://uri.fiware.org/ns/data-models#humidity",
         "observation": "https://uri.fiware.org/ns/data-models#observation",
         "photosyntheticPhotonFluxDensity": "https://uri.fiware.org/ns/data-models#photosyntheticPhotonFluxDensity",
         "protocol": "https://uri.fiware.org/ns/data-models#protocol",
