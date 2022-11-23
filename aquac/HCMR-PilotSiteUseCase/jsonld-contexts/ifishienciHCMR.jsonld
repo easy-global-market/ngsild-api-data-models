@@ -26,6 +26,10 @@
         "programModificationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#programModificationStatus",
         "feederStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#feederStatus",
         "feedingIndex": "https://ontology.eglobalmark.com/ifishienciHCMR#feedingIndex",
+        "feederExpectedStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#feederExpectedStatus",
+        "feedingAuthorisation": "https://ontology.eglobalmark.com/ifishienciHCMR#feedingAuthorisation",
+        "feedingAuthorisationStatus": "https://ontology.eglobalmark.com/ifishienciHCMR#feedingAuthorisationStatus",
+        "feederExecutionRation": "https://ontology.eglobalmark.com/ifishienciHCMR#feederExecutionRation",
         "hostName": "https://uri.fiware.org/ns/data-models#hostName"
     }
 }
