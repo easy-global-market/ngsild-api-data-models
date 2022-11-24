@@ -34,6 +34,8 @@
         "waterTension": "https://uri.fiware.org/ns/data-models#waterTension",
         "illuminance": "https://uri.fiware.org/ns/data-models#illuminance",
         "relativeHumidity": "https://uri.fiware.org/ns/data-models#relativeHumidity",
-        "ambientTemperature": "https://uri.fiware.org/ns/data-models#ambientTemperature"
+        "ambientTemperature": "https://uri.fiware.org/ns/data-models#ambientTemperature",
+        "observedState": "https://uri.fiware.org/ns/data-models#observedState",
+        "requestedState": "https://uri.fiware.org/ns/data-models#requestedState"
     }
 }
