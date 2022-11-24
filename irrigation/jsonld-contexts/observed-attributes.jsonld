@@ -36,6 +36,7 @@
         "relativeHumidity": "https://uri.fiware.org/ns/data-models#relativeHumidity",
         "ambientTemperature": "https://uri.fiware.org/ns/data-models#ambientTemperature",
         "observedState": "https://uri.fiware.org/ns/data-models#observedState",
-        "requestedState": "https://uri.fiware.org/ns/data-models#requestedState"
+        "requestedState": "https://uri.fiware.org/ns/data-models#requestedState",
+        "zoneActivation": "https://uri.fiware.org/ns/data-models#zoneActivation"
     }
 }
