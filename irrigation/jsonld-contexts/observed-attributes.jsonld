@@ -5,6 +5,7 @@
         "controlledAsset": "https://uri.fiware.org/ns/data-models#controlledAsset",
         "volumetricMoisture": "https://uri.fiware.org/ns/data-models#volumetricMoisture",
         "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
+        "controlledBy": "https://uri.fiware.org/ns/data-models#controlledBy",
         "kind": "https://uri.fiware.org/ns/data-models#kind",
         "observationPeriod": "https://uri.fiware.org/ns/data-models#observationPeriod",
         "source": "https://uri.fiware.org/ns/data-models#source",
