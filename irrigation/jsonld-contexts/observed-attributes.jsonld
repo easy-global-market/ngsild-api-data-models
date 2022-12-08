@@ -39,6 +39,6 @@
         "observedState": "https://uri.fiware.org/ns/data-models#observedState",
         "requestedState": "https://uri.fiware.org/ns/data-models#requestedState",
         "zoneActivation": "https://uri.fiware.org/ns/data-models#zoneActivation",
-        "irrigationDose": "https://uri.fiware.org/ns/data-models#zoneActivation"
+        "irrigationDose": "https://uri.fiware.org/ns/data-models#irrigationDose"
     }
 }
