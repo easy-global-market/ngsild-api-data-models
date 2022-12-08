@@ -38,6 +38,7 @@
         "ambientTemperature": "https://uri.fiware.org/ns/data-models#ambientTemperature",
         "observedState": "https://uri.fiware.org/ns/data-models#observedState",
         "requestedState": "https://uri.fiware.org/ns/data-models#requestedState",
-        "zoneActivation": "https://uri.fiware.org/ns/data-models#zoneActivation"
+        "zoneActivation": "https://uri.fiware.org/ns/data-models#zoneActivation",
+        "irrigationDose": "https://uri.fiware.org/ns/data-models#zoneActivation"
     }
 }
