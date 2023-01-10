@@ -2,6 +2,7 @@
     "@context": {
         "OffGroundParcel": "https://smartdatamodels.org/dataModel.Agrifood#OffGroundParcel",
         "hasOffGroundParcel": "https://smartdatamodels.org/dataModel.Agrifood#hasOffGroundParcel",
+        "AgriCrop": "https://smartdatamodels.org/dataModel.Agrifood#AgriCrop",
         "seededAt": "https://smartdatamodels.org/dataModel.Agrifood#seededAt",
         "harvestEndAt": "https://smartdatamodels.org/dataModel.Agrifood#harvestEndAt",
         "spawn": "https://smartdatamodels.org/dataModel.Agrifood#spawn",
