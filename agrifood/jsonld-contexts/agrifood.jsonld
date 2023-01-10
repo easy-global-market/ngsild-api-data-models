@@ -1,11 +1,14 @@
 {
     "@context": {
         "OffGroundParcel": "https://smartdatamodels.org/dataModel.Agrifood#OffGroundParcel",
+        "hasOffGroundParcel": "https://smartdatamodels.org/dataModel.Agrifood#hasOffGroundParcel",
         "seededAt": "https://smartdatamodels.org/dataModel.Agrifood#seededAt",
+        "harvestEndAt": "https://smartdatamodels.org/dataModel.Agrifood#harvestEndAt",
         "spawn": "https://smartdatamodels.org/dataModel.Agrifood#spawn",
-        "harvestWeight": "https://smartdatamodels.org/dataModel.Agrifood#harvestWeight",
-        "AgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#AgriCropRecord",
-        "hasAgriCropRecord": "https://smartdatamodels.org/dataModel.Agrifood#hasAgriCropRecord",
+        "substrateMass": "https://smartdatamodels.org/dataModel.Agrifood#substrateMass",
+        "harvestMass": "https://smartdatamodels.org/dataModel.Agrifood#harvestMass",
+        "harvestSum": "https://smartdatamodels.org/dataModel.Agrifood#harvestSum",
+        "yield": "https://smartdatamodels.org/dataModel.Agrifood#yield",
         "ecoli0157": "https://smartdatamodels.org/dataModel.Agrifood#ecoli0157",
         "salmonella": "https://smartdatamodels.org/dataModel.Agrifood#salmonella",
         "imidacloprid": "https://smartdatamodels.org/dataModel.Agrifood#imidacloprid",
