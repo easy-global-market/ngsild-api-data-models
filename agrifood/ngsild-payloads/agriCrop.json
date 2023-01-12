@@ -1,28 +1,73 @@
 {
-    "id": "urn:ngsi-ld:AgriCrop:Pilze:a45f3811-2c1c-49c8-ba10-e15171526734",
+    "id": "urn:ngsi-ld:AgriCrop:Pilze:3085667212d285db93cebd042d3c753b1e0f6fd742249503460a22476df3e483",
     "type": "AgriCrop",
-    "seededAt": {
-        "type": "Property",
-        "value": "2020-01-25T00:00:00.000Z"
+    "hasOffGroundParcel": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:OffGroundParcel:Pilze:15"
     },
     "spawn": {
         "type": "Property",
-        "value": "Am3015"
+        "value": "Am3070"
     },
-    "agroVocConcept": {
+    "seededAt": {
         "type": "Property",
-        "value": "http://aims.fao.org/aos/agrovoc/c_34562"
+        "value": "2020-05-25T00:00:00Z"
     },
-    "hasOffGroundParcel": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:OffGroundParcel:Pilze:locationName"
-    },
-    "harvestWeight": {
+    "harvestEndAt": {
         "type": "Property",
-        "value": 78.2,
-        "observedAt": "2020-03-02T23:00:00.000Z",
+        "value": "2020-07-21T00:00:00Z"
+    },
+    "harvestMass": {
+        "type": "Property",
+        "value": 3,
+        "observedAt": "2020-07-02T00:00:00Z",
         "unitCode": "KGM"
     },
+    "substrateMass": {
+        "type": "Property",
+        "value": 8500,
+        "unitCode": "KGM"
+    },
+    "harvestSum": [
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Harvest:first:wave",
+            "value": 985.2,
+            "unitCode": "KGM"
+        },
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Harvest:second:wave",
+            "value": 23.5,
+            "unitCode": "KGM"
+        },
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Harvest:total",
+            "value": 1008.7,
+            "unitCode": "KGM"
+        }
+    ],
+    "yield": [
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Yield:first:wave",
+            "value": 11.590589,
+            "unitCode": "P1"
+        },
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Yield:second:wave",
+            "value": 0.2764706,
+            "unitCode": "P1"
+        },
+        {
+            "type": "Property",
+            "datasetId": "urn:ngsi-ld:Dataset:Yield:total",
+            "value": 11.867059,
+            "unitCode": "P1"
+        }
+    ],
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agrifood/jsonld-contexts/agrifood-compound.jsonld"
     ]
