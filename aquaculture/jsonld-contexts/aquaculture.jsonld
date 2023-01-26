@@ -34,6 +34,9 @@
         "refFeeder": "https://uri.fiware.org/ns/data-models#refFeeder",
         "stateOfCharge": "https://uri.fiware.org/ns/data-models#stateOfCharge",
         "totalDissolvedSolids": "https://uri.fiware.org/ns/data-models#totalDissolvedSolids",
+        "food_input_rate": "https://uri.fiware.org/ns/data-models#food_input_rate",
+        "food_input_mass": "https://uri.fiware.org/ns/data-models#food_input_mass",
+        "food_provision_file_name": "https://uri.fiware.org/ns/data-models#food_provision_file_name",
         "videoStream": "https://uri.fiware.org/ns/data-models#videoStream"
     }
 }
