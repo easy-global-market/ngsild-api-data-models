@@ -1,5 +1,6 @@
 {
     "@context": {
+        "Fishmet": "https://uri.fiware.org/ns/data-models#Fishmet",
         "food_input_rate": "https://uri.fiware.org/ns/data-models#food_input_rate",
         "food_input_mass": "https://uri.fiware.org/ns/data-models#food_input_mass",
         "food_provision_file_name": "https://uri.fiware.org/ns/data-models#food_provision_file_name",
