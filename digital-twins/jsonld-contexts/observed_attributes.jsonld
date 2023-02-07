@@ -1,0 +1,9 @@
+  {
+    "@context": {
+        "name": "https://uri.fiware.org/ns/data-models#name",
+        "description": "https://uri.fiware.org/ns/data-models#description",
+        "blueprint": "https://uri.fiware.org/ns/data-models#blueprint",
+        "contextString": "https://uri.fiware.org/ns/data-models#contextString",
+        "imgSource": "https://uri.fiware.org/ns/data-models#imgSource",
+    }
+}
