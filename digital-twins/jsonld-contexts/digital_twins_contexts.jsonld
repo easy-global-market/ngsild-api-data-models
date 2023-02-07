@@ -1,5 +1,8 @@
 {
     "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/observed_attributes.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/observed_entity_types.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/observed_relationships.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
     ]
 }
