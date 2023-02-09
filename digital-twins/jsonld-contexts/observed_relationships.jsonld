@@ -1,6 +1,0 @@
-{
-  "@context": {
-    "refConfig": "https://uri.fiware.org/ns/data-models#refConfig",
-    "contains": "https://uri.fiware.org/ns/data-models#contains",
-  }
-}

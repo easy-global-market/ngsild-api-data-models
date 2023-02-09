@@ -1,6 +1,0 @@
-{
-    "@context": {
-        "UseCase": "https://uri.fiware.org/ns/data-models#UseCase",
-        "UseCaseConfig": "https://uri.fiware.org/ns/data-models#UseCaseConfig",
-    }
-}

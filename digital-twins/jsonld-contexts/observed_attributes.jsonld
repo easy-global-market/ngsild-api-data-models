@@ -1,9 +1,13 @@
-  {
-    "@context": {
-        "name": "https://uri.fiware.org/ns/data-models#name",
-        "description": "https://uri.fiware.org/ns/data-models#description",
-        "blueprint": "https://uri.fiware.org/ns/data-models#blueprint",
-        "contextString": "https://uri.fiware.org/ns/data-models#contextString",
-        "imgSource": "https://uri.fiware.org/ns/data-models#imgSource",
-    }
+{
+  "@context": {
+    "UseCase": "https://smartdatamodels/UseCase",
+    "UseCaseConfig": "https://smartdatamodels/UseCaseConfig",
+    "name": "https://smartdatamodels.org/name",
+    "description": "http://purl.org/dc/terms/description",
+    "blueprint": "https://smartdatamodels/blueprint",
+    "contextString": "https://smartdatamodels/contextString",
+    "imgSource": "https://smartdatamodels/imgSource",
+    "refConfig": "https://smartdatamodels/refConfig",
+    "contains": "https://smartdatamodels/contains"
+  }
 }
