@@ -4,7 +4,7 @@
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/device/jsonld-contexts/device.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/water/jsonld-contexts/water.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/alert-anomaly-risk/jsonld-contexts/alert-anomaly-risk.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/AlertAnomalyRisk/jsonld-contexts/AlertAnomalyRisk.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Agrifood/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.WasteWater/master/context.jsonld",
