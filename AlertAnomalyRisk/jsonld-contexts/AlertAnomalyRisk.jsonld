@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "Alert": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Alert",
+    "Anomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Anomaly",
+    "Risk": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Risk",
+    "conditions": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/conditions",
+    "hasAlert": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAlert",
+    "hasAnomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAnomaly",
+    "hasSubject": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasSubject",
+    "hasRisk": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasRisk",
+    "occurence": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/occurence",
+    "watchedProperties": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/watchedProperties"
+  }
+}
