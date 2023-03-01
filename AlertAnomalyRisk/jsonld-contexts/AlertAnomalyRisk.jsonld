@@ -4,10 +4,13 @@
     "Anomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Anomaly",
     "Risk": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Risk",
     "conditions": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/conditions",
+    "mailingList": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/mailingList",
     "hasAlert": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAlert",
     "hasAnomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAnomaly",
     "hasSubject": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasSubject",
     "hasRisk": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasRisk",
+    "message": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/message",
+    "triggeredBy": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/triggeredBy",
     "occurence": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/occurence",
     "watchedProperties": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/watchedProperties"
   }
