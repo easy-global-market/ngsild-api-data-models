@@ -4,7 +4,7 @@
     "Anomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Anomaly",
     "Risk": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/Risk",
     "conditions": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/conditions",
-    "diffusionList": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/diffusionList",
+    "mailingList": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/mailingList",
     "hasAlert": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAlert",
     "hasAnomaly": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasAnomaly",
     "hasSubject": "https://smartdatamodels.org/dataModel.AlertAnomalyRisk/hasSubject",
