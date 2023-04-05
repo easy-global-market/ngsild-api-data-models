@@ -6,7 +6,6 @@
         "Gateway": "https://uri.fiware.org/ns/data-models#Gateway",
         "Organization":"https://uri.fiware.org/ns/data-models#Organization",
         "Sump":"https://uri.fiware.org/ns/data-models#Sump",
-        
         "ammonia": "https://uri.fiware.org/ns/data-models#ammonia",
         "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
         "deployedIn": "https://uri.fiware.org/ns/data-models#deployedIn",
@@ -35,6 +34,9 @@
         "stateOfCharge": "https://uri.fiware.org/ns/data-models#stateOfCharge",
         "totalDissolvedSolids": "https://uri.fiware.org/ns/data-models#totalDissolvedSolids",
         "bodyMass": "https://uri.fiware.org/ns/data-models#bodyMass",
-        "videoStream": "https://uri.fiware.org/ns/data-models#videoStream"
+        "videoStream": "https://uri.fiware.org/ns/data-models#videoStream",
+        "numberOfFish": "https://uri.fiware.org/ns/data-models#numberOfFish",
+        "biomass": "https://uri.fiware.org/ns/data-models#biomass",
+        "consumedFeed": "https://uri.fiware.org/ns/data-models#consumedFeed"
     }
 }
