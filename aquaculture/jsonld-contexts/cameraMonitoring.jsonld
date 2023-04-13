@@ -4,6 +4,7 @@
         "rotation": "https://uri.fiware.org/ns/data-models#rotation",
         "convergence": "https://uri.fiware.org/ns/data-models#convergence",
         "detections": "https://uri.fiware.org/ns/data-models#detections",
-        "movement": "https://uri.fiware.org/ns/data-models#movement"
+        "movement": "https://uri.fiware.org/ns/data-models#movement",
+        "feedingScore": "https://uri.fiware.org/ns/data-models#feedingScore"
     }
 }
