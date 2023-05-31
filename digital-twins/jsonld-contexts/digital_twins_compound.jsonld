@@ -4,7 +4,6 @@
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/compound-airQuality.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/irrigation.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/AlertAnomalyRisk/jsonld-contexts/AlertAnomalyRisk-compound.jsonld",
-    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/alertAndAnomaly/jsonld-contexts/alertAndAnomaly.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
