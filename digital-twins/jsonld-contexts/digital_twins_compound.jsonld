@@ -5,8 +5,8 @@
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/observed-attributes.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/soil-attributes.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/AlertAnomalyRisk/jsonld-contexts/AlertAnomalyRisk.jsonld",
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.RiskManagement/master/context.jsonld",
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.Alert/master/context.jsonld",
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/AlertAnomalyRisk/jsonld-contexts/sdm-risk-management.jsonld",
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/AlertAnomalyRisk/jsonld-contexts/sdm-alert.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
