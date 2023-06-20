@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "Device": "https://smartdatamodels.org/dataModel.Device/Device",
+        "pressure": "https://smartdatamodels.org/dataModel.Environment/pressure",
+        "flowRate": "https://ontology.eglobalmark.com/lotus/flowRate",
+        "flowRateModbus": "https://ontology.eglobalmark.com/lotus/flowRateModbus",
+        "gsmStatus": "https://ontology.eglobalmark.com/lotus/gsmStatus",
+        "gsmSignal": "https://ontology.eglobalmark.com/lotus/gsmSignal"
+    }
+}
