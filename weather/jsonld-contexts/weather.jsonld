@@ -2,16 +2,21 @@
     "@context": {
         "WeatherInformation": "https://uri.fiware.org/ns/data-models#WeatherInformation",
         "WeatherForcasted": "https://uri.fiware.org/ns/data-models#WeatherForcasted",
-        "evapotranspiration": "https://uri.fiware.org/ns/data-models#evapotranspiration",       
-        "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "cloud": "https://uri.fiware.org/ns/data-models#cloud",
         "cloudCoverage": "https://uri.fiware.org/ns/data-models#cloudCoverage",
+        "convectiveAvailablePotentialEnergy": "https://smartdatamodels.org/dataModel.Weather/convectiveAvailablePotentialEnergy",
+        "evapotranspiration": "https://uri.fiware.org/ns/data-models#evapotranspiration",
+        "freezingLevelHeight": "https://smartdatamodels.org/dataModel.Weather/freezingLevelHeight",
         "growingDegreeDays": "https://uri.fiware.org/ns/data-models#growingDegreeDays",
-        "visibility": "https://uri.fiware.org/ns/data-models#visibility",
+        "isDay": "https://smartdatamodels.org/dataModel.Weather/isDay",
+        "observedBy": "https://uri.fiware.org/ns/data-models#observedBy",
         "precipitationIntensity": "https://uri.fiware.org/ns/data-models#precipitationIntensity",
+        "precipitationProbability": "https://smartdatamodels.org/dataModel.Weather/precipitationProbability",
         "relativeHumidityOverThreshold": "https://uri.fiware.org/ns/data-models#relativeHumidityOverThreshold",
         "sensibleWeatherId": "https://uri.fiware.org/ns/data-models#sensibleWeatherId",
         "vapourPressureDeficit": "https://uri.fiware.org/ns/data-models#vapourPressureDeficit",
+        "visibility": "https://uri.fiware.org/ns/data-models#visibility",
+        "weatherCode": "https://smartdatamodels.org/dataModel.Weather/weatherCode",
         "windMaxAverage": "https://uri.fiware.org/ns/data-models#windMaxAverage"
     }
 }
