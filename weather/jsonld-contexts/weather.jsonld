@@ -1,8 +1,8 @@
 {
     "@context": {
+        "HydrometricStation": "https://smartdatamodels.org/dataModel.Weather/HydrometricStation",
         "WeatherForcasted": "https://uri.fiware.org/ns/data-models#WeatherForcasted",
         "WeatherInformation": "https://uri.fiware.org/ns/data-models#WeatherInformation",
-        "HydrometricStation": "https://smartdatamodels.org/dataModel.Weather/HydrometricStation",
         "cloud": "https://uri.fiware.org/ns/data-models#cloud",
         "cloudCoverage": "https://uri.fiware.org/ns/data-models#cloudCoverage",
         "convectiveAvailablePotentialEnergy": "https://smartdatamodels.org/dataModel.Weather/convectiveAvailablePotentialEnergy",
