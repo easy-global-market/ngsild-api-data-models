@@ -1,5 +1,6 @@
 {
     "@context": [
+        "https://raw.githubusercontent.com/smart-data-models/dataModel.WaterQuality/master/context.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agrifood/jsonld-contexts/agrifood.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/device/jsonld-contexts/device.jsonld",
@@ -8,7 +9,6 @@
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Agrifood/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.WasteWater/master/context.jsonld",
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.WaterQuality/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld",
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Weather/master/context.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
