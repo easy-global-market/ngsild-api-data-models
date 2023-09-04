@@ -16,8 +16,15 @@
         "relativeHumidityOverThreshold": "https://uri.fiware.org/ns/data-models#relativeHumidityOverThreshold",
         "sensibleWeatherId": "https://uri.fiware.org/ns/data-models#sensibleWeatherId",
         "vapourPressureDeficit": "https://uri.fiware.org/ns/data-models#vapourPressureDeficit",
-        "visibility": "https://uri.fiware.org/ns/data-models#visibility",
+        "windMaxAverage": "https://uri.fiware.org/ns/data-models#windMaxAverage",
+        "atmosphericPressure": "https://smartdatamodels.org/dataModel.Weather/atmosphericPressure",
+        "gustSpeed": "https://smartdatamodels.org/dataModel.Weather/gustSpeed",
+        "refPointOfInterest": "https://smartdatamodels.org/dataModel.Weather/refPointOfInterest",
+        "visibility": "https://smartdatamodels.org/dataModel.Weather/visibility",
         "weatherCode": "https://smartdatamodels.org/dataModel.Weather/weatherCode",
-        "windMaxAverage": "https://uri.fiware.org/ns/data-models#windMaxAverage"
+        "wavePeriod": "https://smartdatamodels.org/dataModel.Weather/wavePeriod",
+        "weatherType": "https://smartdatamodels.org/dataModel.Weather/weatherType",
+        "windDirection": "https://smartdatamodels.org/dataModel.Weather/windDirection",
+        "windSpeed": "https://smartdatamodels.org/dataModel.Weather/windSpeed"
     }
 }
