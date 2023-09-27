@@ -8,6 +8,7 @@
     "contextString": "https://smartdatamodels.org/dataModel.CrossSector/contextString",
     "imgSource": "https://smartdatamodels.org/dataModel.CrossSector/imgSource",
     "refConfig": "https://smartdatamodels.org/dataModel.CrossSector/refConfig",
-    "contains": "https://smartdatamodels.org/dataModel.CrossSector/contains"
+    "contains": "https://smartdatamodels.org/dataModel.CrossSector/contains",
+    "externalLinks": "https://smartdatamodels.org/dataModel.CrossSector/externalLinks"
   }
 }
