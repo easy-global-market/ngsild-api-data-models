@@ -1,5 +1,6 @@
 {
   "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/dcat.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/usecase.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/airQuality-context.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/observed-attributes.jsonld",
