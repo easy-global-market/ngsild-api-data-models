@@ -6,17 +6,18 @@
     "dataset": "http://www.w3.org/ns/dcat#dataset",
     "Dataset": "http://www.w3.org/ns/dcat#Dataset",
     "description": "http://purl.org/dc/terms/description",
-    "title": "http://purl.org/dc/terms/title",
     "Distribution": "http://www.w3.org/ns/dcat#Distribution",
     "documentation": "http://xmlns.com/foaf/0.1/Document",
     "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
+    "fairScore": "https://smart-data-models.org/fairScore",
     "hasLogo": "http://xmlns.com/foaf/0.1/logo",
     "homepage": "http://xmlns.com/foaf/0.1/homepage",
-    "publisher": "http://purl.org/dc/terms/publisher",
     "landingPage": "http://www.w3.org/ns/dcat#landingPage",
+    "publisher": "http://purl.org/dc/terms/publisher",
     "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
     "service": "http://www.w3.org/ns/dcat#service",
     "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
-    "theme": "http://www.w3.org/ns/dcat#theme"
+    "theme": "http://www.w3.org/ns/dcat#theme",
+    "title": "http://purl.org/dc/terms/title"
   }
 }
