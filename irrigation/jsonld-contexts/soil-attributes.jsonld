@@ -1,12 +1,18 @@
 {
     "@context": {
-        "SoilArea": "https://uri.fiware.org/ns/data-models#SoilArea",
-        "ReferenceSoilArea": "https://uri.fiware.org/ns/data-models#ReferenceSoilArea",
         "City": "https://uri.fiware.org/ns/data-models#City",
         "IrrigationArea": "https://uri.fiware.org/ns/data-models#IrrigationArea",
-        "soilAreaType": "https://uri.fiware.org/ns/data-models#soilAreaType",
-        "hasSoilArea": "https://uri.fiware.org/ns/data-models#hasSoilArea",
+        "ReferenceSoilArea": "https://uri.fiware.org/ns/data-models#ReferenceSoilArea",
+        "SoilArea": "https://uri.fiware.org/ns/data-models#SoilArea",
+        "cropCoefficient": "https://smartdatamodels.org/cropCoefficient",
         "hasReferenceSoilArea": "https://uri.fiware.org/ns/data-models#hasReferenceSoilArea",
-        "soilParameters": "https://uri.fiware.org/ns/data-models#soilParameters"
+        "hasSoilArea": "https://uri.fiware.org/ns/data-models#hasSoilArea",
+        "runoffCurveNumber": "https://smartdatamodels.org/runoffCurveNumber",
+        "soilAreaType": "https://uri.fiware.org/ns/data-models#soilAreaType",
+        "soilDepth": "https://smartdatamodels.org/soilDepth",
+        "swcon": "https://smartdatamodels.org/swcon",
+        "volumetricMoistureFieldCapacity": "https://smartdatamodels.org/volumetricMoistureFieldCapacity",
+        "volumetricMoisturePermanentWiltingPoint": "https://smartdatamodels.org/volumetricMoisturePermanentWiltingPoint",
+        "volumetricMoistureSaturation": "https://smartdatamodels.org/volumetricMoisturePermanentWiltingPoint"
     }
 }
