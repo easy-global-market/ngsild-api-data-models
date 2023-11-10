@@ -13,6 +13,6 @@
         "swcon": "https://smartdatamodels.org/swcon",
         "volumetricMoistureFieldCapacity": "https://smartdatamodels.org/volumetricMoistureFieldCapacity",
         "volumetricMoisturePermanentWiltingPoint": "https://smartdatamodels.org/volumetricMoisturePermanentWiltingPoint",
-        "volumetricMoistureSaturation": "https://smartdatamodels.org/volumetricMoisturePermanentWiltingPoint"
+        "volumetricMoistureSaturation": "https://smartdatamodels.org/volumetricMoistureSaturation"
     }
 }
