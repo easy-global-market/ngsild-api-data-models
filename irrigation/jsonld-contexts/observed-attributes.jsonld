@@ -36,6 +36,7 @@
         "sensorChannel": "https://uri.fiware.org/ns/data-models#sensorChannel",
         "sensorCounterId": "https://uri.fiware.org/ns/data-models#sensorCounterId",
         "sensorId": "https://uri.fiware.org/ns/data-models#sensorId",
+        "soilElectricalConductivity": "https://smartdatamodels.org/soilElectricalConductivity",
         "soilTemperature": "https://uri.fiware.org/ns/data-models#soilTemperature",
         "source": "https://uri.fiware.org/ns/data-models#source",
         "sourceParameterCode": "https://uri.fiware.org/ns/data-models#sourceParameterCode",
