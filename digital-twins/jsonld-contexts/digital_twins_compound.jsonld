@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/c2aeaacb4ccab3859fef11c673f96ca01e92f300/jsonld-contexts/c2jn-smart-city-compound.json-ld",
+    "https://raw.githubusercontent.com/easy-global-market/c2jn-data-models/main/jsonld-contexts/c2jn-smart-city-compound.json-ld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/dcat.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/digital-twins/jsonld-contexts/usecase.jsonld",
     "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/officeAirQuality/jsonld-contexts/airQuality-context.jsonld",
