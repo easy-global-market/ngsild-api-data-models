@@ -1,7 +1,7 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/apic/jsonld-contexts/apic.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/shared-jsonld-contexts/egm.jsonld",
-        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.3.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/apic/jsonld-contexts/apic.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/shared-jsonld-contexts/egm.jsonld",
+        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
