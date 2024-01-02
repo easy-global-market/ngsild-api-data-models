@@ -104,6 +104,6 @@
       }
    },
    "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/edgeGw/jsonld-contexts/edgeGateway-compound.jsonld"
+      "https://easy-global-market.github.io/ngsild-api-data-models/edgeGw/jsonld-contexts/edgeGateway-compound.jsonld"
    ]
 }

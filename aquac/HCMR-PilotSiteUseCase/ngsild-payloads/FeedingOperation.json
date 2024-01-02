@@ -26,6 +26,6 @@
         "observedAt": "2005-06-08T00:00:00Z"
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
 }

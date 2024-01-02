@@ -27,5 +27,5 @@
          "datasetId": "urn:ngsi-ld:Dataset:depth:MM:09995X0028/F"
       }
    ],
-   "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+   "@context": "https://easy-global-market.github.io/ngsild-api-data-models/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
 }

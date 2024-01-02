@@ -15,6 +15,6 @@
          "unitCode": "MIN"
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
     ]
 }

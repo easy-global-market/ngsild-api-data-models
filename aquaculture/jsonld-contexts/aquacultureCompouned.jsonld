@@ -1,10 +1,10 @@
 {
     "@context": [
         "https://fiware.github.io/data-models/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/aquaculture.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/feeder.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/fishmet.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquaculture/jsonld-contexts/cameraMonitoring.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/aquaculture.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/feeder.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/fishmet.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/cameraMonitoring.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }

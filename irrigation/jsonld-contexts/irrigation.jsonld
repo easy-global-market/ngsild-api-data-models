@@ -1,12 +1,12 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/soil-attributes.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/observed-attributes.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather-compound.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/irrigation/jsonld-contexts/schema-attributes.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/alertAndAnomaly/jsonld-contexts/alertAndAnomaly.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/soil-attributes.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/observed-attributes.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather-compound.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/schema-attributes.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/alertAndAnomaly/jsonld-contexts/alertAndAnomaly.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }

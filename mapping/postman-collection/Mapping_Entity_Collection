@@ -34,7 +34,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"id\": \"urn:ngsi-ld:Mapping:XYZ01\",\r\n   \"type\": \"Mapping\",\r\n   \"hasBridge\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:MqttBridge:01\"\r\n   },\r\n   \"deviceId\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"put here the senML bn\"\r\n   },\r\n   \"context\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \" put here the context of the entities\"\r\n   },\r\n   \"attributes\": [\r\n      {\r\n         \"type\": \"Property\",\r\n         \"value\": \"temp(senML Property Name)\",\r\n         \"attribute\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"temperature(NGSI-LD Property Name)\"\r\n         },\r\n         \"attributeValueType\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"float\"\r\n         },\r\n         \"entityType\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"Room\"\r\n         },\r\n         \"attributeDatasetId\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"urn:ngsi-ld:Dataset:temperature:cel:01\"\r\n         },\r\n         \"hasTargetEntity\": {\r\n            \"type\": \"Relationship\",\r\n            \"object\": \"urn:ngsi-ld:Room:01\"\r\n         },\r\n         \"subAttribute1\": {\r\n            \"type\": \"Property\",\r\n            \"value\": {\r\n               \"objectId\": \"reliabilitySenML\",\r\n               \"attributeValueType\": \"integer\",\r\n               \"attribute\": \"reliabilityNgsiLd\"\r\n            }\r\n         },\r\n         \"datasetId\": \"urn:ngsi-ld:Dataset:attribute:01\"\r\n      }\r\n   ],\r\n   \"@context\": [\r\n      \"https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld\"\r\n   ]\r\n}",
+					"raw": "{\r\n   \"id\": \"urn:ngsi-ld:Mapping:XYZ01\",\r\n   \"type\": \"Mapping\",\r\n   \"hasBridge\": {\r\n      \"type\": \"Relationship\",\r\n      \"object\": \"urn:ngsi-ld:MqttBridge:01\"\r\n   },\r\n   \"deviceId\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \"put here the senML bn\"\r\n   },\r\n   \"context\": {\r\n      \"type\": \"Property\",\r\n      \"value\": \" put here the context of the entities\"\r\n   },\r\n   \"attributes\": [\r\n      {\r\n         \"type\": \"Property\",\r\n         \"value\": \"temp(senML Property Name)\",\r\n         \"attribute\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"temperature(NGSI-LD Property Name)\"\r\n         },\r\n         \"attributeValueType\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"float\"\r\n         },\r\n         \"entityType\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"Room\"\r\n         },\r\n         \"attributeDatasetId\": {\r\n            \"type\": \"Property\",\r\n            \"value\": \"urn:ngsi-ld:Dataset:temperature:cel:01\"\r\n         },\r\n         \"hasTargetEntity\": {\r\n            \"type\": \"Relationship\",\r\n            \"object\": \"urn:ngsi-ld:Room:01\"\r\n         },\r\n         \"subAttribute1\": {\r\n            \"type\": \"Property\",\r\n            \"value\": {\r\n               \"objectId\": \"reliabilitySenML\",\r\n               \"attributeValueType\": \"integer\",\r\n               \"attribute\": \"reliabilityNgsiLd\"\r\n            }\r\n         },\r\n         \"datasetId\": \"urn:ngsi-ld:Dataset:attribute:01\"\r\n      }\r\n   ],\r\n   \"@context\": [\r\n      \"https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping-compound.jsonld\"\r\n   ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -126,7 +126,7 @@
 					{
 						"key": "link",
 						"type": "text",
-						"value": "<https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld>"
+						"value": "<https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping-compound.jsonld>"
 					},
 					{
 						"key": "Content-Type",
@@ -176,7 +176,7 @@
 					{
 						"key": "link",
 						"type": "text",
-						"value": "<https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld"
+						"value": "<https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping-compound.jsonld"
 					},
 					{
 						"key": "Content-Type",
@@ -227,7 +227,7 @@
 					{
 						"key": "link",
 						"type": "text",
-						"value": "<https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld"
+						"value": "<https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping-compound.jsonld"
 					},
 					{
 						"key": "Content-Type",
