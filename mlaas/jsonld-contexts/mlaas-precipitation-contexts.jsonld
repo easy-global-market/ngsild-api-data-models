@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mlaas/jsonld-contexts/mlaas-ngsild-compound.jsonld",
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitation.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/mlaas/jsonld-contexts/mlaas-ngsild-compound.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/precipitation/jsonld-contexts/precipitation.jsonld"
     ]
 }

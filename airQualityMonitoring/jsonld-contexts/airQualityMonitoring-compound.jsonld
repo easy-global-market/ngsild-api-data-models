@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/airQualityMonitoring/jsonld-contexts/airQualityMonitoring.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/airQualityMonitoring/jsonld-contexts/airQualityMonitoring.jsonld",
     "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
   ]

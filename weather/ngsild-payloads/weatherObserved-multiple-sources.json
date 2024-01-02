@@ -268,6 +268,6 @@
     }
   ],
   "@context": [
-    "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/weather/jsonld-contexts/weather-compound.jsonld"
+    "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather-compound.jsonld"
   ]
 }

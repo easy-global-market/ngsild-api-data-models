@@ -383,6 +383,6 @@
         "object": "urn:ngsi-ld:Feeder:HCMR:cage01"
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
 }

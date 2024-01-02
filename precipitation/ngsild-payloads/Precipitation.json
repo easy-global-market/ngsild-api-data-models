@@ -15,5 +15,5 @@
         "unitCode": "MM",
         "observedAt": "2003-04-01T00:00:00Z"
     },
-    "@context": "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
+    "@context": "https://easy-global-market.github.io/ngsild-api-data-models/precipitation/jsonld-contexts/precipitationCompouned.jsonld"
 }

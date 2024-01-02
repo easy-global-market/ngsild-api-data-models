@@ -32,6 +32,6 @@
         }
     },
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/agrifood/jsonld-contexts/agrifood-compound.jsonld"
+        "https://easy-global-market.github.io/ngsild-api-data-models/agrifood/jsonld-contexts/agrifood-compound.jsonld"
     ]
 }

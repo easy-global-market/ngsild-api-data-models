@@ -25,6 +25,6 @@
       "value": "xyz"
    },
    "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/mapping/jsonld-contexts/mapping-compound.jsonld"
+      "https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping-compound.jsonld"
    ]
 }
