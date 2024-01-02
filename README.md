@@ -3,5 +3,5 @@
 ## What this repository contains?
 
 This repository contains:
-- Specific JSON-LD contexts we are working on currently. They are expected to be integrated within the [Smart Data Models repository](https://github.com/smart-data-models/) once stable.
+- Specific JSON-LD contexts and NGSI-LD sample payloads used in our current projects.
 - A discussion on the use of [unit code](UnitCodes.md) in NGSI-LD payloads and transformation from senML units.
