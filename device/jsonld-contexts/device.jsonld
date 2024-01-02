@@ -1,5 +1,6 @@
 {
     "@context": {
+        "Device": "https://smartdatamodels.org/dataModel.Device/Device",
         "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
         "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
         "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
