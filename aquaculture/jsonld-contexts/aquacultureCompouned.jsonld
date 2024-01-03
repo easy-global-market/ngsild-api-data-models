@@ -1,6 +1,5 @@
 {
     "@context": [
-        "https://fiware.github.io/data-models/context.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/aquaculture.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/feeder.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/aquaculture/jsonld-contexts/fishmet.jsonld",

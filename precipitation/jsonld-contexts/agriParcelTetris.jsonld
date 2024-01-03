@@ -1,5 +1,7 @@
 {
     "@context": {
-        "waterStress":"https://uri.fiware.org/ns/data-models#waterStress"
+        "batteryLevel": "https://uri.fiware.org/ns/data-models#batteryLevel",
+        "soilTemperature": "https://uri.fiware.org/ns/data-models#soilTemperature",
+        "waterStress": "https://uri.fiware.org/ns/data-models#waterStress"
     }
 }
