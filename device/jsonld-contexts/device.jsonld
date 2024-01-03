@@ -1,6 +1,12 @@
 {
     "@context": {
+        "Device": "https://smartdatamodels.org/dataModel.Device/Device",
+        "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
         "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
-        "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR"
+        "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
+        "internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
+        "internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
+        "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
+        "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion"
     }
 } 
