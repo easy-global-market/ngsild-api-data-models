@@ -1,12 +1,19 @@
 {
    "@context": {
       "Room": "https://uri.fiware.org/ns/data-models#Room",
-
+      "atmosphericPressure": "https://uri.fiware.org/ns/data-models#atmosphericPressure",
+      "batteryLevel": "https://uri.fiware.org/ns/data-models#batteryLevel",
       "batteryVoltage": "https://uri.fiware.org/ns/data-models#batteryVoltage",
-      "co2Concentration": "https://uri.fiware.org/ns/data-models#co2Concentration",
+      "co2": "https://uri.fiware.org/ns/data-models#co2",
       "co2Alarm": "https://uri.fiware.org/ns/data-models#co2Alarm",
+      "co2Concentration": "https://uri.fiware.org/ns/data-models#co2Concentration",
+      "humidity": "https://uri.fiware.org/ns/data-models#humidity",
+      "illuminance": "https://uri.fiware.org/ns/data-models#illuminance",
+      "loraSNR": "https://uri.fiware.org/ns/data-models#loraSNR",
+      "motion": "https://uri.fiware.org/ns/data-models#motion",
+      "rssi": "https://uri.fiware.org/ns/data-models#rssi",
+      "temperature": "https://uri.fiware.org/ns/data-models#temperature",
       "temperatureAlarm": "https://uri.fiware.org/ns/data-models#temperatureAlarm",
-      "voc": "https://uri.fiware.org/ns/data-models#voc",
-      "loraSNR": "https://uri.fiware.org/ns/data-models#loraSNR" 
+      "voc": "https://uri.fiware.org/ns/data-models#voc"
    }
 }
