@@ -1,5 +1,6 @@
 {
    "@context": {
+      "Device": "https://uri.fiware.org/ns/data-models#Device",
       "Room": "https://uri.fiware.org/ns/data-models#Room",
       "atmosphericPressure": "https://uri.fiware.org/ns/data-models#atmosphericPressure",
       "batteryLevel": "https://uri.fiware.org/ns/data-models#batteryLevel",
