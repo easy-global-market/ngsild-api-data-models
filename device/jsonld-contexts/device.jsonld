@@ -14,7 +14,6 @@
 		"powerConsumption": "https://smartdatamodels.org/dataModel.Device/powerConsumption",
 		"rssi": "https://smartdatamodels.org/dataModel.Device/rssi",
 		"softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion",
-		"voltage": "https://smartdatamodels.org/dataModel.Device/voltage",
-		"test": "test
+		"voltage": "https://smartdatamodels.org/dataModel.Device/voltage"
 	}
 }
