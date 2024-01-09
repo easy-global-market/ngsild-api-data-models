@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "depth": "https://smartdatamodels.org/dataModel.Environment/depth",
+        "distance": "https://smartdatamodels.org/dataModel.Environment/distance",
+        "co2": "https://smartdatamodels.org/dataModel.Environment/co2",
+        "pH": "https://smartdatamodels.org/dataModel.Environment/pH",
+        "salinity": "https://smartdatamodels.org/dataModel.Environment/salinity",
+        "humidity": "https://smartdatamodels.org/dataModel.Environment/humidity",
+        "temperature": "https://smartdatamodels.org/dataModel.Environment/temperature"
+    }
+}
