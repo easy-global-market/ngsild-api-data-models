@@ -1,14 +1,19 @@
 {
-    "@context": {
-        "Device": "https://smartdatamodels.org/dataModel.Device/Device",
-        "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
-        "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
-        "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
-        "deviceName": "https://smartdatamodels.org/dataModel.Device/deviceName",
-        "deviceType": "https://smartdatamodels.org/dataModel.Device/deviceType",
-        "internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
-        "internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
-        "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
-        "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion"
-    }
-} 
+	"@context": {
+		"Device": "https://smartdatamodels.org/dataModel.Device/Device",
+		"applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
+		"battery": "https://smartdatamodels.org/dataModel.Device/battery",
+		"batteryLevel": "https://smartdatamodels.org/dataModel.Device/batteryLevel",
+		"batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
+		"chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
+		"deviceName": "https://smartdatamodels.org/dataModel.Device/deviceName",
+		"deviceType": "https://smartdatamodels.org/dataModel.Device/deviceType",
+		"internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
+		"internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
+		"loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
+		"powerConsumption": "https://smartdatamodels.org/dataModel.Device/powerConsumption",
+		"rssi": "https://smartdatamodels.org/dataModel.Device/rssi",
+		"softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion",
+		"voltage": "https://smartdatamodels.org/dataModel.Device/voltage"
+	}
+}
