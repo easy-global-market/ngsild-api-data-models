@@ -5,17 +5,16 @@
         "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
         "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
         "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
+        "description": "https://smartdatamodels.org/dataModel.Device/description",
         "devEUI": "https://smartdatamodels.org/dataModel.Device/devEUI",
-        "deviceDescription": "https://smartdatamodels.org/dataModel.Device/deviceDescription",
-        "deviceIsDeleted": "https://smartdatamodels.org/dataModel.Device/isDeleted",
-        "deviceName": "https://smartdatamodels.org/dataModel.Device/deviceName",
-        "deviceNetworks": "https://smartdatamodels.org/dataModel.Device/deviceNetworks",
         "deviceType": "https://smartdatamodels.org/dataModel.Device/deviceType",
         "internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
         "internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
+        "isDeleted": "https://smartdatamodels.org/dataModel.Device/isDeleted",
+        "isEnabled": "https://smartdatamodels.org/dataModel.Device/isEnabled",
         "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
-        "networkIsEnabled": "https://smartdatamodels.org/dataModel.Device/networkIsEnabled",
-        "networkName": "https://smartdatamodels.org/dataModel.Device/networkName",
+        "name": "https://smartdatamodels.org/dataModel.Device/name",
+        "networks": "https://smartdatamodels.org/dataModel.Device/networks",
         "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion"
     }
 }
