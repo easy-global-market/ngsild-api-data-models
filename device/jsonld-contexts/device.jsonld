@@ -1,21 +1,21 @@
 {
     "@context": {
         "Device": "https://smartdatamodels.org/dataModel.Device/Device",
+        "appEUI": "https://smartdatamodels.org/dataModel.Device/appEUI",
         "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
         "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
         "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
+        "devEUI": "https://smartdatamodels.org/dataModel.Device/devEUI",
+        "deviceDescription": "https://smartdatamodels.org/dataModel.Device/deviceDescription",
+        "deviceIsDeleted": "https://smartdatamodels.org/dataModel.Device/isDeleted",
         "deviceName": "https://smartdatamodels.org/dataModel.Device/deviceName",
+        "deviceNetworks": "https://smartdatamodels.org/dataModel.Device/deviceNetworks",
         "deviceType": "https://smartdatamodels.org/dataModel.Device/deviceType",
         "internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
         "internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
         "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
-        "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion",
-        "deviceDescription": "https://smartdatamodels.org/dataModel.Device/deviceDescription",
-        "devEUI": "https://smartdatamodels.org/dataModel.Device/devEUI",
-        "appEUI": "https://smartdatamodels.org/dataModel.Device/appEUI",
-        "deviceIsDeleted": "https://smartdatamodels.org/dataModel.Device/isDeleted",
-        "deviceNetworks": "https://smartdatamodels.org/dataModel.Device/deviceNetworks",
         "networkIsEnabled": "https://smartdatamodels.org/dataModel.Device/networkIsEnabled",
-        "networkName": "https://smartdatamodels.org/dataModel.Device/networkName"
+        "networkName": "https://smartdatamodels.org/dataModel.Device/networkName",
+        "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion"
     }
 }
