@@ -1,0 +1,60 @@
+{
+    "id": "urn:ngsi-ld:Device:01",
+    "type": "Device",
+    "name": {
+        "type": "Property",
+        "value": "Device 1"
+    },
+    "description": {
+        "type": "Property",
+        "value": "lorem ipsum"
+    },
+    "appEUI": {
+        "type": "Property",
+        "value": "000000000"
+    },
+    "appKey": {
+        "type": "Property",
+        "value": "000000000"
+    },
+    "isDeleted": {
+        "type": "Property",
+        "value": false
+    },
+    "devEUI": {
+        "type": "Property",
+        "value": "000000000"
+    },
+    "deviceType": {
+        "type": "Property",
+        "value": "SenseCAP S2105"
+    },
+    "networks": [
+        {
+            "type": "Property",
+            "name": {
+                "type": "Property",
+                "value": "Chirpstack"
+            },
+            "datasetId": "urn:ngsi-ld:Device:networks:chirpstack",
+            "isEnabled": {
+                "type": "Property",
+                "value": false
+            },
+            "value": "chirpstack"
+        },
+        {
+            "type": "Property",
+            "name": {
+                "type": "Property",
+                "value": "Orange"
+            },
+            "datasetId": "urn:ngsi-ld:Device:networks:orange",
+            "isEnabled": {
+                "type": "Property",
+                "value": true
+            },
+            "value": "orange"
+        }
+    ]
+}

@@ -1,14 +1,19 @@
 {
     "@context": {
         "Device": "https://smartdatamodels.org/dataModel.Device/Device",
+        "appEUI": "https://smartdatamodels.org/dataModel.Device/appEUI",
         "applicationId": "https://smartdatamodels.org/dataModel.Device/applicationId",
         "batteryVoltage": "https://smartdatamodels.org/dataModel.Device/batteryVoltage",
         "chargerStatus": "https://smartdatamodels.org/dataModel.Device/chargerStatus",
-        "deviceName": "https://smartdatamodels.org/dataModel.Device/deviceName",
+        "devEUI": "https://smartdatamodels.org/dataModel.Device/devEUI",
         "deviceType": "https://smartdatamodels.org/dataModel.Device/deviceType",
         "internalHumidity": "https://smartdatamodels.org/dataModel.Device/internalHumidity",
         "internalTemperature": "https://smartdatamodels.org/dataModel.Device/internalTemperature",
+        "isDeleted": "https://smartdatamodels.org/dataModel.Device/isDeleted",
+        "isEnabled": "https://smartdatamodels.org/dataModel.Device/isEnabled",
         "loraSNR": "https://smartdatamodels.org/dataModel.Device/loraSNR",
+        "name": "https://schema.org/name",
+        "networks": "https://smartdatamodels.org/dataModel.Device/networks",
         "softwareVersion": "https://smartdatamodels.org/dataModel.Device/softwareVersion"
     }
-} 
+}
