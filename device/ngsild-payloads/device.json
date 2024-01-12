@@ -1,11 +1,11 @@
 {
     "id": "urn:ngsi-ld:Device:01",
     "type": "Device",
-    "deviceName": {
+    "name": {
         "type": "Property",
         "value": "Device 1"
     },
-    "deviceDescription": {
+    "description": {
         "type": "Property",
         "value": "lorem ipsum"
     },
@@ -17,7 +17,7 @@
         "type": "Property",
         "value": "000000000"
     },
-    "deviceIsDeleted": {
+    "isDeleted": {
         "type": "Property",
         "value": false
     },
@@ -32,12 +32,12 @@
     "networks": [
         {
             "type": "Property",
-            "networkName": {
+            "name": {
                 "type": "Property",
                 "value": "Chirpstack"
             },
             "datasetId": "urn:ngsi-ld:Device:networks:chirpstack",
-            "networkIsEnabled": {
+            "isEnabled": {
                 "type": "Property",
                 "value": false
             },
@@ -45,12 +45,12 @@
         },
         {
             "type": "Property",
-            "networkName": {
+            "name": {
                 "type": "Property",
                 "value": "Orange"
             },
             "datasetId": "urn:ngsi-ld:Device:networks:orange",
-            "networkIsEnabled": {
+            "isEnabled": {
                 "type": "Property",
                 "value": true
             },
