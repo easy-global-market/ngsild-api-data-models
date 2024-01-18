@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Environment/master/context.jsonld",
+        "https://smart-data-models.github.io/dataModel.Environment/context.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Weather/master/context.jsonld",
+        "https://smart-data-models.github.io/dataModel.Weather/context.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
