@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/smart-data-models/dataModel.Device/master/context.jsonld",
+        "https://smart-data-models.github.io/dataModel.Device/context.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/soil-attributes.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/observed-attributes.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather-compound.jsonld",
