@@ -1,0 +1,20 @@
+{
+   "@context": {
+      "Device": "https://vocab.egm.io/Device",
+      "Room": "https://vocab.egm.io/Room",
+      "atmosphericPressure": "https://vocab.egm.io/atmosphericPressure",
+      "batteryLevel": "https://vocab.egm.io/batteryLevel",
+      "batteryVoltage": "https://vocab.egm.io/batteryVoltage",
+      "co2": "https://vocab.egm.io/co2",
+      "co2Alarm": "https://vocab.egm.io/co2Alarm",
+      "co2Concentration": "https://vocab.egm.io/co2Concentration",
+      "humidity": "https://vocab.egm.io/humidity",
+      "illuminance": "https://vocab.egm.io/illuminance",
+      "loraSNR": "https://vocab.egm.io/loraSNR",
+      "motion": "https://vocab.egm.io/motion",
+      "rssi": "https://vocab.egm.io/rssi",
+      "temperature": "https://vocab.egm.io/temperature",
+      "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
+      "voc": "https://vocab.egm.io/voc"
+   }
+}
