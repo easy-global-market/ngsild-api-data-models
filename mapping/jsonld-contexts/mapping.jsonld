@@ -2,7 +2,6 @@
 	"@context": {
 		"Mapping": "https://ontology.eglobalmark.com/Mapping",
 		"Bridge": "https://ontology.eglobalmark.com/Bridge",
-
 		"attributesToMap": "https://ontology.eglobalmark.com/attributesToMap",
 		"attribute": "https://ontology.eglobalmark.com/attribute",
 		"attributeValueType": "https://ontology.eglobalmark.com/attributeValueType",

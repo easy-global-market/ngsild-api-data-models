@@ -1,8 +1,8 @@
 {
     "@context": {
-        "HydrometricStation": "https://vocab.egm.io/HydrometricStation",
         "WeatherForcasted": "https://vocab.egm.io/WeatherForcasted",
         "WeatherInformation": "https://vocab.egm.io/WeatherInformation",
+        "WeatherObserved": "https://vocab.egm.io/WeatherObserved",
         "atmosphericPressure": "https://vocab.egm.io/atmosphericPressure",
         "cloud": "https://vocab.egm.io/cloud",
         "cloudCoverage": "https://vocab.egm.io/cloudCoverage",
@@ -17,7 +17,6 @@
         "illuminance": "https://vocab.egm.io/illuminance",
         "isDay": "https://vocab.egm.io/isDay",
         "observedBy": "https://vocab.egm.io/observedBy",
-        "pH": "https://vocab.egm.io/pH",
         "precipitation": "https://vocab.egm.io/precipitation",
         "precipitationIntensity": "https://vocab.egm.io/precipitationIntensity",
         "precipitationProbability": "https://vocab.egm.io/precipitationProbability",

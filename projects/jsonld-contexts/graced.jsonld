@@ -1,6 +1,9 @@
 {
     "@context": [
-        "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/irrigation-attributes.jsonld",
+        "https://smart-data-models.github.io/dataModel.Agrifood/context.jsonld",
+        "https://smart-data-models.github.io/dataModel.WaterQuality/context.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/agrifood/jsonld-contexts/agrifood.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/water/jsonld-contexts/water.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
