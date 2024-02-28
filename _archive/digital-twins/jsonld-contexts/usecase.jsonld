@@ -1,0 +1,14 @@
+{
+    "@context": {
+      "UseCase": "https://smartdatamodels.org/dataModel.CrossSector/UseCase",
+      "UseCaseConfig": "https://smartdatamodels.org/dataModel.CrossSector/UseCaseConfig",
+      "name": "https://schema.org/name",
+      "description": "http://purl.org/dc/terms/description",
+      "blueprint": "https://smartdatamodels.org/dataModel.CrossSector/blueprint",
+      "contextString": "https://smartdatamodels.org/dataModel.CrossSector/contextString",
+      "imgSource": "https://smartdatamodels.org/dataModel.CrossSector/imgSource",
+      "refConfig": "https://smartdatamodels.org/dataModel.CrossSector/refConfig",
+      "contains": "https://smartdatamodels.org/dataModel.CrossSector/contains",
+      "externalLinks": "https://smartdatamodels.org/dataModel.CrossSector/externalLinks"
+    }
+  }
