@@ -1,7 +1,7 @@
 {
   "@context": [
-    "https://easy-global-market.github.io/ngsild-api-data-models/digital-twins/jsonld-contexts/dcat.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/digital-twins/jsonld-contexts/usecase.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/dcat.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/usecase.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/alertEventRisk/jsonld-contexts/alertEventRisk.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping.jsonld",
