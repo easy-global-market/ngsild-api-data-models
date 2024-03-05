@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "HydrometricStation": "https://vocab.egm.io/HydrometricStation",
+        "airTemperature": "https://vocab.egm.io/airTemperature",
+        "atmosphericPressure": "https://vocab.egm.io/atmosphericPressure",
+        "co2": "https://vocab.egm.io/co2",
+        "dataDescriptor": "https://vocab.egm.io/dataDescriptor",
+        "dataProvider": "https://vocab.egm.io/dataProvider",
+        "depth": "https://vocab.egm.io/depth",
+        "flow": "https://vocab.egm.io/flow",
+        "height": "https://vocab.egm.io/height",
+        "pH": "https://vocab.egm.io/pH",
+        "precipitation": "https://vocab.egm.io/precipitation",
+        "pressure": "https://vocab.egm.io/pressure",
+        "relativeHumidity": "https://vocab.egm.io/relativeHumidity",
+        "reliability": "https://vocab.egm.io/reliability",
+        "temperature": "https://vocab.egm.io/temperature",
+        "waterLevel": "https://vocab.egm.io/waterLevel"
+    }
+}

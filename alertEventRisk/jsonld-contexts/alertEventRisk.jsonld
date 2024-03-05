@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "Alert": "https://vocab.egm.io/Alert",
+    "Anomaly": "https://vocab.egm.io/Anomaly",
+    "Risk": "https://vocab.egm.io/Risk",
+    "Event": "https://vocab.egm.io/Event",
+    "conditions": "https://vocab.egm.io/conditions",
+    "detectedBy": "https://vocab.egm.io/detectedBy",
+    "mailingList": "https://vocab.egm.io/mailingList",
+    "hasAlert": "https://vocab.egm.io/hasAlert",
+    "hasAnomaly": "https://vocab.egm.io/hasAnomaly",
+    "hasEvent": "https://vocab.egm.io/hasEvent",
+    "hasSubject": "https://vocab.egm.io/hasSubject",
+    "hasRisk": "https://vocab.egm.io/hasRisk",
+    "message": "https://vocab.egm.io/message",
+    "numberOfInvalidation": "https://vocab.egm.io/numberOfInvalidation",
+    "numberOfValidation": "https://vocab.egm.io/numberOfValidation",
+    "severity": "https://vocab.egm.io/severity",
+    "triggeredBy": "https://vocab.egm.io/triggeredBy",
+    "occurence": "https://vocab.egm.io/occurence",
+    "validationStatus": "https://vocab.egm.io/validationStatus",
+    "validFrom": "https://vocab.egm.io/validFrom",
+    "validTo": "https://vocab.egm.io/validTo",
+    "watchedProperties": "https://vocab.egm.io/watchedProperties"
+  }
+}
