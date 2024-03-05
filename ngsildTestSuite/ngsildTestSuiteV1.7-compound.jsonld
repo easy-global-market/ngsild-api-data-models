@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://easy-global-market.github.io/ngsild-api-data-models/ngsi-ld-test-suite/ngsi-ld-test-suite.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/ngsildTestSuite/ngsildTestSuite.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
