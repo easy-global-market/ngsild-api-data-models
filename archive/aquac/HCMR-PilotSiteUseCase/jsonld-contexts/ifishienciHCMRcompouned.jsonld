@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://easy-global-market.github.io/ngsild-api-data-models/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/archive/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMR.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
