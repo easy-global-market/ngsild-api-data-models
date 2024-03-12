@@ -11,6 +11,7 @@
         "devEUI": "https://vocab.egm.io/devEUI",
         "deviceType": "https://vocab.egm.io/deviceType",
         "diskUsage": "https://vocab.egm.io/diskUsage",
+        "frequency": "https://vocab.egm.io/frequency",
         "gpuTemperature": "https://vocab.egm.io/gpuTemperature",
         "hostName": "https://vocab.egm.io/hostName",
         "internalHumidity": "https://vocab.egm.io/internalHumidity",
