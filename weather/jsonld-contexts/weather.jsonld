@@ -16,6 +16,7 @@
         "gustSpeed": "https://vocab.egm.io/gustSpeed",
         "illuminance": "https://vocab.egm.io/illuminance",
         "isDay": "https://vocab.egm.io/isDay",
+        "lightIntensity": "https://vocab.egm.io/lightIntensity",
         "observedBy": "https://vocab.egm.io/observedBy",
         "precipitation": "https://vocab.egm.io/precipitation",
         "precipitationIntensity": "https://vocab.egm.io/precipitationIntensity",
