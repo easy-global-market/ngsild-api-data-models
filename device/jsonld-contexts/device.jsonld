@@ -24,6 +24,7 @@
         "name": "https://schema.org/name",
         "networks": "https://vocab.egm.io/networks",
         "ramUsage": "https://vocab.egm.io/ramUsage",
+        "rssi": "https://vocab.egm.io/rssi",
         "snr": "https://vocab.egm.io/snr",
         "softwareVersion": "https://vocab.egm.io/softwareVersion",
         "uptime": "https://vocab.egm.io/uptime",
