@@ -10,6 +10,7 @@
     "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/alertEventRisk/jsonld-contexts/alertEventRisk.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/flowMapping.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/mapping.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
   ]

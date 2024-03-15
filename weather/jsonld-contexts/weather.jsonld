@@ -7,6 +7,7 @@
         "cloud": "https://vocab.egm.io/cloud",
         "cloudCoverage": "https://vocab.egm.io/cloudCoverage",
         "convectiveAvailablePotentialEnergy": "https://vocab.egm.io/convectiveAvailablePotentialEnergy",
+        "dewPoint": "https://vocab.egm.io/dewPoint",
         "diffuseIrradiation": "https://vocab.egm.io/diffuseIrradiation",
         "directIrradiation": "https://vocab.egm.io/directIrradiation",
         "evapotranspiration": "https://vocab.egm.io/evapotranspiration",
