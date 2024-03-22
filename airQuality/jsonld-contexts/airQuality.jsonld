@@ -1,5 +1,6 @@
 {
    "@context": {
+      "AirQualityObserved": "https://vocab.egm.io/AirQualityObserved",
       "Device": "https://vocab.egm.io/Device",
       "Room": "https://vocab.egm.io/Room",
       "atmoIndex": "https://vocab.egm.io/atmoIndex",
