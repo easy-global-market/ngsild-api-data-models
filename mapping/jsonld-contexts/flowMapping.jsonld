@@ -8,6 +8,8 @@
 		"hasTargetEntity": "https://vocab.egm.io/hasTargetEntity",
 		"sourceDatasetId": "https://vocab.egm.io/sourceDatasetId",
 		"targetDatasetId": "https://vocab.egm.io/targetDatasetId",
-		"targetEntityType": "https://vocab.egm.io/targetEntityType"
+		"targetEntityType": "https://vocab.egm.io/targetEntityType",
+		"isObserved": "https://vocab.egm.io/isObserved",
+		"isObserving": "https://vocab.egm.io/isObserving"
 	}
 }
