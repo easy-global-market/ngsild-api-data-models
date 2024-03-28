@@ -6,10 +6,12 @@
 		"context": "https://vocab.egm.io/context",
 		"hasSourceEntity": "https://vocab.egm.io/hasSourceEntity",
 		"hasTargetEntity": "https://vocab.egm.io/hasTargetEntity",
+		"isObservedBy": "https://vocab.egm.io/isObservedBy",
+		"isObserving": "https://vocab.egm.io/isObserving",
 		"sourceDatasetId": "https://vocab.egm.io/sourceDatasetId",
 		"targetDatasetId": "https://vocab.egm.io/targetDatasetId",
 		"targetEntityType": "https://vocab.egm.io/targetEntityType",
-		"isObserved": "https://vocab.egm.io/isObserved",
-		"isObserving": "https://vocab.egm.io/isObserving"
+		"validFrom": "https://vocab.egm.io/validFrom",
+		"validTo": "https://vocab.egm.io/validTo"
 	}
 }
