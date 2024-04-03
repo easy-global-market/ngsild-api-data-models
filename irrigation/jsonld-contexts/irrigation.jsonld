@@ -55,6 +55,7 @@
         "stat": "https://vocab.egm.io/stat",
         "surface": "https://vocab.egm.io/surface",
         "swcon": "https://vocab.egm.io/swcon",
+        "valveNumber": "https://vocab.egm.io/valveNumber",
         "volumetricMoisture": "https://vocab.egm.io/volumetricMoisture",
         "volumetricMoistureFieldCapacity": "https://vocab.egm.io/volumetricMoistureFieldCapacity",
         "volumetricMoisturePermanentWiltingPoint": "https://vocab.egm.io/volumetricMoisturePermanentWiltingPoint",
