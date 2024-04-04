@@ -64,6 +64,7 @@
         "volumetricMoistureSaturation": "https://vocab.egm.io/volumetricMoistureSaturation",
         "waterConsumption": "https://vocab.egm.io/waterConsumption",
         "waterTension": "https://vocab.egm.io/waterTension",
+        "wateringProgram": "https://vocab.egm.io/wateringProgram",
         "zoneActivation": "https://vocab.egm.io/zoneActivation"
     }
 }
