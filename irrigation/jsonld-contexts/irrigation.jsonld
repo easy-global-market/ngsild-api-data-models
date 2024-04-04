@@ -36,6 +36,7 @@
         "observedState": "https://vocab.egm.io/observedState",
         "pulseCountingPeriod": "https://vocab.egm.io/pulseCountingPeriod",
         "pulses": "https://vocab.egm.io/pulses",
+        "recommendedValveClosingDuration": "https://vocab.egm.io/recommendedValveClosingDuration",
         "redondanceNumber": "https://vocab.egm.io/redondanceNumber",
         "redundancyDataSending": "https://vocab.egm.io/redundancyDataSending",
         "relativeHumidity": "https://vocab.egm.io/relativeHumidity",
