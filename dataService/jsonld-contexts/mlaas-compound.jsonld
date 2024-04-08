@@ -1,7 +1,8 @@
 {
     "@context": [
-        "https://easy-global-market.github.io/ngsild-api-data-models/mlaas/jsonld-contexts/mlaas.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/dcat.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/dataService/jsonld-contexts/mlaas.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
