@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "MLProcessing": "https://vocab.egm.io/MLProcessing",
+        "algorithm": "https://vocab.egm.io/algorithm",
+        "appliesToUseCase": "https://vocab.egm.io/appliesToUseCase",
+        "imageSource": "https://vocab.egm.io/imageSource",
+        "inputAttributes": "https://vocab.egm.io/inputAttributes",
+        "mlFramework": "https://vocab.egm.io/mlFramework",
+        "name": "https://schema.org/name",
+        "objective": "https://vocab.egm.io/objective",
+        "outputAttributes": "https://vocab.egm.io/outputAttributes",
+        "releaseNotes": "https://vocab.egm.io/releaseNotes",
+        "servesDataService": "https://vocab.egm.io/servesDataService",
+        "subscriptionData": "https://vocab.egm.io/subscriptionData",
+        "validationSchema": "https://smartdatamodels.org/dataModel.FAIR/validationSchema"
+    }
+}
