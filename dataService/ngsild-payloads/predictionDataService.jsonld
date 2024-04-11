@@ -1,7 +1,7 @@
 {
     "id": "urn:ngsi-ld:DataService:TrafficFlowPrediction:XYZ",
     "type": "DataService",
-    "name": {
+    "title": {
         "type": "LanguageProperty",
         "languageMap": {
             "fr": "Modèle XYZ de prédiction du trafic",
@@ -31,9 +31,9 @@
             "object": "https://github.com/mypredictionproject/releases/tag/0.1"
         }
     },
-    "appliesToUseCase": {
-        "type": "Property",
-        "value": "Smart Mobility"
+    "isReferencedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:UseCaseConfig:SmartCity"
     },
     "inputAttributes": {
         "type": "Property",

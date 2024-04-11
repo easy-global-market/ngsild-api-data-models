@@ -2,7 +2,7 @@
     "@context": {
         "MLProcessing": "https://vocab.egm.io/MLProcessing",
         "algorithm": "https://vocab.egm.io/algorithm",
-        "appliesToUseCase": "https://vocab.egm.io/appliesToUseCase",
+        "isReferencedBy": "https://vocab.egm.io/isReferencedBy",
         "imageSource": "https://vocab.egm.io/imageSource",
         "inputAttributes": "https://vocab.egm.io/inputAttributes",
         "mlFramework": "https://vocab.egm.io/mlFramework",
