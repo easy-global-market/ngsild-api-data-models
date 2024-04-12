@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "accessMechanism": "https://smartdatamodels.org/dataModel.FAIR/accessMechanism",
+        "dissemination": "https://smartdatamodels.org/dataModel.FAIR/dissemination",
+        "disseminationOrganisation": "https://smartdatamodels.org/dataModel.FAIR/disseminationOrganisation",
+        "reputation": "https://smartdatamodels.org/dataModel.FAIR/reputation",
+        "reputationOrganisation": "https://smartdatamodels.org/dataModel.FAIR/reputationOrganisation",
+        "validationSchema": "https://smartdatamodels.org/dataModel.FAIR/validationSchema"
+    }
+}

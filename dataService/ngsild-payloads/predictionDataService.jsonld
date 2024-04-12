@@ -1,0 +1,107 @@
+{
+    "id": "urn:ngsi-ld:DataService:TrafficFlowPrediction:XYZ",
+    "type": "DataService",
+    "title": {
+        "type": "LanguageProperty",
+        "languageMap": {
+            "fr": "Modèle XYZ de prédiction du trafic",
+            "@none": "XYZ model for trafic flow prediction"
+        }
+    },
+    "description": {
+        "type": "LanguageProperty",
+        "languageMap": {
+            "fr": "Prédiction des 7 prochains jours de trafic",
+            "@none": "Prediction of the 7 next days of traffic flow"
+        }
+    },
+    "algorithm": {
+        "type": "Property",
+        "value": "LSTM"
+    },
+    "mlFramework": {
+        "type": "Property",
+        "value": "TensorFlow"
+    },
+    "version": {
+        "type": "Property",
+        "value": 0.1,
+        "releaseNotes": {
+            "type": "Relationship",
+            "object": "https://github.com/mypredictionproject/releases/tag/0.1"
+        }
+    },
+    "isReferencedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:UseCaseConfig:SmartCity"
+    },
+    "inputAttributes": {
+        "type": "Property",
+        "value": ["flow", "averageVehicleSpeed", "congestionIndex"]
+    },
+    "outputAttributes": {
+        "type": "Property",
+        "value": "predictedFlow"
+    },
+    "endpointURL": {
+        "type": "Property",
+        "value": "http://127.0.0.1/thi"
+    },
+    "endpointDescription": {
+        "type": "Property",
+        "value": "The service needs an entity with at least flow, averageVehicleSpeed and congestionIndex attributes as inputs"
+    },
+    "imageSource": {
+        "type": "Property",
+        "value": "dataService_THI.png"
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    },
+    "accessRights": {
+        "type": "Property",
+        "value": "public"
+    },
+    "license": {
+        "type": "Property",
+        "value": "Apache-2.0"
+    },
+    "validationSchema": {
+        "type": "Property",
+        "value": "https://github.com/smart-data-models/incubated/blob/DCAT-AP/DataService/DataServiceDCAT-AP/schema.json"
+    },
+    "operationSpace": {
+        "type": "GeoProperty",
+        "coordinates": [
+            [
+                [ 100.0, 0.0 ],
+                [ 101.0, 0.0 ],
+                [ 101.0, 1.0 ],
+                [ 100.0, 1.0 ],
+                [ 100.0, 0.0 ]
+            ]
+        ]
+    },
+    "accessMechanism": {
+        "type": "Property",
+        "value": "Level3AccessMechanism"
+    },
+    "disseminationOrganisation": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Organisation:EGM"
+    },
+    "dissemination": {
+        "type": "Property",
+        "value": "Level2Dissemination"
+    },
+    "reputationOrganisation": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Organisation:EGM"
+    },
+    "reputation": {
+        "type": "Property",
+        "value": "Level1Reputation"
+    },
+    "@context": "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-compound.jsonld"
+}
