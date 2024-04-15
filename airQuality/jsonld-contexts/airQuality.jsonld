@@ -14,6 +14,7 @@
       "illuminance": "https://vocab.egm.io/illuminance",
       "loraSNR": "https://vocab.egm.io/loraSNR",
       "motion": "https://vocab.egm.io/motion",
+      "no": "https://vocab.egm.io/no",
       "no2": "https://vocab.egm.io/no2",
       "o3": "https://vocab.egm.io/o3",
       "pm10": "https://vocab.egm.io/pm10",
