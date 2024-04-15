@@ -4,6 +4,7 @@
         "algorithm": "https://vocab.egm.io/algorithm",
         "isReferencedBy": "https://vocab.egm.io/isReferencedBy",
         "imageSource": "https://vocab.egm.io/imageSource",
+        "includedParameters": "https://vocab.egm.io/includedParameters",
         "inputAttributes": "https://vocab.egm.io/inputAttributes",
         "mlFramework": "https://vocab.egm.io/mlFramework",
         "name": "https://schema.org/name",

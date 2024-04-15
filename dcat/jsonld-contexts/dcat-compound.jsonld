@@ -1,0 +1,7 @@
+{
+    "@context": [
+        "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcat.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/fair.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcatExtensions.jsonld"
+    ]
+}
