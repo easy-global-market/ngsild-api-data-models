@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:TenantConfig:Carf:Menton",
+    "id": "urn:ngsi-ld:TenantConfig:MyCity",
     "type": "TenantConfig",
     "name": {
         "type": "Property",
