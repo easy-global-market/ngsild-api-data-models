@@ -1,0 +1,28 @@
+{
+    "id": "urn:ngsi-ld:UseCaseConfig:SmartIrrigation",
+    "type": "UseCaseConfig",
+    "name": {
+        "type": "Property",
+        "value": "Smart Irrigation"
+    },
+    "blueprint": {
+        "type": "Property",
+        "value": []
+    },
+    "contextString": {
+        "type": "Property",
+        "value": "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/irrigation-compound.jsonld"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Tout pour gérer finement l'irrigation à grande échelle"
+    },
+    "imageSource": {
+        "type": "Property",
+        "value": "irrigationIcon"
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    }
+}
