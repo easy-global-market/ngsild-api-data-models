@@ -3,7 +3,7 @@
     "type": "TenantConfig",
     "name": {
         "type": "Property",
-        "value": "Tenant config for CARF-Menton platform admin interface (TP)"
+        "value": "Tenant config for my city platform admin interface"
     },
     "activeModules": {
         "type": "Property",
