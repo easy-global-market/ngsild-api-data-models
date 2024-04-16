@@ -1,0 +1,26 @@
+{
+    "id": "urn:ngsi-ld:TenantConfig:MyCity",
+    "type": "TenantConfig",
+    "name": {
+        "type": "Property",
+        "value": "Tenant config for my city platform admin interface"
+    },
+    "activeModules": {
+        "type": "Property",
+        "description": {
+            "type":"Property",
+            "value": "List of available modules for this tenant. The ones not listed here won't appear in Twin Picks"
+        },  
+        "value": [
+            "deviceProvisioning",
+            "provisioning",
+            "mapping",
+            "rights",
+            "csv"
+        ]
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    }
+}

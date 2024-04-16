@@ -2,6 +2,8 @@
     "@context": {
       "UseCase": "https://smartdatamodels.org/dataModel.CrossSector/UseCase",
       "UseCaseConfig": "https://smartdatamodels.org/dataModel.CrossSector/UseCaseConfig",
+      "TenantConfig": "https://vocab.egm.io/TenantConfig",
+      "activeModules": "https://vocab.egm.io/activeModules",
       "name": "https://schema.org/name",
       "description": "http://purl.org/dc/terms/description",
       "blueprint": "https://smartdatamodels.org/dataModel.CrossSector/blueprint",
