@@ -3,6 +3,7 @@
       "AirQualityObserved": "https://vocab.egm.io/AirQualityObserved",
       "Device": "https://vocab.egm.io/Device",
       "Room": "https://vocab.egm.io/Room",
+      "Station": "https://vocab.egm.io/Station",
       "atmoIndex": "https://vocab.egm.io/atmoIndex",
       "atmosphericPressure": "https://vocab.egm.io/atmosphericPressure",
       "batteryLevel": "https://vocab.egm.io/batteryLevel",
@@ -20,6 +21,7 @@
       "pm10": "https://vocab.egm.io/pm10",
       "pm25": "https://vocab.egm.io/pm25",
       "rssi": "https://vocab.egm.io/rssi",
+      "stationId": "https://vocab.egm.io/stationId",
       "temperature": "https://vocab.egm.io/temperature",
       "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
       "voc": "https://vocab.egm.io/voc"
