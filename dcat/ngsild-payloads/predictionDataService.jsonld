@@ -35,6 +35,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:UseCaseConfig:SmartCity"
     },
+    "inputEntityTypes": {
+        "type": "Property",
+        "value": ["TrafficFlowObserved"]
+    },
     "inputAttributes": {
         "type": "Property",
         "value": ["flow", "averageVehicleSpeed", "congestionIndex"]
