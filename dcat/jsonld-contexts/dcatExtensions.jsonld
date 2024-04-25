@@ -1,11 +1,13 @@
 {
     "@context": {
-        "MLProcessing": "https://vocab.egm.io/MLProcessing",
+        "DataServiceProcessing": "https://vocab.egm.io/DataServiceProcessing",
+        "additionalConfig": "https://vocab.egm.io/additionalConfig",
         "algorithm": "https://vocab.egm.io/algorithm",
         "imageSource": "https://vocab.egm.io/imageSource",
         "includedParameters": "https://vocab.egm.io/includedParameters",
         "inputAttributes": "https://vocab.egm.io/inputAttributes",
         "inputEntityTypes": "https://vocab.egm.io/inputEntityTypes",
+        "instanceOf": "https://vocab.egm.io/instanceOf",
         "isReferencedBy": "https://vocab.egm.io/isReferencedBy",
         "mlFramework": "https://vocab.egm.io/mlFramework",
         "name": "https://schema.org/name",
