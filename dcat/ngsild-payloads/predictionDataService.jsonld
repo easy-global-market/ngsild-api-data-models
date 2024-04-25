@@ -15,6 +15,10 @@
             "@none": "Prediction of the 7 next days of traffic flow"
         }
     },
+    "theme": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Theme:TrafficFlowPrediction"
+    },
     "algorithm": {
         "type": "Property",
         "value": "LSTM"

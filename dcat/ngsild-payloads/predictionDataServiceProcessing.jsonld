@@ -1,0 +1,24 @@
+{
+    "id": "urn:ngsi-ld:DataServiceProcessing:TrafficFlowPrediction:XYZ",
+    "type": "DataServiceProcessing",
+    "name": {
+        "type": "Property",
+        "value": "Traffic flow prediction in Issy Val de Seine"
+    },
+    "theme": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Theme:TrafficFlowPrediction"
+    },
+    "refDataService": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataService:TrafficFlowPrediction:XYZ"
+    },
+    "subscriptionData": {
+        "entities": [
+            {
+                "type": "TrafficFlowObserved"
+            }
+        ],
+        "q": "refCity==urn:ngsi-ld:City:IssyLesMoulineaux"
+    }
+}
