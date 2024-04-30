@@ -5,6 +5,7 @@
         "familyName": "https://ontology.eglobalmark.com/authorization#familyName",
         "givenName": "https://ontology.eglobalmark.com/authorization#givenName",
         "Group": "https://ontology.eglobalmark.com/authorization#Group",
+        "isCreator": "https://ontology.eglobalmark.com/authorization#isCreator",
         "isMemberOf": "https://ontology.eglobalmark.com/authorization#isMemberOf",
         "name": "https://schema.org/name",
         "profile": "https://ontology.eglobalmark.com/authorization#profile",
