@@ -4,6 +4,9 @@
     "Anomaly": "https://vocab.egm.io/Anomaly",
     "Risk": "https://vocab.egm.io/Risk",
     "Event": "https://vocab.egm.io/Event",
+    "ThresholdBreach": "https://vocab.egm.io/ThresholdBreach",
+    "AggregatedThresholdBreach": "https://vocab.egm.io/AggregatedThresholdBreach",
+    "NoData": "https://vocab.egm.io/NoData",
     "conditions": "https://vocab.egm.io/conditions",
     "detectedBy": "https://vocab.egm.io/detectedBy",
     "mailingList": "https://vocab.egm.io/mailingList",
@@ -21,6 +24,9 @@
     "validationStatus": "https://vocab.egm.io/validationStatus",
     "validFrom": "https://vocab.egm.io/validFrom",
     "validTo": "https://vocab.egm.io/validTo",
-    "watchedProperties": "https://vocab.egm.io/watchedProperties"
+    "watchedProperties": "https://vocab.egm.io/watchedProperties",
+    "thresholdType": "https://vocab.egm.io/thresholdType",
+    "thresholdValue": "https://vocab.egm.io/thresholdValue",
+    "thresholdAggrPeriod": "https://vocab.egm.io/thresholdAggrPeriod"
   }
 }
