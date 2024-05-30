@@ -21,6 +21,8 @@
         "isEnabled": "https://vocab.egm.io/isEnabled",
         "lastBoot": "https://vocab.egm.io/lastBoot",
         "loraSNR": "https://vocab.egm.io/loraSNR",
+        "manufacturer": "https://vocab.egm.io/manufacturer",
+        "model": "https://vocab.egm.io/model",
         "name": "https://schema.org/name",
         "networks": "https://vocab.egm.io/networks",
         "ramUsage": "https://vocab.egm.io/ramUsage",

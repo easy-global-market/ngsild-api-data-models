@@ -3,7 +3,7 @@
     "type": "Device",
     "name": {
         "type": "Property",
-        "value": "Device 1"
+        "value": "Device1"
     },
     "description": {
         "type": "Property",
@@ -11,11 +11,11 @@
     },
     "appEUI": {
         "type": "Property",
-        "value": "000000000"
+        "value": "0000000000000000"
     },
     "appKey": {
         "type": "Property",
-        "value": "000000000"
+        "value": "00000000000000000000000000000000"
     },
     "isDeleted": {
         "type": "Property",
@@ -23,11 +23,15 @@
     },
     "devEUI": {
         "type": "Property",
-        "value": "000000000"
+        "value": "0000000000000000"
     },
-    "deviceType": {
+    "manufacturer": {
         "type": "Property",
-        "value": "SenseCAP S2105"
+        "value": "Nexelec"
+    },
+    "model": {
+        "type": "Property",
+        "value": "Aero"
     },
     "networks": [
         {
@@ -47,14 +51,14 @@
             "type": "Property",
             "name": {
                 "type": "Property",
-                "value": "Orange"
+                "value": "Live Objects"
             },
-            "datasetId": "urn:ngsi-ld:Device:networks:orange",
+            "datasetId": "urn:ngsi-ld:Device:networks:live-objects",
             "isEnabled": {
                 "type": "Property",
                 "value": true
             },
-            "value": "orange"
+            "value": "live-objects"
         }
     ]
 }
