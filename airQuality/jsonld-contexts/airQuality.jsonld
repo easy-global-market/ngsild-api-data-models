@@ -24,6 +24,7 @@
       "stationId": "https://vocab.egm.io/stationId",
       "temperature": "https://vocab.egm.io/temperature",
       "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
+      "tvoc": "https://vocab.egm.io/tvoc",
       "voc": "https://vocab.egm.io/voc"
    }
 }
