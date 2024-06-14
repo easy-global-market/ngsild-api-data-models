@@ -67,6 +67,7 @@
         "programmedOpeningDurationValve30": "https://vocab.egm.io/programmedOpeningDurationValve30",
         "programmedOpeningDurationValve31": "https://vocab.egm.io/programmedOpeningDurationValve31",
         "programmedOpeningDurationValve32": "https://vocab.egm.io/programmedOpeningDurationValve32",
+        "pulseCounterId": "https://vocab.egm.io/pulseCounterId",
         "pulses": "https://vocab.egm.io/pulses",
         "relayClosingDuration": "https://vocab.egm.io/relayClosingDuration",
         "relayStatus": "https://vocab.egm.io/relayStatus",
