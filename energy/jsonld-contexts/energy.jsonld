@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "Building": "https://vocab.egm.io/Building",
+        "Client": "https://vocab.egm.io/Client",
+        "Contract": "https://vocab.egm.io/Contract",
+        "DeliveryPoint": "https://vocab.egm.io/DeliveryPoint",
+        "Invoice": "https://vocab.egm.io/Invoice",
+        "Site": "https://vocab.egm.io/Site",
+        "Supplier": "https://vocab.egm.io/Supplier",
+        "amount": "https://vocab.egm.io/amount",
+        "city": "https://vocab.egm.io/city",
+        "clientReference": "https://vocab.egm.io/clientReference",
+        "contractAccount": "https://vocab.egm.io/contractAccount",
+        "contractStatus": "https://vocab.egm.io/contractStatus",
+        "endDate": "https://vocab.egm.io/endDate",
+        "energy": "https://vocab.egm.io/energy",
+        "index": "https://vocab.egm.io/index",
+        "invoiceNumber": "https://vocab.egm.io/invoiceNumber",
+        "isCancelled": "https://vocab.egm.io/isCancelled",
+        "issueDate": "https://vocab.egm.io/issueDate",
+        "name": "https://schema.org/name",
+        "offerLabel": "https://vocab.egm.io/offerLabel",
+        "postalCode": "https://vocab.egm.io/postalCode",
+        "relatedDeliveryPoint": "https://vocab.egm.io/relatedDeliveryPoint",
+        "segment": "https://vocab.egm.io/segment",
+        "startDate": "https://vocab.egm.io/startDate"
+    }
+}
