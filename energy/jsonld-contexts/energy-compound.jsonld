@@ -1,6 +1,7 @@
 {
     "@context": [
         "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/energy/jsonld-contexts/energy.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/alertEventRisk/jsonld-contexts/alertEventRisk.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
