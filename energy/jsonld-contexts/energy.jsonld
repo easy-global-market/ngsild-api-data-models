@@ -20,7 +20,7 @@
         "issueDate": "https://vocab.egm.io/issueDate",
         "name": "https://schema.org/name",
         "offerLabel": "https://vocab.egm.io/offerLabel",
-        "postalCode": "https://vocab.egm.io/postalCode",
+        "postalCode": "https://schema.org/postalCode",
         "relatedDeliveryPoint": "https://vocab.egm.io/relatedDeliveryPoint",
         "segment": "https://vocab.egm.io/segment",
         "startDate": "https://vocab.egm.io/startDate"
