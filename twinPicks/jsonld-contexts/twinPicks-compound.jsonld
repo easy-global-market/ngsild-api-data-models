@@ -5,8 +5,6 @@
     "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-smart-city-compound.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/usecase.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/alertEventRisk/jsonld-contexts/alertEventRisk.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/mapping/jsonld-contexts/flowMapping.jsonld",
