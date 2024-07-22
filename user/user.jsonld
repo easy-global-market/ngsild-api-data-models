@@ -1,0 +1,8 @@
+{
+    "@context": {
+        "UserProfile": "https://smartdatamodels.org/UserProfile",
+        "familyName": "https://vocab.egm.io/familyName",
+        "givenName": "https://vocab.egm.io/givenName",
+        "email": "https://vocab.egm.io/email"
+    }
+}
