@@ -29,6 +29,7 @@
         "irrigationDailyDuration": "https://vocab.egm.io/irrigationDailyDuration",
         "k": "https://vocab.egm.io/k",
         "kind": "https://vocab.egm.io/kind",
+        "limitationIsEnabled": "https://vocab.egm.io/limitationIsEnabled",
         "measurementPeriod": "https://vocab.egm.io/measurementPeriod",
         "name": "https://schema.org/name",
         "observationPeriod": "https://vocab.egm.io/observationPeriod",
@@ -64,7 +65,9 @@
         "volumetricMoistureSaturation": "https://vocab.egm.io/volumetricMoistureSaturation",
         "waterConsumption": "https://vocab.egm.io/waterConsumption",
         "waterTension": "https://vocab.egm.io/waterTension",
+        "wateringIsEnalbed": "https://vocab.egm.io/wateringIsEnalbed",
         "wateringProgram": "https://vocab.egm.io/wateringProgram",
+        "wateringProgramLimitation": "https://vocab.egm.io/wateringProgramLimitation",
         "zoneActivation": "https://vocab.egm.io/zoneActivation"
     }
 }
