@@ -1,0 +1,24 @@
+{
+  "id": "urn:ngsi-ld:UserProfile:123456789",
+  "type": "UserProfile",
+  "userInfos": {
+    "type": "JsonProperty",
+    "json": {
+      "familyName": "Smith",
+      "givenName": "John",
+      "email": "john.smith@email.com"
+    }
+  },
+  "subscribedToAlerts": [
+    {
+      "type": "Relationship",
+      "datasetId": "urn:ngsi-ld:Dataset:Salinity",
+      "object": "urn:ngsi-ld:Alert:Salinity"
+    },
+    {
+      "type": "Relationship",
+      "datasetId": "urn:ngsi-ld:Dataset:SanitaryStatus",
+      "object": "urn:ngsi-ld:Alert:SanitaryStatus"
+    }
+  ]
+}
