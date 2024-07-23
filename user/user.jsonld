@@ -2,6 +2,6 @@
     "@context": {
         "UserProfile": "https://smartdatamodels.org/UserProfile",
         "subcribedToAlerts": "https://vocab.egm.io/subcribedToAlerts",
-        "userInfos": "https://vocab.egm.io/userInfos",
+        "userInfos": "https://vocab.egm.io/userInfos"
     }
 }
