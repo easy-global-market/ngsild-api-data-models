@@ -9,6 +9,7 @@
     	"codFeq": "https://vocab.egm.io/codFeq",
     	"colorApp": "https://vocab.egm.io/colorApp",
     	"colorTrue": "https://vocab.egm.io/colorTrue",
+        "communicationError": "https://vocab.egm.io/communicationError",
     	"conductivity": "https://vocab.egm.io/conductivity",
     	"docEq": "https://vocab.egm.io/docEq",
     	"name": "https://schema.org/name",
