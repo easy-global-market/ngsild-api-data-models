@@ -1,0 +1,26 @@
+{
+    "@context": {
+    	"Device": "https://vocab.egm.io/Device",
+    	"bodEq": "https://vocab.egm.io/bodEq",
+    	"btxEst": "https://vocab.egm.io/btxEst",
+    	"chlA": "https://vocab.egm.io/chlA",
+    	"chloramine": "https://vocab.egm.io/chloramine",
+    	"codEq": "https://vocab.egm.io/codEq",
+    	"codFeq": "https://vocab.egm.io/codFeq",
+    	"colorApp": "https://vocab.egm.io/colorApp",
+    	"colorTrue": "https://vocab.egm.io/colorTrue",
+    	"conductivity": "https://vocab.egm.io/conductivity",
+    	"docEq": "https://vocab.egm.io/docEq",
+    	"name": "https://schema.org/name",
+    	"no3nEq": "https://vocab.egm.io/no3nEq",
+    	"orp": "https://vocab.egm.io/orp",
+    	"pH": "https://vocab.egm.io/pH",
+    	"pressure": "https://vocab.egm.io/pressure",
+    	"temperature": "https://vocab.egm.io/temperature",
+    	"tocEq": "https://vocab.egm.io/tocEq",
+    	"tssEq": "https://vocab.egm.io/tssEq",
+    	"turbidity": "https://vocab.egm.io/turbidity",
+    	"uv254f": "https://vocab.egm.io/uv254f",
+    	"uv254t": "https://vocab.egm.io/uv254t"
+    }
+}
