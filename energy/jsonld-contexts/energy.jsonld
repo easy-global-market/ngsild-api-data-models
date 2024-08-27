@@ -1,5 +1,6 @@
 {
     "@context": {
+        "Asset": "https://vocab.egm.io/Asset",
         "Building": "https://vocab.egm.io/Building",
         "Client": "https://vocab.egm.io/Client",
         "Contract": "https://vocab.egm.io/Contract",
@@ -7,22 +8,34 @@
         "Invoice": "https://vocab.egm.io/Invoice",
         "Site": "https://vocab.egm.io/Site",
         "Supplier": "https://vocab.egm.io/Supplier",
+        "Usage": "https://vocab.egm.io/Usage",
+        "addressCountry": "https://vocab.egm.io/addressCountry",
+        "addressLocality": "https://vocab.egm.io/addressLocality",
         "amount": "https://vocab.egm.io/amount",
         "city": "https://vocab.egm.io/city",
         "clientReference": "https://vocab.egm.io/clientReference",
+        "code": "https://vocab.egm.io/code",
         "contractAccount": "https://vocab.egm.io/contractAccount",
         "contractStatus": "https://vocab.egm.io/contractStatus",
         "endDate": "https://vocab.egm.io/endDate",
         "energy": "https://vocab.egm.io/energy",
+        "hasDeliveryPoint": "https://vocab.egm.io/hasDeliveryPoint",
+        "hasPart": "https://vocab.egm.io/hasPart",
+        "hasUsage": "https://vocab.egm.io/hasUsage",
         "index": "https://vocab.egm.io/index",
         "invoiceNumber": "https://vocab.egm.io/invoiceNumber",
         "isCancelled": "https://vocab.egm.io/isCancelled",
+        "isContainedIn": "https://vocab.egm.io/isContainedIn",
+        "isObserving": "https://vocab.egm.io/isObserving",
         "issueDate": "https://vocab.egm.io/issueDate",
+        "fluidType": "https://vocab.egm.io/fluidType",
         "name": "https://schema.org/name",
         "offerLabel": "https://vocab.egm.io/offerLabel",
         "postalCode": "https://schema.org/postalCode",
         "relatedDeliveryPoint": "https://vocab.egm.io/relatedDeliveryPoint",
+        "rnbId": "https://vocab.egm.io/rnbId",
         "segment": "https://vocab.egm.io/segment",
-        "startDate": "https://vocab.egm.io/startDate"
+        "startDate": "https://vocab.egm.io/startDate",
+        "streetAddress": "https://vocab.egm.io/streetAddress"
     }
 }
