@@ -7,6 +7,7 @@
         "batteryVoltage": "https://vocab.egm.io/batteryVoltage",
         "category": "https://schema.org/category",
         "chargerStatus": "https://vocab.egm.io/chargerStatus",
+        "co2": "https://vocab.egm.io/co2",
         "cpuTemperature": "https://vocab.egm.io/cpuTemperature",
         "devEUI": "https://vocab.egm.io/devEUI",
         "deviceType": "https://vocab.egm.io/deviceType",
@@ -14,6 +15,7 @@
         "frequency": "https://vocab.egm.io/frequency",
         "gpuTemperature": "https://vocab.egm.io/gpuTemperature",
         "hostName": "https://vocab.egm.io/hostName",
+        "humidity": "https://vocab.egm.io/humidity",
         "internalHumidity": "https://vocab.egm.io/internalHumidity",
         "internalTemperature": "https://vocab.egm.io/internalTemperature",
         "ipAddress": "https://vocab.egm.io/ipAddress",
@@ -29,6 +31,7 @@
         "rssi": "https://vocab.egm.io/rssi",
         "snr": "https://vocab.egm.io/snr",
         "softwareVersion": "https://vocab.egm.io/softwareVersion",
+        "temperature": "https://vocab.egm.io/temperature",
         "uptime": "https://vocab.egm.io/uptime",
         "vpnStatus": "https://vocab.egm.io/vpnStatus"
     }
