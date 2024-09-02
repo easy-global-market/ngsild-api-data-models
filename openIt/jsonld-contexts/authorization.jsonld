@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "Authorization": "https://vocab.egm.io/Authorization",
+    "status": "https://vocab.egm.io/status",
+    "codes": "https://vocab.egm.io/codes"
+  }
+}
