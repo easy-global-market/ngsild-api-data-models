@@ -1,0 +1,57 @@
+{
+  "id": "urn:ngsi-ld:Authorization:01",
+  "type": "Authorization",
+  "validationStatus": {
+    "type": "Property",
+    "value": "accepted",
+    "from": {
+      "type": "Property",
+      "value": "2024-09-01T11:00:00.000Z"
+    },
+    "to": {
+      "type": "Property",
+      "value": "2024-09-02T11:00:00.000Z"
+    }
+  },
+  "codes": [
+    {
+      "type": "Property",
+      "value": "1234",
+      "datasetId": "urn:ngsi-ld:Dataset:1234",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-09-01T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-09-02T11:00:00.000Z"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "8931",
+      "datasetId": "urn:ngsi-ld:Dataset:8931",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-08-30T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-08-31T11:00:00.000Z"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "3910",
+      "datasetId": "urn:ngsi-ld:Dataset:3910",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-08-29T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-08-30T11:00:00.000Z"
+      }
+    }
+  ]
+}
