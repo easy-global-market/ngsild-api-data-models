@@ -1,10 +1,8 @@
 {
   "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/openIt/jsonld-contexts/openIt.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/user/user.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/openIt/jsonld-contexts/gate.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/openIt/jsonld-contexts/key.jsonld",
-    "https://easy-global-market.github.io/ngsild-api-data-models/openIt/jsonld-contexts/authorization.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
   ]

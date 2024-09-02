@@ -1,8 +1,13 @@
 {
   "@context": {
     "Authorization": "https://vocab.egm.io/Authorization",
+    "Gate": "https://vocab.egm.io/Gate",
+    "Key": "https://vocab.egm.io/Key",
     "codes": "https://vocab.egm.io/codes",
     "from": "https://vocab.egm.io/from",
+    "initDate": "https://vocab.egm.io/initDate",
+    "name": "https://schema.org/name",
+    "rotationPeriod": "https://vocab.egm.io/rotationPeriod",
     "status": "https://vocab.egm.io/status",
     "to": "https://vocab.egm.io/to",
     "validityEndDate": "https://vocab.egm.io/validityEndDate",

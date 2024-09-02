@@ -1,7 +1,0 @@
-{
-  "@context": {
-    "Gate": "https://vocab.egm.io/Gate",
-    "location": "https://vocab.egm.io/location",
-    "name": "https://schema.org/name"
-  }
-}
