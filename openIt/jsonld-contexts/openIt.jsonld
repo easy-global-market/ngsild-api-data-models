@@ -11,6 +11,6 @@
     "to": "https://vocab.egm.io/to",
     "validationStatus": "https://vocab.egm.io/validationStatus",
     "validityEndDate": "https://vocab.egm.io/validityEndDate",
-    "validityStartDate": "https://vocab.egm.io/validityEndDate"
+    "validityStartDate": "https://vocab.egm.io/validityStartDate"
   }
 }
