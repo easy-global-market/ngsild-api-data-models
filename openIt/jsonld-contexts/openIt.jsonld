@@ -8,9 +8,9 @@
     "initDate": "https://vocab.egm.io/initDate",
     "name": "https://schema.org/name",
     "rotationPeriod": "https://vocab.egm.io/rotationPeriod",
-    "status": "https://vocab.egm.io/status",
     "to": "https://vocab.egm.io/to",
+    "validationStatus": "https://vocab.egm.io/validationStatus",
     "validityEndDate": "https://vocab.egm.io/validityEndDate",
-    "validityStartDate": "https://vocab.egm.io/validityStartDate"
+    "validityStartDate": "https://vocab.egm.io/validityEndDate"
   }
 }

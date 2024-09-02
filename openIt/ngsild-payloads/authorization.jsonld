@@ -1,7 +1,7 @@
 {
   "id": "urn:ngsi-ld:Authorization:01",
   "type": "Authorization",
-  "status": {
+  "validationStatus": {
     "type": "Property",
     "value": "accepted",
     "from": {
