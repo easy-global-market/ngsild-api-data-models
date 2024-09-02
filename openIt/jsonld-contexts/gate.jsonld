@@ -2,6 +2,6 @@
   "@context": {
     "Gate": "https://vocab.egm.io/Gate",
     "location": "https://vocab.egm.io/location",
-    "name": "https://vocab.egm.io/name"
+    "name": "https://schema.org/name"
   }
 }

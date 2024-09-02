@@ -2,7 +2,7 @@
   "@context": {
     "Key": "https://vocab.egm.io/Key",
     "initDate": "https://vocab.egm.io/initDate",
-    "name": "https://vocab.egm.io/name",
+    "name": "https://schema.org/name",
     "rotationPeriod": "https://vocab.egm.io/rotationPeriod"
   }
 }
