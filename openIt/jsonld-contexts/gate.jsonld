@@ -1,7 +1,7 @@
 {
   "@context": {
     "Gate": "https://vocab.egm.io/Gate",
-    "name": "https://vocab.egm.io/name",
-    "location": "https://vocab.egm.io/location"
+    "location": "https://vocab.egm.io/location",
+    "name": "https://vocab.egm.io/name"
   }
 }

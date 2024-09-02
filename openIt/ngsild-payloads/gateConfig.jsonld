@@ -1,0 +1,18 @@
+{
+  "id": "urn:ngsi-ld:Gate:AwesomeGateName",
+  "type": "Gate",
+  "name": {
+    "type": "Property",
+    "value": "AwesomeGateName"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        1.5,
+        1.5
+      ]
+    }
+  }
+}

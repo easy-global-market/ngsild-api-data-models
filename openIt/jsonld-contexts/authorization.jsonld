@@ -1,7 +1,11 @@
 {
   "@context": {
     "Authorization": "https://vocab.egm.io/Authorization",
+    "codes": "https://vocab.egm.io/codes",
+    "from": "https://vocab.egm.io/codes",
     "status": "https://vocab.egm.io/status",
-    "codes": "https://vocab.egm.io/codes"
+    "to": "https://vocab.egm.io/to",
+    "validityEndDate": "https://vocab.egm.io/validityEndDate",
+    "validityStartDate": "https://vocab.egm.io/validityStartDate"
   }
 }

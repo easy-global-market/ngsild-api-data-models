@@ -1,0 +1,54 @@
+{
+  "id": "urn:ngsi-ld:Authorization:01",
+  "type": "Authorization",
+  "status": {
+    "type": "Property",
+    "value": "accepted",
+    "from": {
+      "type": "Property",
+      "value": "2024-09-01T11:00:00.000Z"
+    },
+    "to": {
+      "type": "Property",
+      "value": "2024-09-02T11:00:00.000Z"
+    }
+  },
+  "codes": [
+    {
+      "type": "Property",
+      "value": "1234",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-09-01T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-09-02T11:00:00.000Z"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "8931",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-08-30T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-08-31T11:00:00.000Z"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "3910",
+      "validityStartDate": {
+        "type": "Property",
+        "value": "2024-08-29T11:00:00.000Z"
+      },
+      "validityEndDate": {
+        "type": "Property",
+        "value": "2024-08-30T11:00:00.000Z"
+      }
+    }
+  ]
+}

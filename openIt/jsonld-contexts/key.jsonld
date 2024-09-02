@@ -1,8 +1,8 @@
 {
   "@context": {
     "Key": "https://vocab.egm.io/Key",
+    "initDate": "https://vocab.egm.io/initDate",
     "name": "https://vocab.egm.io/name",
-    "rotationPeriod": "https://vocab.egm.io/rotationPeriod",
-    "initDate": "https://vocab.egm.io/initDate"
+    "rotationPeriod": "https://vocab.egm.io/rotationPeriod"
   }
 }
