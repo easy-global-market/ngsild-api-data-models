@@ -1,0 +1,1158 @@
+[
+    {
+        "id": "urn:ngsi-ld:LaboratoryResults:TWW:PR2481440",
+        "type": "LaboratoryResults",
+        "name": {
+            "type": "Property",
+            "value": "TWW PR2481440"
+        },
+        "labSampleNo": {
+            "type": "Property",
+            "value": "1.0"
+        },
+        "clientSampleNo": {
+            "type": "Property",
+            "value": "112400016"
+        },
+        "station": {
+            "type": "Property",
+            "value": "TWW"
+        },
+        "sampleDate": {
+            "type": "Property",
+            "value": "04/07/2024"
+        },
+        "temperature": {
+            "type": "Property",
+            "value": 26.2,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "CEL"
+        },
+        "ph": {
+            "type": "Property",
+            "value": 6.46,
+            "observedAt": "2024-07-04T00:00:00Z"
+        },
+        "eh": {
+            "type": "Property",
+            "value": 71.1,
+            "observedAt": "2024-07-04T00:00:00Z"
+        },
+        "ec": {
+            "type": "Property",
+            "value": 1102.0,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "G42"
+        },
+        "dissolvedO2": {
+            "type": "Property",
+            "value": 2.83,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1"
+        },
+        "totalOrganicCarbon": {
+            "type": "Property",
+            "value": 9.75,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.5,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "ammoniaAndAmmoniumIonsAsN": {
+            "type": "Property",
+            "value": 0.064,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.04,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "ammoniaAndAmmoniumIonsAsNh4": {
+            "type": "Property",
+            "value": 0.083,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.05,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "chloride": {
+            "type": "Property",
+            "value": 210.0,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 1.0,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "nitrateAsN": {
+            "type": "Property",
+            "value": 11.8,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.5,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "nitrates": {
+            "type": "Property",
+            "value": 52.1,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 2.0,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "nitriteAsN": {
+            "type": "Property",
+            "value": "<0.015",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "nitrites": {
+            "type": "Property",
+            "value": "<0.060",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.04,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "phosphorusAsP2O5": {
+            "type": "Property",
+            "value": 19.3,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.12,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "totalNitrogenAsN": {
+            "type": "Property",
+            "value": 15.8,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.1,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "totalPhosphorusAsP": {
+            "type": "Property",
+            "value": 8.41,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.05,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "totalPhosphorusAsPo43": {
+            "type": "Property",
+            "value": 25.8,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.15,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "anastrozole": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "atenolol": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "azathioprine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "bezafibrate": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "buprenorphine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "butorphanol": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "caffeine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "capecitabine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "carbamazepine": {
+            "type": "Property",
+            "value": 1.0,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "citalopram": {
+            "type": "Property",
+            "value": 0.299,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "clofibricAcid": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "cyclobenzaprine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "cyclophosphamide": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "diazepam": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "diclofenac": {
+            "type": "Property",
+            "value": 0.965,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "enalapril": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "fluoxetine": {
+            "type": "Property",
+            "value": 0.142,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "flutamide": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "furosemide": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "gabapentin": {
+            "type": "Property",
+            "value": 0.345,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "gemfibrozil": {
+            "type": "Property",
+            "value": "<0.200",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.02,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "hydrochlorothiazide": {
+            "type": "Property",
+            "value": 2.0,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "ifosfamide": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "indomethacin": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "iohexol": {
+            "type": "Property",
+            "value": "<0.300",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "iomeprol": {
+            "type": "Property",
+            "value": "<0.300",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "iopamidol": {
+            "type": "Property",
+            "value": 1.71,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "iopromide": {
+            "type": "Property",
+            "value": "<0.300",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "ketoprofen": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "loperamide": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "metoprolol": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "mycophenolateMofetil": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "naproxen": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "oxazepam": {
+            "type": "Property",
+            "value": 0.131,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "paclitaxel": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "paracetamolAcetaminophen": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "piroxicam": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "propranolol": {
+            "type": "Property",
+            "value": 0.152,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "salbutamol": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "sertraline": {
+            "type": "Property",
+            "value": 0.103,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "sotalol": {
+            "type": "Property",
+            "value": 1.07,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "sulfamethazine": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "terbutaline": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "thebain": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "tramadol": {
+            "type": "Property",
+            "value": 0.779,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "valsartan": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "warfarin": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "zolpidem": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "chloramphenicol": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "ciprofloxacin": {
+            "type": "Property",
+            "value": "<0.300",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "lincomycin": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "metronidazole": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "sulfamethoxazole": {
+            "type": "Property",
+            "value": 0.539,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "trimethoprim": {
+            "type": "Property",
+            "value": "<0.100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "H29",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "H29"
+            }
+        },
+        "aluminium": {
+            "type": "Property",
+            "value": 0.0528,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "antimony": {
+            "type": "Property",
+            "value": "<0.0100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "arsenic": {
+            "type": "Property",
+            "value": "<0.0050",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.005,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "barium": {
+            "type": "Property",
+            "value": 0.0215,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.0005,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "beryllium": {
+            "type": "Property",
+            "value": "<0.00020",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.0002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "boron": {
+            "type": "Property",
+            "value": 0.064,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "cadmium": {
+            "type": "Property",
+            "value": "<0.00040",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.0004,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "calcium": {
+            "type": "Property",
+            "value": 33.6,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.05,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "chromium": {
+            "type": "Property",
+            "value": 0.0013,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.001,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "cobalt": {
+            "type": "Property",
+            "value": "<0.0020",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "copper": {
+            "type": "Property",
+            "value": 0.0052,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.001,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "iron": {
+            "type": "Property",
+            "value": 0.0908,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "lead": {
+            "type": "Property",
+            "value": "<0.0050",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.005,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "lithium": {
+            "type": "Property",
+            "value": 0.0081,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.001,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "magnesium": {
+            "type": "Property",
+            "value": 13.1,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.003,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "manganese": {
+            "type": "Property",
+            "value": 0.0291,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.0005,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "molybdenum": {
+            "type": "Property",
+            "value": "<0.0020",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "nickel": {
+            "type": "Property",
+            "value": "<0.0020",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "phosphorus": {
+            "type": "Property",
+            "value": 7.9,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.05,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "potassium": {
+            "type": "Property",
+            "value": 27.6,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.05,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "selenium": {
+            "type": "Property",
+            "value": "<0.0100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "silver": {
+            "type": "Property",
+            "value": "<0.0010",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.001,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "sodium": {
+            "type": "Property",
+            "value": 132.0,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.03,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "thallium": {
+            "type": "Property",
+            "value": "<0.0100",
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.01,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "vanadium": {
+            "type": "Property",
+            "value": 0.0011,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.001,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        },
+        "zinc": {
+            "type": "Property",
+            "value": 0.0662,
+            "observedAt": "2024-07-04T00:00:00Z",
+            "unitCode": "M1",
+            "limitOfReporting": {
+                "type": "Property",
+                "value": 0.002,
+                "observedAt": "2024-07-04T00:00:00Z",
+                "unitCode": "M1"
+            }
+        }
+    }
+]

@@ -64,6 +64,7 @@
         "metronidazole": "https://vocab.egm.io/metronidazole",
         "molybdenum": "https://vocab.egm.io/molybdenum",
         "mycophenolateMofetil": "https://vocab.egm.io/mycophenolateMofetil",
+        "name": "https://schema.org/name",
         "naproxen": "https://vocab.egm.io/naproxen",
         "nickel": "https://vocab.egm.io/nickel",
         "nitrateAsN": "https://vocab.egm.io/nitrateAsN",
