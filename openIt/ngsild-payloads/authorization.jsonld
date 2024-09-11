@@ -8,14 +8,8 @@
   "validationPeriod": {
     "type": "JsonProperty",
     "json": {
-      "startDate": {
-        "type": "Property",
-        "value": "2024-09-01T11:00:00.000Z"
-      },
-      "endDate": {
-        "type": "Property",
-        "value": "2024-09-02T11:00:00.000Z"
-      }
+      "startDate": "2024-09-01T11:00:00.000Z",
+      "endDate": "2024-09-02T11:00:00.000Z"
     }
   },
   "forGate": {
