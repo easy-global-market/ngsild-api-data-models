@@ -12,5 +12,9 @@
   "initDate": {
     "type": "Property",
     "value": "2024-09-02T11:00:00.000Z"
+  },
+  "keyNumber": {
+    "type": "Property",
+    "value": "001"
   }
 }
