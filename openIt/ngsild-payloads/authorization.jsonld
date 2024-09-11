@@ -13,6 +13,15 @@
       "value": "2024-09-02T11:00:00.000Z"
     }
   },
+  "forGate": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Gate:123"
+  },
+  "usesKey": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Key:123",
+    "datesetId": "urn:ngsi-ld:Dataset:Key123"
+  },
   "codes": [
     {
       "type": "Property",
