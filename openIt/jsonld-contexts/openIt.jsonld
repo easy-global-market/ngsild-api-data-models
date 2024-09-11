@@ -4,11 +4,13 @@
     "Gate": "https://vocab.egm.io/Gate",
     "Key": "https://vocab.egm.io/Key",
     "codes": "https://vocab.egm.io/codes",
+    "for": "https://vocab.egm.io/for",
     "from": "https://vocab.egm.io/from",
     "initDate": "https://vocab.egm.io/initDate",
     "name": "https://schema.org/name",
     "rotationPeriod": "https://vocab.egm.io/rotationPeriod",
     "to": "https://vocab.egm.io/to",
+    "uses": "https://vocab.egm.io/uses",
     "validationStatus": "https://vocab.egm.io/validationStatus",
     "validityEndDate": "https://vocab.egm.io/validityEndDate",
     "validityStartDate": "https://vocab.egm.io/validityStartDate"
