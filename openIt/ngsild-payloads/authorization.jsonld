@@ -46,11 +46,6 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:Gate:123"
   },
-  "usesKey": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Key:123",
-    "datesetId": "urn:ngsi-ld:Dataset:Key123"
-  },
   "givenBy": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:UserProfile:123"
@@ -65,6 +60,11 @@
       "startDate": "2024-09-01T11:00:00.000Z",
       "endDate": "2024-09-02T11:00:00.000Z"
     }
+  },
+  "usesKey": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Key:123",
+    "datesetId": "urn:ngsi-ld:Dataset:Key123"
   },
   "validationStatus": {
     "type": "Property",
