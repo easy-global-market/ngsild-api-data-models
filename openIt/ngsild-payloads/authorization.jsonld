@@ -1,26 +1,6 @@
 {
   "id": "urn:ngsi-ld:Authorization:01",
   "type": "Authorization",
-  "validationStatus": {
-    "type": "Property",
-    "value": "accepted"
-  },
-  "period": {
-    "type": "JsonProperty",
-    "json": {
-      "startDate": "2024-09-01T11:00:00.000Z",
-      "endDate": "2024-09-02T11:00:00.000Z"
-    }
-  },
-  "forGate": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Gate:123"
-  },
-  "usesKey": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Key:123",
-    "datesetId": "urn:ngsi-ld:Dataset:Key123"
-  },
   "codes": [
     {
       "type": "Property",
@@ -61,5 +41,33 @@
         "value": "2024-08-30T11:00:00.000Z"
       }
     }
-  ]
+  ],
+  "forGate": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Gate:123"
+  },
+  "givenBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:UserProfile:123"
+  },
+  "givenTo": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:UserProfile:ABC"
+  },
+  "period": {
+    "type": "JsonProperty",
+    "json": {
+      "startDate": "2024-09-01T11:00:00.000Z",
+      "endDate": "2024-09-02T11:00:00.000Z"
+    }
+  },
+  "usesKey": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Key:123",
+    "datesetId": "urn:ngsi-ld:Dataset:Key123"
+  },
+  "validationStatus": {
+    "type": "Property",
+    "value": "accepted"
+  }
 }
