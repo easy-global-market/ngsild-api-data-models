@@ -4,6 +4,7 @@
     "Gate": "https://vocab.egm.io/Gate",
     "Key": "https://vocab.egm.io/Key",
     "codes": "https://vocab.egm.io/codes",
+    "codeValidation": "https://vocab.egm.io/codeValidation",
     "forGate": "https://vocab.egm.io/forGate",
     "givenBy": "https://vocab.egm.io/givenBy",
     "givenTo": "https://vocab.egm.io/givenTo",
