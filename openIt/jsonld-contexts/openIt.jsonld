@@ -3,6 +3,7 @@
     "Authorization": "https://vocab.egm.io/Authorization",
     "Gate": "https://vocab.egm.io/Gate",
     "Key": "https://vocab.egm.io/Key",
+    "category": "https://schema.org/category",
     "codes": "https://vocab.egm.io/codes",
     "codeValidation": "https://vocab.egm.io/codeValidation",
     "forGate": "https://vocab.egm.io/forGate",
