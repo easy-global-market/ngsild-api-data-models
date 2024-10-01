@@ -20,5 +20,9 @@
   "rotationPeriod": {
     "type": "Property",
     "value": "P1D"
+  },
+  "category": {
+    "type": "Property",
+    "value": "Fire Department"
   }
 }
