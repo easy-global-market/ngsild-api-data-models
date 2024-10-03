@@ -21,8 +21,14 @@
     "type": "Property",
     "value": "P1D"
   },
-  "category": {
-    "type": "Property",
-    "value": "Fire Department"
-  }
+  "isAvailableForOrganization": [
+    {
+      "type": "Property",
+      "value": "Agglomération Provence Verte"
+    },
+    {
+      "type": "Property",
+      "value": "Gendarmerie"
+    }
+  ]
 }

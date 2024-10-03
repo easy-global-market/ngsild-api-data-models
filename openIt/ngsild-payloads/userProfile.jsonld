@@ -1,0 +1,16 @@
+{
+  "id": "urn:ngsi-ld:UserProfile:123456789",
+  "type": "UserProfile",
+  "userInfos": {
+    "type": "JsonProperty",
+    "json": {
+      "familyName": "Smith",
+      "givenName": "John",
+      "email": "john.smith@email.com"
+    }
+  },
+  "organization": {
+    "type": "Property",
+    "value": "Agglomération Provence Verte"
+  }
+}
