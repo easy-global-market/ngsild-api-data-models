@@ -15,6 +15,7 @@
         "city": "https://vocab.egm.io/city",
         "clientReference": "https://vocab.egm.io/clientReference",
         "code": "https://vocab.egm.io/code",
+        "consumption": "https://vocab.egm.io/consumption",
         "contractAccount": "https://vocab.egm.io/contractAccount",
         "contractStatus": "https://vocab.egm.io/contractStatus",
         "endDate": "https://vocab.egm.io/endDate",
