@@ -1,5 +1,7 @@
 {
   "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/spectrolyser.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/cyble5.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/edgespot.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"

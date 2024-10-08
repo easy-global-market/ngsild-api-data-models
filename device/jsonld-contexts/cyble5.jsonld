@@ -1,0 +1,14 @@
+{
+    "@context": {
+    	"Device": "https://vocab.egm.io/Device",
+    	"digitsNumber": "https://vocab.egm.io/digitsNumber  ",
+        "fdrPeriod": "https://vocab.egm.io/fdrPeriod",
+    	"frameFormat": "https://vocab.egm.io/frameFormat",
+    	"frameNumber": "https://vocab.egm.io/frameNumber",
+    	"frameType": "https://vocab.egm.io/frameType",
+    	"messageCounter": "https://vocab.egm.io/messageCounter",
+        "pulseWeight": "https://vocab.egm.io/pulseWeight",
+        "volumeDatabaseGlobalIndex": "https://vocab.egm.io/volumeDatabaseGlobalIndex",
+    	"volumeIndex": "https://vocab.egm.io/volumeIndex"
+    }
+}
