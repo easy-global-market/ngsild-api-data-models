@@ -4,6 +4,7 @@
     "Anomaly": "https://vocab.egm.io/Anomaly",
     "Risk": "https://vocab.egm.io/Risk",
     "Event": "https://vocab.egm.io/Event",
+    "EventGroup": "https://vocab.egm.io/EventGroup",
     "ThresholdBreach": "https://vocab.egm.io/ThresholdBreach",
     "AggregatedThresholdBreach": "https://vocab.egm.io/AggregatedThresholdBreach",
     "NoData": "https://vocab.egm.io/NoData",
