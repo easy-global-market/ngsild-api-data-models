@@ -1,0 +1,26 @@
+name: SSH to VMs and Restart search service
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Connect to VM and execute commands
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            source ~/.stellio.env
+            cd datahub-launcher
+            docker compose -f docker-compose.$PLATFORM_KEY.yml restart search-service && docker compose -f docker-compose.$PLATFORM_KEY.yml
