@@ -31,6 +31,7 @@
         "isContainedIn": "https://vocab.egm.io/isContainedIn",
         "isObserving": "https://vocab.egm.io/isObserving",
         "issueDate": "https://vocab.egm.io/issueDate",
+        "issuer": "https://vocab.egm.io/issuer",
         "fluidType": "https://vocab.egm.io/fluidType",
         "name": "https://schema.org/name",
         "offerLabel": "https://vocab.egm.io/offerLabel",
@@ -40,6 +41,8 @@
         "rnbId": "https://vocab.egm.io/rnbId",
         "segment": "https://vocab.egm.io/segment",
         "startDate": "https://vocab.egm.io/startDate",
-        "streetAddress": "https://vocab.egm.io/streetAddress"
+        "streetAddress": "https://vocab.egm.io/streetAddress",
+        "supplier": "https://vocab.egm.io/supplier",
+        "volume": "https://vocab.egm.io/volume"
     }
 }
