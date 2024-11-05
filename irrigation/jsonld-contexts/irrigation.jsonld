@@ -53,6 +53,7 @@
         "soilAreaType": "https://vocab.egm.io/soilAreaType",
         "soilDepth": "https://vocab.egm.io/soilDepth",
         "soilElectricalConductivity": "https://vocab.egm.io/soilElectricalConductivity",
+        "soilMoistureReport": "https://vocab.egm.io/soilMoistureReport",
         "soilTemperature": "https://vocab.egm.io/soilTemperature",
         "source": "https://vocab.egm.io/source",
         "sourceParameterCode": "https://vocab.egm.io/sourceParameterCode",
