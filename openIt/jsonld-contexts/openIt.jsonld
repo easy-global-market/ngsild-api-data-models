@@ -6,6 +6,7 @@
     "category": "https://schema.org/category",
     "codes": "https://vocab.egm.io/codes",
     "codeValidation": "https://vocab.egm.io/codeValidation",
+    "codeOfTheDay": "https://vocab.egm.io/codeOfTheDay",
     "forGate": "https://vocab.egm.io/forGate",
     "givenBy": "https://vocab.egm.io/givenBy",
     "givenTo": "https://vocab.egm.io/givenTo",
