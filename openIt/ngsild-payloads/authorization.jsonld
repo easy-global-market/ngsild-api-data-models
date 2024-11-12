@@ -70,5 +70,13 @@
   "validationStatus": {
     "type": "Property",
     "value": "accepted"
+  },
+  "cron": {
+    "type": "Property",
+    "value": "0 12 * * *"
+  },
+  "generatedUntil": {
+    "type": "Property",
+    "value": "2024-09-02T23:59:59.000Z"
   }
 }
