@@ -13,6 +13,10 @@
     "type": "Property",
     "value": "AwesomeKeyName"
   },
+  "codeOfTheDay": {
+    "type": "Property",
+    "value": "123456"
+  },
   "opensGate": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Gate:AwesomeGateName"
