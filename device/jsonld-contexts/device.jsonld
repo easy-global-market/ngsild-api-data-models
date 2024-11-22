@@ -11,6 +11,7 @@
         "chargerStatus": "https://vocab.egm.io/chargerStatus",
         "co2": "https://vocab.egm.io/co2",
         "communicationProtocol": "https://vocab.egm.io/communicationProtocol",
+        "controlledAsset": "https://vocab.egm.io/controlledAsset",
         "cpuTemperature": "https://vocab.egm.io/cpuTemperature",
         "devEUI": "https://vocab.egm.io/devEUI",
         "deviceType": "https://vocab.egm.io/deviceType",
