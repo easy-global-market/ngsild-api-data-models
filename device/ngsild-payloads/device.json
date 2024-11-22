@@ -64,6 +64,6 @@
     "controlledAsset": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Asset:AwesomeAssetName",
-        "dataset": "urn:ngsi-ld:Dataset:AwesomeAssetName"
+        "datasetId": "urn:ngsi-ld:Dataset:AwesomeAssetName"
   }
 }
