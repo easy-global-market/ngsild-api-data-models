@@ -60,5 +60,10 @@
             },
             "value": "live-objects"
         }
-    ]
+    ],
+    "controlledAsset": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Asset:AwesomeAssetName",
+        "dataset": "urn:ngsi-ld:Dataset:AwesomeAssetName"
+  }
 }
