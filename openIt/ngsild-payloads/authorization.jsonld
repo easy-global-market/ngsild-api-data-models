@@ -79,16 +79,9 @@
     "type": "Property",
     "value": "2024-09-02T23:59:59.000Z"
   },
-  "viewedBy": [
-    {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:UserProfile:123",
-      "observedAt": "2024-11-25T09:01:00Z"
-    },
-    {
-      "type": "Relationship",
-      "object": "urn:ngsi-ld:UserProfile:123",
-      "observedAt": "2024-11-24T09:01:00Z"
-    }
-  ]
+  "viewedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:UserProfile:123",
+    "observedAt": "2024-11-25T09:01:00Z"
+  }
 }
