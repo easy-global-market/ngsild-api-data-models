@@ -19,6 +19,7 @@
         "vtype": "https://uri.fiware.org/ns/data-models#vtype",
         "pfisc": "https://uri.fiware.org/ns/data-models#pfisc",
         "carrosserie": "https://uri.fiware.org/ns/data-models#carrosserie",
-        "curStay": "https://uri.fiware.org/ns/data-models#curStay"
+        "curStay": "https://uri.fiware.org/ns/data-models#curStay",
+        "occupied": "https://vocab.egm.io/occupied"
     }
 }
