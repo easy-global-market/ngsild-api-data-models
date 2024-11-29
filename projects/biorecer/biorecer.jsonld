@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "industryType": "https://vocab.egm.io/industryType",
+    "isAffiliatedTo": "https://vocab.egm.io/isAffiliatedTo"
+  }
+}
