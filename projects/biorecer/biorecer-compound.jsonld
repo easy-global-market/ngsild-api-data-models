@@ -1,5 +1,7 @@
 {
   "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/projects/biorecer/biorecer.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/user/user.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/alertEventRisk/jsonld-contexts/alertEventRisk.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
