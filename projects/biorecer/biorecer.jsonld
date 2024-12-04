@@ -1,5 +1,6 @@
 {
   "@context": {
+    "name": "https://schema.org/name",
     "industryType": "https://vocab.egm.io/industryType",
     "isAffiliatedTo": "https://vocab.egm.io/isAffiliatedTo"
   }
