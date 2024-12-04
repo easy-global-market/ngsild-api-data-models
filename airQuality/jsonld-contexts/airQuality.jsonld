@@ -34,6 +34,7 @@
       "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
       "tvoc": "https://vocab.egm.io/tvoc",
       "voc": "https://vocab.egm.io/voc",
-      "vocIsobutane": "https://vocab.egm.io/vocIsobutane"
+      "vocIsobutane": "https://vocab.egm.io/vocIsobutane",
+      "thi": "https://vocab.egm.io/thi"
    }
 }
