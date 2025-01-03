@@ -43,6 +43,17 @@
         "startDate": "https://vocab.egm.io/startDate",
         "streetAddress": "https://vocab.egm.io/streetAddress",
         "supplier": "https://vocab.egm.io/supplier",
-        "volume": "https://vocab.egm.io/volume"
+        "volume": "https://vocab.egm.io/volume",
+        "activeEnergy": "https://vocab.egm.io/activeEnergy",
+        "reactiveEnergy": "https://vocab.egm.io/reactiveEnergy",
+        "activePower": "https://vocab.egm.io/activePower",
+        "reactivePower": "https://vocab.egm.io/reactivePower",
+        "apparentPower": "https://vocab.egm.io/apparentPower",
+        "powerFactor": "https://vocab.egm.io/powerFactor",
+        "current": "https://vocab.egm.io/current",
+        "voltage": "https://vocab.egm.io/voltage",
+        "frequency": "https://vocab.egm.io/frequency",
+        "digitalInput": "https://vocab.egm.io/digitalInput",
+        "alarm": "https://vocab.egm.io/alarm"
     }
 }
