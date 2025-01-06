@@ -25,7 +25,7 @@
         "internalHumidity": "https://vocab.egm.io/internalHumidity",
         "internalTemperature": "https://vocab.egm.io/internalTemperature",
         "ipAddress": "https://vocab.egm.io/ipAddress",
-        "isDeleted": "https://vocab.egm.io/isDeleted",
+        "isDeprovisioned": "https://vocab.egm.io/isDeprovisioned",
         "isEnabled": "https://vocab.egm.io/isEnabled",
         "lastBoot": "https://vocab.egm.io/lastBoot",
         "loraSNR": "https://vocab.egm.io/loraSNR",
