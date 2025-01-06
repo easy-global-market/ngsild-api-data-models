@@ -2,6 +2,7 @@
     "@context": {
         "Device": "https://vocab.egm.io/Device",
         "Raspberry": "https://vocab.egm.io/Raspberry",
+        "alarm": "https://vocab.egm.io/alarm",
         "appEUI": "https://vocab.egm.io/appEUI",
         "applicationId": "https://vocab.egm.io/applicationId",
         "authenticationKey": "https://vocab.egm.io/authenticationKey",
@@ -15,6 +16,7 @@
         "cpuTemperature": "https://vocab.egm.io/cpuTemperature",
         "devEUI": "https://vocab.egm.io/devEUI",
         "deviceType": "https://vocab.egm.io/deviceType",
+        "digitalInput": "https://vocab.egm.io/digitalInput",
         "diskUsage": "https://vocab.egm.io/diskUsage",
         "encryptionKey": "https://vocab.egm.io/encryptionKey",
         "frequency": "https://vocab.egm.io/frequency",
