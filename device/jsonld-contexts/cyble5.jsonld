@@ -2,7 +2,7 @@
     "@context": {
     	"Device": "https://vocab.egm.io/Device",
 		"backflowIndex": "https://vocab.egm.io/backflowIndex",
-    	"digitsNumber": "https://vocab.egm.io/digitsNumber  ",
+    	"digitsNumber": "https://vocab.egm.io/digitsNumber",
         "fdrPeriod": "https://vocab.egm.io/fdrPeriod",
 		"firmwareVersion": "https://vocab.egm.io/firmwareVersion",
     	"frameFormat": "https://vocab.egm.io/frameFormat",
