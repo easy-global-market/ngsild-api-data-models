@@ -26,6 +26,7 @@
       "no2": "https://vocab.egm.io/no2",
       "o3": "https://vocab.egm.io/o3",
       "occupancySchedule": "https://vocab.egm.io/occupancySchedule",
+      "occupancy": "https://vocab.egm.io/occupancy",
       "pm10": "https://vocab.egm.io/pm10",
       "pm25": "https://vocab.egm.io/pm25",
       "pressure": "https://vocab.egm.io/pressure",
