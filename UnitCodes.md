@@ -166,7 +166,7 @@ This table will be updated upon new needs identified for units and possible evol
 
 ## References
 
-[1] « NGSI-LD API », GS CIM 009, https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/ (current 1.6.1 version: https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.06.01_60/gs_cim009v010601p.pdf)
+[1] « NGSI-LD API », [GS CIM 009](https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=68619), ([version 1.8.1 from March 2024](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.08.01_60/gs_CIM009v010801p.pdf))
 
 [2] « UN/CEFACT Common Codes for Units of Measurement used in the International Trade », https://www.unece.org/cefact/codesfortrade/codes_index.html
 
