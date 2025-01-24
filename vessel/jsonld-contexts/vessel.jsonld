@@ -32,4 +32,4 @@
         "timezone": "https://uri.fiware.org/ns/data-models#timezone",
         "unlocs": "https://uri.fiware.org/ns/data-models#unlocs",
         "code": "https://uri.fiware.org/ns/data-models#code"
-}
+
