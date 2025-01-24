@@ -25,10 +25,4 @@ jobs:
             printf "Checking $file .. "
             jq empty $file && echo "OK"
           done || exit 1
-      - name: Check JSON files
-        run: |
-          for file in $(find . -name "*.json"); do
-            printf "Checking $file .. "
-            jq empty $file && echo "OK"
-          done || exit 1
         shell: bash
