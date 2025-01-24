@@ -22,4 +22,3 @@
     "@context": [
         "https://easy-global-market.github.io/ngsild-api-data-models/aquac/HCMR-PilotSiteUseCase/jsonld-contexts/ifishienciHCMRcompouned.jsonld"
     ]
-}

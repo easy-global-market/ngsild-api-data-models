@@ -25,13 +25,13 @@ jobs:
           echo "Checking JSON-LD files"
           for file in $(find . -name "*.jsonld"); do
             printf "Checking $file .. "
-            jq empty $file && echo "OK" || { error=1; echo "KO invalid JSON"; }
+            jq empty $file && echo "OK" || { error=1; echo "********* KO invalid JSON *********"; }
           done
           echo ""
           echo "Checking JSON files"
           for file in $(find . -name "*.json"); do
             printf "Checking $file .. "
-            jq empty $file && echo "OK" || { error=1; echo "*** KO invalid JSON ***"; }
+            jq empty $file && echo "OK" || { error=1; echo "********* KO invalid JSON *********"; }
           done
           exit $error
         shell: bash
