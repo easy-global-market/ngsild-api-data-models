@@ -20,6 +20,7 @@
     "numberOfInvalidation": "https://vocab.egm.io/numberOfInvalidation",
     "numberOfValidation": "https://vocab.egm.io/numberOfValidation",
     "severity": "https://vocab.egm.io/severity",
+    "shortName": "https://vocab.egm.io/shortName",
     "triggeredBy": "https://vocab.egm.io/triggeredBy",
     "occurence": "https://vocab.egm.io/occurence",
     "validationStatus": "https://vocab.egm.io/validationStatus",
