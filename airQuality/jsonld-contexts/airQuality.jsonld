@@ -25,6 +25,7 @@
       "no": "https://vocab.egm.io/no",
       "no2": "https://vocab.egm.io/no2",
       "o3": "https://vocab.egm.io/o3",
+      "occupancySchedule": "https://vocab.egm.io/occupancySchedule",
       "pm10": "https://vocab.egm.io/pm10",
       "pm25": "https://vocab.egm.io/pm25",
       "pressure": "https://vocab.egm.io/pressure",
@@ -34,6 +35,7 @@
       "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
       "tvoc": "https://vocab.egm.io/tvoc",
       "voc": "https://vocab.egm.io/voc",
-      "vocIsobutane": "https://vocab.egm.io/vocIsobutane"
+      "vocIsobutane": "https://vocab.egm.io/vocIsobutane",
+      "thi": "https://vocab.egm.io/thi"
    }
 }

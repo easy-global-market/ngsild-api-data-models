@@ -1,0 +1,69 @@
+{
+  "id": "urn:ngsi-ld:Device:openit:edgespot_15",
+  "type": "Device",
+  "humidity": {
+    "type": "Property",
+    "value": 55.5,
+    "unitCode": "%RH",
+    "observedAt": "2024-09-30T06:04:18.000Z"
+  },
+  "keyNumber": {
+    "type": "Property",
+    "value": 1,
+    "observedAt": "2024-09-26T06:24:21.000Z"
+  },
+  "temperature": {
+    "type": "Property",
+    "value": 10.4,
+    "unitCode": "Cel",
+    "observedAt": "2024-09-30T06:04:18.000Z"
+  },
+  "chargerStatus": {
+    "type": "Property",
+    "value": "Charged or Bad battery fault",
+    "observedAt": "2024-09-30T12:05:07.000Z"
+  },
+  "batteryVoltage": {
+    "type": "Property",
+    "value": 6.6,
+    "unitCode": "V",
+    "observedAt": "2024-09-30T12:05:07.000Z"
+  },
+  "cpuTemperature": {
+    "type": "Property",
+    "value": 24.4,
+    "unitCode": "Cel",
+    "observedAt": "2024-09-30T12:05:07.000Z"
+  },
+  "internalHumidity": {
+    "type": "Property",
+    "value": 53.3,
+    "unitCode": "%RH",
+    "observedAt": "2024-09-30T12:05:07.000Z"
+  },
+  "edsId": {
+    "type": "Property",
+    "value": 15,
+    "observedAt": "2024-09-29T18:00:12.000Z"
+  },
+  "appliId": {
+    "type": "Property",
+    "value": 7,
+    "observedAt": "2024-09-29T18:00:12.000Z"
+  },
+  "softVersion": {
+    "type": "Property",
+    "value": "1.0",
+    "observedAt": "2024-09-29T18:00:12.000Z"
+  },
+  "codeValidation": {
+    "type": "Property",
+    "value": "invalid code",
+    "observedAt": "2024-09-26T06:24:21.000Z"
+  },
+  "controlledAsset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Gate:AwesomeGateName",
+    "datasetId": "urn:ngsi-ld:Dataset:AwesomeGateName"
+  }
+}

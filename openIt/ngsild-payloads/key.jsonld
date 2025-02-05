@@ -13,6 +13,10 @@
     "type": "Property",
     "value": "AwesomeKeyName"
   },
+  "codeOfTheDay": {
+    "type": "Property",
+    "value": "123456"
+  },
   "opensGate": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Gate:AwesomeGateName"
@@ -20,5 +24,9 @@
   "rotationPeriod": {
     "type": "Property",
     "value": "P1D"
+  },
+  "category": {
+    "type": "Property",
+    "value": "Fire Department"
   }
 }

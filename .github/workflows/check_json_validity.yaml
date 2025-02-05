@@ -1,0 +1,43 @@
+name: Check JSON-LD and JSON files are valid
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - '**'
+    paths:
+      - '**/jsonld-contexts/**'
+      - '**/ngsild-payloads/**'
+
+jobs:
+  check-context-valid-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: |
+          sudo apt update && sudo apt install jq
+      - name: Check JSON and JSON-LD files
+        run: |
+          error=0
+          echo "Checking JSON-LD files"
+          for file in $(find . -name "*.jsonld"); do
+            printf "Checking $file .. "
+            jq empty $file && echo "OK" || { error=1; echo "****************** KO invalid JSON ******************"; }
+          done
+          echo ""
+          echo "Checking JSON files"
+          for file in $(find . -name "*.json"); do
+            printf "Checking $file .. "
+            jq empty $file && echo "OK" || { error=1; echo "****************** KO invalid JSON ******************"; }
+          done
+          exit $error
+        shell: bash
+      - name: Check JSON files
+        run: |
+          error=0
+
+          exit $error
+        shell: bash

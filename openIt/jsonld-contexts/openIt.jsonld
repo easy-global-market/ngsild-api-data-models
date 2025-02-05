@@ -3,19 +3,26 @@
     "Authorization": "https://vocab.egm.io/Authorization",
     "Gate": "https://vocab.egm.io/Gate",
     "Key": "https://vocab.egm.io/Key",
+    "category": "https://schema.org/category",
     "codes": "https://vocab.egm.io/codes",
+    "codeValidation": "https://vocab.egm.io/codeValidation",
+    "codeOfTheDay": "https://vocab.egm.io/codeOfTheDay",
+    "cron": "https://vocab.egm.io/cron",
     "forGate": "https://vocab.egm.io/forGate",
+    "generatedUntil": "https://vocab.egm.io/generatedUntil",
     "givenBy": "https://vocab.egm.io/givenBy",
     "givenTo": "https://vocab.egm.io/givenTo",
     "initDate": "https://vocab.egm.io/initDate",
     "keyNumber": "https://vocab.egm.io/keyNumber",
     "name": "https://schema.org/name",
     "opensGate": "https://vocab.egm.io/opensGate",
-    "period": "https://vocab.egm.io/period",
+    "periodEndDate": "https://vocab.egm.io/periodEndDate",
+    "periodStartDate": "https://vocab.egm.io/periodStartDate",
     "rotationPeriod": "https://vocab.egm.io/rotationPeriod",
     "usesKey": "https://vocab.egm.io/usesKey",
     "validationStatus": "https://vocab.egm.io/validationStatus",
     "validityEndDate": "https://vocab.egm.io/validityEndDate",
-    "validityStartDate": "https://vocab.egm.io/validityStartDate"
+    "validityStartDate": "https://vocab.egm.io/validityStartDate",
+    "viewedBy": "https://vocab.egm.io/viewedBy"
   }
 }

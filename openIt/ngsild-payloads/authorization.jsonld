@@ -54,12 +54,13 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:UserProfile:ABC"
   },
-  "period": {
-    "type": "JsonProperty",
-    "json": {
-      "startDate": "2024-09-01T11:00:00.000Z",
-      "endDate": "2024-09-02T11:00:00.000Z"
-    }
+  "periodStartDate": {
+    "type": "Property",
+    "value": "2024-09-01T11:00:00.000Z"
+  },
+  "periodEndDate": {
+    "type": "Property",
+    "value": "2024-09-02T11:00:00.000Z"
   },
   "usesKey": {
     "type": "Relationship",
@@ -69,5 +70,18 @@
   "validationStatus": {
     "type": "Property",
     "value": "accepted"
+  },
+  "cron": {
+    "type": "Property",
+    "value": "0 12 * * *"
+  },
+  "generatedUntil": {
+    "type": "Property",
+    "value": "2024-09-02T23:59:59.000Z"
+  },
+  "viewedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:UserProfile:123",
+    "observedAt": "2024-11-25T09:01:00Z"
   }
 }
