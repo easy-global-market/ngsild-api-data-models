@@ -21,6 +21,17 @@
         "type": "Property",
         "value": "irrigationIcon"
     },
+    "irrelevantModules": {
+        "description": {
+            "type": "Property",
+            "value": "Optional property. Modules listed here won't appear in Twin·Picks when a use case of this type is selected"
+        },
+        "type": "Property",
+        "value": [
+            "trafficVisualization",
+            "serverManagement"
+        ]
+    },
     "specificAccessPolicy": {
         "type": "Property",
         "value": "AUTH_READ"
