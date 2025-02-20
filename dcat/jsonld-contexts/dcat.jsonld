@@ -1,7 +1,7 @@
 {
   "@context": {
     "Agent": "http://xmlns.com/foaf/0.1/Agent",
-    "byteSize": "https://www.w3.org/ns/dcat#size",
+    "byteSize": "https://www.w3.org/ns/dcat#byteSize",
     "Catalog": "http://www.w3.org/ns/dcat#Catalog",
     "contactPoint": "https://www.w3.org/ns/dcat#contactPoint",
     "DataService": "https://www.w3.org/ns/dcat#DataService",
