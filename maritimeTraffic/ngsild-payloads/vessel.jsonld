@@ -1,0 +1,73 @@
+{
+    "id": "urn:ngsi-ld:Vessel:227464540",
+    "type": "Vessel",
+    "mmsi": {
+        "type": "Property",
+        "value": 227464540
+    },
+    "imo": {
+        "type": "Property",
+        "value": 0
+    },
+    "name": {
+        "type": "Property",
+        "value": "AEROPORT DE NICE"
+    },
+    "callsign": {
+        "type": "Property",
+        "value": ""
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                7.17849,
+                43.65347
+            ]
+        },
+        "observedAt": "2025-02-24 13:51:58 GMT"
+    },
+    "courseOverGround": {
+        "type": "Property",
+        "value": 328.6,
+        "observedAt": "2025-02-24 13:51:58 GMT",
+        "unitCode": "DD",
+        "datasetId": "urn:ngsi-ld:Dataset:Raw"
+    },
+    "speedOverGround": {
+        "type": "Property",
+        "value": 21.8,
+        "observedAt": "2025-02-24 13:51:58 GMT",
+        "unitCode": "kn",
+        "datasetId": "urn:ngsi-ld:Dataset:Raw"
+    },
+    "heading": {
+        "type": "Property",
+        "value": 511,
+        "observedAt": "2025-02-24 13:51:58 GMT",
+        "datasetId": "urn:ngsi-ld:Dataset:Raw"
+    },
+    "rateOfTurn": {
+        "type": "Property",
+        "value": 128,
+        "observedAt": "2025-02-24 13:51:58 GMT",
+        "unitCode": "DDS",
+        "datasetId": "urn:ngsi-ld:Dataset:Raw"
+    },
+    "positionAccuracy": {
+        "type": "Property",
+        "value": 1,
+        "observedAt": "2025-02-24 13:51:58 GMT"
+    },
+    "navigationStatus": {
+        "type": "Property",
+        "value": 15,
+        "observedAt": "2025-02-24 13:51:58 GMT"
+    },
+    "destination": {
+        "type": "Property",
+        "value": "",
+        "observedAt": "2025-02-24 13:51:58 GMT"
+    }
+}

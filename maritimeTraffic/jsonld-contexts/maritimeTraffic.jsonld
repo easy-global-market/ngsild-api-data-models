@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "Station": "https://vocab.egm.io/Station",
+        "Vessel": "https://vocab.egm.io/Vessel",
+        "callsign": "https://vocab.egm.io/callsign",
+        "courseOverGround": "https://vocab.egm.io/courseOverGround",
+        "destination": "https://vocab.egm.io/destination",
+        "draught": "https://vocab.egm.io/draught",
+        "heading": "https://vocab.egm.io/heading",
+        "imo": "https://vocab.egm.io/imo",
+        "mmsi": "https://vocab.egm.io/mmsi",
+        "navigationStatus": "https://vocab.egm.io/navigationStatus",
+        "positionAccuracy": "https://vocab.egm.io/positionAccuracy",
+        "rateOfTurn": "https://vocab.egm.io/rateOfTurn",
+        "speedOverGround": "https://vocab.egm.io/speedOverGround",
+        "vesselType": "https://vocab.egm.io/vesselType"
+    }
+}
