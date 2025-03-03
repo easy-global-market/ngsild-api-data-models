@@ -1,13 +1,17 @@
 {
-    "id": "urn:ngsi-ld:Device:01",
+    "id": "urn:ngsi-ld:Device:devEUI",
     "type": "Device",
     "name": {
         "type": "Property",
-        "value": "Device1"
+        "value": "Device_1"
     },
     "description": {
         "type": "Property",
         "value": "lorem ipsum"
+    },
+    "devEUI": {
+        "type": "Property",
+        "value": "0000000000000000"
     },
     "appEUI": {
         "type": "Property",
@@ -17,13 +21,9 @@
         "type": "Property",
         "value": "00000000000000000000000000000000"
     },
-    "isDeleted": {
+    "isDeprovisioned": {
         "type": "Property",
         "value": false
-    },
-    "devEUI": {
-        "type": "Property",
-        "value": "0000000000000000"
     },
     "manufacturer": {
         "type": "Property",
@@ -33,32 +33,24 @@
         "type": "Property",
         "value": "Aero"
     },
-    "networks": [
+    "deployedOnNetwork": [
         {
-            "type": "Property",
-            "name": {
-                "type": "Property",
-                "value": "Chirpstack"
-            },
-            "datasetId": "urn:ngsi-ld:Device:networks:chirpstack",
-            "isEnabled": {
-                "type": "Property",
-                "value": false
-            },
-            "value": "chirpstack"
-        },
-        {
-            "type": "Property",
-            "name": {
-                "type": "Property",
-                "value": "Live Objects"
-            },
-            "datasetId": "urn:ngsi-ld:Device:networks:live-objects",
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Network:Chirpstack:EGM",
+            "datasetId": "urn:ngsi-ld:Dataset:Chirpstack:EGM",
             "isEnabled": {
                 "type": "Property",
                 "value": true
-            },
-            "value": "live-objects"
+            }
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Network:LiveObjects",
+            "datasetId": "urn:Dataset:LiveObjects",
+            "isEnabled": {
+                "type": "Property",
+                "value": false
+            }
         }
     ],
     "controlledAsset": {
