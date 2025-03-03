@@ -1,0 +1,28 @@
+{
+    "id": "urn:ngsi-ld:Network:Chirpstack:EGM",
+    "type": "Network",
+    "name": {
+        "type": "Property",
+        "value": "Chirpstack EGM - Tenant EGM"
+    },
+    "description": {
+        "type": "Property",
+        "value": "lora.smart-territory.eu Chirpstack Network Server (Tenant EGM)"
+    },
+    "networkType": {
+        "type": "Property",
+        "value": "Chirpstack"
+    },
+    "communicationProtocol": {
+        "type": "Property",
+        "value": "LoRaWAN"
+    },
+    "configuration": {
+        "type": "JsonProperty",
+        "json": {
+            "server": "00.00.000.000:8080",
+            "apiToken": "**************************************************",
+            "tenantId": "00000000-0000-0000-0000-000000000000"
+        }
+    }
+}
