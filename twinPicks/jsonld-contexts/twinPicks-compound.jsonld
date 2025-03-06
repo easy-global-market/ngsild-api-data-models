@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcat.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcat-compound.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/usecase.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/asset/jsonld-contexts/asset.jsonld",
