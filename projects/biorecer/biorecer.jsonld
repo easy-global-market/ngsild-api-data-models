@@ -1,6 +1,8 @@
 {
   "@context": {
+    "Corporation": "https://schema.org/Corporation",
     "industryType": "https://vocab.egm.io/industryType",
-    "isAffiliatedTo": "https://vocab.egm.io/isAffiliatedTo"
+    "affiliation": "https://schema.org/affiliation",
+    "roleName": "https://schema.org/roleName"
   }
 }
