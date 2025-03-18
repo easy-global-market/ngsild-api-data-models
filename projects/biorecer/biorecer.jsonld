@@ -1,6 +1,8 @@
 {
   "@context": {
+    "Company": "https://vocab.egm.io/Company",
     "industryType": "https://vocab.egm.io/industryType",
-    "isAffiliatedTo": "https://vocab.egm.io/isAffiliatedTo"
+    "isAffiliatedTo": "https://vocab.egm.io/isAffiliatedTo",
+    "role": "https://vocab.egm.io/role"
   }
 }
