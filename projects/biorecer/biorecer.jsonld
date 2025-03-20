@@ -1,8 +1,13 @@
 {
   "@context": {
     "Corporation": "https://schema.org/Corporation",
-    "industryType": "https://vocab.egm.io/industryType",
+    "KeyPerformanceIndicator": "https://vocab.egm.io/KeyPerformanceIndicator",
     "affiliation": "https://schema.org/affiliation",
-    "roleName": "https://schema.org/roleName"
+    "circularityIndicator": "https://vocab.egm.io/circularityIndicator",
+    "hasKpi": "https://vocab.egm.io/hasKpi",
+    "industryType": "https://vocab.egm.io/industryType",
+    "kpiValue": "https://vocab.egm.io/kpiValue",
+    "roleName": "https://schema.org/roleName",
+    "typeOfProduct": "https://vocab.egm.io/typeOfProduct"
   }
 }
