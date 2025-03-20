@@ -10,6 +10,7 @@
     "accessRights": "http://purl.org/dc/terms/accessRights",
     "accessURL": "http://www.w3.org/ns/dcat#accessURL",
     "catalog": "http://www.w3.org/ns/dcat#catalog",
+    "contactPoint": "http://www.w3.org/ns/dcat#contactPoint",
     "dataset": "http://www.w3.org/ns/dcat#dataset",
     "description": "http://purl.org/dc/terms/description",
     "documentation": "http://xmlns.com/foaf/0.1/Document",
