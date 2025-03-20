@@ -6,7 +6,7 @@
     "circularityIndicator": "https://vocab.egm.io/circularityIndicator",
     "hasKpi": "https://vocab.egm.io/hasKpi",
     "industryType": "https://vocab.egm.io/industryType",
-    "kpiValue": "https://schema.org/kpiValue",
+    "kpiValue": "https://vocab.egm.io/kpiValue",
     "roleName": "https://schema.org/roleName",
     "typeOfProduct": "https://vocab.egm.io/typeOfProduct"
   }
