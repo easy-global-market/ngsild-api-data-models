@@ -5,9 +5,11 @@
       "Device": "https://vocab.egm.io/Device",
       "Room": "https://vocab.egm.io/Room",
       "Station": "https://vocab.egm.io/Station",
+      "ambientNoise": "https://vocab.egm.io/ambientNoise",
       "ammonia": "https://vocab.egm.io/ammonia",
       "airComponents": "https://vocab.egm.io/airComponents",
       "airContaminants": "https://vocab.egm.io/airContaminants",
+      "aqmScore": "https://vocab.egm.io/aqmScore",
       "atmoIndex": "https://vocab.egm.io/atmoIndex",
       "atmosphericPressure": "https://vocab.egm.io/atmosphericPressure",
       "batteryLevel": "https://vocab.egm.io/batteryLevel",
@@ -16,8 +18,10 @@
       "co2": "https://vocab.egm.io/co2",
       "co2Alarm": "https://vocab.egm.io/co2Alarm",
       "co2Concentration": "https://vocab.egm.io/co2Concentration",
+      "doorOpen": "https://vocab.egm.io/doorOpen",
       "humidity": "https://vocab.egm.io/humidity",
       "hydrogen": "https://vocab.egm.io/hydrogen",
+      "iaqIndex": "https://vocab.egm.io/iaqIndex",
       "illuminance": "https://vocab.egm.io/illuminance",
       "loraSNR": "https://vocab.egm.io/loraSNR",
       "methane": "https://vocab.egm.io/methane",
@@ -33,9 +37,10 @@
       "stationId": "https://vocab.egm.io/stationId",
       "temperature": "https://vocab.egm.io/temperature",
       "temperatureAlarm": "https://vocab.egm.io/temperatureAlarm",
+      "thi": "https://vocab.egm.io/thi",
       "tvoc": "https://vocab.egm.io/tvoc",
       "voc": "https://vocab.egm.io/voc",
       "vocIsobutane": "https://vocab.egm.io/vocIsobutane",
-      "thi": "https://vocab.egm.io/thi"
+      "waterDetected": "https://vocab.egm.io/waterDetected"
    }
 }
