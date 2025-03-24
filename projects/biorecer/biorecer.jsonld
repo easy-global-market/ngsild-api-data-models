@@ -2,12 +2,23 @@
   "@context": {
     "Corporation": "https://schema.org/Corporation",
     "KeyPerformanceIndicator": "https://vocab.egm.io/KeyPerformanceIndicator",
+    "KeyPerformanceIndicatorModel": "https://vocab.egm.io/KeyPerformanceIndicatorModel",
     "affiliation": "https://schema.org/affiliation",
-    "circularityIndicator": "https://vocab.egm.io/circularityIndicator",
+    "aggregatedData": "https://vocab.egm.io/aggregatedData",
+    "certifiedRenewableShare": "https://vocab.egm.io/certifiedRenewableShare",
     "hasKpi": "https://vocab.egm.io/hasKpi",
     "industryType": "https://vocab.egm.io/industryType",
     "kpiValue": "https://vocab.egm.io/kpiValue",
+    "massOfLeftOnFieldResidue": "https://vocab.egm.io/massOfLeftOnFieldResidue",
+    "massOfLostResidue": "https://vocab.egm.io/massOfLostResidue",
+    "massOfResidueForBioplastics": "https://vocab.egm.io/massOfResidueForBioplastics",
+    "massOfResidueForBulkChemicals": "https://vocab.egm.io/massOfResidueForBulkChemicals",
+    "massOfResidueForEnergy": "https://vocab.egm.io/massOfResidueForEnergy",
+    "massOfResidueForFineChemicals": "https://vocab.egm.io/massOfResidueForFineChemicals",
+    "massOfResidueForFood": "https://vocab.egm.io/massOfResidueForFood",
     "roleName": "https://schema.org/roleName",
-    "typeOfProduct": "https://vocab.egm.io/typeOfProduct"
+    "sustainableRemovalShare": "https://vocab.egm.io/sustainableRemovalShare",
+    "typeOfProduct": "https://vocab.egm.io/typeOfProduct",
+    "unavoidableResidueShare": "https://vocab.egm.io/unavoidableResidueShare"
   }
 }
