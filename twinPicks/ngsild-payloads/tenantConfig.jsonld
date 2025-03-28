@@ -5,12 +5,23 @@
         "type": "Property",
         "value": "Tenant config for my city platform admin interface"
     },
+    "logo": {
+        "type": "JsonProperty",
+        "description": {
+            "type": "Property",
+            "value": "Optional property. Used to display tenant logo instead of the default Twin Picks logo. Expected dimensions are: 55x55 px for small size and 195x55 px for large size"
+        },
+        "json": {
+            "base64LogoShort": "data:image/png;base64...",
+            "base64LogoLarge": "data:image/png;base64..."
+        }
+    },
     "activeModules": {
         "type": "Property",
         "description": {
-            "type":"Property",
+            "type": "Property",
             "value": "List of available modules for this tenant. The ones not listed here won't appear in Twin Picks"
-        },  
+        },
         "value": [
             "deviceProvisioning",
             "provisioning",
