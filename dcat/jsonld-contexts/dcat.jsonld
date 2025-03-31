@@ -28,6 +28,7 @@
     "license": "http://purl.org/dc/terms/license",
     "mediaType": "https://www.w3.org/ns/dcat#mediaType",
     "modified": "http://purl.org/dc/terms/modified",
+    "organization": "http://xmlns.com/foaf/spec/#term_Organization",
     "publisher": "http://purl.org/dc/terms/publisher",
     "rights": "http://purl.org/dc/terms/rights",
     "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
