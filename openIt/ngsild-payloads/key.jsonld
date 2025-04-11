@@ -28,5 +28,10 @@
   "category": {
     "type": "Property",
     "value": "Fire Department"
+  },
+  "viewedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:UserProfile:123",
+    "observedAt": "2024-11-25T09:01:00Z"
   }
 }
