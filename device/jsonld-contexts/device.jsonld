@@ -23,6 +23,7 @@
         "digitalInput": "https://vocab.egm.io/digitalInput",
         "diskUsage": "https://vocab.egm.io/diskUsage",
         "digitalStatus": "https://vocab.egm.io/digitalStatus",
+        "electricalResistance": "https://vocab.egm.io/electricalResistance",
         "encryptionKey": "https://vocab.egm.io/encryptionKey",
         "frequency": "https://vocab.egm.io/frequency",
         "gpuTemperature": "https://vocab.egm.io/gpuTemperature",
