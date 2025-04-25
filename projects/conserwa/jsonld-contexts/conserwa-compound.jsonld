@@ -1,0 +1,7 @@
+{
+  "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/projects/conserwa/jsonld-contexts/conserwa.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/user/user.jsonld",
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
+  ]
+}
