@@ -1,0 +1,6 @@
+{
+  "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/projects/conserwa/jsonld-contexts/conserwa.jsonld"
+  ]
+}

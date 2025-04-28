@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "Campaign": "https://vocab.egm.io/Campaign",
+    "Itinerary": "https://vocab.egm.io/Itinerary",
+    "Operation": "https://vocab.egm.io/Operation",
+    "Parcel": "https://vocab.egm.io/Parcel",
+    "category": "https://schema.org/category",
+    "subCategory": "https://vocab.egm.io/subCategory",
+    "approach": "https://vocab.egm.io/approach",
+    "resources": "https://vocab.egm.io/resources",
+    "activity": "https://vocab.egm.io/activity",
+    "models": "https://vocab.egm.io/models",
+    "day": "https://vocab.egm.io/day",
+    "amount": "https://vocab.egm.io/amount",
+    "resourceType": "https://vocab.egm.io/resourceType",
+    "startDate": "https://vocab.egm.io/startDate",
+    "endDate": "https://vocab.egm.io/endDate",
+    "hasItinerary": "https:/vocab.egm.iog/hasItinerary",
+    "hasParcel": "https://vocab.egm.io/hasParcel"
+  }
+}
