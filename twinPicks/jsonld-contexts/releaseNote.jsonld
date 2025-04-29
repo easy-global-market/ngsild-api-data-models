@@ -1,0 +1,6 @@
+{
+    "@context": {
+      "ReleaseNote": "https://vocab.egm.io/ReleaseNote",
+      "notes": "https://vocab.egm.io/notes"
+    }
+  }

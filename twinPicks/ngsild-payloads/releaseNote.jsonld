@@ -1,0 +1,22 @@
+{
+    "id": "urn:ngsi-ld:ReleaseNote:Economo:App",
+    "type": "ReleaseNote",
+    "name": {
+      "type": "Property",
+      "value": "Economo Web Application Release notes"
+    },
+    "notes": {
+      "type": "JsonProperty",
+      "observedAt": "2025-04-29T09:19:50.062Z",
+      "json": {
+        "title": "v1.7.2",
+        "overview": "Cette version apporte les fonctions d'actuation de l'arrosage",
+        "items": [
+          "De nouveaux statuts pour les cartes des zones d'irrigation sur la page d'accueil",
+          "Des panneaux de contrôle de l'irrigation à tous les niveaux, de la ville au carré de jardin",
+          "Vous pouvez retrouver toutes les notes de version dans l'historique accessible depuis le menu principal"
+        ]
+      }
+    }
+  }
+  
