@@ -18,6 +18,7 @@
     "resources": "https://vocab.egm.io/resources",
     "startDate": "https://vocab.egm.io/startDate",
     "subCategory": "https://vocab.egm.io/subCategory",
-    "unit": "https://vocab.egm.io/unit"
+    "unit": "https://vocab.egm.io/unit",
+    "writtenBy": "https://vocab.egm.io/writtenBy"
   }
 }
