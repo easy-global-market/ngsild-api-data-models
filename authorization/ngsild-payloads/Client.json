@@ -13,24 +13,6 @@
        "type": "Property",
        "value": ["admin"]
     },
-    "rCanRead": [
-       {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Beehive:Beehive01"
-       }
-    ],
-    "rCanWrite": [
-       {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Beehive:Beehive02"
-       }
-    ],
-    "rCanAdmin": [
-       {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Beehive:Beehive03"
-       }
-    ],
     "@context": [
        "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
        "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
