@@ -7,6 +7,7 @@
   "assignee": "55e64faf-4bda-41cc-98b0-195874cefd29",
   "action": "read",
   "@context": [
-    "http://localhost:8093/jsonld-contexts/apic-compound.jsonld"
+    "https://easy-global-market.github.io/ngsild-api-data-models/authorization/jsonld-contexts/authorization.jsonld",
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
   ]
 }
