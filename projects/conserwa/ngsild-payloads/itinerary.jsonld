@@ -1,0 +1,42 @@
+{
+  "id": "urn:ngsi-ld:Itinerary:1234abcd",
+  "type": "Itinerary",
+  "name": {
+    "type": "Property",
+    "value": "Itinerary Name"
+  },
+  "description": {
+    "type": "Property",
+    "value": "This is my description text"
+  },
+  "activity": {
+    "type": "Property",
+    "value": "Exploitation"
+  },
+  "models": {
+    "type": "Property",
+    "day": {
+      "type": "Property",
+      "value": 1
+    },
+    "resources": {
+      "type": "Property",
+      "unit": {
+        "type": "Property",
+        "value": "l/ha"
+      },
+      "amount": {
+        "type": "Property",
+        "value": "2"
+      },
+      "resourceType": {
+        "type": "Property",
+        "value": "Matériel d'irrigation"
+      },
+      "value": "Irrigation par submersion",
+      "datasetId": "urn:ngsi-ld:Itinerary:models:1:urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718:resources:Irrigation-par-submersion"
+    },
+    "value": "urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718",
+    "datasetId": "urn:ngsi-ld:Itinerary:models:1:urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718"
+  }
+}
