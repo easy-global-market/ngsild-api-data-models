@@ -8,6 +8,6 @@
         "outletLocation": "https://vocab.egm.io/outletLocation",
         "waterFlowsFrom": "https://vocab.egm.io/waterFlowsFrom",
         "waterFlowsTo": "https://vocab.egm.io/waterFlowsTo",
-        "waterLevel": "https://vocab.egm.io/waterHeight"
+        "waterLevel": "https://vocab.egm.io/waterLevel"
     }
 }
