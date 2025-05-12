@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "DrainageBasin": "https://vocab.egm.io/DrainageBasin",
+        "River": "https://vocab.egm.io/River",
+        "WaterBody": "https://vocab.egm.io/WaterBody",
+        "flow": "https://vocab.egm.io/flow",
+        "name": "https://schema.org/name",
+        "outletLocation": "https://vocab.egm.io/outletLocation",
+        "waterFlowsFrom": "https://vocab.egm.io/waterFlowsFrom",
+        "waterFlowsTo": "https://vocab.egm.io/waterFlowsTo",
+        "waterLevel": "https://vocab.egm.io/waterHeight"
+    }
+}
