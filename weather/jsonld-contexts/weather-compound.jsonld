@@ -3,6 +3,7 @@
         "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/device.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/dcat/jsonld-contexts/dcat-compound.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.7.jsonld"
     ]
 }
