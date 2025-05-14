@@ -1,13 +1,13 @@
 {
     "@context": {
-        "DrainageBasin": "https://vocab.egm.io/DrainageBasin",
+        "RiverBasin": "https://vocab.egm.io/RiverBasin",
         "River": "https://vocab.egm.io/River",
         "WaterBody": "https://vocab.egm.io/WaterBody",
         "flow": "https://vocab.egm.io/flow",
         "name": "https://schema.org/name",
-        "outletLocation": "https://vocab.egm.io/outletLocation",
-        "waterFlowsFrom": "https://vocab.egm.io/waterFlowsFrom",
-        "waterFlowsTo": "https://vocab.egm.io/waterFlowsTo",
+        "outlet": "https://vocab.egm.io/outlet",
+        "flowsFrom": "https://vocab.egm.io/flowsFrom",
+        "flowsTo": "https://vocab.egm.io/flowsTo",
         "waterLevel": "https://vocab.egm.io/waterLevel"
     }
 }
