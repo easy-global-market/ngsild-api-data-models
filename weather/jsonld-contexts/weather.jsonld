@@ -1,5 +1,6 @@
 {
     "@context": {
+        "DataPoint": "https://vocab.egm.io/DataPoint",
         "WeatherForcasted": "https://vocab.egm.io/WeatherForcasted",
         "WeatherInformation": "https://vocab.egm.io/WeatherInformation",
         "WeatherObserved": "https://vocab.egm.io/WeatherObserved",
