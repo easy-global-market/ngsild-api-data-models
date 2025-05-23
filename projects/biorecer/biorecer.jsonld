@@ -18,6 +18,7 @@
     "massOfResidueForFood": "https://vocab.egm.io/massOfResidueForFood",
     "roleName": "https://schema.org/roleName",
     "route": "https://vocab.egm.io/route",
+    "source": "https://vocab.egm.io/source",
     "sustainableRemovalShare": "https://vocab.egm.io/sustainableRemovalShare",
     "totalDistance": "https://vocab.egm.io/totalDistance",
     "typeOfProduct": "https://vocab.egm.io/typeOfProduct",
