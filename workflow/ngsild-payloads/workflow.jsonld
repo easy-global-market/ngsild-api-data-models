@@ -1,0 +1,20 @@
+{
+  "id": "urn:ngsi-ld:Workflow:1",
+  "type": "Workflow",
+  "name": {
+    "type": "Property",
+    "value": "My workflow"
+  },
+  "description": {
+    "type": "Property",
+    "value": "This workflow has a description. The description is fairly long"
+  },
+  "hasStartingPoint": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Event:1234"
+  },
+  "isActive": {
+    "type": "Property",
+    "value": true
+  }
+}

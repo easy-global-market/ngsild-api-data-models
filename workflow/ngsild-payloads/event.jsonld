@@ -1,0 +1,98 @@
+[
+  {
+    "id": "urn:ngsi-ld:Event:1234",
+    "type": [
+      "Event",
+      "NoData"
+    ],
+    "name": {
+      "type": "Property",
+      "value": "My event"
+    },
+    "description": {
+      "type": "Property",
+      "value": "This event has a description. The description is fairly long"
+    },
+    "hasSubject": {
+      "type": "Relationship",
+      "watchedProperties": {
+        "type": "Property",
+        "value": "name"
+      },
+      "object": "urn:ngsi-ld:Room:bureau",
+      "entity": {
+        "id": "urn:ngsi-ld:Room:bureau",
+        "type": "Room",
+        "name": {
+          "type": "Property",
+          "value": "bureau"
+        }
+      }
+    },
+    "scope": "S_AirQuality/S_EGMoffice",
+    "status": {
+      "type": "Property",
+      "value": false
+    },
+    "expectedFrequency": {
+      "type": "Property",
+      "value": "P2D"
+    },
+    "triggers": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Event:12345"
+    },
+    "isPartOf": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Workflow:1"
+    }
+  },
+  {
+    "id": "urn:ngsi-ld:Event:12345",
+    "type": [
+      "Event",
+      "ThresholdBreach"
+    ],
+    "name": {
+      "type": "Property",
+      "value": "My event"
+    },
+    "description": {
+      "type": "Property",
+      "value": "This event has a description. The description is fairly long"
+    },
+    "hasSubject": {
+      "type": "Relationship",
+      "watchedProperties": {
+        "type": "Property",
+        "value": "name"
+      },
+      "object": "urn:ngsi-ld:Room:bureau",
+      "entity": {
+        "id": "urn:ngsi-ld:Room:bureau",
+        "type": "Room",
+        "name": {
+          "type": "Property",
+          "value": "bureau"
+        }
+      }
+    },
+    "scope": "S_AirQuality/S_EGMoffice",
+    "status": {
+      "type": "Property",
+      "value": false
+    },
+    "thresholdType": {
+      "type": "Property",
+      "value": "upperBreach"
+    },
+    "thresholdValue": {
+      "type": "Property",
+      "value": 20
+    },
+    "isPartOf": {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Workflow:1"
+    }
+  }
+]
