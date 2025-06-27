@@ -1,0 +1,38 @@
+{
+	"id": "urn:ngsi-ld:DegreeDays:11d6b456-b280-4202-9fcd-9dc7b88cd918",
+	"type": "DegreeDays",
+	"heatingDegreeDays": [
+		{
+			"type": "Property",
+			"value": 5,
+			"observedAt": "2025-05-26T08:00:00Z",
+			"datasetId": "urn:ngsi-ld:Dataset:ReferenceTemperature15"
+		},
+		{
+			"type": "Property",
+			"value": 7,
+			"observedAt": "2025-05-26T08:00:00Z",
+			"datasetId": "urn:ngsi-ld:Dataset:ReferenceTemperature17"
+		}
+	],
+	"coolingDegreeDays": {
+		"type": "Property",
+		"value": 22,
+		"observedAt": "2025-05-27T08:00:00Z",
+		"datasetId": "urn:ngsi-ld:Dataset:ReferenceTemperature21"
+	},
+	"sourceWeatherInfo": {
+		"type": "Relationship",
+		"object": "urn:ngsi-ld:WeatherInformation:Frogcast:Forecasted:11d6b456-b280-4202-9fcd-9dc7b88cd918"
+	},
+	"location": {
+		"type": "GeoProperty",
+		"value": {
+			"type": "Point",
+			"coordinates": [
+				43.785803,
+				7.494434
+			]
+		}
+	}
+}
