@@ -1,6 +1,7 @@
 {
     "@context": {
         "DataPoint": "https://vocab.egm.io/DataPoint",
+        "DegreeDays": "https://vocab.egm.io/DegreeDays",
         "WeatherForcasted": "https://vocab.egm.io/WeatherForcasted",
         "WeatherInformation": "https://vocab.egm.io/WeatherInformation",
         "WeatherObserved": "https://vocab.egm.io/WeatherObserved",
@@ -9,7 +10,6 @@
         "cloudCoverage": "https://vocab.egm.io/cloudCoverage",
         "convectiveAvailablePotentialEnergy": "https://vocab.egm.io/convectiveAvailablePotentialEnergy",
         "coolingDegreeDays": "https://vocab.egm.io/coolingDegreeDays",
-        "DegreeDays": "https://vocab.egm.io/DegreeDays",
         "dewPoint": "https://vocab.egm.io/dewPoint",
         "diffuseIrradiation": "https://vocab.egm.io/diffuseIrradiation",
         "directIrradiation": "https://vocab.egm.io/directIrradiation",
