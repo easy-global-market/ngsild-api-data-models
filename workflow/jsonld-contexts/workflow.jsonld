@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "Action": "https://vocab.egm.io/Action",
+    "Event": "https://vocab.egm.io/Event",
+    "NoData": "https://vocab.egm.io/NoData",
+    "ThresholdBreach": "https://vocab.egm.io/ThresholdBreach",
+    "Workflow": "https://vocab.egm.io/Workflow",
+    "actionType": "https://vocab.egm.io/actionType",
+    "aggregationDurationPeriod": "https://vocab.egm.io/aggregationDurationPeriod",
+    "aggregationMethod": "https://vocab.egm.io/aggregationMethod",
+    "expectedFrequency": "https://vocab.egm.io/expectedFrequency",
+    "hasStartingPoint": "https://vocab.egm.io/hasStartingPoint",
+    "hasSubject": "https://vocab.egm.io/hasSubject",
+    "isActive": "https://vocab.egm.io/isActive",
+    "isPartOf": "https://vocab.egm.io/isPartOf",
+    "mailingList": "https://vocab.egm.io/mailingList",
+    "message": "https://vocab.egm.io/message",
+    "name": "https://schema.org/name",
+    "occurrence": "https://vocab.egm.io/occurrence",
+    "status": "https://vocab.egm.io/status",
+    "thresholdType": "https://vocab.egm.io/thresholdType",
+    "thresholdValue": "https://vocab.egm.io/thresholdValue",
+    "triggers": "https://vocab.egm.io/triggers",
+    "watchedProperties": "https://vocab.egm.io/watchedProperties"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "urn:ngsi-ld:Action:1234",
+  "type": "Action",
+  "name": {
+    "type": "Property",
+    "value": "My action"
+  },
+  "description": {
+    "type": "Property",
+    "value": "This action has a description. The description is fairly long"
+  },
+  "triggers": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Event:12345"
+  },
+  "mailingList": {
+    "type": "Property",
+    "value": [
+      "john@email.com",
+      "sarah@email.com"
+    ]
+  },
+  "message": {
+    "type": "Property",
+    "value": "This is my message that will be sent."
+  },
+  "actionType": {
+    "type": "Property",
+    "value": "email"
+  }
+}
