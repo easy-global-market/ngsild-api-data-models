@@ -4,10 +4,15 @@
         "River": "https://vocab.egm.io/River",
         "WaterBody": "https://vocab.egm.io/WaterBody",
         "flow": "https://vocab.egm.io/flow",
-        "name": "https://schema.org/name",
-        "outlet": "https://vocab.egm.io/outlet",
         "flowsFrom": "https://vocab.egm.io/flowsFrom",
         "flowsTo": "https://vocab.egm.io/flowsTo",
+        "inflow": "https://vocab.egm.io/inflow",
+        "name": "https://schema.org/name",
+        "outlet": "https://vocab.egm.io/outlet",
+        "outflow": "https://vocab.egm.io/outflow",
+        "precipitation": "https://vocab.egm.io/precipitation",
+        "temperature": "https://vocab.egm.io/temperature",
+        "volume": "https://vocab.egm.io/volume",
         "waterLevel": "https://vocab.egm.io/waterLevel"
     }
 }
