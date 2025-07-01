@@ -1,0 +1,36 @@
+{
+  "id": "urn:ngsi-ld:Program:1",
+  "type": "Program",
+  "name": {
+    "type": "Property",
+    "value": "My Program"
+  },
+  "startTime": {
+    "type": "Property",
+    "value": "08:00"
+  },
+  "duration": {
+    "type": "Property",
+    "value": "PT10M"
+  },
+  "activationDays": {
+    "type": "Property",
+    "value": [
+      1,
+      3,
+      7
+    ]
+  },
+  "activationMonths": {
+    "type": "Property",
+    "value": [
+      1,
+      6,
+      12
+    ]
+  },
+  "soilDrainage": {
+    "type": "Property",
+    "value": true
+  }
+}
