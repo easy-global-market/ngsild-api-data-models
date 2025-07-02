@@ -5,6 +5,7 @@
         "activationMonths": "https://vocab.egm.io/activationMonths",
         "duration": "https://vocab.egm.io/duration",
         "hasProgram": "https://vocab.egm.io/hasProgram",
+        "isActive": "https://vocab.egm.io/isActive",
         "name": "https://schema.org/name",
         "soilDrainage": "https://vocab.egm.io/soilDrainage",
         "startTime": "https://vocab.egm.io/startTime"
