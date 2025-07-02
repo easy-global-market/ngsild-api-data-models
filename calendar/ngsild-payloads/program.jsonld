@@ -33,5 +33,9 @@
   "soilDrainage": {
     "type": "Property",
     "value": true
+  },
+  "isActive": {
+    "type": "Property",
+    "value": false
   }
 }
