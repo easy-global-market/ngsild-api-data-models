@@ -11,7 +11,8 @@
   },
   "duration": {
     "type": "Property",
-    "value": "PT10M"
+    "unitCode": "MIN",
+    "value": 20
   },
   "activationDays": {
     "type": "Property",
@@ -32,5 +33,9 @@
   "soilDrainage": {
     "type": "Property",
     "value": true
+  },
+  "isActive": {
+    "type": "Property",
+    "value": false
   }
 }
