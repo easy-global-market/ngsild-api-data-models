@@ -1,5 +1,6 @@
 {
     "@context": [
+        "https://easy-global-market.github.io/ngsild-api-data-models/calendar/jsonld-contexts/calendar.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/irrigation.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/edgespot.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
