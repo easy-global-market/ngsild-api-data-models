@@ -37,5 +37,13 @@
   "isActive": {
     "type": "Property",
     "value": false
+  },
+  "irrigationArea": {
+    "type": "Relationship",
+    "object": "areaId"
+  },
+  "managedZone": {
+    "type": "Relationship",
+    "object": "zoneId"
   }
 }
