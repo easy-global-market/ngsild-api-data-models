@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "Building": "https://vocab.egm.io/Building",
+    "GreenhouseTable": "https://vocab.egm.io/GreenhouseTable",
+    "ReferenceSoilArea": "https://vocab.egm.io/ReferenceSoilArea",
+    "category": "https://vocab.egm.io/category",
+    "hasReferenceSoilArea": "https://vocab.egm.io/hasReferenceSoilArea",
+    "isContainedIn": "https://vocab.egm.io/isContainedIn",
+    "name": "https://schema.org/name",
+    "pressure": "https://vocab.egm.io/pressure",
+    "soilDepth": "https://vocab.egm.io/soilDepth",
+    "soilTemperature": "https://vocab.egm.io/soilTemperature",
+    "volumetricMoisture": "https://vocab.egm.io/volumetricMoisture"
+  }
+}
