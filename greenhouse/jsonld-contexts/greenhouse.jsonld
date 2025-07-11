@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "Building": "https://vocab.egm.io/Building",
+    "GreenhouseTable": "https://vocab.egm.io/GreenhouseTable",
+    "ReferenceSoilArea": "https://vocab.egm.io/ReferenceSoilArea",
+    "category": "https://vocab.egm.io/category",
+    "description": "https://vocab.egm.io/description",
+    "hasReferenceSoilArea": "https://vocab.egm.io/hasReferenceSoilArea",
+    "isContainedIn": "https://vocab.egm.io/isContainedIn",
+    "location": "https://vocab.egm.io/location",
+    "name": "https://uri.fiware.org/ns/data-models#name",
+    "pressure": "https://vocab.egm.io/pressure",
+    "soilDepth": "https://vocab.egm.io/soilDepth",
+    "soilTemperature": "https://vocab.egm.io/soilTemperature",
+    "volumetricMoisture": "https://vocab.egm.io/volumetricMoisture"
+  }
+}
