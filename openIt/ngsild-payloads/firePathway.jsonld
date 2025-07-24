@@ -1,0 +1,110 @@
+{
+  "id": "urn:ngsi-ld:FirePathway:1234",
+  "type": "FirePathway",
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "MultiLineString",
+      "coordinates": [
+        [
+          [
+            5.830681394356466,
+            43.31602118598505
+          ],
+          [
+            5.830896563495084,
+            43.3161325714139
+          ],
+          [
+            5.830996954274948,
+            43.31616603850008
+          ],
+          [
+            5.831131253542689,
+            43.316144428013146
+          ],
+          [
+            5.8313033088541,
+            43.3161310100253
+          ],
+          [
+            5.83144284015667,
+            43.31620836929558
+          ],
+          [
+            5.831532877066982,
+            43.31628702490168
+          ],
+          [
+            5.831622914222955,
+            43.31636568043759
+          ],
+          [
+            5.831753345162001,
+            43.31650619867265
+          ],
+          [
+            5.831859110417383,
+            43.316656544563294
+          ],
+          [
+            5.831963032354532,
+            43.31676184082007
+          ],
+          [
+            5.832115634350382,
+            43.31685677001254
+          ]
+        ]
+      ]
+    }
+  },
+  "codeOfTheDay": {
+    "type": "Property",
+    "value": "123456"
+  },
+  "zidMaf": {
+    "type": "Property",
+    "value": "SUD-OUEST"
+  },
+  "zidMot": {
+    "type": "Property",
+    "value": "CAPV"
+  },
+  "idOuvr": {
+    "type": "Property",
+    "value": "U16"
+  },
+  "nomOuvrag": {
+    "type": "Property",
+    "value": "TAILLANE"
+  },
+  "objectOuvr": {
+    "type": "Property",
+    "value": "LIAISON"
+  },
+  "categorie": {
+    "type": "Property",
+    "value": "2C"
+  },
+  "ouverture": {
+    "type": "Property",
+    "value": "NON"
+  },
+  "circGif": {
+    "type": "Property",
+    "value": "IMPRATICAB"
+  },
+  "croise": {
+    "type": "Property",
+    "value": "SANS"
+  },
+  "retourn": {
+    "type": "Property",
+    "value": "NON"
+  },
+  "foncier": {
+    "type": "Property",
+    "value": "NM"
+  }
+}
