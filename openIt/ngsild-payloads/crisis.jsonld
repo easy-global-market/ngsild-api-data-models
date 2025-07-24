@@ -9,7 +9,7 @@
     "type": "Property",
     "value": "Crisis Description"
   },
-  "isCrisisActive": {
+  "isActive": {
     "type": "Property",
     "value": true,
     "observedAt": "2024-11-25T09:01:00Z"
