@@ -1,6 +1,7 @@
 {
   "@context": {
     "Authorization": "https://vocab.egm.io/Authorization",
+    "Crisis": "https://vocab.egm.io/Crisis",
     "Gate": "https://vocab.egm.io/Gate",
     "Key": "https://vocab.egm.io/Key",
     "category": "https://schema.org/category",
@@ -13,6 +14,7 @@
     "givenBy": "https://vocab.egm.io/givenBy",
     "givenTo": "https://vocab.egm.io/givenTo",
     "initDate": "https://vocab.egm.io/initDate",
+    "isActive": "https://vocab.egm.io/isActive",
     "keyNumber": "https://vocab.egm.io/keyNumber",
     "name": "https://schema.org/name",
     "opensGate": "https://vocab.egm.io/opensGate",

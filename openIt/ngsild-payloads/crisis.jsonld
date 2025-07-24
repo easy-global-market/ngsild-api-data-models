@@ -1,0 +1,21 @@
+{
+  "id": "urn:ngsi-ld:Crisis:1234",
+  "type": "Crisis",
+  "name": {
+    "type": "Property",
+    "value": "Crisis Name"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Crisis Description"
+  },
+  "isActive": {
+    "type": "Property",
+    "value": true,
+    "observedAt": "2024-11-25T09:01:00Z"
+  },
+  "codeOfTheDay": {
+    "type": "Property",
+    "value": "123456"
+  }
+}
