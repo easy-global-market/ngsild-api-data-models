@@ -59,10 +59,6 @@
       ]
     }
   },
-  "codeOfTheDay": {
-    "type": "Property",
-    "value": "123456"
-  },
   "zidMaf": {
     "type": "Property",
     "value": "SUD-OUEST"
@@ -71,15 +67,15 @@
     "type": "Property",
     "value": "CAPV"
   },
-  "idOuvr": {
+  "idOuvrage": {
     "type": "Property",
     "value": "U16"
   },
-  "nomOuvrag": {
+  "nomOuvrage": {
     "type": "Property",
     "value": "TAILLANE"
   },
-  "objectOuvr": {
+  "objetOuvrage": {
     "type": "Property",
     "value": "LIAISON"
   },
@@ -99,7 +95,7 @@
     "type": "Property",
     "value": "SANS"
   },
-  "retourn": {
+  "retournement": {
     "type": "Property",
     "value": "NON"
   },
