@@ -15,6 +15,7 @@
     "givenTo": "https://vocab.egm.io/givenTo",
     "initDate": "https://vocab.egm.io/initDate",
     "isActive": "https://vocab.egm.io/isActive",
+    "isCrisisKey": "https://vocab.egm.io/isCrisisKey",
     "keyNumber": "https://vocab.egm.io/keyNumber",
     "name": "https://schema.org/name",
     "opensGate": "https://vocab.egm.io/opensGate",
