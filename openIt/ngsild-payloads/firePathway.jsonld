@@ -1,5 +1,5 @@
 {
-  "id": "urn:ngsi-ld:FirePathway:1234",
+  "id": "urn:ngsi-ld:FirePathway:CAPV:SUD-OUEST:U16",
   "type": "FirePathway",
   "location": {
     "type": "GeoProperty",
