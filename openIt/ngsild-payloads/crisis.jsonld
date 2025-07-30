@@ -1,5 +1,5 @@
 {
-  "id": "urn:ngsi-ld:Crisis:1234",
+  "id": "urn:ngsi-ld:Crisis:organization-name",
   "type": "Crisis",
   "name": {
     "type": "Property",
@@ -17,5 +17,9 @@
   "codeOfTheDay": {
     "type": "Property",
     "value": "123456"
+  },
+  "usesKey": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Key:1234"
   }
 }
