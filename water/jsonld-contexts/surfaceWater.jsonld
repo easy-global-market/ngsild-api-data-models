@@ -2,7 +2,9 @@
     "@context": {
         "RiverBasin": "https://vocab.egm.io/RiverBasin",
         "River": "https://vocab.egm.io/River",
+        "SamplingPoint": "https://vocab.egm.io/SamplingPoint",
         "WaterBody": "https://vocab.egm.io/WaterBody",
+        "electricalConductivity": "https://vocab.egm.io/electricalConductivity",
         "flow": "https://vocab.egm.io/flow",
         "flowsFrom": "https://vocab.egm.io/flowsFrom",
         "flowsTo": "https://vocab.egm.io/flowsTo",
@@ -13,6 +15,8 @@
         "precipitation": "https://vocab.egm.io/precipitation",
         "temperature": "https://vocab.egm.io/temperature",
         "volume": "https://vocab.egm.io/volume",
-        "waterLevel": "https://vocab.egm.io/waterLevel"
+        "waterLevel": "https://vocab.egm.io/waterLevel",
+        "waterLevelVariation": "https://vocab.egm.io/waterLevelVariation"
     }
 }
+
