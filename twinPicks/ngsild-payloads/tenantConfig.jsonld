@@ -5,6 +5,14 @@
         "type": "Property",
         "value": "Tenant config for my city platform admin interface"
     },
+    "primaryColor": {
+        "type": "Property",
+        "value": "#8c70e4",
+        "description": {
+            "type": "Property",
+            "value": "Optional property. Used as the main color for the UI elements of TwinPicks instead of classic default purple"
+        }
+    },
     "logo": {
         "type": "JsonProperty",
         "description": {

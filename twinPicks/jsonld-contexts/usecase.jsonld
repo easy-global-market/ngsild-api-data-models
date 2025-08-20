@@ -13,6 +13,7 @@
     "irrelevantModules": "https://vocab.egm.io/irrelevantModules",
     "logo": "https://schema.org/logo",
     "name": "https://schema.org/name",
+    "primaryColor": "https://vocab.egm.io/primaryColor",
     "refConfig": "https://vocab.egm.io/refConfig"
   }
 }
