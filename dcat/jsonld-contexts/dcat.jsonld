@@ -35,6 +35,7 @@
     "service": "http://www.w3.org/ns/dcat#service",
     "spatial": "http://purl.org/dc/terms/spatial",
     "startDate": "https://www.w3.org/ns/dcat#startDate",
+	"status": "https://schema.org/status",
     "temporal": "http://purl.org/dc/terms/temporal",
     "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
     "theme": "http://www.w3.org/ns/dcat#theme",
