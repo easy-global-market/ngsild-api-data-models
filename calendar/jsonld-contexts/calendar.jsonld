@@ -2,14 +2,11 @@
     "@context": {
         "Program": "https://vocab.egm.io/Program",
         "activationDays": "https://vocab.egm.io/activationDays",
-        "activationMonths": "https://vocab.egm.io/activationMonths",
         "duration": "https://vocab.egm.io/duration",
-        "hasProgram": "https://vocab.egm.io/hasProgram",
         "irrigationArea": "https://vocab.egm.io/irrigationArea",
-        "isActive": "https://vocab.egm.io/isActive",
         "managedZone": "https://vocab.egm.io/managedZone",
         "name": "https://schema.org/name",
-        "soilDrainage": "https://vocab.egm.io/soilDrainage",
+        "repetitionRulePerActivationDay": "https://vocab.egm.io/repetitionRulePerActivationDay",
         "startTime": "https://vocab.egm.io/startTime",
         "status": "https://vocab.egm.io/status",
         "warnings": "https://vocab.egm.io/warnings"
