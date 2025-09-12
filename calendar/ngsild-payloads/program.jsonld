@@ -1,49 +1,54 @@
 {
-  "id": "urn:ngsi-ld:Program:1",
+  "id": "urn:ngsi-ld:Program:9e3be430-5bfb-49ee-80cb-5ecaec0544cf",
   "type": "Program",
   "name": {
     "type": "Property",
-    "value": "My Program"
+    "value": "Programme n°3"
   },
-  "startTime": {
+  "status": {
     "type": "Property",
-    "value": "08:00"
+    "value": "inactive"
   },
   "duration": {
     "type": "Property",
-    "unitCode": "MIN",
     "value": 20
   },
-  "activationDays": {
+  "startTime": {
     "type": "Property",
-    "value": [
-      1,
-      3,
-      7
-    ]
-  },
-  "activationMonths": {
-    "type": "Property",
-    "value": [
-      1,
-      6,
-      12
-    ]
-  },
-  "soilDrainage": {
-    "type": "Property",
-    "value": true
-  },
-  "isActive": {
-    "type": "Property",
-    "value": false
+    "value": "23:30"
   },
   "irrigationArea": {
     "type": "Relationship",
-    "object": "areaId"
+    "object": "urn:ngsi-ld:IrrigationArea:70c79fc2-05a1-487a-a726-22360f7ca438"
   },
-  "managedZone": {
-    "type": "Relationship",
-    "object": "zoneId"
+  "managedZone": [
+    {
+      "type": "Relationship",
+      "datasetId": "urn:ngsi-ld:Dataset:urn:ngsi-ld:ManagedZone:9f548c82-fe75-4e6d-9416-8df677460cbf",
+      "object": "urn:ngsi-ld:ManagedZone:9f548c82-fe75-4e6d-9416-8df677460cbf"
+    },
+    {
+      "type": "Relationship",
+      "datasetId": "urn:ngsi-ld:Dataset:urn:ngsi-ld:ManagedZone:7fb183ad-5f4e-4c98-bfe6-1e91fbafa69e",
+      "object": "urn:ngsi-ld:ManagedZone:7fb183ad-5f4e-4c98-bfe6-1e91fbafa69e"
+    }
+  ],
+  "activationDays": {
+    "type": "JsonProperty",
+    "json": {
+      "bySpecificWeekDays": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "repetitionRulePerActivationDay": {
+    "type": "JsonProperty",
+    "json": {
+      "freq": "MINUTELY",
+      "count": 1,
+      "interval": 0
+    }
   }
 }
