@@ -1,0 +1,14 @@
+{
+	"id": "urn:ngsi-ld:WeatherAlert:Menton",
+	"type": "WeatherAlert",
+	"weatherRisk": {
+		"type": "Property",
+		"value": "Lors de cette nuit, de fortes averses circulent sur l'ouest de la région.",
+		"riskColor": "Jaune",
+		"riskTitle": "Faits nouveaux",
+		"riskStartTime": "2025-09-09T06:00:00.000Z",
+		"riskEndTime": "2025-09-09T22:00:00.000Z",
+		"observedAt": "2025-09-09T08:00:00Z",
+		"datasetId": "urn:ngsi-ld:Dataset:WeatherRisk"
+	}
+}
