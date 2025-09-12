@@ -10,6 +10,9 @@
         "managedZone": "https://vocab.egm.io/managedZone",
         "name": "https://schema.org/name",
         "soilDrainage": "https://vocab.egm.io/soilDrainage",
-        "startTime": "https://vocab.egm.io/startTime"
+        "startTime": "https://vocab.egm.io/startTime",
+        "status": "https://vocab.egm.io/status",
+        "warnings": "https://vocab.egm.io/warnings"
     }
 }
+
