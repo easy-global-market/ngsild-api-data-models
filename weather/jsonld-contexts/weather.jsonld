@@ -34,6 +34,7 @@
         "relativeHumidityOverThreshold": "https://vocab.egm.io/relativeHumidityOverThreshold",
 		"riskColor": "https://vocab.egm.io/riskColor",
 		"riskTitle": "https://vocab.egm.io/riskTitle",
+		"riskType": "https://vocab.egm.io/riskType",
 		"riskStartTime": "https://vocab.egm.io/riskStartTime",
 		"riskEndTime": "https://vocab.egm.io/riskEndTime",
         "sensibleWeatherId": "https://vocab.egm.io/sensibleWeatherId",
