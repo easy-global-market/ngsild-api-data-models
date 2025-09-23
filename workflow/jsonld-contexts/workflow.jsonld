@@ -21,6 +21,6 @@
     "thresholdType": "https://vocab.egm.io/thresholdType",
     "thresholdValue": "https://vocab.egm.io/thresholdValue",
     "triggers": "https://vocab.egm.io/triggers",
-    "watchedProperties": "https://vocab.egm.io/watchedProperties"
+    "watchedProperty": "https://vocab.egm.io/watchedProperty"
   }
 }
