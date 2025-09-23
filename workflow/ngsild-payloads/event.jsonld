@@ -17,7 +17,7 @@
       "type": "Relationship",
       "object": "urn:ngsi-ld:Room:bureau"
     },
-    "watchedProperty": {
+    "watchedAttribute": {
       "type": "Property",
       "value": "temperature"
     },
@@ -57,7 +57,7 @@
       "type": "Relationship",
       "object": "urn:ngsi-ld:Room:bureau"
     },
-    "watchedProperty": {
+    "watchedAttribute": {
       "type": "Property",
       "value": "temperature"
     },
