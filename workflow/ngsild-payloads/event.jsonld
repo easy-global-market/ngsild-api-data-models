@@ -15,19 +15,11 @@
     },
     "hasSubject": {
       "type": "Relationship",
-      "watchedProperties": {
-        "type": "Property",
-        "value": "name"
-      },
-      "object": "urn:ngsi-ld:Room:bureau",
-      "entity": {
-        "id": "urn:ngsi-ld:Room:bureau",
-        "type": "Room",
-        "name": {
-          "type": "Property",
-          "value": "bureau"
-        }
-      }
+      "object": "urn:ngsi-ld:Room:bureau"
+    },
+    "watchedAttribute": {
+      "type": "Property",
+      "value": "temperature"
     },
     "scope": "S_AirQuality/S_EGMoffice",
     "status": {
@@ -63,19 +55,11 @@
     },
     "hasSubject": {
       "type": "Relationship",
-      "watchedProperties": {
-        "type": "Property",
-        "value": "name"
-      },
-      "object": "urn:ngsi-ld:Room:bureau",
-      "entity": {
-        "id": "urn:ngsi-ld:Room:bureau",
-        "type": "Room",
-        "name": {
-          "type": "Property",
-          "value": "bureau"
-        }
-      }
+      "object": "urn:ngsi-ld:Room:bureau"
+    },
+    "watchedAttribute": {
+      "type": "Property",
+      "value": "temperature"
     },
     "scope": "S_AirQuality/S_EGMoffice",
     "status": {
