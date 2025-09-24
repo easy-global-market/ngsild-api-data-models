@@ -37,6 +37,10 @@
     "isPartOf": {
       "type": "Relationship",
       "object": "urn:ngsi-ld:Workflow:1"
+    },
+    "alertRuleUid": {
+      "type": "Property",
+      "value": "a0b1c2d3e4f5g6"
     }
   },
   {
@@ -77,6 +81,10 @@
     "isPartOf": {
       "type": "Relationship",
       "object": "urn:ngsi-ld:Workflow:1"
+    },
+    "alertRuleUid": {
+      "type": "Property",
+      "value": "a0b1c2d3e4f5g7"
     }
   }
 ]
