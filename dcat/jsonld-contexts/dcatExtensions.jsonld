@@ -9,6 +9,7 @@
         "inputEntityTypes": "https://vocab.egm.io/inputEntityTypes",
         "instanceOf": "https://vocab.egm.io/instanceOf",
         "isReferencedBy": "https://vocab.egm.io/isReferencedBy",
+        "logMessage": "https://vocab.egm.io/logMessage",
         "mlFramework": "https://vocab.egm.io/mlFramework",
         "name": "https://schema.org/name",
         "objective": "https://vocab.egm.io/objective",
