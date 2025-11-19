@@ -1,0 +1,28 @@
+{
+  "id": "urn:ngsi-ld:Sample:1234abcd",
+  "type": "Sample",
+  "name": {
+    "type": "Property",
+    "value": "Sample Name"
+  },
+  "treatmentType": {
+    "type": "Property",
+    "value": "Mechanical weeding"
+  },
+  "samplingDate": {
+    "type": "Property",
+    "value": "2025-04-30T22:00:00.000Z"
+  },
+  "sampleEnvironmentalResults":[
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:EnvironmentalResult:1234abcd"
+    }
+  ],
+  "sampleBiologicalResults":[
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:BiologicalResult:1234abcd"
+    }
+  ]
+}

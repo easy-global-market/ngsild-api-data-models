@@ -1,0 +1,34 @@
+{
+  "id": "urn:ngsi-ld:CaseStudy:1234abcd",
+  "type": "CaseStudy",
+  "name": {
+    "type": "Property",
+    "value": "Case Study Name"
+  },
+  "startDate": {
+    "type": "Property",
+    "value": "2025-04-30T22:00:00.000Z"
+  },
+  "endDate": {
+    "type": "Property",
+    "value": "2025-05-30T22:00:00.000Z"
+  },
+  "hasParcel": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Parcel:1234abcd"
+  },
+  "hasSocialEconomic": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:SocialEconomic:1234abcd"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+            1.277225,
+            48.951817
+      ]
+    }
+  }
+}

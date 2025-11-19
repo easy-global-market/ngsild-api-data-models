@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:CropSpecies:1234abcd",
+  "type": "CropSpecies",
+  "name": {
+    "type": "Property",
+    "value": "Crop Species Name"
+  },
+  "yield": {
+    "type": "Property",
+    "value": 2
+  }
+}

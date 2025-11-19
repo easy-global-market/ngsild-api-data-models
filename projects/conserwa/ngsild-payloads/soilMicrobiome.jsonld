@@ -1,0 +1,32 @@
+{
+  "id": "urn:ngsi-ld:SoilMicrobiome:1234abcd",
+  "type": "SoilMicrobiome",
+  "name": {
+    "type": "Property",
+    "value": "Soil Microbiome Name"
+  },
+  "bacterialDiversity": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "fungalDiversity": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "microbialBiomass": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "enzmeActivities": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "soilRespiration": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "soilOrganicMatter": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  }
+}

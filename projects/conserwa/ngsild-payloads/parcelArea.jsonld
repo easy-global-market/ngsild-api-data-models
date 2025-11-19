@@ -1,13 +1,9 @@
 {
-  "id": "urn:ngsi-ld:Parcel:1234abcd",
-  "type": "Parcel",
+  "id": "urn:ngsi-ld:ParcelArea:1234abcd",
+  "type": "ParcelArea",
   "name": {
     "type": "Property",
-    "value": "Parcel Name"
-  },
-  "startDate": {
-    "type": "Property",
-    "value": "2025-04-30T22:00:00.000Z"
+    "value": "ParcelArea Name"
   },
   "location": {
     "type": "GeoProperty",
@@ -51,14 +47,22 @@
       ]
     }
   },
-  "hasWeatherInformation":{
+  "hasCrops":{
     "type": "Relationship",
-    "object": "urn:ngsi-ld:WeatherInformation:1234abcd"
+    "object": "urn:ngsi-ld:Crop:1234abcd"
   },
-  "hasParcelArea":[
+  "hasSample":[
     {
       "type": "Relationship",
-      "object": "urn:ngsi-ld:ParcelArea:1234abcd"
+      "object": "urn:ngsi-ld:Sample:1234abcd"
     }
-  ]
+  ],
+  "hasCampaign":{
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Campaign:1234abcd"
+  },
+  "hasAgronomicPractices":{
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:AgronomicPractices:1234abcd"
+  }
 }

@@ -22,10 +22,6 @@
     },
     "observedAt": "2025-04-30T22:00:00.000Z"
   },
-  "hasParcel": {
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Parcel:1234abcd"
-  },
   "hasItinerary": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Itinerary:1234abcd"

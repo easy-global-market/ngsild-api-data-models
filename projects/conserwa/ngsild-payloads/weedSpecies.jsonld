@@ -1,0 +1,16 @@
+{
+  "id": "urn:ngsi-ld:WeedSpecies:1234abcd",
+  "type": "WeedSpecies",
+  "name": {
+    "type": "Property",
+    "value": "Weed Species Name"
+  },
+  "number": {
+    "type": "Property",
+    "value": 2
+  },
+  "biomass": {
+    "type": "Property",
+    "value": 2
+  }
+}

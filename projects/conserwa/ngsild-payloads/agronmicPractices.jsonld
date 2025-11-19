@@ -1,0 +1,33 @@
+{
+  "id": "urn:ngsi-ld:AgronomicPractices:1234abcd",
+  "type": "AgronomicPractices",
+  "name": {
+    "type": "Property",
+    "value": "Agronomic Practices Name"
+  },
+  "farmingSystems":{
+    "type": "Property",
+    "value": "Organic Farming"
+  },
+  "weedManagement":{
+    "type": "Property",
+    "value": "Crop Rotation"
+  },
+  "soilManagement":{
+    "type": "Property",
+    "value": "Nutrient Management"
+  },
+  "irrigationMethods":{
+    "type": "Property",
+    "value": "Drip Irrigation"
+  },
+  "fertilizerType":{
+    "type": "Property",
+    "value": "Inorganic Fertilizers"
+  },
+  "fertilizerQuantity":{
+    "type": "Property",
+    "value": 3
+  }
+}
+
