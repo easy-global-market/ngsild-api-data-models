@@ -1,0 +1,44 @@
+{
+  "id": "urn:ngsi-ld:SoilNutrient:1234abcd",
+  "type": "SoilNutrient",
+  "name": {
+    "type": "Property",
+    "value": "Soil Nutrient Name"
+  },
+  "nitrogenLevels": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "phosphorusLevels": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "OrganicMatter": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "potassiumLevels": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "cationExchangeCapacity": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "zinc": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "copper": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "manganese": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  },
+  "iron": {
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED"
+  }
+}
