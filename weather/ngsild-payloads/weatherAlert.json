@@ -61,6 +61,6 @@
 			},
 			"observedAt": "2025-11-24T05:00:00Z",
 			"datasetId": "urn:ngsi-ld:Dataset:HeatWave"
-		},
+		}
 	]
 }
