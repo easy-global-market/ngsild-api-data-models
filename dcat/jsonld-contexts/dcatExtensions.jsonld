@@ -9,10 +9,12 @@
         "inputEntityTypes": "https://vocab.egm.io/inputEntityTypes",
         "instanceOf": "https://vocab.egm.io/instanceOf",
         "isReferencedBy": "https://vocab.egm.io/isReferencedBy",
+        "logMessage": "https://vocab.egm.io/logMessage",
         "mlFramework": "https://vocab.egm.io/mlFramework",
         "name": "https://schema.org/name",
         "objective": "https://vocab.egm.io/objective",
         "outputAttributes": "https://vocab.egm.io/outputAttributes",
+        "processingStatus": "https://vocab.egm.io/processingStatus",
         "releaseNotes": "https://vocab.egm.io/releaseNotes",
         "servesDataService": "https://vocab.egm.io/servesDataService",
         "subscriptionData": "https://vocab.egm.io/subscriptionData"

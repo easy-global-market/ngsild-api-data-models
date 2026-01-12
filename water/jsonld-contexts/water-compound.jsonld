@@ -1,0 +1,10 @@
+{
+    "@context": [
+        "https://easy-global-market.github.io/ngsild-api-data-models/device/jsonld-contexts/spectrolyser.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/water/jsonld-contexts/surfaceWater.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/chemicals/jsonld-contexts/chemicals.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/environment/jsonld-contexts/environment.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/weather/jsonld-contexts/weather.jsonld",
+        "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld"
+    ]
+}

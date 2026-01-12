@@ -8,6 +8,7 @@
     "actionType": "https://vocab.egm.io/actionType",
     "aggregationDurationPeriod": "https://vocab.egm.io/aggregationDurationPeriod",
     "aggregationMethod": "https://vocab.egm.io/aggregationMethod",
+    "alertRuleUid": "https://vocab.egm.io/alertRuleUid",
     "expectedFrequency": "https://vocab.egm.io/expectedFrequency",
     "hasStartingPoint": "https://vocab.egm.io/hasStartingPoint",
     "hasSubject": "https://vocab.egm.io/hasSubject",
@@ -21,6 +22,6 @@
     "thresholdType": "https://vocab.egm.io/thresholdType",
     "thresholdValue": "https://vocab.egm.io/thresholdValue",
     "triggers": "https://vocab.egm.io/triggers",
-    "watchedProperties": "https://vocab.egm.io/watchedProperties"
+    "watchedAttribute": "https://vocab.egm.io/watchedAttribute"
   }
 }

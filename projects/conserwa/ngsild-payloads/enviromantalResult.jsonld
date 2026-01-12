@@ -1,0 +1,33 @@
+{
+  "id": "urn:ngsi-ld:EnvironmentalResult:1234abcd",
+  "type": "EnvironmentalResult",
+  "name": {
+    "type": "Property",
+    "value": "Environmental Result Name"
+  },
+  "soilPH":{
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED BY BIOME MAKERS"
+  },
+  "soilMoisture":{
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED BY BIOME MAKERS"
+  },
+  "biodiversityIndex":{
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED BY BIOME MAKERS"
+  },
+  "pesticideUse":{
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED BY BIOME MAKERS"
+  },
+  "pesticideImpact":{
+    "type": "Property",
+    "value": "DATA TO BE PROVIDED BY BIOME MAKERS"
+  },
+  "soilNutrientContent":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:SoilNutrient:1234abcd"
+  }
+}
+

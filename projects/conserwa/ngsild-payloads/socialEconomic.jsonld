@@ -1,0 +1,24 @@
+{
+  "id": "urn:ngsi-ld:SocialEconomic:1234abcd",
+  "type": "SocialEconomic",
+  "name": {
+    "type": "Property",
+    "value": "Social Economic Name"
+  },
+  "recordedAt": {
+    "type": "Property",
+    "value": "2025-04-30T22:00:00.000Z"
+  },
+  "farmerFeedback":{
+    "type": "Property",
+    "value": "Mulching technology can be ..."
+  },
+  "economicsCosts":{
+    "type": "Property",
+    "value": "We used pine bark mulch in 10cm l... 1000l * 0,1€/l = 100€"
+  },
+  "laborHours":{
+    "type": "Property",
+    "value": "covering 100 m in 80-100cm width and ... mulching material."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "urn:ngsi-ld:ParcelArea:1234abcd",
+  "type": "ParcelArea",
+  "name": {
+    "type": "Property",
+    "value": "ParcelArea Name"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            1.277225,
+            48.951817
+          ],
+          [
+            1.281173,
+            48.954495
+          ],
+          [
+            1.287868,
+            48.952635
+          ],
+          [
+            1.28495,
+            48.949309
+          ],
+          [
+            1.283963,
+            48.950549
+          ],
+          [
+            1.282289,
+            48.949732
+          ],
+          [
+            1.281002,
+            48.950775
+          ],
+          [
+            1.277225,
+            48.951817
+          ]
+        ]
+      ]
+    }
+  },
+  "hasCrops":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Crop:1234abcd"
+  },
+  "hasSample":[
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Sample:1234abcd"
+    }
+  ],
+  "hasCampaign":{
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Campaign:1234abcd"
+  },
+  "hasAgronomicPractices":{
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:AgronomicPractices:1234abcd"
+  }
+}
