@@ -1,33 +1,33 @@
 {
-    "id": "urn:ngsi-ld:TenantConfig:MyCity",
-    "type": "TenantConfig",
-    "name": {
-        "type": "Property",
-        "value": "Tenant config for my city platform admin interface"
+  "id": "urn:ngsi-ld:TenantConfig:MyCity",
+  "type": "TenantConfig",
+  "name": {
+    "type": "Property",
+    "value": "Tenant config for my city platform admin interface"
+  },
+  "logo": {
+    "type": "JsonProperty",
+    "description": {
+      "type": "Property",
+      "value": "Optional property. Used to display tenant logo instead of the default Twin Picks logo. Expected dimensions are: 55x55 px for small size and 195x55 px for large size"
     },
-    "logo": {
-        "type": "JsonProperty",
-        "description": {
-            "type": "Property",
-            "value": "Optional property. Used to display tenant logo instead of the default Twin Picks logo. Expected dimensions are: 55x55 px for small size and 195x55 px for large size"
-        },
-        "json": {
-            "base64LogoShort": "data:image/png;base64...",
-            "base64LogoLarge": "data:image/png;base64..."
-        }
-    },
-    "usesModule": [
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Module:DeviceManagement"
-        }
-    ],
-    "primaryColor": {
-        "type": "Property",
-        "value": "#d9433f"
-    },
-    "specificAccessPolicy": {
-        "type": "Property",
-        "value": "AUTH_READ"
+    "json": {
+      "base64LogoShort": "data:image/png;base64...",
+      "base64LogoLarge": "data:image/png;base64..."
     }
+  },
+  "activeModules": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:DeviceManagement"
+    }
+  ],
+  "primaryColor": {
+    "type": "Property",
+    "value": "#d9433f"
+  },
+  "specificAccessPolicy": {
+    "type": "Property",
+    "value": "AUTH_READ"
+  }
 }
