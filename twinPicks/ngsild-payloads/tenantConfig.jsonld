@@ -16,10 +16,14 @@
       "base64LogoLarge": "data:image/png;base64..."
     }
   },
-  "activeModules": [
+  "hasActiveModule": [
     {
       "type": "Relationship",
       "object": "urn:ngsi-ld:Module:DeviceManagement"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:GuidedProvisioning"
     }
   ],
   "primaryColor": {
