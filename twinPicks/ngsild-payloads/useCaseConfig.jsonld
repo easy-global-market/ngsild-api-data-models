@@ -1,39 +1,40 @@
 {
-    "id": "urn:ngsi-ld:UseCaseConfig:SmartIrrigation",
-    "type": "UseCaseConfig",
-    "name": {
-        "type": "Property",
-        "value": "Smart Irrigation"
+  "id": "urn:ngsi-ld:UseCaseConfig:SmartIrrigation",
+  "type": "UseCaseConfig",
+  "name": {
+    "type": "Property",
+    "value": "Smart Irrigation"
+  },
+  "blueprint": {
+    "type": "Property",
+    "value": []
+  },
+  "contextString": {
+    "type": "Property",
+    "value": "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/irrigation-compound.jsonld"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Tout pour gérer finement l'irrigation à grande échelle"
+  },
+  "imageSource": {
+    "type": "Property",
+    "value": "irrigationIcon"
+  },
+  "irrelevantModules": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:TrafficVisualization",
+      "datasetId": "urn:ngsi-ld:Dataset:TrafficVisualization"
     },
-    "blueprint": {
-        "type": "Property",
-        "value": []
-    },
-    "contextString": {
-        "type": "Property",
-        "value": "https://easy-global-market.github.io/ngsild-api-data-models/irrigation/jsonld-contexts/irrigation-compound.jsonld"
-    },
-    "description": {
-        "type": "Property",
-        "value": "Tout pour gérer finement l'irrigation à grande échelle"
-    },
-    "imageSource": {
-        "type": "Property",
-        "value": "irrigationIcon"
-    },
-    "irrelevantModules": {
-        "description": {
-            "type": "Property",
-            "value": "Optional property. Modules listed here won't appear in Twin·Picks when a use case of this type is selected"
-        },
-        "type": "Property",
-        "value": [
-            "trafficVisualization",
-            "serverManagement"
-        ]
-    },
-    "specificAccessPolicy": {
-        "type": "Property",
-        "value": "AUTH_READ"
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:ServerManagement",
+      "datasetId": "urn:ngsi-ld:Dataset:ServerManagement"
     }
+  ],
+  "specificAccessPolicy": {
+    "type": "Property",
+    "value": "AUTH_READ"
+  }
 }

@@ -1,17 +1,14 @@
 {
   "@context": {
-    "TenantConfig": "https://smartdatamodels.org/dataModel.CrossSector/TenantConfig",
     "UseCase": "https://vocab.egm.io/UseCase",
     "UseCaseConfig": "https://vocab.egm.io/UseCaseConfig",
-    "activeModules": "https://vocab.egm.io/activeModules",
     "blueprint": "https://vocab.egm.io/blueprint",
     "contains": "https://vocab.egm.io/contains",
     "contextString": "https://vocab.egm.io/contextString",
     "description": "http://purl.org/dc/terms/description",
     "externalLinks": "https://vocab.egm.io/externalLinks",
-    "imgSource": "https://vocab.egm.io/imgSource",
+    "imageSource": "https://vocab.egm.io/imageSource",
     "irrelevantModules": "https://vocab.egm.io/irrelevantModules",
-    "logo": "https://schema.org/logo",
     "name": "https://schema.org/name",
     "primaryColor": "https://vocab.egm.io/primaryColor",
     "refConfig": "https://vocab.egm.io/refConfig"

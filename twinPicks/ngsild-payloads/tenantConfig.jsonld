@@ -1,45 +1,39 @@
 {
-    "id": "urn:ngsi-ld:TenantConfig:MyCity",
-    "type": "TenantConfig",
-    "name": {
-        "type": "Property",
-        "value": "Tenant config for my city platform admin interface"
+  "id": "urn:ngsi-ld:TenantConfig:MyCity",
+  "type": "TenantConfig",
+  "name": {
+    "type": "Property",
+    "value": "Tenant config for my city platform admin interface"
+  },
+  "logo": {
+    "type": "JsonProperty",
+    "description": {
+      "type": "Property",
+      "value": "Optional property. Used to display tenant logo instead of the default Twin Picks logo. Expected dimensions are: 55x55 px for small size and 195x55 px for large size"
     },
-    "primaryColor": {
-        "type": "Property",
-        "value": "#8c70e4",
-        "description": {
-            "type": "Property",
-            "value": "Optional property. Used as the main color for the UI elements of TwinPicks instead of classic default purple"
-        }
-    },
-    "logo": {
-        "type": "JsonProperty",
-        "description": {
-            "type": "Property",
-            "value": "Optional property. Used to display tenant logo instead of the default Twin Picks logo. Expected dimensions are: 55x55 px for small size and 195x55 px for large size"
-        },
-        "json": {
-            "base64LogoShort": "data:image/png;base64...",
-            "base64LogoLarge": "data:image/png;base64..."
-        }
-    },
-    "activeModules": {
-        "type": "Property",
-        "description": {
-            "type": "Property",
-            "value": "List of available modules for this tenant. The ones not listed here won't appear in Twin Picks"
-        },
-        "value": [
-            "deviceProvisioning",
-            "provisioning",
-            "mapping",
-            "rights",
-            "csv"
-        ]
-    },
-    "specificAccessPolicy": {
-        "type": "Property",
-        "value": "AUTH_READ"
+    "json": {
+      "base64LogoShort": "data:image/png;base64...",
+      "base64LogoLarge": "data:image/png;base64..."
     }
+  },
+  "hasActiveModules": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:DeviceManagement",
+      "datasetId": "urn:ngsi-ld:Dataset:DeviceManagement"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Module:GuidedProvisioning",
+      "datasetId": "urn:ngsi-ld:Dataset:GuidedProvisioning"
+    }
+  ],
+  "primaryColor": {
+    "type": "Property",
+    "value": "#d9433f"
+  },
+  "specificAccessPolicy": {
+    "type": "Property",
+    "value": "AUTH_READ"
+  }
 }
