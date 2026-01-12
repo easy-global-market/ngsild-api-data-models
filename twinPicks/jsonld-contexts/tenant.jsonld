@@ -6,6 +6,5 @@
     "logo": "https://schema.org/logo",
     "primaryColor": "https://vocab.egm.io/primaryColor",
     "usedEntityTypes": "https://vocab.egm.io/usedEntityTypes",
-    "usesModule": "https://vocab.egm.io/usesModule"
   }
 }
