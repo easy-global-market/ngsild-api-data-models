@@ -7,7 +7,7 @@
     "contextString": "https://vocab.egm.io/contextString",
     "description": "http://purl.org/dc/terms/description",
     "externalLinks": "https://vocab.egm.io/externalLinks",
-    "imgSource": "https://vocab.egm.io/imgSource",
+    "imageSource": "https://vocab.egm.io/imageSource",
     "irrelevantModules": "https://vocab.egm.io/irrelevantModules",
     "name": "https://schema.org/name",
     "refConfig": "https://vocab.egm.io/refConfig"
