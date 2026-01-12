@@ -2,6 +2,7 @@
   "@context": {
     "Module": "https://vocab.egm.io/Module",
     "TenantConfig": "https://smartdatamodels.org/dataModel.CrossSector/TenantConfig",
+    "activeModules": "https://vocab.egm.io/activeModules",
     "hasActiveModules": "https://vocab.egm.io/hasActiveModules",
     "logo": "https://schema.org/logo",
     "primaryColor": "https://vocab.egm.io/primaryColor",
