@@ -1,0 +1,35 @@
+{
+    "id": "urn:ngsi-ld:Module:DeviceManagement",
+    "type": "Module",
+    "name": {
+        "type": "LanguageProperty",
+        "value": {
+            "fr": "Objets communicants",
+            "en": "Smart objects"
+        }
+    },
+    "description": {
+        "type": "LanguageProperty",
+        "value": {
+            "fr": "Le module Objets communicants sert à enregistrer, configurer et superviser l’ensemble des capteurs et équipements connectés de la plateforme Twin·Picks.",
+            "en": "The “Connected objects” module is used to register, configure, and supervise all sensors and connected devices in the Twin·Picks platform."
+        }
+    },
+    "usedEntityTypes": {
+        "type": "JsonProperty",
+        "json": [
+            {
+                "type": "Device",
+                "permission": "write"
+            },
+            {
+                "type": "Network",
+                "permission": "read"
+            }
+        ]
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    }
+}

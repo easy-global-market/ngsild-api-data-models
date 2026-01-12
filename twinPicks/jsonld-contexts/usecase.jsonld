@@ -1,9 +1,7 @@
 {
   "@context": {
-    "TenantConfig": "https://smartdatamodels.org/dataModel.CrossSector/TenantConfig",
     "UseCase": "https://vocab.egm.io/UseCase",
     "UseCaseConfig": "https://vocab.egm.io/UseCaseConfig",
-    "activeModules": "https://vocab.egm.io/activeModules",
     "blueprint": "https://vocab.egm.io/blueprint",
     "contains": "https://vocab.egm.io/contains",
     "contextString": "https://vocab.egm.io/contextString",
@@ -11,7 +9,6 @@
     "externalLinks": "https://vocab.egm.io/externalLinks",
     "imgSource": "https://vocab.egm.io/imgSource",
     "irrelevantModules": "https://vocab.egm.io/irrelevantModules",
-    "logo": "https://schema.org/logo",
     "name": "https://schema.org/name",
     "refConfig": "https://vocab.egm.io/refConfig"
   }
