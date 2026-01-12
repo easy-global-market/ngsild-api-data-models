@@ -16,7 +16,7 @@
       "base64LogoLarge": "data:image/png;base64..."
     }
   },
-  "hasActiveModule": [
+  "hasActiveModules": [
     {
       "type": "Relationship",
       "object": "urn:ngsi-ld:Module:DeviceManagement"
