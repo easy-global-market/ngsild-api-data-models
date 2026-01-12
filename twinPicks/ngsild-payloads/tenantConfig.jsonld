@@ -34,6 +34,12 @@
         "type": "Property",
         "value": "#d9433f"
     },
+    "usesModule": [
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Module:DeviceManagement"
+        }
+    ],
     "specificAccessPolicy": {
         "type": "Property",
         "value": "AUTH_READ"
