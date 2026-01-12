@@ -19,11 +19,13 @@
   "hasActiveModules": [
     {
       "type": "Relationship",
-      "object": "urn:ngsi-ld:Module:DeviceManagement"
+      "object": "urn:ngsi-ld:Module:DeviceManagement",
+      "datasetId": "urn:ngsi-ld:Dataset:DeviceManagement"
     },
     {
       "type": "Relationship",
-      "object": "urn:ngsi-ld:Module:GuidedProvisioning"
+      "object": "urn:ngsi-ld:Module:GuidedProvisioning",
+      "datasetId": "urn:ngsi-ld:Dataset:GuidedProvisioning"
     }
   ],
   "primaryColor": {
