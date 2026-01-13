@@ -3,14 +3,14 @@
   "type": "Module",
   "name": {
     "type": "LanguageProperty",
-    "value": {
+    "languageMap": {
       "fr": "Objets communicants",
       "en": "Smart objects"
     }
   },
   "description": {
     "type": "LanguageProperty",
-    "value": {
+    "languageMap": {
       "fr": "Le module Objets communicants sert à enregistrer, configurer et superviser l'ensemble des capteurs et équipements connectés de la plateforme Twin·Picks.",
       "en": "The Connected objects module is used to register, configure, and supervise all sensors and connected devices in the Twin·Picks platform."
     }
@@ -33,3 +33,4 @@
     "value": "AUTH_READ"
   }
 }
+
