@@ -1,22 +1,39 @@
 {
     "@context": {
+        "ControlPoint": "https://vocab.egm.io/ControlPoint",
+        "DemoSite": "https://vocab.egm.io/DemoSite",
         "RiverBasin": "https://vocab.egm.io/RiverBasin",
         "River": "https://vocab.egm.io/River",
         "SamplingPoint": "https://vocab.egm.io/SamplingPoint",
         "WaterBody": "https://vocab.egm.io/WaterBody",
+        "cost": "https://vocab.egm.io/cost",
+        "economicValueOfMar": "https://vocab.egm.io/economicValueOfMar",
         "electricalConductivity": "https://vocab.egm.io/electricalConductivity",
+        "employmentLoss": "https://vocab.egm.io/employmentLoss",
         "flow": "https://vocab.egm.io/flow",
         "flowsFrom": "https://vocab.egm.io/flowsFrom",
         "flowsTo": "https://vocab.egm.io/flowsTo",
+        "grossAddedValue": "https://vocab.egm.io/grossAddedValue",
+        "grossMargin": "https://vocab.egm.io/grossMargin",
+        "groundwaterShare": "https://vocab.egm.io/groundwaterShare",
         "inflow": "https://vocab.egm.io/inflow",
+        "labor": "https://vocab.egm.io/labor",
         "name": "https://schema.org/name",
         "outlet": "https://vocab.egm.io/outlet",
         "outflow": "https://vocab.egm.io/outflow",
         "precipitation": "https://vocab.egm.io/precipitation",
+        "price": "https://vocab.egm.io/price",
+        "rechargeVolume": "https://vocab.egm.io/rechargeVolume",
+        "sobolIndex": "https://vocab.egm.io/sobolIndex",
+        "surfaceWaterShare": "https://vocab.egm.io/surfaceWaterShare",
         "temperature": "https://vocab.egm.io/temperature",
+        "valueOfRecharge": "https://vocab.egm.io/valueOfRecharge",
         "volume": "https://vocab.egm.io/volume",
         "waterLevel": "https://vocab.egm.io/waterLevel",
-        "waterLevelVariation": "https://vocab.egm.io/waterLevelVariation"
+        "waterLevelVariation": "https://vocab.egm.io/waterLevelVariation",
+        "waterReduction": "https://vocab.egm.io/waterReduction",
+        "yield": "https://vocab.egm.io/yield"
     }
 }
+
 
