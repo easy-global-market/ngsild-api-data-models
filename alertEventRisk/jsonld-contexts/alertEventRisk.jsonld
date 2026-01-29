@@ -10,6 +10,7 @@
     "NoData": "https://vocab.egm.io/NoData",
     "conditions": "https://vocab.egm.io/conditions",
     "detectedBy": "https://vocab.egm.io/detectedBy",
+    "groupingKey": "https://vocab.egm.io/groupingKey",
     "mailingList": "https://vocab.egm.io/mailingList",
     "hasAlert": "https://vocab.egm.io/hasAlert",
     "hasAnomaly": "https://vocab.egm.io/hasAnomaly",
