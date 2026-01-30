@@ -18,6 +18,7 @@
     "hasSubject": "https://vocab.egm.io/hasSubject",
     "hasRisk": "https://vocab.egm.io/hasRisk",
     "message": "https://vocab.egm.io/message",
+    "notificationContent": "https://vocab.egm.io/notificationContent",
     "numberOfInvalidation": "https://vocab.egm.io/numberOfInvalidation",
     "numberOfValidation": "https://vocab.egm.io/numberOfValidation",
     "severity": "https://vocab.egm.io/severity",
