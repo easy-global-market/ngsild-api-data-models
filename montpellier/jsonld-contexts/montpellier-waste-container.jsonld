@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "WasteContainer": "https://smartdatamodels.org/dataModel.WasteManagement/WasteContainer",
+    "alertLevel": "https://vocab.montpellier.fr/alertLevel",
+    "binCapacity": "https://smartdatamodels.org/dataModel.WasteManagement/binCapacity",
+    "fillingLevel": "https://smartdatamodels.org/dataModel.WasteManagement/fillingLevel",
+    "category": "https://smartdatamodels.org/dataModel.WasteManagement/category",
+    "storedWasteKind": "https://smartdatamodels.org/dataModel.WasteManagement/storedWasteKind"
+  }
+}

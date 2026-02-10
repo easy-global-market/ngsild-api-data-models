@@ -1,0 +1,41 @@
+{
+  "id": "urn:ngsi-ld:WasteContainer:V_0230",
+  "type": "WasteContainer",
+  "alertLevel": {
+    "type": "Property",
+    "value": "low"
+  },
+  "binCapacity": {
+    "type": "Property",
+    "value": "3",
+    "unitCode": "MTQ"
+  },
+  "fillingLevel": {
+    "type": "Property",
+    "value": 16.55555556,
+    "observedAt": "2026-02-10T18:00:12.000Z",
+    "unitCode": {
+      "type": "Property",
+      "value": "P1"
+    }
+  },
+  "category": {
+    "type": "Property",
+    "value": "Aérien"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        3.881406388,
+        43.633113708
+      ]
+    }
+  },
+  "storedWasteKind": {
+    "type": "Property",
+    "value": "Verre"
+//    todo traduire?
+  }
+}

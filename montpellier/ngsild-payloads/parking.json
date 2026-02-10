@@ -1,0 +1,177 @@
+{
+  "id": "urn:ngsi-ld:OffStreetParking:34172-P-001",
+  "type": "OffStreetParking",
+  "allowedVehicleType": {
+    "type": "Property",
+    "value": ["car , moped"]
+  },
+  "availableSpotNumber": {
+    "type": "Property",
+    "value": 138,
+    "observedAt": "2026-02-10T18:00:12.000Z"
+  },
+  "category": {
+    "type": "Property",
+    "value": ["feeCharged , barrierAccess , underground"]
+  },
+  "layout": {
+    "type": "Property",
+    "value": ["multiLevel"]
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": ["3.88881893 , 43.60871606"]
+    }
+  },
+  "requiredPermit": {
+    "type": "Property",
+    "value": "noPermitNeeded"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Open",
+    "observedAt": "2026-02-10T18:00:12.000Z"
+  },
+  "totalSpotNumber": {
+    "type": "Property",
+    "value": 239
+  },
+  "abo_non_resident": {
+    "type": "Property",
+    "value": "_"
+  },
+  "abo_resident": {
+    "type": "Property",
+    "value": "_"
+  },
+  "address": {
+    "type": "Property",
+    "value": "rue Foch"
+  },
+  "disabledParkingNumber": {
+    "type": "Property",
+    "value": "10"
+  },
+  "domaniality": {
+    "type": "Property",
+    "value": "Public"
+  },
+  "info": {
+    "type": "Property",
+    "value": "_"
+  },
+  "insee": {
+    "type": "Property",
+    "value": "34172"
+  },
+  "isFree": {
+    "type": "Property",
+    "value": "false"
+  },
+  "levelNumber": {
+    "type": "Property",
+    "value": "5"
+  },
+  "maximumAllowedHeight": {
+    "type": "Property",
+    "value": "190"
+  },
+  "name": {
+    "type": "Property",
+    "value": "Arc de Triomphe"
+  },
+  "nb_2_rm": {
+    "type": "Property",
+    "value": "0"
+  },
+  "nb_2r_el": {
+    "type": "Property",
+    "value": "_"
+  },
+  "nb_autopartage": {
+    "type": "Property",
+    "value": "_"
+  },
+  "nb_covoit": {
+    "type": "Property",
+    "value": "_"
+  },
+  "nb_pr": {
+    "type": "Property",
+    "value": "_"
+  },
+  "nb_velo": {
+    "type": "Property",
+    "value": "0"
+  },
+  "nb_voitures_electriques": {
+    "type": "Property",
+    "value": "3"
+  },
+  "owner": {
+    "type": "Property",
+    "value": "Ville de Montpellier"
+  },
+  "parkingSpaceNumber": {
+    "type": "Property",
+    "value": "451"
+  },
+  "parkingType": {
+    "type": "Property",
+    "value": "ouvrage"
+  },
+  "publicSpaces": {
+    "type": "Property",
+    "value": "438"
+  },
+  "remainingSpaces": {
+    "type": "Property",
+    "value": "0"
+  },
+  "siretNumber": {
+    "type": "Property",
+    "value": "21340172202058"
+  },
+  "tarif_1h": {
+    "type": "Property",
+    "value": "_"
+  },
+  "tarif_24h": {
+    "type": "Property",
+    "value": "_"
+  },
+  "tarif_2h": {
+    "type": "Property",
+    "value": "_"
+  },
+  "tarif_3h": {
+    "type": "Property",
+    "value": "_"
+  },
+  "tarif_4h": {
+    "type": "Property",
+    "value": "_"
+  },
+  "tarif_pmr": {
+    "type": "Property",
+    "value": "_"
+  },
+  "typeOfUse": {
+    "type": "Property",
+    "value": "tous"
+  },
+  "typology": {
+    "type": "Property",
+    "value": "Centre-ville"
+  },
+  "url": {
+    "type": "Property",
+    "value": "_"
+  },
+  "usableSurfaceArea": {
+    "type": "Property",
+    "value": "9375"
+  }
+},

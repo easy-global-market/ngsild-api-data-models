@@ -1,0 +1,32 @@
+{
+  "id": "urn:ngsi-ld:EcoCounter:XTH19101158",
+  "type": ["TrafficFlowObserved","EcoCounter"],
+  "intensity": {
+    "type": "Property",
+    "value": 0,
+    "observedAt": "2026-02-10T04:00:00.000Z"
+//    todo unitCode?
+  },
+  "laneId": {
+    "type": "Number",
+    "value": 188609530
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        43.61621,
+        3.874408
+      ]
+    }
+  },
+  "reversedLane": {
+    "type": "Property",
+    "value": false
+  },
+  "vehicleType": {
+    "type": "Property",
+    "value": "bicycle"
+  }
+}

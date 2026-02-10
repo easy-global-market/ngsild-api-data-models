@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "TrafficFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/TrafficFlowObserved",
+    "EcoCounter": "https://vocab.montpellier.fr/EcoCounter",
+    "intensity": "https://smartdatamodels.org/dataModel.Transportation/intensity",
+    "laneId": "https://smartdatamodels.org/dataModel.Transportation/laneId",
+    "reversedLane": "https://smartdatamodels.org/dataModel.Transportation/reversedLane",
+    "vehicleType": "https://smartdatamodels.org/dataModel.Transportation/vehicleType",
+  }
+}
