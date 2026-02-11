@@ -17,7 +17,9 @@
   },
   "freeSlotNumber": {
     "type": "Property",
-    "value": 6
+    "value": 6,
+    "observedAt": "2026-02-10T18:11:07.000Z",
+    "unitCode": "C62"
   },
   "location": {
     "type": "GeoProperty",
