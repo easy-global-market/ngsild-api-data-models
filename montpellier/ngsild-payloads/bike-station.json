@@ -12,7 +12,8 @@
   "availableBikeNumber": {
     "type": "Property",
     "value": 6,
-    "observedAt": "2026-02-10T18:11:07.000Z"
+    "observedAt": "2026-02-10T18:11:07.000Z",
+    "unitCode": "C62"
   },
   "freeSlotNumber": {
     "type": "Property",
@@ -34,6 +35,7 @@
   },
   "totalSlotNumber": {
     "type": "Property",
-    "value": 12
+    "value": 12,
+    "unitCode": "C62"
   }
 }

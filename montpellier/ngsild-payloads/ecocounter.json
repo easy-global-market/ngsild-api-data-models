@@ -4,12 +4,12 @@
   "intensity": {
     "type": "Property",
     "value": 0,
-    "observedAt": "2026-02-10T04:00:00.000Z"
-//    todo unitCode?
+    "observedAt": "2026-02-10T04:00:00.000Z",
+    "unitCode": "C62"
   },
   "laneId": {
     "type": "Property",
-    "value": 188609530
+    "value": "188609530"
   },
   "location": {
     "type": "GeoProperty",

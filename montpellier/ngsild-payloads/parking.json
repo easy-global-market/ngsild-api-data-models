@@ -8,7 +8,8 @@
   "availableSpotNumber": {
     "type": "Property",
     "value": 138,
-    "observedAt": "2026-02-10T18:00:12.000Z"
+    "observedAt": "2026-02-10T18:00:12.000Z",
+    "unitCode": "C62"
   },
   "category": {
     "type": "Property",
@@ -36,15 +37,18 @@
   },
   "totalSpotNumber": {
     "type": "Property",
-    "value": 239
+    "value": 239,
+    "unitCode": "C62"
   },
   "abo_non_resident": {
     "type": "Property",
-    "value": "_"
+    "value": 5,
+    "unitCode": "C62"
   },
   "abo_resident": {
     "type": "Property",
-    "value": "_"
+    "value": 18,
+    "unitCode": "C62"
   },
   "address": {
     "type": "Property",
@@ -52,7 +56,8 @@
   },
   "disabledParkingNumber": {
     "type": "Property",
-    "value": 10
+    "value": 10,
+    "unitCode": "C62"
   },
   "domaniality": {
     "type": "Property",
@@ -72,11 +77,12 @@
   },
   "levelNumber": {
     "type": "Property",
-    "value": 5
+    "value": 5,
+    "unitCode": "C62"
   },
   "maximumAllowedHeight": {
     "type": "Property",
-    "value": "190",
+    "value": 190,
     "unitCode": "CMT"
   },
   "name": {
@@ -85,39 +91,42 @@
   },
   "nb_2_rm": {
     "type": "Property",
-    "value": "0"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_2r_el": {
     "type": "Property",
-    "value": "_"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_autopartage": {
     "type": "Property",
-    "value": "_"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_covoit": {
     "type": "Property",
-    "value": "_"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_pr": {
     "type": "Property",
-    "value": "_"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_velo": {
     "type": "Property",
-    "value": "0"
+    "value": 0,
+    "unitCode": "C62"
   },
   "nb_voitures_electriques": {
     "type": "Property",
-    "value": "3"
+    "value": 3,
+    "unitCode": "C62"
   },
   "owner": {
     "type": "Property",
     "value": "Ville de Montpellier"
-  },
-  "parkingSpaceNumber": {
-    "type": "Property",
-    "value": "451"
   },
   "parkingType": {
     "type": "Property",
@@ -125,11 +134,8 @@
   },
   "publicSpaces": {
     "type": "Property",
-    "value": "438"
-  },
-  "remainingSpaces": {
-    "type": "Property",
-    "value": "0"
+    "value": 210,
+    "unitCode": "C62"
   },
   "siretNumber": {
     "type": "Property",
@@ -137,27 +143,33 @@
   },
   "tarif_1h": {
     "type": "Property",
-    "value": "_"
+    "value": 1,
+    "unitCode": "EUR"
   },
   "tarif_24h": {
     "type": "Property",
-    "value": "_"
+    "value": 2,
+    "unitCode": "EUR"
   },
   "tarif_2h": {
     "type": "Property",
-    "value": "_"
+    "value": 3,
+    "unitCode": "EUR"
   },
   "tarif_3h": {
     "type": "Property",
-    "value": "_"
+    "value": 4,
+    "unitCode": "EUR"
   },
   "tarif_4h": {
     "type": "Property",
-    "value": "_"
+    "value": 5,
+    "unitCode": "EUR"
   },
   "tarif_pmr": {
     "type": "Property",
-    "value": "_"
+    "value": 0,
+    "unitCode": "EUR"
   },
   "typeOfUse": {
     "type": "Property",
@@ -165,7 +177,7 @@
   },
   "typology": {
     "type": "Property",
-    "value": "Centre-ville"
+    "value": "Centre-ville" // todo traduire?
   },
   "url": {
     "type": "Property",
@@ -173,6 +185,7 @@
   },
   "usableSurfaceArea": {
     "type": "Property",
-    "value": "9375"
+    "value": 9375,
+    "unitCode": "MTK"
   }
-},
+}
