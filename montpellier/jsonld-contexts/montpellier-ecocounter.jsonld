@@ -1,7 +1,7 @@
 {
   "@context": {
     "TrafficFlowObserved": "https://smartdatamodels.org/dataModel.Transportation/TrafficFlowObserved",
-    "EcoCounter": "https://vocab.montpellier.fr/EcoCounter",
+    "EcoCounter": "https://vocab.egm.io/EcoCounter",
     "intensity": "https://smartdatamodels.org/dataModel.Transportation/intensity",
     "laneId": "https://smartdatamodels.org/dataModel.Transportation/laneId",
     "reversedLane": "https://smartdatamodels.org/dataModel.Transportation/reversedLane",
