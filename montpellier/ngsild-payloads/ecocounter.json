@@ -8,7 +8,7 @@
 //    todo unitCode?
   },
   "laneId": {
-    "type": "Number",
+    "type": "Property",
     "value": 188609530
   },
   "location": {

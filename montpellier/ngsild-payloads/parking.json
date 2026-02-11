@@ -76,7 +76,8 @@
   },
   "maximumAllowedHeight": {
     "type": "Property",
-    "value": "190"
+    "value": "190",
+    "unitCode": "CMT"
   },
   "name": {
     "type": "Property",

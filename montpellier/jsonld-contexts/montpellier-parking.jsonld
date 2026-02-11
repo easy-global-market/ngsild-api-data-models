@@ -5,7 +5,7 @@
     "availableSpotNumber": "https://smartdatamodels.org/dataModel.Parking/availableSpotNumber",
     "category": "https://smartdatamodels.org/dataModel.Parking/category",
     "layout": "https://smartdatamodels.org/dataModel.Parking/layout",
-    "name": "https://smartdatamodels.org/name",
+    "name": "https://schema.org/name",
     "requiredPermit": "https://smartdatamodels.org/dataModel.Parking/requiredPermit",
     "status": "https://uri.etsi.org/ngsi-ld/status",
     "totalSpotNumber": "https://smartdatamodels.org/dataModel.Parking/totalSpotNumber",
@@ -19,7 +19,7 @@
     "isFree": "https://vocab.montpellier.fr/isFree",
     "levelNumber": "https://vocab.montpellier.fr/levelNumber",
     "maximumAllowedHeight": "https://smartdatamodels.org/dataModel.Parking/maximumAllowedHeight",
-    "name": "https://smartdatamodels.org/name",
+    "name": "https://schema.org/name",
     "nb_2_rm": "https://vocab.montpellier.fr/nb_2_rm",
     "nb_2r_el": "https://vocab.montpellier.fr/nb_2r_el",
     "nb_autopartage": "https://vocab.montpellier.fr/nb_autopartage",
@@ -39,6 +39,6 @@
     "tarif_pmr": "https://vocab.montpellier.fr/tarif_pmr",
     "typeOfUse": "https://vocab.montpellier.fr/typeOfUse",
     "typology": "https://vocab.montpellier.fr/typology",
-    "url": "https://vocab.montpellier.fr/url"
+    "url": "https://schema.org/url"
   }
 }

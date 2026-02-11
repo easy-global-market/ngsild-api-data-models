@@ -8,6 +8,5 @@
     "availableBikeNumber": "https://smartdatamodels.org/dataModel.Transportation/availableBikeNumber",
     "freeSlotNumber": "https://smartdatamodels.org/dataModel.Transportation/freeSlotNumber",
     "totalSlotNumber": "https://smartdatamodels.org/dataModel.Transportation/totalSlotNumber",
-    "status": "https://uri.etsi.org/ngsi-ld/status"
   }
 }
