@@ -1,9 +1,9 @@
 {
   "@context": [
-    "https://easy-global-market.github.io/montpellier/jsonld-contexts/montpellier-bike-station.jsonld",
-    "https://easy-global-market.github.io/montpellier/jsonld-contexts/montpellier-ecocounter.jsonld",
-    "https://easy-global-market.github.io/montpellier/jsonld-contexts/montpellier-parking.jsonld",
-    "https://easy-global-market.github.io/montpellier/jsonld-contexts/montpellier-waste-container.jsonld",
+    "https://easy-global-market.github.io/montpellier/jsonld-contexts/bike-station.jsonld",
+    "https://easy-global-market.github.io/montpellier/jsonld-contexts/ecocounter.jsonld",
+    "https://easy-global-market.github.io/montpellier/jsonld-contexts/parking.jsonld",
+    "https://easy-global-market.github.io/montpellier/jsonld-contexts/waste-container.jsonld",
     "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
   ]
 }
