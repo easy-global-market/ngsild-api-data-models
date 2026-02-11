@@ -5,6 +5,6 @@
     "intensity": "https://smartdatamodels.org/dataModel.Transportation/intensity",
     "laneId": "https://smartdatamodels.org/dataModel.Transportation/laneId",
     "reversedLane": "https://smartdatamodels.org/dataModel.Transportation/reversedLane",
-    "vehicleType": "https://smartdatamodels.org/dataModel.Transportation/vehicleType",
+    "vehicleType": "https://smartdatamodels.org/dataModel.Transportation/vehicleType"
   }
 }

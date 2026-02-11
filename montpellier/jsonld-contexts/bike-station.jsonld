@@ -7,6 +7,6 @@
     "addressRegion": "https://smartdatamodels.org/addressRegion",
     "availableBikeNumber": "https://smartdatamodels.org/dataModel.Transportation/availableBikeNumber",
     "freeSlotNumber": "https://smartdatamodels.org/dataModel.Transportation/freeSlotNumber",
-    "totalSlotNumber": "https://smartdatamodels.org/dataModel.Transportation/totalSlotNumber",
+    "totalSlotNumber": "https://smartdatamodels.org/dataModel.Transportation/totalSlotNumber"
   }
 }
