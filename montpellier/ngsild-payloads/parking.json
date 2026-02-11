@@ -177,7 +177,7 @@
   },
   "typology": {
     "type": "Property",
-    "value": "Centre-ville" // todo traduire?
+    "value": "Centre-ville"
   },
   "url": {
     "type": "Property",
