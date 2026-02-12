@@ -31,8 +31,8 @@
         "type": "Property",
         "value": "https://egm.io",
         "buttonText": {
-        "type": "Property",
-        "value": "Go to EGM"
+            "type": "Property",
+            "value": "Go to EGM"
         }
     },
     "version": {
