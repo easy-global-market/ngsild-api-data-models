@@ -3,6 +3,7 @@
         "DataServiceProcessing": "https://vocab.egm.io/DataServiceProcessing",
         "additionalConfig": "https://vocab.egm.io/additionalConfig",
         "algorithm": "https://vocab.egm.io/algorithm",
+        "buttonText": "https://vocab.egm.io/buttonText",
         "imageSource": "https://vocab.egm.io/imageSource",
         "includedParameters": "https://vocab.egm.io/includedParameters",
         "inputAttributes": "https://vocab.egm.io/inputAttributes",
@@ -15,6 +16,7 @@
         "objective": "https://vocab.egm.io/objective",
         "outputAttributes": "https://vocab.egm.io/outputAttributes",
         "processingStatus": "https://vocab.egm.io/processingStatus",
+        "redirectionButton": "https://vocab.egm.io/redirectionButton",
         "releaseNotes": "https://vocab.egm.io/releaseNotes",
         "servesDataService": "https://vocab.egm.io/servesDataService",
         "subscriptionData": "https://vocab.egm.io/subscriptionData"

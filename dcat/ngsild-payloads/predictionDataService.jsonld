@@ -27,6 +27,14 @@
         "type": "Property",
         "value": "TensorFlow"
     },
+    "redirectionButton": {
+        "type": "Property",
+        "value": "https://egm.io",
+        "buttonText": {
+            "type": "Property",
+            "value": "Go to EGM"
+        }
+    },
     "version": {
         "type": "Property",
         "value": 0.1,
@@ -41,11 +49,17 @@
     },
     "inputEntityTypes": {
         "type": "Property",
-        "value": ["TrafficFlowObserved"]
+        "value": [
+            "TrafficFlowObserved"
+        ]
     },
     "inputAttributes": {
         "type": "Property",
-        "value": ["flow", "averageVehicleSpeed", "congestionIndex"]
+        "value": [
+            "flow",
+            "averageVehicleSpeed",
+            "congestionIndex"
+        ]
     },
     "outputAttributes": {
         "type": "Property",
@@ -83,11 +97,26 @@
         "type": "GeoProperty",
         "coordinates": [
             [
-                [ 100.0, 0.0 ],
-                [ 101.0, 0.0 ],
-                [ 101.0, 1.0 ],
-                [ 100.0, 1.0 ],
-                [ 100.0, 0.0 ]
+                [
+                    100.0,
+                    0.0
+                ],
+                [
+                    101.0,
+                    0.0
+                ],
+                [
+                    101.0,
+                    1.0
+                ],
+                [
+                    100.0,
+                    1.0
+                ],
+                [
+                    100.0,
+                    0.0
+                ]
             ]
         ]
     },
