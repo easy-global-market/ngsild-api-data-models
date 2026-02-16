@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "structure": "https://vocab.egm.io/structure",
+    "displayName": "https://vocab.egm.io/displayName"
+  }
+}
