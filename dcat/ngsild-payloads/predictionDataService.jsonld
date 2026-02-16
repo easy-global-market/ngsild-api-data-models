@@ -27,6 +27,17 @@
         "type": "Property",
         "value": "TensorFlow"
     },
+    "resultsUrl": {
+        "type": "Property",
+        "value": "https://egm.io",
+        "label": {
+            "type": "LanguageProperty",
+            "languageMap": {
+                "fr": "Visiter EGM",
+                "@none": "Visit EGM"
+        }
+        }
+    },
     "version": {
         "type": "Property",
         "value": 0.1,
