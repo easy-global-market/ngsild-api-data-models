@@ -1,0 +1,9 @@
+{
+  "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/arbe/jsonld-contexts/common.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/arbe/jsonld-contexts/species.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/arbe/jsonld-contexts/action.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/arbe/jsonld-contexts/structureConfig.jsonld",
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context-v1.8.jsonld"
+  ]
+}

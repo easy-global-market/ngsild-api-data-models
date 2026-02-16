@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "Action": "https://vocab.egm.io/Action",
+    "commentaires": "https://vocab.egm.io/commentaires",
+    "dateDebut": "https://vocab.egm.io/dateDebut",
+    "dateFin": "https://vocab.egm.io/dateFin",
+    "especeLiee": "https://vocab.egm.io/especeLiee",
+    "statut": "https://vocab.egm.io/statut",
+    "titre": "https://vocab.egm.io/titre",
+    "typeAction": "https://vocab.egm.io/typeAction"
+  }
+}
