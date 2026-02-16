@@ -17,7 +17,7 @@
         "outputAttributes": "https://vocab.egm.io/outputAttributes",
         "processingStatus": "https://vocab.egm.io/processingStatus",
         "releaseNotes": "https://vocab.egm.io/releaseNotes",
-        "resourceUrl": "https://vocab.egm.io/resourceUrl",
+        "resultsUrl": "https://vocab.egm.io/resultsUrl",
         "servesDataService": "https://vocab.egm.io/servesDataService",
         "subscriptionData": "https://vocab.egm.io/subscriptionData"
     }
