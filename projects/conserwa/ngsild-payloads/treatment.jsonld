@@ -1,0 +1,12 @@
+{
+  "id": "urn:ngsi-ld:Treatment:1234abcd",
+  "type": "Treatment",
+  "name": {
+    "type": "Property",
+    "value": "Treatment name"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Treatment description"
+  }
+}

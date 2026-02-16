@@ -1,0 +1,40 @@
+{
+  "id": "urn:ngsi-ld:Weed:1234abcd",
+  "type": "Weed",
+  "name": {
+    "type": "Property",
+    "value": "Bindweed"
+  },
+  "pathogenServerity": {
+    "type": "Property",
+    "value": 8
+  },
+  "BBCH":{
+    "type": "Property",
+    "value": 5
+  },
+  "startDate": {
+    "type": "Property",
+    "value": "2025-04-30T22:00:00.000Z"
+  },
+  "endDate": {
+    "type": "Property",
+    "value": "2025-07-30T22:00:00.000Z"
+  },
+  "number": {
+    "type": "Property",
+    "value": 70
+  },
+  "desiccation": {
+    "type": "Property",
+    "value": 60
+  },
+  "surveyTime":{
+    "type": "Property",
+    "value": "T0"
+  },
+  "hasWeedSpecies": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:WeedSpecies:1234abcd"
+  }
+}
