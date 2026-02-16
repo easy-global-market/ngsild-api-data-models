@@ -1,7 +1,9 @@
 {
     "@context": [
-        "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/datacenter-equipments.jsonld",
-        "https://easy-global-market.github.io/c2jn-data-models/jsonld-contexts/c2jn-smart-city-compound.jsonld",
+        "https://easy-global-market.github.io/smartCity/jsonld-contexts/bike-station.jsonld",
+        "https://easy-global-market.github.io/smartCity/jsonld-contexts/traffic.jsonld",
+        "https://easy-global-market.github.io/smartCity/jsonld-contexts/parking.jsonld",
+        "https://easy-global-market.github.io/smartCity/jsonld-contexts/waste-container.jsonld",
         "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld"
     ]
 }
