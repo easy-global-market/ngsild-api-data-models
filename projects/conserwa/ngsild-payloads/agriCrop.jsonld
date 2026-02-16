@@ -1,0 +1,40 @@
+{
+  "id": "urn:ngsi-ld:Crop:1234abcd",
+  "type": "Crop",
+  "name": {
+    "type": "Property",
+    "value": "Carrots"
+  },
+  "pathogenServerity": {
+    "type": "Property",
+    "value": 8
+  },
+  "soilCoverage": {
+    "type": "Property",
+    "value": 54
+  },
+  "startDate": {
+    "type": "Property",
+    "value": "2025-04-30T22:00:00.000Z"
+  },
+  "endDate": {
+    "type": "Property",
+    "value": "2025-07-30T22:00:00.000Z"
+  },
+  "rowSpacing": {
+    "type": "Property",
+    "value": 12
+  },
+  "irrigation": {
+    "type": "Property",
+    "value": 11
+  },
+  "fertilizerQuantity":{
+    "type": "Property",
+    "value": 24
+  },
+  "hasCropSpecies":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:CropSpecies:1234abcd"
+  }
+}

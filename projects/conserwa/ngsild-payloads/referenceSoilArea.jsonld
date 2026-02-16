@@ -1,0 +1,16 @@
+{
+  "id": "urn:ngsi-ld:ReferenceSoilArea:1234abcd",
+  "type": "ReferenceSoilArea",
+  "name": {
+    "type": "Property",
+    "value": "ReferenceSoilArea name"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Polygon",
+      "coordinates":[1.277225,
+            48.951817]
+    }
+  }
+}

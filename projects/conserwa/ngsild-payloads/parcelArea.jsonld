@@ -64,5 +64,13 @@
   "hasAgronomicPractices":{
       "type": "Relationship",
       "object": "urn:ngsi-ld:AgronomicPractices:1234abcd"
+  },
+  "hasReferenceSoilArea":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:ReferenceSoilArea:1234abcd"
+  },
+  "hasTreatment":{
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Treatment:1234abcd"
   }
 }
