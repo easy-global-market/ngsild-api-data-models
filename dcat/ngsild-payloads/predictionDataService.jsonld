@@ -27,10 +27,10 @@
         "type": "Property",
         "value": "TensorFlow"
     },
-    "redirectionButton": {
+    "resourceUrl": {
         "type": "Property",
         "value": "https://egm.io",
-        "buttonText": {
+        "label": {
             "type": "Property",
             "value": "Go to EGM"
         }
