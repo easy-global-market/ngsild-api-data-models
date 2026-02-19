@@ -1,7 +1,7 @@
 {
   "@context": {
     "StructureConfig": "https://vocab.egm.io/StructureConfig",
-    "actionsStructureMapping": "https://vocab.egm.io/actionsStructureMapping",
+    "actionStructureMapping": "https://vocab.egm.io/actionStructureMapping",
     "speciesStructureMapping": "https://vocab.egm.io/speciesStructureMapping"
   }
 }
