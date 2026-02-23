@@ -51,12 +51,20 @@
     {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Crop:1234abcd"
+    },
+    {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Crop:567efg"
     }
   ],
   "hasSample":[
     {
       "type": "Relationship",
       "object": "urn:ngsi-ld:Sample:1234abcd"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Sample:567efg"
     }
   ],
   "hasCampaign":{
@@ -75,9 +83,14 @@
     "type": "Property",
     "value": 45
   },
-  "hasWeeds":{
-    "type": "Relationship",
-    "object": "urn:ngsi-ld:Weed:1234abcd"
-  }
-
+  "hasWeeds":[
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Weed:1234abcd"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Weed:567efg"
+    }
+  ]
 }

@@ -55,12 +55,20 @@
     {
       "type": "Relationship",
       "object": "urn:ngsi-ld:ParcelArea:1234abcd"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ParcelArea:567efg"
     }
   ],
   "hasReferenceSoilArea": [
     {
       "type": "Relationship",
       "object": "urn:ngsi-ld:ReferenceSoilArea:1234abcd"
+    },
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:ReferenceSoilArea:567efg"
     }
   ]
 }
