@@ -5,6 +5,10 @@
     "type": "Property",
     "value": "Agronomic Practices Name"
   },
+  "hasTreatment": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Treatment:1234abcd"
+  },
   "farmingSystems":{
     "type": "Property",
     "value": "Organic Farming"
@@ -28,6 +32,18 @@
   "fertilizerQuantity":{
     "type": "Property",
     "value": 3
+  },
+  "rowSpacing": {
+    "type": "Property",
+    "value": 12
+  },
+  "irrigation": {
+    "type": "Property",
+    "value": 11
+  },
+  "tillagePractices":{
+    "type": "Property",
+    "value": "Tillage Practice name"
   }
 }
 

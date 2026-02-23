@@ -12,5 +12,33 @@
       "coordinates":[1.277225,
             48.951817]
     }
+  },
+  "volumetricMoistureFieldCapacity":{
+    "type": "Property",
+    "unitCode": "H60",
+    "value": 2
+  },
+  "volumetricMoistureSaturation":{
+    "type": "Property",
+    "unitCode": "H60",
+    "value": 2
+  },
+  "cropCoefficient": {
+    "type": "Property",
+    "value" : 44
+  },
+  "runoffCurveNumber": {
+    "type": "Property",
+    "value" : 44
+  },
+  "soilDepth":{
+    "unitCode": "MMT",
+    "type": "Property",
+    "value" : 44
+  },
+  "swcon":{
+    "unitCode": "MMT",
+    "type": "Property",
+    "value" : 44
   }
 }

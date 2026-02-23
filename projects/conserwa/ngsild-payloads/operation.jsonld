@@ -1,0 +1,16 @@
+{
+  "id": "urn:ngsi-ld:Operation:1234abcd",
+  "type": "Operation",
+  "name": {
+    "type": "Property",
+    "value": "Operation Name"
+  },
+  "description": {
+    "type": "Property",
+    "value": "This is my description text"
+  },
+  "category": {
+    "type": "Property",
+    "value": "Crop rotation"
+  }
+}

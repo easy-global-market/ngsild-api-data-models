@@ -13,30 +13,26 @@
     "type": "Property",
     "value": "Exploitation"
   },
-  "models": {
-    "type": "Property",
-    "day": {
-      "type": "Property",
-      "value": 1
+  "hasOperations": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Operation:123",
+      "datasetId": "urn:ngsi-ld:Itinerary:hasOperations:1:urn:ngsi-ld:Operation:123",
+      "day": { "type": "Property", "value": 1 },
+      "hasRessources":{
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Ressource:123"
+      }
     },
-    "resources": {
-      "type": "Property",
-      "unit": {
-        "type": "Property",
-        "value": "l/ha"
-      },
-      "amount": {
-        "type": "Property",
-        "value": "2"
-      },
-      "resourceType": {
-        "type": "Property",
-        "value": "Matériel d'irrigation"
-      },
-      "value": "Irrigation par submersion",
-      "datasetId": "urn:ngsi-ld:Itinerary:models:1:urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718:resources:Irrigation-par-submersion"
-    },
-    "value": "urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718",
-    "datasetId": "urn:ngsi-ld:Itinerary:models:1:urn:ngsi-ld:InterventionModel:a6917589-aaff-41f9-82c1-e12d809fe718"
-  }
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Operation:456",
+      "datasetId": "urn:ngsi-ld:Itinerary:hasOperations:2:urn:ngsi-ld:Operation:123",
+      "day": { "type": "Property", "value": 2 },
+      "hasRessources":{
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Ressource:123"
+      }
+    }
+  ]
 }
