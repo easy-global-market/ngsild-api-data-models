@@ -47,10 +47,12 @@
       ]
     }
   },
-  "hasCrops":{
+  "hasCrops":[
+    {
     "type": "Relationship",
     "object": "urn:ngsi-ld:Crop:1234abcd"
-  },
+    }
+  ],
   "hasSample":[
     {
       "type": "Relationship",
@@ -69,8 +71,13 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:ReferenceSoilArea:1234abcd"
   },
-  "hasTreatment":{
+  "yield": {
+    "type": "Property",
+    "value": 45
+  },
+  "hasWeeds":{
     "type": "Relationship",
-    "object": "urn:ngsi-ld:Treatment:1234abcd"
+    "object": "urn:ngsi-ld:Weed:1234abcd"
   }
+
 }

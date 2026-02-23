@@ -5,14 +5,18 @@
     "type": "Property",
     "value": "Biological Result Name"
   },
-  "hasWeedSpecies":{
+  "hasWeeds":[
+    {
     "type": "Relationship",
-    "object": "urn:ngsi-ld:WeedSpecies:1234abcd"
-  },
-  "hasCropSpecies":{
+    "object": "urn:ngsi-ld:Weed:1234abcd"
+    }
+  ],
+  "hasCrops":[
+    {
     "type": "Relationship",
-    "object": "urn:ngsi-ld:CropSpecies:1234abcd"
-  },
+    "object": "urn:ngsi-ld:Crop:1234abcd"
+    }
+  ],
   "hasSoilMicrobiome":{
     "type": "Relationship",
     "object": "urn:ngsi-ld:SoilMicrobiome:1234abcd"

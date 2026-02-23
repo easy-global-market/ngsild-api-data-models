@@ -8,9 +8,5 @@
   "number": {
     "type": "Property",
     "value": 2
-  },
-  "biomass": {
-    "type": "Property",
-    "value": 2
   }
 }

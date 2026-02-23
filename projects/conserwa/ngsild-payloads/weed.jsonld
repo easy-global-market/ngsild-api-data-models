@@ -36,5 +36,9 @@
   "hasWeedSpecies": {
     "type": "Relationship",
     "object": "urn:ngsi-ld:WeedSpecies:1234abcd"
+  },
+  "biomass": {
+    "type": "Property",
+    "object": "biomass name"
   }
 }
