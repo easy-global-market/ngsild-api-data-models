@@ -1,0 +1,7 @@
+{
+  "@context": {
+    "Publication": "https://vocab.egm.io/Publication",
+    "fullReference": "https://vocab.egm.io/fullReference",
+    "shortReference": "https://vocab.egm.io/shortReference"
+  }
+}

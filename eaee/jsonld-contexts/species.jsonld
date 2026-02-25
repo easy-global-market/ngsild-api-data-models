@@ -45,6 +45,7 @@
     "filtreIndigenat": "https://vocab.egm.io/filtreIndigenat",
     "filtreTaxonomique": "https://vocab.egm.io/filtreTaxonomique",
     "habitat": "https://vocab.egm.io/habitat",
+    "hasPublication": "https://vocab.egm.io/hasPublication",
     "hybride": "https://vocab.egm.io/hybride",
     "impactsBienEtreHumainNoteGlobale": "https://vocab.egm.io/impactsBienEtreHumainNoteGlobale",
     "impactsEnvironnementauxNoteGlobale": "https://vocab.egm.io/impactsEnvironnementauxNoteGlobale",
