@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "Template": "https://vocab.egm.io/Template",
+    "jsonSchema": "https://vocab.egm.io/jsonSchema"
+  }
+}
