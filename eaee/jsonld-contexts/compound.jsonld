@@ -1,5 +1,6 @@
 {
   "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/template.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/eaee/jsonld-contexts/common.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/eaee/jsonld-contexts/species.jsonld",
     "https://easy-global-market.github.io/ngsild-api-data-models/eaee/jsonld-contexts/publication.jsonld",
