@@ -1,0 +1,191 @@
+{
+  "id": "urn:ngsi-ld:OffStreetParking:34172-P-001",
+  "type": "OffStreetParking",
+  "allowedVehicleType": {
+    "type": "Property",
+    "value": ["car" , "moped"]
+  },
+  "availableSpotNumber": {
+    "type": "Property",
+    "value": 138,
+    "observedAt": "2026-02-10T18:00:12.000Z",
+    "unitCode": "C62"
+  },
+  "category": {
+    "type": "Property",
+    "value": ["feeCharged" , "barrierAccess", "underground"]
+  },
+  "layout": {
+    "type": "Property",
+    "value": ["multiLevel"]
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [3.88881893 , 43.60871606]
+    }
+  },
+  "requiredPermit": {
+    "type": "Property",
+    "value": "noPermitNeeded"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Open",
+    "observedAt": "2026-02-10T18:00:12.000Z"
+  },
+  "totalSpotNumber": {
+    "type": "Property",
+    "value": 239,
+    "unitCode": "C62"
+  },
+  "abo_non_resident": {
+    "type": "Property",
+    "value": 5,
+    "unitCode": "C62"
+  },
+  "abo_resident": {
+    "type": "Property",
+    "value": 18,
+    "unitCode": "C62"
+  },
+  "address": {
+    "type": "Property",
+    "value": "rue Foch"
+  },
+  "disabledParkingNumber": {
+    "type": "Property",
+    "value": 10,
+    "unitCode": "C62"
+  },
+  "domaniality": {
+    "type": "Property",
+    "value": "Public"
+  },
+  "info": {
+    "type": "Property",
+    "value": "_"
+  },
+  "insee": {
+    "type": "Property",
+    "value": "34172"
+  },
+  "isFree": {
+    "type": "Property",
+    "value": false
+  },
+  "levelNumber": {
+    "type": "Property",
+    "value": 5,
+    "unitCode": "C62"
+  },
+  "maximumAllowedHeight": {
+    "type": "Property",
+    "value": 190,
+    "unitCode": "CMT"
+  },
+  "name": {
+    "type": "Property",
+    "value": "Arc de Triomphe"
+  },
+  "nb_2_rm": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_2r_el": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_autopartage": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_covoit": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_pr": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_velo": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "C62"
+  },
+  "nb_voitures_electriques": {
+    "type": "Property",
+    "value": 3,
+    "unitCode": "C62"
+  },
+  "owner": {
+    "type": "Property",
+    "value": "Ville de Montpellier"
+  },
+  "parkingType": {
+    "type": "Property",
+    "value": "ouvrage"
+  },
+  "publicSpaces": {
+    "type": "Property",
+    "value": 210,
+    "unitCode": "C62"
+  },
+  "siretNumber": {
+    "type": "Property",
+    "value": "21340172202058"
+  },
+  "tarif_1h": {
+    "type": "Property",
+    "value": 1,
+    "unitCode": "EUR"
+  },
+  "tarif_24h": {
+    "type": "Property",
+    "value": 2,
+    "unitCode": "EUR"
+  },
+  "tarif_2h": {
+    "type": "Property",
+    "value": 3,
+    "unitCode": "EUR"
+  },
+  "tarif_3h": {
+    "type": "Property",
+    "value": 4,
+    "unitCode": "EUR"
+  },
+  "tarif_4h": {
+    "type": "Property",
+    "value": 5,
+    "unitCode": "EUR"
+  },
+  "tarif_pmr": {
+    "type": "Property",
+    "value": 0,
+    "unitCode": "EUR"
+  },
+  "typeOfUse": {
+    "type": "Property",
+    "value": "tous"
+  },
+  "typology": {
+    "type": "Property",
+    "value": "Centre-ville"
+  },
+  "url": {
+    "type": "Property",
+    "value": "_"
+  },
+  "usableSurfaceArea": {
+    "type": "Property",
+    "value": 9375,
+    "unitCode": "MTK"
+  }
+}
