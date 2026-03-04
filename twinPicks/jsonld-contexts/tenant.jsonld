@@ -6,6 +6,7 @@
     "hasActiveModules": "https://vocab.egm.io/hasActiveModules",
     "logo": "https://schema.org/logo",
     "primaryColor": "https://vocab.egm.io/primaryColor",
-    "usedEntityTypes": "https://vocab.egm.io/usedEntityTypes"
+    "usedEntityTypes": "https://vocab.egm.io/usedEntityTypes",
+    "welcomeMessage": "https://vocab.egm.io/welcomeMessage"
   }
 }
