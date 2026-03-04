@@ -32,6 +32,13 @@
     "type": "Property",
     "value": "#d9433f"
   },
+  "welcomeMessage": {
+    "type": "LanguageProperty",
+    "languageMap": {
+      "fr": "Bienvenue sur la plateforme Twin·Picks",
+      "en": "Welcome to the Twin·Picks platform"
+    }
+  },
   "specificAccessPolicy": {
     "type": "Property",
     "value": "AUTH_READ"
