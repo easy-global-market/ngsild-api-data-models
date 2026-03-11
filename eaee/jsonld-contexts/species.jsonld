@@ -61,6 +61,7 @@
     "impactsIrreversibles": "https://vocab.egm.io/impactsIrreversibles",
     "indigenat": "https://vocab.egm.io/indigenat",
     "intensiteImpactsNegatifsEnvironnement": "https://vocab.egm.io/intensiteImpactsNegatifsEnvironnement",
+    "intensiteImpactsSocioEconomiquesSanitaires": "https://vocab.egm.io/intensiteImpactsSocioEconomiquesSanitaires",
     "interditDintroduction": "https://vocab.egm.io/interditDintroduction",
     "italieRegionsLimitrophes": "https://vocab.egm.io/italieRegionsLimitrophes",
     "lienCentreDeRessource": "https://vocab.egm.io/lienCentreDeRessource",
@@ -132,7 +133,7 @@
     "sourcePeriodeEtLieuDIntroduction": "https://vocab.egm.io/sourcePeriodeEtLieuDIntroduction",
     "sourceSpontaneite": "https://vocab.egm.io/sourceSpontaneite",
     "spontaneite": "https://vocab.egm.io/spontaneite",
-    "statutBiogéographiqueEnFrance": "https://vocab.egm.io/statutBiogeographiqueEnFrance",
+    "statutBiogeographiqueEnFrance": "https://vocab.egm.io/statutBiogeographiqueEnFrance",
     "statutBiologique": "https://vocab.egm.io/statutBiologique",
     "statutPresenceREG": "https://vocab.egm.io/statutPresenceREG",
     "taxon": "https://vocab.egm.io/taxon"
