@@ -29,7 +29,6 @@
     "validFrom": "https://vocab.egm.io/validFrom",
     "validTo": "https://vocab.egm.io/validTo",
     "watchedProperties": "https://vocab.egm.io/watchedProperties",
-    "watchedType": "https://vocab.egm.io/watchedType",
     "threshold": "https://vocab.egm.io/threshold",
     "thresholdType": "https://vocab.egm.io/thresholdType",
     "thresholdValue": "https://vocab.egm.io/thresholdValue",
