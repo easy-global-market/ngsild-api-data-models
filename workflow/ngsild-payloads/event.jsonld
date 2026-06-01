@@ -63,7 +63,11 @@
     },
     "watchedAttribute": {
       "type": "Property",
-      "value": "temperature"
+      "value": "temperature",
+      "watchedDatasetId": {
+        "type": "Property",
+        "value": "urn:ngsi-ld:Dataset:Raw"
+      }
     },
     "scope": "S_AirQuality/S_EGMoffice",
     "status": {
