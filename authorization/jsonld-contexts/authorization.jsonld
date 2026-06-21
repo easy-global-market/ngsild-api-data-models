@@ -19,6 +19,7 @@
         "roles": "https://ontology.eglobalmark.com/authorization#roles",
         "serviceAccountId": "https://ontology.eglobalmark.com/authorization#serviceAccountId",
         "specificAccessPolicy": "https://ontology.eglobalmark.com/authorization#specificAccessPolicy",
+        "sub": "https://ontology.eglobalmark.com/authorization#sub",
         "subjectInfo": "https://ontology.eglobalmark.com/authorization#subjectInfo",
         "username": "https://ontology.eglobalmark.com/authorization#username",
         "odrl":    "http://www.w3.org/ns/odrl/2/",
