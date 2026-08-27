@@ -1,0 +1,7 @@
+{
+  "@context": [
+    "https://easy-global-market.github.io/ngsild-api-data-models/utility-management/jsonld-contexts/utility-management.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/energy/jsonld-contexts/energy.jsonld",
+    "https://easy-global-market.github.io/ngsild-api-data-models/twinPicks/jsonld-contexts/twinPicks-compound.jsonld"
+  ]
+}
