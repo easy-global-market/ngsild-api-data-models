@@ -21,6 +21,7 @@
         "isContainedIn": "https://vocab.egm.io/isContainedIn",
         "isObserving": "https://vocab.egm.io/isObserving",
         "item": "https://vocab.egm.io/item",
+        "meterReading": "https://vocab.egm.io/meterReading",
         "name": "https://schema.org/name",
         "newIndex": "https://vocab.egm.io/newIndex",
         "nomenclatureSource": "https://vocab.egm.io/nomenclatureSource",
