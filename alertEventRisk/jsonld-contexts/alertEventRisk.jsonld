@@ -27,6 +27,7 @@
     "subCategory": "https://vocab.egm.io/subCategory",
     "triggeredBy": "https://vocab.egm.io/triggeredBy",
     "occurence": "https://vocab.egm.io/occurence",
+    "riskLevel": "https://vocab.egm.io/riskLevel",
     "validationStatus": "https://vocab.egm.io/validationStatus",
     "validFrom": "https://vocab.egm.io/validFrom",
     "validTo": "https://vocab.egm.io/validTo",
