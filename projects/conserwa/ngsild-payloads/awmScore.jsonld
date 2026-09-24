@@ -1,0 +1,86 @@
+{
+    "id": "urn:ngsi-ld:AwmScore:01",
+    "type": "AwmScore",
+  
+    "location": {
+      "type": "GeoProperty",
+      "value": {
+        "type": "Point",
+        "coordinates": [
+          7.25,
+          43.70
+        ]
+      }
+    },
+  
+    "score": {
+          "type": "Property",
+          "value": 50,
+          "observedAt": "2025-12-31T00:00:00Z"
+      },
+  
+    "scoreBreakdown": {
+      "type": "JsonProperty",
+      "value": {
+          "environmental": 50,
+          "economic": 50,
+          "social": 50,
+          "weedManagementPerformance": 50,
+          "sustainability": 50
+      },
+      "observedAt": "2025-01-01T00:00:00Z"
+      },
+    "recommendations": {
+      "type": "JsonProperty",
+      "value": [
+          {
+          "practice": "Cover crops",
+          "priority": "high",
+          "reason": "Improve weed suppression and reduce dependence on chemical control"
+          },
+          {
+          "practice": "Crop rotation",
+          "priority": "medium",
+          "reason": "Increase diversity of weed management strategies"
+          }
+      ],
+      "observedAt": "2025-01-01T00:00:00Z"
+      },
+  
+    "adoptionBarriers": {
+      "type": "Property",
+      "value": [
+        "cost",
+        "equipment availability",
+        "labour requirements"
+      ],
+      "observedAt": "2025-01-01T00:00:00Z"
+    },
+  
+    "strengths": {
+      "type": "Property",
+      "value": [
+        "Use of non-chemical weed management practices"
+      ],
+      "observedAt": "2025-01-01T00:00:00Z"
+    },
+  
+    "areasForImprovement": {
+      "type": "Property",
+      "value": [
+        "Increase diversity of AWM practices",
+        "Reduce dependence on herbicides"
+      ],
+      "observedAt": "2025-01-01T00:00:00Z"
+    },
+  
+    "assessmentYear": {
+      "type": "Property",
+      "value": 2025
+    },
+  
+    "source": {
+      "type": "Property",
+      "value": "https://conserwa.swedencentral.cloudapp.azure.com/"
+    }
+  }
