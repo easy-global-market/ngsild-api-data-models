@@ -23,6 +23,7 @@
         "contractStatus": "https://vocab.egm.io/contractStatus",
         "controlledAsset": "https://vocab.egm.io/controlledAsset",
         "current": "https://vocab.egm.io/current",
+        "currentIndex": "https://vocab.egm.io/currentIndex",        
         "deliveryPointNumber": "https://vocab.egm.io/deliveryPointNumber",
         "endDate": "https://vocab.egm.io/endDate",
         "energy": "https://vocab.egm.io/energy",
