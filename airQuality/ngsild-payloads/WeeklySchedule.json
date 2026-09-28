@@ -1,0 +1,70 @@
+{
+  "id": "urn:ngsi-ld:WeeklySchedule:...",
+  "type": "WeeklySchedule",
+  "timeSlots": [
+    {
+      "type": "Property",
+      "value": "Créneau 1",
+      "days": {
+        "type": "Property",
+        "value": [1, 2, 3, 4, 5]
+      },
+      "startTime": {
+        "type": "Property",
+        "value": "08:00"
+      },
+      "endTime": {
+        "type": "Property",
+        "value": "10:00"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Créneau 2",
+      "days": {
+        "type": "Property",
+        "value": [1, 2, 3, 4, 5]
+      },
+      "startTime": {
+        "type": "Property",
+        "value": "10:00"
+      },
+      "endTime": {
+        "type": "Property",
+        "value": "12:30"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Créneau 3",
+      "days": {
+        "type": "Property",
+        "value": [1, 2, 4, 5]
+      },
+      "startTime": {
+        "type": "Property",
+        "value": "14:00"
+      },
+      "endTime": {
+        "type": "Property",
+        "value": "15:30"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Créneau 4",
+      "days": {
+        "type": "Property",
+        "value": [1, 2, 4, 5]
+      },
+      "startTime": {
+        "type": "Property",
+        "value": "16:00"
+      },
+      "endTime": {
+        "type": "Property",
+        "value": "17:00"
+      }
+    }
+  ]
+}
