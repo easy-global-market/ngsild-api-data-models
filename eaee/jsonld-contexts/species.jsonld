@@ -7,6 +7,7 @@
     "13": "https://vocab.egm.io/departement13",
     "83": "https://vocab.egm.io/departement83",
     "84": "https://vocab.egm.io/departement84",
+    "actionEnRegion": "https://vocab.egm.io/actionEnRegion",
     "aireDorigine": "https://vocab.egm.io/aireDorigine",
     "analyseDesRisquesDesTaxonsEvalues": "https://vocab.egm.io/analyseDesRisquesDesTaxonsEvalues",
     "arreteMinisterielle": "https://vocab.egm.io/arreteMinisterielle",
@@ -45,6 +46,7 @@
     "complementsInfo": "https://vocab.egm.io/complementsInfo",
     "consequence": "https://vocab.egm.io/consequence",
     "datePremiereEntreeSileneRegionSud": "https://vocab.egm.io/datePremiereEntreeSileneRegionSud",
+    "descriptionEtBiologie": "https://vocab.egm.io/descriptionEtBiologie",
     "especeProtegee": "https://vocab.egm.io/especeProtegee",
     "famille": "https://vocab.egm.io/famille",
     "filtreDAutonomie": "https://vocab.egm.io/filtreDAutonomie",
@@ -126,6 +128,7 @@
     "scoreReseauxTrophiques": "https://vocab.egm.io/scoreReseauxTrophiques",
     "scoreSecurite": "https://vocab.egm.io/scoreSecurite",
     "scoreSuccessionEcologiques": "https://vocab.egm.io/scoreSuccessionEcologiques",
+    "signaler": "https://vocab.egm.io/signaler",
     "source": "https://vocab.egm.io/source",
     "sourceAireDorigine": "https://vocab.egm.io/sourceAireDorigine",
     "sourceAutonomie": "https://vocab.egm.io/sourceAutonomie",
@@ -136,6 +139,7 @@
     "statutBiogeographiqueEnFrance": "https://vocab.egm.io/statutBiogeographiqueEnFrance",
     "statutBiologique": "https://vocab.egm.io/statutBiologique",
     "statutPresenceREG": "https://vocab.egm.io/statutPresenceREG",
+    "structuresIntervenantSurLespece": "https://vocab.egm.io/structuresIntervenantSurLespece",
     "taxon": "https://vocab.egm.io/taxon"
   }
 }
