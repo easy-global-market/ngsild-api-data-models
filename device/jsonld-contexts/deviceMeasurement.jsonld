@@ -122,6 +122,8 @@
     "count": "https://vocab.egm.io/count",
     "courseOverGround": "https://vocab.egm.io/courseOverGround",
     "cpuTemperature": "https://vocab.egm.io/cpuTemperature",
+    "current": "https://vocab.egm.io/current",
+    "currentIndex": "https://vocab.egm.io/currentIndex",
     "cyclobenzaprine": "https://vocab.egm.io/cyclobenzaprine",
     "cyclophosphamide": "https://vocab.egm.io/cyclophosphamide",
     "dailyPulses": "https://vocab.egm.io/dailyPulses",
